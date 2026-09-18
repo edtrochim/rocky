@@ -1,0 +1,1496 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<LC_Legend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="1" lccs_sort="0" uuid="fe363321-380c-11eb-89de-185680280055" xsi:noNamespaceSchemaLocation="Globcover 12.xsd" xsi:type="LC_Legend">
+   <name>Globcover</name>
+   <description>Describe the legend</description>
+   <elements>
+      <LC_LandCoverClass id="2" uuid="12f52c80-380d-11eb-89de-185680280055" xsi:type="LC_LandCoverClass">
+         <name>Irrigated cropland</name>
+         <description>Describe the land cover class</description>
+         <map_code>1A</map_code>
+         <elements>
+            <LC_HorizontalPattern id="3" uuid="88b2ed90-380d-11eb-89de-185680280055" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 1</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="4" ontop="0" uuid="899efb40-380d-11eb-89de-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Vegetation 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="5" uuid="8d591d10-380d-11eb-89de-185680280055" xsi:type="LC_WoodyGrowthForms">
+                           <name>Woody Growth Forms</name>
+                           <description>Describe a vegetation element of woody type</description>
+                           <elements>
+                              <LC_Characteristic id="CF" uuid="27a47287-43af-11de-bbd4-000cf147c442" xsi:type="LC_CultivatedAndManagedVegetation">
+                                 <name>Cultivated And Managed Vegetation</name>
+                                 <description>Describe the cultivated and managed vegetation</description>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Exclusive</presence_type>
+                        </LC_LandCoverElement>
+                        <LC_LandCoverElement id="8" uuid="9e438ed0-380d-11eb-89de-185680280055" xsi:type="LC_HerbaceousGrowthForms">
+                           <name>Herbaceous growth forms</name>
+                           <description>Describe a vegetation element of herbaceous growth form type</description>
+                           <elements>
+                              <LC_Characteristic id="D0" uuid="27a47287-43af-11de-bbd4-000cf147c442" xsi:type="LC_CultivatedAndManagedVegetation">
+                                 <name>Cultivated And Managed Vegetation</name>
+                                 <description>Describe the cultivated and managed vegetation</description>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Exclusive</presence_type>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+               </elements>
+            </LC_HorizontalPattern>
+         </elements>
+      </LC_LandCoverClass>
+      <LC_LandCoverClass id="B" uuid="cc458310-380d-11eb-89de-185680280055" xsi:type="LC_LandCoverClass">
+         <name>Postflooding herbaceous crop</name>
+         <description>Describe the land cover class</description>
+         <map_code>1B</map_code>
+         <elements>
+            <LC_HorizontalPattern id="C" uuid="fbfbde10-380d-11eb-89de-185680280055" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 1</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="D" ontop="0" uuid="fd6f9250-380d-11eb-89de-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Sequential temporal relationship 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="E" uuid="235d3260-380e-11eb-89de-185680280055" xsi:type="LC_WaterBody">
+                           <name>Water Body</name>
+                           <description>Describe a water body surface element</description>
+                           <sequential_temporal_relationship>
+                              <type>Sequential Same Year</type>
+                           </sequential_temporal_relationship>
+                           <presence_type>Temporal Sequence Depending</presence_type>
+                           <periodic_variation id="F" uuid="860747b0-a39a-11e0-bd59-000cf147c442" xsi:type="LC_PeriodicVariations">
+                              <name>Periodic Variations</name>
+                              <description>Contains the elements of Periodic Variation</description>
+                              <elements>
+                                 <LC_PeriodicVariation id="10" uuid="4aa691e0-380e-11eb-89de-185680280055" xsi:type="LC_PeriodicVariation">
+                                    <name>Periodic Variation</name>
+                                    <description>Describe a periodic variation element</description>
+                                    <persistence_units>Months</persistence_units>
+                                    <persistence_period max="4.0" min="2.0"/>
+                                 </LC_PeriodicVariation>
+                              </elements>
+                           </periodic_variation>
+                        </LC_LandCoverElement>
+                        <LC_LandCoverElement id="11" uuid="64e7e9f0-380e-11eb-89de-185680280055" xsi:type="LC_HerbaceousGrowthForms">
+                           <name>Herbaceous growth forms</name>
+                           <description>Describe a vegetation element of herbaceous growth form type</description>
+                           <sequential_temporal_relationship>
+                              <type>Sequential Same Year</type>
+                              <length max="4.0" min="3.0"/>
+                           </sequential_temporal_relationship>
+                           <elements>
+                              <LC_Characteristic id="12" uuid="27a47287-43af-11de-bbd4-000cf147c442" xsi:type="LC_CultivatedAndManagedVegetation">
+                                 <name>Cultivated And Managed Vegetation</name>
+                                 <description>Describe the cultivated and managed vegetation</description>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Temporal Sequence Depending</presence_type>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+               </elements>
+            </LC_HorizontalPattern>
+         </elements>
+      </LC_LandCoverClass>
+      <LC_LandCoverClass id="13" uuid="f0a25480-380e-11eb-89de-185680280055" xsi:type="LC_LandCoverClass">
+         <name>Rainfed croplands</name>
+         <description>Describe the land cover class</description>
+         <map_code>14</map_code>
+         <elements>
+            <LC_HorizontalPattern id="14" uuid="0b245f10-380f-11eb-89de-185680280055" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 1</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="15" ontop="0" uuid="0ca3ac10-380f-11eb-89de-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Vegetation 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="16" uuid="11382850-380f-11eb-89de-185680280055" xsi:type="LC_WoodyGrowthForms">
+                           <name>Woody Growth Forms</name>
+                           <description>Describe a vegetation element of woody type</description>
+                           <elements>
+                              <LC_Characteristic id="17" uuid="27a47287-43af-11de-bbd4-000cf147c442" xsi:type="LC_CultivatedAndManagedVegetation">
+                                 <name>Cultivated And Managed Vegetation</name>
+                                 <description>Describe the cultivated and managed vegetation</description>
+                                 <elements>
+                                    <LC_Characteristic id="18" uuid="55c4b63e-915b-11de-bb5d-000cf147c442" xsi:type="LC_Rainfed">
+                                       <name>Rainfed</name>
+                                       <description>Describe the rainfed</description>
+                                    </LC_Characteristic>
+                                 </elements>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Exclusive</presence_type>
+                        </LC_LandCoverElement>
+                        <LC_LandCoverElement id="19" uuid="28430d80-380f-11eb-89de-185680280055" xsi:type="LC_HerbaceousGrowthForms">
+                           <name>Herbaceous growth forms</name>
+                           <description>Describe a vegetation element of herbaceous growth form type</description>
+                           <elements>
+                              <LC_Characteristic id="1A" uuid="27a47287-43af-11de-bbd4-000cf147c442" xsi:type="LC_CultivatedAndManagedVegetation">
+                                 <name>Cultivated And Managed Vegetation</name>
+                                 <description>Describe the cultivated and managed vegetation</description>
+                                 <elements>
+                                    <LC_Characteristic id="1B" uuid="55c4b63e-915b-11de-bb5d-000cf147c442" xsi:type="LC_Rainfed">
+                                       <name>Rainfed</name>
+                                       <description>Describe the rainfed</description>
+                                    </LC_Characteristic>
+                                 </elements>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Exclusive</presence_type>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+               </elements>
+            </LC_HorizontalPattern>
+         </elements>
+      </LC_LandCoverClass>
+      <LC_LandCoverClass id="1C" uuid="8abc6740-380f-11eb-89de-185680280055" xsi:type="LC_LandCoverClass">
+         <name>Mosaic cropland (50 - 70) natural vegetation (20-50)</name>
+         <description>Describe the land cover class</description>
+         <map_code>20</map_code>
+         <elements>
+            <LC_HorizontalPattern id="1D" uuid="a83591c0-380f-11eb-89de-185680280055" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 1</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="1E" ontop="0" uuid="b537ccd0-380f-11eb-89de-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Vegetation 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="1F" uuid="b69b7b80-380f-11eb-89de-185680280055" xsi:type="LC_WoodyGrowthForms">
+                           <name>Woody Growth Forms</name>
+                           <description>Describe a vegetation element of woody type</description>
+                           <elements>
+                              <LC_Characteristic id="20" uuid="27a47287-43af-11de-bbd4-000cf147c442" xsi:type="LC_CultivatedAndManagedVegetation">
+                                 <name>Cultivated And Managed Vegetation</name>
+                                 <description>Describe the cultivated and managed vegetation</description>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Exclusive</presence_type>
+                        </LC_LandCoverElement>
+                        <LC_LandCoverElement id="21" uuid="c07f86a0-380f-11eb-89de-185680280055" xsi:type="LC_HerbaceousGrowthForms">
+                           <name>Herbaceous growth forms</name>
+                           <description>Describe a vegetation element of herbaceous growth form type</description>
+                           <elements>
+                              <LC_Characteristic id="22" uuid="27a47287-43af-11de-bbd4-000cf147c442" xsi:type="LC_CultivatedAndManagedVegetation">
+                                 <name>Cultivated And Managed Vegetation</name>
+                                 <description>Describe the cultivated and managed vegetation</description>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Exclusive</presence_type>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+               </elements>
+               <cover max="70.0" min="50.0"/>
+               <occurance max="100.0" min="100.0"/>
+            </LC_HorizontalPattern>
+            <LC_HorizontalPattern id="23" uuid="dca8ffa0-380f-11eb-89de-185680280055" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 2</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="24" ontop="0" uuid="e38aa030-380f-11eb-89de-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Vegetation 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="25" uuid="e4e80d50-380f-11eb-89de-185680280055" xsi:type="LC_GrowthForms">
+                           <name>Growth Forms</name>
+                           <description>Describe a vegetation element of growth form type</description>
+                           <elements>
+                              <LC_Characteristic id="26" uuid="27a47286-43af-11de-bbd4-000cf147c442" xsi:type="LC_NaturalOrSeminaturalVegetation">
+                                 <name>Natural Or Seminatural Vegetation</name>
+                                 <description>Describe the natural or seminatural vegetation</description>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Mandatory</presence_type>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+               </elements>
+               <cover max="50.0" min="20.0"/>
+               <occurance max="100.0" min="100.0"/>
+            </LC_HorizontalPattern>
+         </elements>
+      </LC_LandCoverClass>
+      <LC_LandCoverClass id="27" uuid="0381ea10-3810-11eb-89de-185680280055" xsi:type="LC_LandCoverClass">
+         <name>Mosaic vegetation (50-70) / Croplands (20 - 50)</name>
+         <description>Describe the land cover class</description>
+         <map_code>30</map_code>
+         <elements>
+            <LC_HorizontalPattern id="28" uuid="202ca100-3810-11eb-89de-185680280055" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 1</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="29" ontop="0" uuid="256154e0-3810-11eb-89de-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Vegetation 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="2A" uuid="266a1250-3810-11eb-89de-185680280055" xsi:type="LC_GrowthForms">
+                           <name>Growth Forms</name>
+                           <description>Describe a vegetation element of growth form type</description>
+                           <elements>
+                              <LC_Characteristic id="2B" uuid="27a47286-43af-11de-bbd4-000cf147c442" xsi:type="LC_NaturalOrSeminaturalVegetation">
+                                 <name>Natural Or Seminatural Vegetation</name>
+                                 <description>Describe the natural or seminatural vegetation</description>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Mandatory</presence_type>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+               </elements>
+               <cover max="70.0" min="50.0"/>
+               <occurance max="100.0" min="100.0"/>
+            </LC_HorizontalPattern>
+            <LC_HorizontalPattern id="2C" uuid="2aa39d50-3810-11eb-89de-185680280055" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 2</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="2D" ontop="0" uuid="2f469880-3810-11eb-89de-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Vegetation 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="2E" uuid="5283e5a0-3810-11eb-89de-185680280055" xsi:type="LC_WoodyGrowthForms">
+                           <name>Woody Growth Forms</name>
+                           <description>Describe a vegetation element of woody type</description>
+                           <elements>
+                              <LC_Characteristic id="2F" uuid="27a47287-43af-11de-bbd4-000cf147c442" xsi:type="LC_CultivatedAndManagedVegetation">
+                                 <name>Cultivated And Managed Vegetation</name>
+                                 <description>Describe the cultivated and managed vegetation</description>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Exclusive</presence_type>
+                        </LC_LandCoverElement>
+                        <LC_LandCoverElement id="30" uuid="66f27510-3810-11eb-89de-185680280055" xsi:type="LC_HerbaceousGrowthForms">
+                           <name>Herbaceous growth forms</name>
+                           <description>Describe a vegetation element of herbaceous growth form type</description>
+                           <elements>
+                              <LC_Characteristic id="31" uuid="27a47287-43af-11de-bbd4-000cf147c442" xsi:type="LC_CultivatedAndManagedVegetation">
+                                 <name>Cultivated And Managed Vegetation</name>
+                                 <description>Describe the cultivated and managed vegetation</description>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Exclusive</presence_type>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+               </elements>
+               <cover max="50.0" min="20.0"/>
+               <occurance max="100.0" min="100.0"/>
+            </LC_HorizontalPattern>
+         </elements>
+      </LC_LandCoverClass>
+      <LC_LandCoverClass id="32" uuid="853dbca0-3810-11eb-89de-185680280055" xsi:type="LC_LandCoverClass">
+         <name>Closed to open (&gt;15%) broadleaved evergreen or semidecidous forest</name>
+         <description>Describe the land cover class</description>
+         <map_code>40</map_code>
+         <elements>
+            <LC_HorizontalPattern id="33" uuid="22b04930-3811-11eb-89de-185680280055" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 1</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="34" ontop="0" uuid="23b92db0-3811-11eb-89de-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Vegetation 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="35" uuid="2596ee60-3811-11eb-89de-185680280055" xsi:type="LC_Trees">
+                           <name>Trees</name>
+                           <description>Describe a vegetation element of trees type</description>
+                           <elements>
+                              <LC_Characteristic id="36" uuid="27a47286-43af-11de-bbd4-000cf147c442" xsi:type="LC_NaturalOrSeminaturalVegetation">
+                                 <name>Natural Or Seminatural Vegetation</name>
+                                 <description>Describe the natural or seminatural vegetation</description>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Exclusive</presence_type>
+                           <cover max="100.0" min="15.0"/>
+                           <LC_WoodyGrowthLeafType id="37" uuid="e3aec875-3572-11de-a238-000cf147c442" xsi:type="LC_WoodyGrowthLeafType">
+                              <name>Woody Growth Leaf Type</name>
+                              <description>Contains the elements of Woody Growth Leaf Type</description>
+                              <elements>
+                                 <LC_WoodyLeafType id="38" uuid="3753a440-3811-11eb-89de-185680280055" xsi:type="LC_Broadleaved">
+                                    <name>Broadleaved</name>
+                                    <description>Describe a Broadleaved type element</description>
+                                 </LC_WoodyLeafType>
+                              </elements>
+                           </LC_WoodyGrowthLeafType>
+                        </LC_LandCoverElement>
+                        <LC_LandCoverElement id="39" uuid="46847f20-3811-11eb-89de-185680280055" xsi:type="LC_Trees">
+                           <name>Trees</name>
+                           <description>Describe a vegetation element of trees type</description>
+                           <elements>
+                              <LC_Characteristic id="3A" uuid="27a47286-43af-11de-bbd4-000cf147c442" xsi:type="LC_NaturalOrSeminaturalVegetation">
+                                 <name>Natural Or Seminatural Vegetation</name>
+                                 <description>Describe the natural or seminatural vegetation</description>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Exclusive</presence_type>
+                           <cover max="100.0" min="15.0"/>
+                           <LC_WoodyGrowthLeafPhenology id="3B" uuid="e3aec874-3572-11de-a238-000cf147c442" xsi:type="LC_WoodyGrowthLeafPhenology">
+                              <name>Woody Growth Leaf Phenology</name>
+                              <description>Contains the elements of Woody Growth Leaf Phenology</description>
+                              <elements>
+                                 <LC_WoodyLeafPhenology id="3C" uuid="694ee630-3811-11eb-89de-185680280055" xsi:type="LC_Deciduous">
+                                    <name>Deciduous</name>
+                                    <description>Describe a Deciduous leaf phenology element</description>
+                                    <percentage max="70.0" min="50.0"/>
+                                 </LC_WoodyLeafPhenology>
+                              </elements>
+                           </LC_WoodyGrowthLeafPhenology>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+               </elements>
+            </LC_HorizontalPattern>
+         </elements>
+      </LC_LandCoverClass>
+      <LC_LandCoverClass id="3D" uuid="9f699b70-3811-11eb-89de-185680280055" xsi:type="LC_LandCoverClass">
+         <name>Closed (&gt;40%) broadleaverd decodous forest</name>
+         <description>Describe the land cover class</description>
+         <map_code>50</map_code>
+         <elements>
+            <LC_HorizontalPattern id="3E" uuid="e10da760-3811-11eb-89de-185680280055" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 1</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="3F" ontop="0" uuid="e901c960-3811-11eb-89de-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Vegetation 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="40" uuid="ea9c1870-3811-11eb-89de-185680280055" xsi:type="LC_Trees">
+                           <name>Trees</name>
+                           <description>Describe a vegetation element of trees type</description>
+                           <elements>
+                              <LC_Characteristic id="41" uuid="27a47286-43af-11de-bbd4-000cf147c442" xsi:type="LC_NaturalOrSeminaturalVegetation">
+                                 <name>Natural Or Seminatural Vegetation</name>
+                                 <description>Describe the natural or seminatural vegetation</description>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Mandatory</presence_type>
+                           <cover max="100.0" min="40.0"/>
+                           <LC_WoodyGrowthLeafPhenology id="42" uuid="e3aec874-3572-11de-a238-000cf147c442" xsi:type="LC_WoodyGrowthLeafPhenology">
+                              <name>Woody Growth Leaf Phenology</name>
+                              <description>Contains the elements of Woody Growth Leaf Phenology</description>
+                              <elements>
+                                 <LC_WoodyLeafPhenology id="43" uuid="10f9df70-3812-11eb-89de-185680280055" xsi:type="LC_Deciduous">
+                                    <name>Deciduous</name>
+                                    <description>Describe a Deciduous leaf phenology element</description>
+                                 </LC_WoodyLeafPhenology>
+                              </elements>
+                           </LC_WoodyGrowthLeafPhenology>
+                           <LC_WoodyGrowthLeafType id="44" uuid="e3aec875-3572-11de-a238-000cf147c442" xsi:type="LC_WoodyGrowthLeafType">
+                              <name>Woody Growth Leaf Type</name>
+                              <description>Contains the elements of Woody Growth Leaf Type</description>
+                              <elements>
+                                 <LC_WoodyLeafType id="45" uuid="17600e70-3812-11eb-89de-185680280055" xsi:type="LC_Broadleaved">
+                                    <name>Broadleaved</name>
+                                    <description>Describe a Broadleaved type element</description>
+                                 </LC_WoodyLeafType>
+                              </elements>
+                           </LC_WoodyGrowthLeafType>
+                           <height max="100.0" min="5.0"/>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+               </elements>
+            </LC_HorizontalPattern>
+         </elements>
+      </LC_LandCoverClass>
+      <LC_LandCoverClass id="46" uuid="6850e1b3-3812-11eb-89de-185680280055" xsi:type="LC_LandCoverClass">
+         <name>Open (15 -40%) broadleaverd decidous forest</name>
+         <description>Describe the land cover class</description>
+         <map_code>60</map_code>
+         <elements>
+            <LC_HorizontalPattern id="47" uuid="6850e1b2-3812-11eb-89de-185680280055" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 1</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="48" ontop="0" uuid="6850e1b1-3812-11eb-89de-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Vegetation 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="49" uuid="6850e1b0-3812-11eb-89de-185680280055" xsi:type="LC_Trees">
+                           <name>Trees</name>
+                           <description>Describe a vegetation element of trees type</description>
+                           <elements>
+                              <LC_Characteristic id="4A" uuid="27a47286-43af-11de-bbd4-000cf147c442" xsi:type="LC_NaturalOrSeminaturalVegetation">
+                                 <name>Natural Or Seminatural Vegetation</name>
+                                 <description>Describe the natural or seminatural vegetation</description>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Mandatory</presence_type>
+                           <cover max="40.0" min="15.0"/>
+                           <LC_WoodyGrowthLeafPhenology id="84" uuid="e3aec874-3572-11de-a238-000cf147c442" xsi:type="LC_WoodyGrowthLeafPhenology">
+                              <name>Woody Growth Leaf Phenology</name>
+                              <description>Contains the elements of Woody Growth Leaf Phenology</description>
+                              <elements>
+                                 <LC_WoodyLeafPhenology id="85" uuid="684fd040-3812-11eb-89de-185680280055" xsi:type="LC_Deciduous">
+                                    <name>Deciduous</name>
+                                    <description>Describe a Deciduous leaf phenology element</description>
+                                 </LC_WoodyLeafPhenology>
+                              </elements>
+                           </LC_WoodyGrowthLeafPhenology>
+                           <LC_WoodyGrowthLeafType id="86" uuid="e3aec875-3572-11de-a238-000cf147c442" xsi:type="LC_WoodyGrowthLeafType">
+                              <name>Woody Growth Leaf Type</name>
+                              <description>Contains the elements of Woody Growth Leaf Type</description>
+                              <elements>
+                                 <LC_WoodyLeafType id="87" uuid="68509390-3812-11eb-89de-185680280055" xsi:type="LC_Broadleaved">
+                                    <name>Broadleaved</name>
+                                    <description>Describe a Broadleaved type element</description>
+                                 </LC_WoodyLeafType>
+                              </elements>
+                           </LC_WoodyGrowthLeafType>
+                           <height max="100.0" min="5.0"/>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+               </elements>
+            </LC_HorizontalPattern>
+         </elements>
+      </LC_LandCoverClass>
+      <LC_LandCoverClass id="4B" uuid="f40cd2e3-3812-11eb-89de-185680280055" xsi:type="LC_LandCoverClass">
+         <name>Closed (&gt;40%) needleleaved evergreen forest</name>
+         <description>Describe the land cover class</description>
+         <map_code>70</map_code>
+         <elements>
+            <LC_HorizontalPattern id="4C" uuid="f40cd2e2-3812-11eb-89de-185680280055" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 1</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="4D" ontop="0" uuid="f40cd2e1-3812-11eb-89de-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Vegetation 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="4E" uuid="f40cd2e0-3812-11eb-89de-185680280055" xsi:type="LC_Trees">
+                           <name>Trees</name>
+                           <description>Describe a vegetation element of trees type</description>
+                           <elements>
+                              <LC_Characteristic id="4F" uuid="27a47286-43af-11de-bbd4-000cf147c442" xsi:type="LC_NaturalOrSeminaturalVegetation">
+                                 <name>Natural Or Seminatural Vegetation</name>
+                                 <description>Describe the natural or seminatural vegetation</description>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Mandatory</presence_type>
+                           <cover max="100.0" min="40.0"/>
+                           <LC_WoodyGrowthLeafPhenology id="88" uuid="e3aec874-3572-11de-a238-000cf147c442" xsi:type="LC_WoodyGrowthLeafPhenology">
+                              <name>Woody Growth Leaf Phenology</name>
+                              <description>Contains the elements of Woody Growth Leaf Phenology</description>
+                              <elements>
+                                 <LC_WoodyLeafPhenology id="89" uuid="1e9816f0-3813-11eb-89de-185680280055" xsi:type="LC_Evergreen">
+                                    <name>Evergreen</name>
+                                    <description>Describe an Evergreen leaf phenology element</description>
+                                 </LC_WoodyLeafPhenology>
+                              </elements>
+                           </LC_WoodyGrowthLeafPhenology>
+                           <LC_WoodyGrowthLeafType id="8A" uuid="e3aec875-3572-11de-a238-000cf147c442" xsi:type="LC_WoodyGrowthLeafType">
+                              <name>Woody Growth Leaf Type</name>
+                              <description>Contains the elements of Woody Growth Leaf Type</description>
+                              <elements>
+                                 <LC_WoodyLeafType id="8B" uuid="27ff29e0-3813-11eb-89de-185680280055" xsi:type="LC_Needleleaved">
+                                    <name>Needleleaved</name>
+                                    <description>Describe a Needleleaved type element</description>
+                                 </LC_WoodyLeafType>
+                              </elements>
+                           </LC_WoodyGrowthLeafType>
+                           <height max="100.0" min="5.0"/>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+               </elements>
+            </LC_HorizontalPattern>
+         </elements>
+      </LC_LandCoverClass>
+      <LC_LandCoverClass id="50" uuid="48e6ee43-3813-11eb-89de-185680280055" xsi:type="LC_LandCoverClass">
+         <name>Open (1540%) needleleaved evergreen forest</name>
+         <description>Describe the land cover class</description>
+         <map_code>90</map_code>
+         <elements>
+            <LC_HorizontalPattern id="51" uuid="48e6ee42-3813-11eb-89de-185680280055" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 1</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="52" ontop="0" uuid="48e6ee41-3813-11eb-89de-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Vegetation 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="53" uuid="48e6ee40-3813-11eb-89de-185680280055" xsi:type="LC_Trees">
+                           <name>Trees</name>
+                           <description>Describe a vegetation element of trees type</description>
+                           <elements>
+                              <LC_Characteristic id="54" uuid="27a47286-43af-11de-bbd4-000cf147c442" xsi:type="LC_NaturalOrSeminaturalVegetation">
+                                 <name>Natural Or Seminatural Vegetation</name>
+                                 <description>Describe the natural or seminatural vegetation</description>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Mandatory</presence_type>
+                           <cover max="40.0" min="15.0"/>
+                           <LC_WoodyGrowthLeafPhenology id="8C" uuid="e3aec874-3572-11de-a238-000cf147c442" xsi:type="LC_WoodyGrowthLeafPhenology">
+                              <name>Woody Growth Leaf Phenology</name>
+                              <description>Contains the elements of Woody Growth Leaf Phenology</description>
+                              <elements>
+                                 <LC_WoodyLeafPhenology id="8D" uuid="48e603e0-3813-11eb-89de-185680280055" xsi:type="LC_Evergreen">
+                                    <name>Evergreen</name>
+                                    <description>Describe an Evergreen leaf phenology element</description>
+                                 </LC_WoodyLeafPhenology>
+                              </elements>
+                           </LC_WoodyGrowthLeafPhenology>
+                           <LC_WoodyGrowthLeafType id="8E" uuid="e3aec875-3572-11de-a238-000cf147c442" xsi:type="LC_WoodyGrowthLeafType">
+                              <name>Woody Growth Leaf Type</name>
+                              <description>Contains the elements of Woody Growth Leaf Type</description>
+                              <elements>
+                                 <LC_WoodyLeafType id="8F" uuid="48e6a020-3813-11eb-89de-185680280055" xsi:type="LC_Needleleaved">
+                                    <name>Needleleaved</name>
+                                    <description>Describe a Needleleaved type element</description>
+                                 </LC_WoodyLeafType>
+                              </elements>
+                           </LC_WoodyGrowthLeafType>
+                           <height max="100.0" min="5.0"/>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+               </elements>
+            </LC_HorizontalPattern>
+         </elements>
+      </LC_LandCoverClass>
+      <LC_LandCoverClass id="55" uuid="90c6bdd0-3813-11eb-89de-185680280055" xsi:type="LC_LandCoverClass">
+         <name>Closed to open (&gt;15%) mixed broadleaved and needleleaved forest</name>
+         <description>Describe the land cover class</description>
+         <map_code>100</map_code>
+         <elements>
+            <LC_HorizontalPattern id="56" uuid="c1cca340-3813-11eb-89de-185680280055" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 1</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="57" ontop="0" uuid="c2ddc520-3813-11eb-89de-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Vegetation 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="58" uuid="c45aa120-3813-11eb-89de-185680280055" xsi:type="LC_Trees">
+                           <name>Trees</name>
+                           <description>Describe a vegetation element of trees type</description>
+                           <elements>
+                              <LC_Characteristic id="59" uuid="27a47286-43af-11de-bbd4-000cf147c442" xsi:type="LC_NaturalOrSeminaturalVegetation">
+                                 <name>Natural Or Seminatural Vegetation</name>
+                                 <description>Describe the natural or seminatural vegetation</description>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Mandatory</presence_type>
+                           <cover max="100.0" min="15.0"/>
+                           <LC_WoodyGrowthLeafType id="5A" uuid="e3aec875-3572-11de-a238-000cf147c442" xsi:type="LC_WoodyGrowthLeafType">
+                              <name>Woody Growth Leaf Type</name>
+                              <description>Contains the elements of Woody Growth Leaf Type</description>
+                              <elements>
+                                 <LC_WoodyLeafType id="5B" uuid="eae3bde0-3813-11eb-89de-185680280055" xsi:type="LC_Broadleaved">
+                                    <name>Broadleaved</name>
+                                    <description>Describe a Broadleaved type element</description>
+                                    <percentage max="70.0" min="30.0"/>
+                                 </LC_WoodyLeafType>
+                                 <LC_WoodyLeafType id="5C" uuid="fb99b220-3813-11eb-89de-185680280055" xsi:type="LC_Needleleaved">
+                                    <name>Needleleaved</name>
+                                    <description>Describe a Needleleaved type element</description>
+                                    <percentage max="70.0" min="30.0"/>
+                                 </LC_WoodyLeafType>
+                              </elements>
+                           </LC_WoodyGrowthLeafType>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+               </elements>
+            </LC_HorizontalPattern>
+         </elements>
+      </LC_LandCoverClass>
+      <LC_LandCoverClass id="5D" uuid="1c35ee90-3814-11eb-89de-185680280055" xsi:type="LC_LandCoverClass">
+         <name>Mosaic forest or shrubland (50-70)/ grassland (20-50)</name>
+         <description>Describe the land cover class</description>
+         <map_code>110</map_code>
+         <elements>
+            <LC_HorizontalPattern id="5E" uuid="6d1f95e0-3814-11eb-89de-185680280055" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 1</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="5F" ontop="0" uuid="7382deb0-3814-11eb-89de-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Vegetation 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="60" uuid="751a6ea0-3814-11eb-89de-185680280055" xsi:type="LC_WoodyGrowthForms">
+                           <name>Woody Growth Forms</name>
+                           <description>Describe a vegetation element of woody type</description>
+                           <elements>
+                              <LC_Characteristic id="61" uuid="27a47286-43af-11de-bbd4-000cf147c442" xsi:type="LC_NaturalOrSeminaturalVegetation">
+                                 <name>Natural Or Seminatural Vegetation</name>
+                                 <description>Describe the natural or seminatural vegetation</description>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Mandatory</presence_type>
+                           <cover max="100.0" min="15.0"/>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+               </elements>
+               <cover max="70.0" min="50.0"/>
+               <occurance max="100.0" min="100.0"/>
+            </LC_HorizontalPattern>
+            <LC_HorizontalPattern id="62" uuid="95e7cd30-3814-11eb-89de-185680280055" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 2</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="63" ontop="0" uuid="a4e34030-3814-11eb-89de-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Vegetation 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="64" uuid="a84779d0-3814-11eb-89de-185680280055" xsi:type="LC_HerbaceousGrowthForms">
+                           <name>Herbaceous growth forms</name>
+                           <description>Describe a vegetation element of herbaceous growth form type</description>
+                           <elements>
+                              <LC_Characteristic id="65" uuid="27a47286-43af-11de-bbd4-000cf147c442" xsi:type="LC_NaturalOrSeminaturalVegetation">
+                                 <name>Natural Or Seminatural Vegetation</name>
+                                 <description>Describe the natural or seminatural vegetation</description>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Mandatory</presence_type>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+               </elements>
+               <cover max="50.0" min="20.0"/>
+            </LC_HorizontalPattern>
+         </elements>
+      </LC_LandCoverClass>
+      <LC_LandCoverClass id="66" uuid="e7a454e3-3814-11eb-89de-185680280055" xsi:type="LC_LandCoverClass">
+         <name>Mosaic grassland(50-70)/ forest or shrubland (20-50)</name>
+         <description>Describe the land cover class</description>
+         <map_code>120</map_code>
+         <elements>
+            <LC_HorizontalPattern id="67" uuid="e7a1e3e2-3814-11eb-89de-185680280055" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 1</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="68" ontop="0" uuid="e7a1e3e1-3814-11eb-89de-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Vegetation 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="69" uuid="21460e00-3815-11eb-89de-185680280055" xsi:type="LC_HerbaceousGrowthForms">
+                           <name>Herbaceous growth forms</name>
+                           <description>Describe a vegetation element of herbaceous growth form type</description>
+                           <elements>
+                              <LC_Characteristic id="6A" uuid="27a47286-43af-11de-bbd4-000cf147c442" xsi:type="LC_NaturalOrSeminaturalVegetation">
+                                 <name>Natural Or Seminatural Vegetation</name>
+                                 <description>Describe the natural or seminatural vegetation</description>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Mandatory</presence_type>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+               </elements>
+               <cover max="70.0" min="50.0"/>
+               <occurance max="100.0" min="100.0"/>
+            </LC_HorizontalPattern>
+            <LC_HorizontalPattern id="6B" uuid="e7a454e2-3814-11eb-89de-185680280055" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 2</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="6C" ontop="0" uuid="e7a454e1-3814-11eb-89de-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Vegetation 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="6D" uuid="31bd99b0-3815-11eb-89de-185680280055" xsi:type="LC_WoodyGrowthForms">
+                           <name>Woody Growth Forms</name>
+                           <description>Describe a vegetation element of woody type</description>
+                           <presence_type>Mandatory</presence_type>
+                           <cover max="100.0" min="15.0"/>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+               </elements>
+               <cover max="50.0" min="20.0"/>
+            </LC_HorizontalPattern>
+         </elements>
+      </LC_LandCoverClass>
+      <LC_LandCoverClass id="6E" uuid="7bf67470-3815-11eb-89de-185680280055" xsi:type="LC_LandCoverClass">
+         <name>Closed to open shrubland</name>
+         <description>Describe the land cover class</description>
+         <map_code>130</map_code>
+         <elements>
+            <LC_HorizontalPattern id="6F" uuid="8e50a2d0-3815-11eb-89de-185680280055" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 1</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="70" ontop="0" uuid="8f97a1c0-3815-11eb-89de-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Vegetation 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="71" uuid="91af1010-3815-11eb-89de-185680280055" xsi:type="LC_Shrubs">
+                           <name>Shrubs</name>
+                           <description>Describe a vegetation element of shrubs type</description>
+                           <elements>
+                              <LC_Characteristic id="72" uuid="27a47286-43af-11de-bbd4-000cf147c442" xsi:type="LC_NaturalOrSeminaturalVegetation">
+                                 <name>Natural Or Seminatural Vegetation</name>
+                                 <description>Describe the natural or seminatural vegetation</description>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Mandatory</presence_type>
+                           <cover max="100.0" min="15.0"/>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+               </elements>
+            </LC_HorizontalPattern>
+         </elements>
+      </LC_LandCoverClass>
+      <LC_LandCoverClass id="73" uuid="a53fe9b0-3815-11eb-89de-185680280055" xsi:type="LC_LandCoverClass">
+         <name>Closed to open (&gt;15%)Herbaceous vegetation</name>
+         <description>Describe the land cover class</description>
+         <map_code>140</map_code>
+         <elements>
+            <LC_HorizontalPattern id="74" uuid="e1e286c0-3815-11eb-89de-185680280055" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 1</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="75" ontop="0" uuid="e99ef6f0-3815-11eb-89de-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Vegetation 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="76" uuid="eaf6e5d0-3815-11eb-89de-185680280055" xsi:type="LC_HerbaceousGrowthForms">
+                           <name>Herbaceous growth forms</name>
+                           <description>Describe a vegetation element of herbaceous growth form type</description>
+                           <elements>
+                              <LC_Characteristic id="77" uuid="27a47286-43af-11de-bbd4-000cf147c442" xsi:type="LC_NaturalOrSeminaturalVegetation">
+                                 <name>Natural Or Seminatural Vegetation</name>
+                                 <description>Describe the natural or seminatural vegetation</description>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Exclusive</presence_type>
+                           <cover max="100.0" min="15.0"/>
+                        </LC_LandCoverElement>
+                        <LC_LandCoverElement id="78" uuid="15c77040-3816-11eb-89de-185680280055" xsi:type="LC_LichenAndMosses">
+                           <name>Lichen and Mosses</name>
+                           <description>Describe a vegetation element of lichen and mosses type</description>
+                           <elements>
+                              <LC_Characteristic id="79" uuid="27a47286-43af-11de-bbd4-000cf147c442" xsi:type="LC_NaturalOrSeminaturalVegetation">
+                                 <name>Natural Or Seminatural Vegetation</name>
+                                 <description>Describe the natural or seminatural vegetation</description>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Exclusive</presence_type>
+                           <cover max="100.0" min="15.0"/>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+                  <LC_Stratum id="7A" ontop="0" uuid="295367e0-3816-11eb-89de-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 2</name>
+                     <description>Vegetation 2</description>
+                     <elements>
+                        <LC_LandCoverElement id="7B" uuid="30307490-3816-11eb-89de-185680280055" xsi:type="LC_Trees">
+                           <name>Trees</name>
+                           <description>Describe a vegetation element of trees type</description>
+                           <elements>
+                              <LC_Characteristic id="7C" uuid="27a47286-43af-11de-bbd4-000cf147c442" xsi:type="LC_NaturalOrSeminaturalVegetation">
+                                 <name>Natural Or Seminatural Vegetation</name>
+                                 <description>Describe the natural or seminatural vegetation</description>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Mandatory</presence_type>
+                           <cover max="15.0" min="1.0"/>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Optional</presence_type>
+                  </LC_Stratum>
+               </elements>
+            </LC_HorizontalPattern>
+         </elements>
+      </LC_LandCoverClass>
+      <LC_LandCoverClass id="7D" uuid="592cdb40-3816-11eb-89de-185680280055" xsi:type="LC_LandCoverClass">
+         <name>Sparse vegetation (15%)</name>
+         <description>Describe the land cover class</description>
+         <map_code>l150</map_code>
+         <elements>
+            <LC_HorizontalPattern id="7E" uuid="7f95ece0-3816-11eb-89de-185680280055" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 1</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="7F" ontop="0" uuid="810e5c10-3816-11eb-89de-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Vegetation 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="80" uuid="c5663d60-3816-11eb-89de-185680280055" xsi:type="LC_GrowthForms">
+                           <name>Growth Forms</name>
+                           <description>Describe a vegetation element of growth form type</description>
+                           <elements>
+                              <LC_Characteristic id="81" uuid="27a47286-43af-11de-bbd4-000cf147c442" xsi:type="LC_NaturalOrSeminaturalVegetation">
+                                 <name>Natural Or Seminatural Vegetation</name>
+                                 <description>Describe the natural or seminatural vegetation</description>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Mandatory</presence_type>
+                           <cover max="15.0" min="4.0"/>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+               </elements>
+            </LC_HorizontalPattern>
+         </elements>
+      </LC_LandCoverClass>
+      <LC_LandCoverClass id="90" uuid="e98eb2f0-38c8-11eb-a642-185680280055" xsi:type="LC_LandCoverClass">
+         <name>Closed to open Broadleaved forest regularly flooded (semipermanently or temporarly) - Fresh or brakish water</name>
+         <description>Describe the land cover class</description>
+         <map_code>160</map_code>
+         <elements>
+            <LC_HorizontalPattern id="91" uuid="5dce1160-38c9-11eb-a642-185680280055" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 1</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="92" ontop="0" uuid="5ea3b0e0-38c9-11eb-a642-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Vegetation 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="93" uuid="602fa810-38c9-11eb-a642-185680280055" xsi:type="LC_Trees">
+                           <name>Trees</name>
+                           <description>Describe a vegetation element of trees type</description>
+                           <elements>
+                              <LC_Characteristic id="94" uuid="27a47286-43af-11de-bbd4-000cf147c442" xsi:type="LC_NaturalOrSeminaturalVegetation">
+                                 <name>Natural Or Seminatural Vegetation</name>
+                                 <description>Describe the natural or seminatural vegetation</description>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Mandatory</presence_type>
+                           <cover max="100.0" min="15.0"/>
+                           <LC_WoodyGrowthLeafType id="95" uuid="e3aec875-3572-11de-a238-000cf147c442" xsi:type="LC_WoodyGrowthLeafType">
+                              <name>Woody Growth Leaf Type</name>
+                              <description>Contains the elements of Woody Growth Leaf Type</description>
+                              <elements>
+                                 <LC_WoodyLeafType id="96" uuid="7351ba50-38c9-11eb-a642-185680280055" xsi:type="LC_Broadleaved">
+                                    <name>Broadleaved</name>
+                                    <description>Describe a Broadleaved type element</description>
+                                 </LC_WoodyLeafType>
+                              </elements>
+                           </LC_WoodyGrowthLeafType>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+                  <LC_Stratum id="97" ontop="0" uuid="7eb51270-38c9-11eb-a642-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 2</name>
+                     <description>Abiotic surface 2</description>
+                     <elements>
+                        <LC_LandCoverElement id="98" uuid="8470f7b0-38c9-11eb-a642-185680280055" xsi:type="LC_WaterBody">
+                           <name>Water Body</name>
+                           <description>Describe a water body surface element</description>
+                           <elements>
+                              <LC_Characteristic id="99" uuid="27a2ebe1-43af-11de-bbd4-000cf147c442" xsi:type="LC_Artificiality">
+                                 <name>Artificiality</name>
+                                 <description>Describe the artificiality characteristic</description>
+                                 <type>Natural</type>
+                              </LC_Characteristic>
+                              <LC_Characteristic id="9A" uuid="27a2ebe2-43af-11de-bbd4-000cf147c442" xsi:type="LC_WaterSalinity">
+                                 <name>Water Salinity</name>
+                                 <description>Describe the water salinity characteristic</description>
+                                 <type>Fresh</type>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Exclusive</presence_type>
+                           <periodic_variation id="9B" uuid="860747b0-a39a-11e0-bd59-000cf147c442" xsi:type="LC_PeriodicVariations">
+                              <name>Periodic Variations</name>
+                              <description>Contains the elements of Periodic Variation</description>
+                              <elements>
+                                 <LC_PeriodicVariation id="9C" uuid="a8834810-38c9-11eb-a642-185680280055" xsi:type="LC_PeriodicVariation">
+                                    <name>Periodic Variation</name>
+                                    <description>Describe a periodic variation element</description>
+                                    <persistence_units>Months</persistence_units>
+                                    <persistence_period max="6.0" min="2.0"/>
+                                 </LC_PeriodicVariation>
+                                 <LC_PeriodicVariation id="9D" uuid="a883bd40-38c9-11eb-a642-185680280055" xsi:type="LC_PeriodicVariation">
+                                    <name>Periodic Variation</name>
+                                    <description>Describe a periodic variation element</description>
+                                    <persistence_units>Months</persistence_units>
+                                 </LC_PeriodicVariation>
+                              </elements>
+                           </periodic_variation>
+                        </LC_LandCoverElement>
+                        <LC_LandCoverElement id="9E" uuid="bbf28ff0-38c9-11eb-a642-185680280055" xsi:type="LC_WaterBody">
+                           <name>Water Body</name>
+                           <description>Describe a water body surface element</description>
+                           <elements>
+                              <LC_Characteristic id="9F" uuid="27a2ebe1-43af-11de-bbd4-000cf147c442" xsi:type="LC_Artificiality">
+                                 <name>Artificiality</name>
+                                 <description>Describe the artificiality characteristic</description>
+                                 <type>Natural</type>
+                              </LC_Characteristic>
+                              <LC_Characteristic id="A0" uuid="27a2ebe2-43af-11de-bbd4-000cf147c442" xsi:type="LC_WaterSalinity">
+                                 <name>Water Salinity</name>
+                                 <description>Describe the water salinity characteristic</description>
+                                 <type>Brackish</type>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Exclusive</presence_type>
+                           <periodic_variation id="A1" uuid="860747b0-a39a-11e0-bd59-000cf147c442" xsi:type="LC_PeriodicVariations">
+                              <name>Periodic Variations</name>
+                              <description>Contains the elements of Periodic Variation</description>
+                              <elements>
+                                 <LC_PeriodicVariation id="A2" uuid="e023da00-38c9-11eb-a642-185680280055" xsi:type="LC_PeriodicVariation">
+                                    <name>Periodic Variation</name>
+                                    <description>Describe a periodic variation element</description>
+                                    <persistence_units>Months</persistence_units>
+                                    <persistence_period max="6.0" min="2.0"/>
+                                 </LC_PeriodicVariation>
+                              </elements>
+                           </periodic_variation>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+               </elements>
+            </LC_HorizontalPattern>
+         </elements>
+      </LC_LandCoverClass>
+      <LC_LandCoverClass id="A3" uuid="fec5a603-38c9-11eb-a642-185680280055" xsi:type="LC_LandCoverClass">
+         <name>Closed Broadleaved forest or shrubland permanently flooded - Brakish or saline water</name>
+         <description>Describe the land cover class</description>
+         <map_code>170</map_code>
+         <elements>
+            <LC_HorizontalPattern id="A4" uuid="fec5a602-38c9-11eb-a642-185680280055" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 1</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="A5" ontop="0" uuid="febf8b81-38c9-11eb-a642-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Vegetation 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="A6" uuid="5bff9d80-38ca-11eb-a642-185680280055" xsi:type="LC_WoodyGrowthForms">
+                           <name>Woody Growth Forms</name>
+                           <description>Describe a vegetation element of woody type</description>
+                           <presence_type>Mandatory</presence_type>
+                           <cover max="100.0" min="40.0"/>
+                           <LC_WoodyGrowthLeafType id="A7" uuid="e3aec875-3572-11de-a238-000cf147c442" xsi:type="LC_WoodyGrowthLeafType">
+                              <name>Woody Growth Leaf Type</name>
+                              <description>Contains the elements of Woody Growth Leaf Type</description>
+                              <elements>
+                                 <LC_WoodyLeafType id="A8" uuid="72d6ef90-38ca-11eb-a642-185680280055" xsi:type="LC_Broadleaved">
+                                    <name>Broadleaved</name>
+                                    <description>Describe a Broadleaved type element</description>
+                                 </LC_WoodyLeafType>
+                              </elements>
+                           </LC_WoodyGrowthLeafType>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+                  <LC_Stratum id="A9" ontop="0" uuid="fec5a601-38c9-11eb-a642-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 2</name>
+                     <description>Abiotic surface 2</description>
+                     <elements>
+                        <LC_LandCoverElement id="AA" uuid="fec271b0-38c9-11eb-a642-185680280055" xsi:type="LC_WaterBody">
+                           <name>Water Body</name>
+                           <description>Describe a water body surface element</description>
+                           <elements>
+                              <LC_Characteristic id="AB" uuid="27a2ebe1-43af-11de-bbd4-000cf147c442" xsi:type="LC_Artificiality">
+                                 <name>Artificiality</name>
+                                 <description>Describe the artificiality characteristic</description>
+                                 <type>Natural</type>
+                              </LC_Characteristic>
+                              <LC_Characteristic id="AC" uuid="27a2ebe2-43af-11de-bbd4-000cf147c442" xsi:type="LC_WaterSalinity">
+                                 <name>Water Salinity</name>
+                                 <description>Describe the water salinity characteristic</description>
+                                 <type>Brackish</type>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Exclusive</presence_type>
+                           <periodic_variation id="CF" uuid="860747b0-a39a-11e0-bd59-000cf147c442" xsi:type="LC_PeriodicVariations">
+                              <name>Periodic Variations</name>
+                              <description>Contains the elements of Periodic Variation</description>
+                              <elements>
+                                 <LC_PeriodicVariation id="D0" uuid="fec13930-38c9-11eb-a642-185680280055" xsi:type="LC_PeriodicVariation">
+                                    <name>Periodic Variation</name>
+                                    <description>Describe a periodic variation element</description>
+                                    <persistence_units>Months</persistence_units>
+                                    <persistence_period max="12.0" min="6.0"/>
+                                 </LC_PeriodicVariation>
+                                 <LC_PeriodicVariation id="D1" uuid="fec1ae60-38c9-11eb-a642-185680280055" xsi:type="LC_PeriodicVariation">
+                                    <name>Periodic Variation</name>
+                                    <description>Describe a periodic variation element</description>
+                                    <persistence_units>Months</persistence_units>
+                                 </LC_PeriodicVariation>
+                              </elements>
+                           </periodic_variation>
+                        </LC_LandCoverElement>
+                        <LC_LandCoverElement id="AD" uuid="fec5a600-38c9-11eb-a642-185680280055" xsi:type="LC_WaterBody">
+                           <name>Water Body</name>
+                           <description>Describe a water body surface element</description>
+                           <elements>
+                              <LC_Characteristic id="AE" uuid="27a2ebe1-43af-11de-bbd4-000cf147c442" xsi:type="LC_Artificiality">
+                                 <name>Artificiality</name>
+                                 <description>Describe the artificiality characteristic</description>
+                                 <type>Natural</type>
+                              </LC_Characteristic>
+                              <LC_Characteristic id="AF" uuid="27a2ebe2-43af-11de-bbd4-000cf147c442" xsi:type="LC_WaterSalinity">
+                                 <name>Water Salinity</name>
+                                 <description>Describe the water salinity characteristic</description>
+                                 <type>Saline</type>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Exclusive</presence_type>
+                           <periodic_variation id="D2" uuid="860747b0-a39a-11e0-bd59-000cf147c442" xsi:type="LC_PeriodicVariations">
+                              <name>Periodic Variations</name>
+                              <description>Contains the elements of Periodic Variation</description>
+                              <elements>
+                                 <LC_PeriodicVariation id="D3" uuid="fec4bba0-38c9-11eb-a642-185680280055" xsi:type="LC_PeriodicVariation">
+                                    <name>Periodic Variation</name>
+                                    <description>Describe a periodic variation element</description>
+                                    <persistence_units>Months</persistence_units>
+                                    <persistence_period max="12.0" min="6.0"/>
+                                 </LC_PeriodicVariation>
+                              </elements>
+                           </periodic_variation>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+               </elements>
+            </LC_HorizontalPattern>
+         </elements>
+      </LC_LandCoverClass>
+      <LC_LandCoverClass id="B0" uuid="c9ec7c02-38ca-11eb-a642-185680280055" xsi:type="LC_LandCoverClass">
+         <name>Closed to open grassland or woody vegetation on regularly flooded or waterlogged soil </name>
+         <description>Describe the land cover class</description>
+         <map_code>180</map_code>
+         <elements>
+            <LC_HorizontalPattern id="B1" uuid="c9ec7c01-38ca-11eb-a642-185680280055" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 1</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="B2" ontop="0" uuid="c9e61361-38ca-11eb-a642-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Vegetation 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="B3" uuid="4be49440-38cb-11eb-a642-185680280055" xsi:type="LC_HerbaceousGrowthForms">
+                           <name>Herbaceous growth forms</name>
+                           <description>Describe a vegetation element of herbaceous growth form type</description>
+                           <elements>
+                              <LC_Characteristic id="B4" uuid="27a47286-43af-11de-bbd4-000cf147c442" xsi:type="LC_NaturalOrSeminaturalVegetation">
+                                 <name>Natural Or Seminatural Vegetation</name>
+                                 <description>Describe the natural or seminatural vegetation</description>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Exclusive</presence_type>
+                           <cover max="100.0" min="15.0"/>
+                        </LC_LandCoverElement>
+                        <LC_LandCoverElement id="B5" uuid="68864a80-38cb-11eb-a642-185680280055" xsi:type="LC_WoodyGrowthForms">
+                           <name>Woody Growth Forms</name>
+                           <description>Describe a vegetation element of woody type</description>
+                           <presence_type>Exclusive</presence_type>
+                           <cover max="100.0" min="15.0"/>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+                  <LC_Stratum id="B6" ontop="0" uuid="c9ec7c00-38ca-11eb-a642-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 2</name>
+                     <description>Abiotic surface 2</description>
+                     <elements>
+                        <LC_LandCoverElement id="B7" uuid="c9e995d0-38ca-11eb-a642-185680280055" xsi:type="LC_WaterBody">
+                           <name>Water Body</name>
+                           <description>Describe a water body surface element</description>
+                           <elements>
+                              <LC_Characteristic id="B8" uuid="27a2ebe1-43af-11de-bbd4-000cf147c442" xsi:type="LC_Artificiality">
+                                 <name>Artificiality</name>
+                                 <description>Describe the artificiality characteristic</description>
+                                 <type>Natural</type>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Exclusive</presence_type>
+                           <periodic_variation id="D4" uuid="860747b0-a39a-11e0-bd59-000cf147c442" xsi:type="LC_PeriodicVariations">
+                              <name>Periodic Variations</name>
+                              <description>Contains the elements of Periodic Variation</description>
+                              <elements>
+                                 <LC_PeriodicVariation id="D5" uuid="c9e83640-38ca-11eb-a642-185680280055" xsi:type="LC_PeriodicVariation">
+                                    <name>Periodic Variation</name>
+                                    <description>Describe a periodic variation element</description>
+                                    <persistence_units>Months</persistence_units>
+                                    <persistence_period max="6.0" min="2.0"/>
+                                 </LC_PeriodicVariation>
+                                 <LC_PeriodicVariation id="D6" uuid="c9e8d280-38ca-11eb-a642-185680280055" xsi:type="LC_PeriodicVariation">
+                                    <name>Periodic Variation</name>
+                                    <description>Describe a periodic variation element</description>
+                                    <persistence_units>Months</persistence_units>
+                                 </LC_PeriodicVariation>
+                              </elements>
+                           </periodic_variation>
+                           <position>Above Surface</position>
+                        </LC_LandCoverElement>
+                        <LC_LandCoverElement id="B9" uuid="c9ec54f0-38ca-11eb-a642-185680280055" xsi:type="LC_WaterBody">
+                           <name>Water Body</name>
+                           <description>Describe a water body surface element</description>
+                           <elements>
+                              <LC_Characteristic id="BA" uuid="27a2ebe1-43af-11de-bbd4-000cf147c442" xsi:type="LC_Artificiality">
+                                 <name>Artificiality</name>
+                                 <description>Describe the artificiality characteristic</description>
+                                 <type>Natural</type>
+                              </LC_Characteristic>
+                           </elements>
+                           <presence_type>Exclusive</presence_type>
+                           <periodic_variation id="D7" uuid="860747b0-a39a-11e0-bd59-000cf147c442" xsi:type="LC_PeriodicVariations">
+                              <name>Periodic Variations</name>
+                              <description>Contains the elements of Periodic Variation</description>
+                              <elements>
+                                 <LC_PeriodicVariation id="D8" uuid="c9eb6a90-38ca-11eb-a642-185680280055" xsi:type="LC_PeriodicVariation">
+                                    <name>Periodic Variation</name>
+                                    <description>Describe a periodic variation element</description>
+                                    <persistence_units>Months</persistence_units>
+                                    <persistence_period max="6.0" min="2.0"/>
+                                 </LC_PeriodicVariation>
+                              </elements>
+                           </periodic_variation>
+                           <position>Below Surface</position>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+               </elements>
+            </LC_HorizontalPattern>
+         </elements>
+      </LC_LandCoverClass>
+      <LC_LandCoverClass id="BB" uuid="f60b62f3-38cb-11eb-a642-185680280055" xsi:type="LC_LandCoverClass">
+         <name>Artificial surfaces and associated areas</name>
+         <description>Describe the land cover class</description>
+         <map_code>190</map_code>
+         <elements>
+            <LC_HorizontalPattern id="BC" uuid="f60b62f2-38cb-11eb-a642-185680280055" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 1</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="BD" ontop="0" uuid="f60b62f1-38cb-11eb-a642-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Vegetation 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="BE" uuid="1c30dbe0-38cc-11eb-a642-185680280055" xsi:type="LC_ArtificialSurface">
+                           <name>Artificial Surface</name>
+                           <description>Describe an abiotic surface element of artificial type</description>
+                           <presence_type>Mandatory</presence_type>
+                           <cover max="100.0" min="50.0"/>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+               </elements>
+            </LC_HorizontalPattern>
+         </elements>
+      </LC_LandCoverClass>
+      <LC_LandCoverClass id="BF" uuid="3abed1c3-38cc-11eb-a642-185680280055" xsi:type="LC_LandCoverClass">
+         <name>Bare areas</name>
+         <description>Describe the land cover class</description>
+         <map_code>200</map_code>
+         <elements>
+            <LC_HorizontalPattern id="C0" uuid="3abed1c2-38cc-11eb-a642-185680280055" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 1</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="C1" ontop="0" uuid="3abed1c1-38cc-11eb-a642-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Vegetation 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="C2" uuid="7a248670-38cc-11eb-a642-185680280055" xsi:type="LC_NaturalSurface">
+                           <name>Natural Surface</name>
+                           <description>Describe an abiotic surface element of natural type</description>
+                           <presence_type>Mandatory</presence_type>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+               </elements>
+            </LC_HorizontalPattern>
+         </elements>
+      </LC_LandCoverClass>
+      <LC_LandCoverClass id="C3" uuid="86b84842-38cc-11eb-a642-185680280055" xsi:type="LC_LandCoverClass">
+         <name>Water bodies</name>
+         <description>Describe the land cover class</description>
+         <map_code>210</map_code>
+         <elements>
+            <LC_HorizontalPattern id="C4" uuid="86b84841-38cc-11eb-a642-185680280055" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 1</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="C5" ontop="0" uuid="86b84840-38cc-11eb-a642-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Vegetation 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="C6" uuid="ab15ab60-38cc-11eb-a642-185680280055" xsi:type="LC_WaterBody">
+                           <name>Water Body</name>
+                           <description>Describe a water body surface element</description>
+                           <presence_type>Mandatory</presence_type>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+               </elements>
+            </LC_HorizontalPattern>
+         </elements>
+      </LC_LandCoverClass>
+      <LC_LandCoverClass id="C7" uuid="b64aeea3-38cc-11eb-a642-185680280055" xsi:type="LC_LandCoverClass">
+         <name>Permanent snow or ice</name>
+         <description>Describe the land cover class</description>
+         <map_code>220</map_code>
+         <elements>
+            <LC_HorizontalPattern id="C8" uuid="b64aeea2-38cc-11eb-a642-185680280055" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 1</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="C9" ontop="0" uuid="b64aeea1-38cc-11eb-a642-185680280055" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Vegetation 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="CA" uuid="dd615740-38cc-11eb-a642-185680280055" xsi:type="LC_Snow">
+                           <name>Snow</name>
+                           <description>Describe a snow surface element</description>
+                           <presence_type>Exclusive</presence_type>
+                           <periodic_variation id="CB" uuid="860747b0-a39a-11e0-bd59-000cf147c442" xsi:type="LC_PeriodicVariations">
+                              <name>Periodic Variations</name>
+                              <description>Contains the elements of Periodic Variation</description>
+                              <elements>
+                                 <LC_PeriodicVariation id="CC" uuid="fc676350-38cc-11eb-a642-185680280055" xsi:type="LC_PeriodicVariation">
+                                    <name>Periodic Variation</name>
+                                    <description>Describe a periodic variation element</description>
+                                    <persistence_units>Months</persistence_units>
+                                    <persistence_period max="12.0" min="8.0"/>
+                                 </LC_PeriodicVariation>
+                              </elements>
+                           </periodic_variation>
+                        </LC_LandCoverElement>
+                        <LC_LandCoverElement id="CD" uuid="06b5a1f0-38cd-11eb-a642-185680280055" xsi:type="LC_Ice">
+                           <name>Ice</name>
+                           <description>Describe an ice surface element</description>
+                           <presence_type>Exclusive</presence_type>
+                           <periodic_variation id="CE" uuid="860747b0-a39a-11e0-bd59-000cf147c442" xsi:type="LC_PeriodicVariations">
+                              <name>Periodic Variations</name>
+                              <description>Contains the elements of Periodic Variation</description>
+                              <elements>
+                                 <LC_PeriodicVariation id="CF" uuid="1adc2be0-38cd-11eb-a642-185680280055" xsi:type="LC_PeriodicVariation">
+                                    <name>Periodic Variation</name>
+                                    <description>Describe a periodic variation element</description>
+                                    <persistence_units>Months</persistence_units>
+                                    <persistence_period max="12.0" min="8.0"/>
+                                 </LC_PeriodicVariation>
+                              </elements>
+                           </periodic_variation>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+               </elements>
+            </LC_HorizontalPattern>
+         </elements>
+      </LC_LandCoverClass>
+   </elements>
+   <author>Antonio Di Gregorio</author>
+   <LC_MixedClasses id="82" uuid="55c4b631-915b-11de-bb5d-000cf147c442" xsi:type="LC_MixedClasses">
+      <name>Mixed Classes</name>
+      <description>Contains the mixed classes of the Legend</description>
+      <elements>
+         <LC_MixedClass dominant="12f52c80-380d-11eb-89de-185680280055" id="83" uuid="bd6b8550-380e-11eb-89de-185680280055" xsi:type="LC_OR_MixedClass">
+            <name>Postflooding or irrigated cropland</name>
+            <description>Describe the or mixed class</description>
+            <map_code>mix1</map_code>
+            <elements>
+               <LandCoverClass uuid="12f52c80-380d-11eb-89de-185680280055">Present</LandCoverClass>
+               <LandCoverClass uuid="cc458310-380d-11eb-89de-185680280055">Present</LandCoverClass>
+            </elements>
+         </LC_MixedClass>
+      </elements>
+   </LC_MixedClasses>
+   <views>
+      <LC_LandCoverClassView id="1" uuid="58fe28e1-3b31-11eb-94a3-185680280055">
+         <name>Vegetated areas</name>
+         <description>Vegetated areas</description>
+         <LC_LandCoverClassView id="2" uuid="58fe28e2-3b31-11eb-94a3-185680280055" xsi:type="LC_LandCoverClassView">
+            <name>Cultivated and Managed Vegetation</name>
+            <description>Cultivated and Managed Vegetation</description>
+            <LC_LandCoverClassView id="3" uuid="5901ab51-3b31-11eb-94a3-185680280055">
+               <name>Woody Dominant Area</name>
+               <description>Woody Dominant Area</description>
+               <LC_LandCoverClassView id="4" uuid="59022081-3b31-11eb-94a3-185680280055" xsi:type="LC_LandCoverClassView">
+                  <name>Trees Dominant Area</name>
+                  <description>Trees Dominant Area</description>
+               </LC_LandCoverClassView>
+               <LC_LandCoverClassView id="5" uuid="59044361-3b31-11eb-94a3-185680280055" xsi:type="LC_LandCoverClassView">
+                  <name>Shrubs Dominant Area</name>
+                  <description>Shrubs Dominant Area</description>
+               </LC_LandCoverClassView>
+               <elements>
+                  <LC_LandCoverClass>bd6b8550-380e-11eb-89de-185680280055<!--Postflooding or irrigated cropland--></LC_LandCoverClass>
+                  <LC_LandCoverClass>12f52c80-380d-11eb-89de-185680280055<!--Irrigated cropland--></LC_LandCoverClass>
+                  <LC_LandCoverClass>f0a25480-380e-11eb-89de-185680280055<!--Rainfed croplands--></LC_LandCoverClass>
+                  <LC_LandCoverClass>8abc6740-380f-11eb-89de-185680280055<!--Mosaic cropland (50 - 70) natural vegetation (20-50)--></LC_LandCoverClass>
+               </elements>
+            </LC_LandCoverClassView>
+            <LC_LandCoverClassView id="6" uuid="590506b1-3b31-11eb-94a3-185680280055" xsi:type="LC_LandCoverClassView">
+               <name>Herbaceous Dominant Area</name>
+               <description>Herbaceous Dominant Area</description>
+               <LC_LandCoverClassView id="7" uuid="5905ca01-3b31-11eb-94a3-185680280055" xsi:type="LC_LandCoverClassView">
+                  <name>Graminae Dominant Area</name>
+                  <description>Graminae Dominant Area</description>
+               </LC_LandCoverClassView>
+               <LC_LandCoverClassView id="8" uuid="5906db70-3b31-11eb-94a3-185680280055" xsi:type="LC_LandCoverClassView">
+                  <name>Forbs Dominant Area</name>
+                  <description>Forbs Dominant Area</description>
+               </LC_LandCoverClassView>
+            </LC_LandCoverClassView>
+            <LC_LandCoverClassView id="9" uuid="59072991-3b31-11eb-94a3-185680280055" xsi:type="LC_LandCoverClassView">
+               <name>Lichen and Mosses Dominant Area</name>
+               <description>Lichen and Mosses Dominant Area</description>
+               <LC_LandCoverClassView id="A" uuid="59072993-3b31-11eb-94a3-185680280055" xsi:type="LC_LandCoverClassView">
+                  <name>Lichen Dominant Area</name>
+                  <description>Lichen Dominant Area</description>
+               </LC_LandCoverClassView>
+               <LC_LandCoverClassView id="B" uuid="59072995-3b31-11eb-94a3-185680280055" xsi:type="LC_LandCoverClassView">
+                  <name>Mosses Dominant Area</name>
+                  <description>Mosses Dominant Area</description>
+               </LC_LandCoverClassView>
+            </LC_LandCoverClassView>
+            <LC_LandCoverClassView id="C" uuid="59083b01-3b31-11eb-94a3-185680280055" xsi:type="LC_LandCoverClassView">
+               <name>Algae Dominant Area</name>
+               <description>Algae Dominant Area</description>
+            </LC_LandCoverClassView>
+         </LC_LandCoverClassView>
+         <LC_LandCoverClassView id="D" uuid="59083b02-3b31-11eb-94a3-185680280055">
+            <name>Natural and Seminatural Vegetation</name>
+            <description>Natural and Seminatural Vegetation</description>
+            <LC_LandCoverClassView id="E" uuid="59083b04-3b31-11eb-94a3-185680280055">
+               <name>Woody Dominant Area</name>
+               <description>Woody Dominant Area</description>
+               <LC_LandCoverClassView id="F" uuid="59083b06-3b31-11eb-94a3-185680280055">
+                  <name>Trees Dominant Area</name>
+                  <description>Trees Dominant Area</description>
+                  <elements>
+                     <LC_LandCoverClass>853dbca0-3810-11eb-89de-185680280055<!--Closed to open (>15%) broadleaved evergreen or semidecidous forest--></LC_LandCoverClass>
+                     <LC_LandCoverClass>9f699b70-3811-11eb-89de-185680280055<!--Closed (>40%) broadleaverd decodous forest--></LC_LandCoverClass>
+                     <LC_LandCoverClass>6850e1b3-3812-11eb-89de-185680280055<!--Open (15 -40%) broadleaverd decidous forest--></LC_LandCoverClass>
+                     <LC_LandCoverClass>f40cd2e3-3812-11eb-89de-185680280055<!--Closed (>40%) needleleaved evergreen forest--></LC_LandCoverClass>
+                     <LC_LandCoverClass>48e6ee43-3813-11eb-89de-185680280055<!--Open (1540%) needleleaved evergreen forest--></LC_LandCoverClass>
+                     <LC_LandCoverClass>90c6bdd0-3813-11eb-89de-185680280055<!--Closed to open (>15%) mixed broadleaved and needleleaved forest--></LC_LandCoverClass>
+                     <LC_LandCoverClass>e98eb2f0-38c8-11eb-a642-185680280055<!--Closed to open Broadleaved forest regularly flooded (semipermanently or temporarly) - Fresh or brakish water--></LC_LandCoverClass>
+                  </elements>
+               </LC_LandCoverClassView>
+               <LC_LandCoverClassView id="10" uuid="59083b08-3b31-11eb-94a3-185680280055">
+                  <name>Shrubs Dominant Area</name>
+                  <description>Shrubs Dominant Area</description>
+                  <elements>
+                     <LC_LandCoverClass>7bf67470-3815-11eb-89de-185680280055<!--Closed to open shrubland--></LC_LandCoverClass>
+                  </elements>
+               </LC_LandCoverClassView>
+               <elements>
+                  <LC_LandCoverClass>1c35ee90-3814-11eb-89de-185680280055<!--Mosaic forest or shrubland (50-70)/ grassland (20-50)--></LC_LandCoverClass>
+               </elements>
+            </LC_LandCoverClassView>
+            <LC_LandCoverClassView id="11" uuid="590a84f1-3b31-11eb-94a3-185680280055">
+               <name>Herbaceous Dominant Area</name>
+               <description>Herbaceous Dominant Area</description>
+               <LC_LandCoverClassView id="12" uuid="590a84f3-3b31-11eb-94a3-185680280055" xsi:type="LC_LandCoverClassView">
+                  <name>Graminae Dominant Area</name>
+                  <description>Graminae Dominant Area</description>
+               </LC_LandCoverClassView>
+               <LC_LandCoverClassView id="13" uuid="590a84f5-3b31-11eb-94a3-185680280055" xsi:type="LC_LandCoverClassView">
+                  <name>Forbs Dominant Area</name>
+                  <description>Forbs Dominant Area</description>
+               </LC_LandCoverClassView>
+               <elements>
+                  <LC_LandCoverClass>e7a454e3-3814-11eb-89de-185680280055<!--Mosaic grassland(50-70)/ forest or shrubland (20-50)--></LC_LandCoverClass>
+                  <LC_LandCoverClass>a53fe9b0-3815-11eb-89de-185680280055<!--Closed to open (>15%)Herbaceous vegetation--></LC_LandCoverClass>
+                  <LC_LandCoverClass>c9ec7c02-38ca-11eb-a642-185680280055<!--Closed to open grassland or woody vegetation on regularly flooded or waterlogged soil --></LC_LandCoverClass>
+               </elements>
+            </LC_LandCoverClassView>
+            <LC_LandCoverClassView id="14" uuid="590a84f7-3b31-11eb-94a3-185680280055" xsi:type="LC_LandCoverClassView">
+               <name>Lichen and Mosses Dominant Area</name>
+               <description>Lichen and Mosses Dominant Area</description>
+               <LC_LandCoverClassView id="15" uuid="590a84f9-3b31-11eb-94a3-185680280055" xsi:type="LC_LandCoverClassView">
+                  <name>Lichen Dominant Area</name>
+                  <description>Lichen Dominant Area</description>
+               </LC_LandCoverClassView>
+               <LC_LandCoverClassView id="16" uuid="590c80c1-3b31-11eb-94a3-185680280055" xsi:type="LC_LandCoverClassView">
+                  <name>Mosses Dominant Area</name>
+                  <description>Mosses Dominant Area</description>
+               </LC_LandCoverClassView>
+            </LC_LandCoverClassView>
+            <LC_LandCoverClassView id="17" uuid="590c80c3-3b31-11eb-94a3-185680280055" xsi:type="LC_LandCoverClassView">
+               <name>Algae Dominant Area</name>
+               <description>Algae Dominant Area</description>
+            </LC_LandCoverClassView>
+            <elements>
+               <LC_LandCoverClass>0381ea10-3810-11eb-89de-185680280055<!--Mosaic vegetation (50-70) / Croplands (20 - 50)--></LC_LandCoverClass>
+               <LC_LandCoverClass>592cdb40-3816-11eb-89de-185680280055<!--Sparse vegetation (15%)--></LC_LandCoverClass>
+            </elements>
+         </LC_LandCoverClassView>
+         <elements>
+            <LC_LandCoverClass>fec5a603-38c9-11eb-a642-185680280055<!--Closed Broadleaved forest or shrubland permanently flooded - Brakish or saline water--></LC_LandCoverClass>
+         </elements>
+      </LC_LandCoverClassView>
+      <LC_LandCoverClassView id="18" uuid="590c80c5-3b31-11eb-94a3-185680280055">
+         <name>Non-Vegetated areas</name>
+         <description>Non-Vegetated areas</description>
+         <LC_LandCoverClassView id="19" uuid="590c80c7-3b31-11eb-94a3-185680280055">
+            <name>Artificial Surfaces</name>
+            <description>Artificial Surfaces</description>
+            <LC_LandCoverClassView id="1A" uuid="590db941-3b31-11eb-94a3-185680280055" xsi:type="LC_LandCoverClassView">
+               <name>Built-Up Dominant Area</name>
+               <description>Built-Up Dominant Area</description>
+            </LC_LandCoverClassView>
+            <LC_LandCoverClassView id="1B" uuid="590e0761-3b31-11eb-94a3-185680280055" xsi:type="LC_LandCoverClassView">
+               <name>Non Built-Up Dominant Area</name>
+               <description>Non Built-Up Dominant Area</description>
+            </LC_LandCoverClassView>
+            <elements>
+               <LC_LandCoverClass>f60b62f3-38cb-11eb-a642-185680280055<!--Artificial surfaces and associated areas--></LC_LandCoverClass>
+            </elements>
+         </LC_LandCoverClassView>
+         <LC_LandCoverClassView id="1C" uuid="590e2e71-3b31-11eb-94a3-185680280055">
+            <name>Natural Surfaces</name>
+            <description>Natural Surfaces</description>
+            <LC_LandCoverClassView id="1D" uuid="590e5581-3b31-11eb-94a3-185680280055" xsi:type="LC_LandCoverClassView">
+               <name>Consolidated Dominant Area</name>
+               <description>Consolidated Dominant Area</description>
+            </LC_LandCoverClassView>
+            <LC_LandCoverClassView id="1E" uuid="590e5583-3b31-11eb-94a3-185680280055" xsi:type="LC_LandCoverClassView">
+               <name>Unconsolidated Dominant Area</name>
+               <description>Unconsolidated Dominant Area</description>
+            </LC_LandCoverClassView>
+            <LC_LandCoverClassView id="1F" uuid="590f18d1-3b31-11eb-94a3-185680280055" xsi:type="LC_LandCoverClassView">
+               <name>Water, snow, ice Dominant Area</name>
+               <description>Water, snow, ice Dominant Area</description>
+            </LC_LandCoverClassView>
+            <elements>
+               <LC_LandCoverClass>3abed1c3-38cc-11eb-a642-185680280055<!--Bare areas--></LC_LandCoverClass>
+            </elements>
+         </LC_LandCoverClassView>
+         <elements>
+            <LC_LandCoverClass>cc458310-380d-11eb-89de-185680280055<!--Postflooding herbaceous crop--></LC_LandCoverClass>
+            <LC_LandCoverClass>86b84842-38cc-11eb-a642-185680280055<!--Water bodies--></LC_LandCoverClass>
+            <LC_LandCoverClass>b64aeea3-38cc-11eb-a642-185680280055<!--Permanent snow or ice--></LC_LandCoverClass>
+         </elements>
+      </LC_LandCoverClassView>
+   </views>
+</LC_Legend>

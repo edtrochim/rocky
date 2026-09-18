@@ -1,0 +1,28 @@
+{
+ "summary": "MapBiomas Argentina (Collection 2) is produced by the MapBiomas Argentina initiative for annual land cover and land use monitoring. It separates 3 Closed forests from 4 Open forests and splits shrublands into 66 Closed shrublands, 77 Open shrublands and 63 Shrubs and herbaceous mosaic, a canopy-based vocabulary consistent with how Argentina's native forest law defines forest by cover rather than by biome. Evidence is as far as the legend code sheet supports it; the ATBD should be checked before accepting these nodes.",
+ "none_stated_for": ["27", "33", "34", "25", "24", "11", "12", "73", "15", "18", "19", "36", "21"],
+ "instruments": [
+  {
+   "id": "ar-mapbiomas-programme",
+   "title": "MapBiomas Argentina annual mapping programme (Collection 2)",
+   "institution": "MapBiomas Argentina",
+   "instrument_type": "programme",
+   "jurisdiction": "Argentina",
+   "year": "2025",
+   "effect_on_classes": "Defines the level-1 aggregates (1 Forests, 10, 14, 22, 26, 27) and the closed/open splits for forests (3/4) and shrublands (66/77) plus a shrub-herbaceous mosaic (63).",
+   "evidence": "legends.json: collection 'MapBiomas Argentina Collection 2', source https://argentina.mapbiomas.org/wp-content/uploads/sites/12/2025/09/Leyenda_Code.pdf; classes '3 Closed forests', '4 Open forests', '66 Closed shrublands', '77 Open shrublands', '63 Shrubs and herbaceous mosaic'",
+   "classes": ["1", "3", "4", "66", "77", "63", "9"]
+  },
+  {
+   "id": "ar-native-forest-law-26331",
+   "title": "Argentine Native Forest Law (Ley 26.331, 2007)",
+   "institution": "Government of Argentina",
+   "instrument_type": "law",
+   "jurisdiction": "Argentina",
+   "year": "2007",
+   "effect_on_classes": "The law's minimum-budget regime for native forests is applied through canopy-cover-based forest definitions and provincial land-use zoning, which is consistent with the closed/open forest split (3/4) and the treatment of open shrublands as non-forest; the thresholds themselves are not stated in the legend sheet. Likely instrument; not cited in the source.",
+   "evidence": "class names '3 Closed forests', '4 Open forests', '66 Closed shrublands', '77 Open shrublands'; attribution to Ley 26.331 is inferred, not quoted",
+   "classes": ["3", "4", "66", "77"]
+  }
+ ]
+}

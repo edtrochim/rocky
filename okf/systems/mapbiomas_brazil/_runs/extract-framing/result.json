@@ -1,0 +1,39 @@
+{
+ "summary": "MapBiomas Brazil is produced by the MapBiomas network (a consortium of universities, NGOs and technology companies) for annual land use and land cover monitoring of Brazil. Its classes follow Brazilian biome and vegetation vocabulary (Forest Formation, Savanna Formation, Wetland, Mangrove, Restinga) and separate agricultural uses by crop because the collections serve deforestation monitoring, agricultural statistics and land-use policy. Class names such as Savanna Formation carry legally and phytogeographically defined Brazilian terms (the Cerrado biome), so they are not directly comparable with 'open forest' classes in neighbouring systems. Evidence for each instrument below is stated as far as the source given here (the legend code sheet) supports it; the ATBD should be checked before these framing nodes are accepted.",
+ "none_stated_for": ["27", "33", "31", "23", "29", "32", "50", "49", "75"],
+ "instruments": [
+  {
+   "id": "br-mapbiomas-programme",
+   "title": "MapBiomas annual mapping programme, Brazil (Collection 10)",
+   "institution": "MapBiomas network",
+   "instrument_type": "programme",
+   "jurisdiction": "Brazil",
+   "year": "2025",
+   "effect_on_classes": "Defines the six level-1 aggregates (1 Forest, 10 Herbaceous and Shrubby Vegetation, 14 Farming, 22 Non vegetated area, 26 Water, 27 Not Observed) and the crop-level splits (Soybean, Sugar cane, Rice, Cotton, Coffee, Citrus, Palm Oil) that serve agricultural monitoring; 'beta' classes (Cotton, Photovoltaic Power Plant) are experimental.",
+   "evidence": "legends.json: collection 'MapBiomas Brazil Collection 10', source https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf; class names 'Soybean', 'Sugar cane', 'Rice', 'Cotton (beta)', 'Coffee', 'Citrus', 'Palm Oil', 'Photovoltaic Power Plant (beta)'",
+   "classes": ["1", "10", "14", "22", "26", "27", "39", "20", "40", "62", "46", "47", "35", "75"]
+  },
+  {
+   "id": "br-biome-vocabulary",
+   "title": "Brazilian phytogeographic vocabulary (IBGE vegetation classification, Cerrado / Caatinga / Restinga terms)",
+   "institution": "IBGE (Brazilian Institute of Geography and Statistics), as used by MapBiomas",
+   "instrument_type": "scientific_convention",
+   "jurisdiction": "Brazil",
+   "year": "",
+   "effect_on_classes": "Names 'Forest Formation', 'Savanna Formation', 'Wooded Sandbank Vegetation', 'Herbaceous Sandbank Vegetation' and 'Hypersaline Tidal Flat' are Brazilian vegetation-typology terms (formações florestais, savânicas, restinga, apicum). They are typology names, not cover thresholds, which is why code 4 'Savanna Formation' sits under Forest in Brazil while neighbours use code 4 for 'Open forest'. Likely instrument; the legend sheet does not cite IBGE explicitly.",
+   "evidence": "class names 'Forest Formation', 'Savanna Formation', 'Wooded Sandbank Vegetation', 'Herbaceous Sandbank Vegetation', 'Hypersaline Tidal Flat' in legends.json; attribution to IBGE terminology is inferred, not quoted",
+   "classes": ["3", "4", "49", "50", "32", "5", "6", "11", "12"]
+  },
+  {
+   "id": "br-forest-code-2012",
+   "title": "Brazilian Forest Code (Lei 12.651/2012) and native-vegetation policy",
+   "institution": "Government of Brazil",
+   "instrument_type": "law",
+   "jurisdiction": "Brazil",
+   "year": "2012",
+   "effect_on_classes": "The distinction between natural formations (Forest Formation, Savanna Formation, Wetland, Grassland) and anthropic uses (Pasture, Agriculture, Forest Plantation, Mosaic of Uses) is what the map is used for under native-vegetation protection rules; the aggregate 'Farming' (14) versus 'Forest' (1) is the deforestation-monitoring boundary. Likely instrument; not cited in the legend sheet.",
+   "evidence": "inferred from the purpose of MapBiomas (annual land use and land cover monitoring) and the natural/anthropic split of the level-1 classes; no quote available in the source given",
+   "classes": ["1", "14", "3", "4", "15", "18", "9", "21"]
+  }
+ ]
+}

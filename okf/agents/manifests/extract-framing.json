@@ -1,0 +1,32 @@
+{
+ "skill": "extract-framing",
+ "inputs": ["system"],
+ "reads": [
+  {"kind": "system"},
+  {"kind": "all_class_nodes", "cap": 1500},
+  {"kind": "ingest_blocks", "cap": 60000}
+ ],
+ "apply": "apply_framing",
+ "output_schema": {
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["summary", "instruments", "none_stated_for"],
+  "properties": {
+   "summary": {"type": "string", "description": "two to five sentences: who defined this system, for what, under which rules"},
+   "none_stated_for": {"type": "array", "items": {"type": "string"}, "description": "class codes with no framing evidence at all"},
+   "instruments": {"type": "array", "items": {"type": "object", "additionalProperties": false,
+     "required": ["id", "title", "institution", "instrument_type", "jurisdiction", "year", "effect_on_classes", "evidence", "classes"],
+     "properties": {
+      "id": {"type": "string", "description": "short slug, e.g. br-forest-code-2012"},
+      "title": {"type": "string"},
+      "institution": {"type": "string"},
+      "instrument_type": {"type": "string", "enum": ["law", "regulation", "policy", "programme", "convention", "reporting_obligation", "scientific_convention", "mapping_practice", "other"]},
+      "jurisdiction": {"type": "string"},
+      "year": {"type": "string"},
+      "effect_on_classes": {"type": "string", "description": "how this instrument shapes names, splits or thresholds"},
+      "evidence": {"type": "string", "description": "verbatim quote or precise reference"},
+      "classes": {"type": "array", "items": {"type": "string"}, "description": "class codes affected"}
+     }}}
+  }
+ }
+}

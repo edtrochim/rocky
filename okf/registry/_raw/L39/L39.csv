@@ -1,0 +1,12 @@
+Id,Hex,Class Code,Class Name,
+1,#006400,10,Tree Cover,Large to Medium (>2 ha) Tree crops - Crop Cover: Orchrd(s)
+2,#FFBB22,20,Shrubland,Small (<2 ha) Tree crops - Orchard(s)
+3,#FFFF4C,30,Grassland,
+4,#F096FF,40,Cropland,
+5,#FF0000,50,Built-up,
+6,#B4B4B4,60,Bare / sparse vegetation,
+7,#F0F0F0,70,Snow and Ice,
+8,#0064C8,80,Permanent water bodies,
+9,#0096A0,90,Herbaceous wetland,
+10,#00CF75,95,Mangroves,
+11,#FAE6A0,100,Moss and lichen,

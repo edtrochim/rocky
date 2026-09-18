@@ -1,0 +1,8486 @@
+{
+ "source": "lchs.xsd",
+ "counts": {
+  "elements": 41,
+  "characteristics": 23,
+  "records": 9,
+  "enums": 56
+ },
+ "elements": {
+  "LC_VegetationElement": {
+   "name": "LC_VegetationElementType",
+   "ref": "LC_VegetationElement",
+   "kind": "element",
+   "doc": "Generic Vegetation Element",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_AbioticElement": {
+   "name": "LC_AbioticElementType",
+   "ref": "LC_AbioticElement",
+   "kind": "element",
+   "doc": "Generic Abiotic Element",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_GrowthForm": {
+   "name": "LC_GrowthFormType",
+   "ref": "LC_GrowthForm",
+   "kind": "element",
+   "doc": "Vegetation Element of Growth Form Subtype",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "height",
+     "type": "xs:decimal",
+     "doc": "Height",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    },
+    {
+     "name": "lifeFormSpecialization",
+     "type": "LifeFormSpecializationTypesEnum",
+     "doc": "Life Form Specialization",
+     "range": false,
+     "required": false,
+     "enum": [
+      "bamboos",
+      "climbers",
+      "eppphytes",
+      "stem_succulents",
+      "tuft_plants",
+      "arboreal_giant_herbs"
+     ]
+    }
+   ]
+  },
+  "LC_WoodyGrowthForm": {
+   "name": "LC_WoodyGrowthFormType",
+   "ref": "LC_WoodyGrowthForm",
+   "kind": "element",
+   "doc": "Growth Form Element of Woody Subtype",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "height",
+     "type": "xs:decimal",
+     "doc": "Height",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "depth",
+     "type": "xs:decimal",
+     "doc": "Depth",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "woodyLeafPhenology",
+     "type": "WoodyLeafPhenologiesEnum",
+     "doc": "Woody Leaf Phenology",
+     "range": false,
+     "required": false,
+     "enum": [
+      "Deciduous",
+      "Evergreen"
+     ]
+    },
+    {
+     "name": "evergreenPercentage",
+     "type": "xs:decimal",
+     "doc": "Evergreen Percentage",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "deciduousPercentage",
+     "type": "xs:decimal",
+     "doc": "Deciduous Percentage",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "deciduousStart",
+     "type": "xs:decimal",
+     "doc": "Deciduous Start",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "deciduousLength",
+     "type": "xs:decimal",
+     "doc": "Deciduous Length",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "woodyLeafType",
+     "type": "LeafTypesEnum",
+     "doc": "Woody Leaf Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "Aphyllous",
+      "NeedleLeaf",
+      "BroadLeaf"
+     ]
+    },
+    {
+     "name": "broadLeafPercentage",
+     "type": "xs:decimal",
+     "doc": "Broad Leaf Percentage",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "needleLeafPercentage",
+     "type": "xs:decimal",
+     "doc": "Needle Leaf Percentage",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "aphyllousPercentage",
+     "type": "xs:decimal",
+     "doc": "Aphyllous Percentage",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "leafArragement",
+     "type": "LeafArrangementsEnum",
+     "doc": "Leaf Arrangement",
+     "range": false,
+     "required": false,
+     "enum": [
+      "alternate",
+      "helical",
+      "opposite",
+      "whorled"
+     ]
+    },
+    {
+     "name": "leafShape",
+     "type": "LeafShapesEnum",
+     "doc": "Leaf Shape",
+     "range": false,
+     "required": false,
+     "enum": [
+      "acicular",
+      "acuminate",
+      "aristate",
+      "bipinnate",
+      "cordate",
+      "cuneate",
+      "deltoid",
+      "digitate",
+      "elliptic",
+      "falcate",
+      "flabellate",
+      "hastate",
+      "lanceShaped",
+      "linear",
+      "lobed",
+      "obcordat",
+      "oblanceolate",
+      "oblong",
+      "obovate",
+      "obtuse",
+      "orbicular",
+      "ovate",
+      "palmate",
+      "pedate",
+      "peltate",
+      "perfoliate",
+      "pinnate",
+      "pinnatisect",
+      "reniform",
+      "rhomboid",
+      "round",
+      "sagittate",
+      "spatulate",
+      "spearShaped",
+      "subulate",
+      "swordShaped",
+      "trifoliate",
+      "tripinnate",
+      "truncate",
+      "unifoliate"
+     ]
+    },
+    {
+     "name": "leafVenation",
+     "type": "LeafVenationsEnum",
+     "doc": "Leaf Venation",
+     "range": false,
+     "required": false,
+     "enum": [
+      "dichotomous",
+      "palmateReticulate",
+      "parallelExpandedLeaf",
+      "parallelLinearLeaf",
+      "pinnateReticulate"
+     ]
+    },
+    {
+     "name": "leafAspectType",
+     "type": "LeafAspectsEnum",
+     "doc": "Leaf Aspect Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sclerophyllous",
+      "soft_leaved",
+      "succulent"
+     ]
+    },
+    {
+     "name": "leafCharacterSizeType",
+     "type": "LeafCharacterSizeTypesEnum",
+     "doc": "Leaf Character Size Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "large_leaf",
+      "medium_leaf",
+      "small_leaf"
+     ]
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    },
+    {
+     "name": "lifeFormSpecialization",
+     "type": "LifeFormSpecializationTypesEnum",
+     "doc": "Life Form Specialization",
+     "range": false,
+     "required": false,
+     "enum": [
+      "bamboos",
+      "climbers",
+      "eppphytes",
+      "stem_succulents",
+      "tuft_plants",
+      "arboreal_giant_herbs"
+     ]
+    }
+   ]
+  },
+  "LC_Tree": {
+   "name": "LC_TreeType",
+   "ref": "LC_Tree",
+   "kind": "element",
+   "doc": "Woody Growth Form Element of Tree Subtype",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "height",
+     "type": "xs:decimal",
+     "doc": "Height",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "depth",
+     "type": "xs:decimal",
+     "doc": "Depth",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "woodyLeafPhenology",
+     "type": "WoodyLeafPhenologiesEnum",
+     "doc": "Woody Leaf Phenology",
+     "range": false,
+     "required": false,
+     "enum": [
+      "Deciduous",
+      "Evergreen"
+     ]
+    },
+    {
+     "name": "evergreenPercentage",
+     "type": "xs:decimal",
+     "doc": "Evergreen Percentage",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "deciduousPercentage",
+     "type": "xs:decimal",
+     "doc": "Deciduous Percentage",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "deciduousStart",
+     "type": "xs:decimal",
+     "doc": "Deciduous Start",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "deciduousLength",
+     "type": "xs:decimal",
+     "doc": "Deciduous Length",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "woodyLeafType",
+     "type": "LeafTypesEnum",
+     "doc": "Woody Leaf Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "Aphyllous",
+      "NeedleLeaf",
+      "BroadLeaf"
+     ]
+    },
+    {
+     "name": "broadLeafPercentage",
+     "type": "xs:decimal",
+     "doc": "Broad Leaf Percentage",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "needleLeafPercentage",
+     "type": "xs:decimal",
+     "doc": "Needle Leaf Percentage",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "aphyllousPercentage",
+     "type": "xs:decimal",
+     "doc": "Aphyllous Percentage",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "leafArragement",
+     "type": "LeafArrangementsEnum",
+     "doc": "Leaf Arrangement",
+     "range": false,
+     "required": false,
+     "enum": [
+      "alternate",
+      "helical",
+      "opposite",
+      "whorled"
+     ]
+    },
+    {
+     "name": "leafShape",
+     "type": "LeafShapesEnum",
+     "doc": "Leaf Shape",
+     "range": false,
+     "required": false,
+     "enum": [
+      "acicular",
+      "acuminate",
+      "aristate",
+      "bipinnate",
+      "cordate",
+      "cuneate",
+      "deltoid",
+      "digitate",
+      "elliptic",
+      "falcate",
+      "flabellate",
+      "hastate",
+      "lanceShaped",
+      "linear",
+      "lobed",
+      "obcordat",
+      "oblanceolate",
+      "oblong",
+      "obovate",
+      "obtuse",
+      "orbicular",
+      "ovate",
+      "palmate",
+      "pedate",
+      "peltate",
+      "perfoliate",
+      "pinnate",
+      "pinnatisect",
+      "reniform",
+      "rhomboid",
+      "round",
+      "sagittate",
+      "spatulate",
+      "spearShaped",
+      "subulate",
+      "swordShaped",
+      "trifoliate",
+      "tripinnate",
+      "truncate",
+      "unifoliate"
+     ]
+    },
+    {
+     "name": "leafVenation",
+     "type": "LeafVenationsEnum",
+     "doc": "Leaf Venation",
+     "range": false,
+     "required": false,
+     "enum": [
+      "dichotomous",
+      "palmateReticulate",
+      "parallelExpandedLeaf",
+      "parallelLinearLeaf",
+      "pinnateReticulate"
+     ]
+    },
+    {
+     "name": "leafAspectType",
+     "type": "LeafAspectsEnum",
+     "doc": "Leaf Aspect Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sclerophyllous",
+      "soft_leaved",
+      "succulent"
+     ]
+    },
+    {
+     "name": "leafCharacterSizeType",
+     "type": "LeafCharacterSizeTypesEnum",
+     "doc": "Leaf Character Size Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "large_leaf",
+      "medium_leaf",
+      "small_leaf"
+     ]
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    },
+    {
+     "name": "lifeFormSpecialization",
+     "type": "LifeFormSpecializationTypesEnum",
+     "doc": "Life Form Specialization",
+     "range": false,
+     "required": false,
+     "enum": [
+      "bamboos",
+      "climbers",
+      "eppphytes",
+      "stem_succulents",
+      "tuft_plants",
+      "arboreal_giant_herbs"
+     ]
+    }
+   ]
+  },
+  "LC_Shrub": {
+   "name": "LC_ShrubType",
+   "ref": "LC_Shrub",
+   "kind": "element",
+   "doc": "Woody Growth Form Element of Shrub Subtype",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "height",
+     "type": "xs:decimal",
+     "doc": "Height",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "depth",
+     "type": "xs:decimal",
+     "doc": "Depth",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "woodyLeafPhenology",
+     "type": "WoodyLeafPhenologiesEnum",
+     "doc": "Woody Leaf Phenology",
+     "range": false,
+     "required": false,
+     "enum": [
+      "Deciduous",
+      "Evergreen"
+     ]
+    },
+    {
+     "name": "evergreenPercentage",
+     "type": "xs:decimal",
+     "doc": "Evergreen Percentage",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "deciduousPercentage",
+     "type": "xs:decimal",
+     "doc": "Deciduous Percentage",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "deciduousStart",
+     "type": "xs:decimal",
+     "doc": "Deciduous Start",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "deciduousLength",
+     "type": "xs:decimal",
+     "doc": "Deciduous Length",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "woodyLeafType",
+     "type": "LeafTypesEnum",
+     "doc": "Woody Leaf Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "Aphyllous",
+      "NeedleLeaf",
+      "BroadLeaf"
+     ]
+    },
+    {
+     "name": "broadLeafPercentage",
+     "type": "xs:decimal",
+     "doc": "Broad Leaf Percentage",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "needleLeafPercentage",
+     "type": "xs:decimal",
+     "doc": "Needle Leaf Percentage",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "aphyllousPercentage",
+     "type": "xs:decimal",
+     "doc": "Aphyllous Percentage",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "leafArragement",
+     "type": "LeafArrangementsEnum",
+     "doc": "Leaf Arrangement",
+     "range": false,
+     "required": false,
+     "enum": [
+      "alternate",
+      "helical",
+      "opposite",
+      "whorled"
+     ]
+    },
+    {
+     "name": "leafShape",
+     "type": "LeafShapesEnum",
+     "doc": "Leaf Shape",
+     "range": false,
+     "required": false,
+     "enum": [
+      "acicular",
+      "acuminate",
+      "aristate",
+      "bipinnate",
+      "cordate",
+      "cuneate",
+      "deltoid",
+      "digitate",
+      "elliptic",
+      "falcate",
+      "flabellate",
+      "hastate",
+      "lanceShaped",
+      "linear",
+      "lobed",
+      "obcordat",
+      "oblanceolate",
+      "oblong",
+      "obovate",
+      "obtuse",
+      "orbicular",
+      "ovate",
+      "palmate",
+      "pedate",
+      "peltate",
+      "perfoliate",
+      "pinnate",
+      "pinnatisect",
+      "reniform",
+      "rhomboid",
+      "round",
+      "sagittate",
+      "spatulate",
+      "spearShaped",
+      "subulate",
+      "swordShaped",
+      "trifoliate",
+      "tripinnate",
+      "truncate",
+      "unifoliate"
+     ]
+    },
+    {
+     "name": "leafVenation",
+     "type": "LeafVenationsEnum",
+     "doc": "Leaf Venation",
+     "range": false,
+     "required": false,
+     "enum": [
+      "dichotomous",
+      "palmateReticulate",
+      "parallelExpandedLeaf",
+      "parallelLinearLeaf",
+      "pinnateReticulate"
+     ]
+    },
+    {
+     "name": "leafAspectType",
+     "type": "LeafAspectsEnum",
+     "doc": "Leaf Aspect Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sclerophyllous",
+      "soft_leaved",
+      "succulent"
+     ]
+    },
+    {
+     "name": "leafCharacterSizeType",
+     "type": "LeafCharacterSizeTypesEnum",
+     "doc": "Leaf Character Size Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "large_leaf",
+      "medium_leaf",
+      "small_leaf"
+     ]
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    },
+    {
+     "name": "lifeFormSpecialization",
+     "type": "LifeFormSpecializationTypesEnum",
+     "doc": "Life Form Specialization",
+     "range": false,
+     "required": false,
+     "enum": [
+      "bamboos",
+      "climbers",
+      "eppphytes",
+      "stem_succulents",
+      "tuft_plants",
+      "arboreal_giant_herbs"
+     ]
+    }
+   ]
+  },
+  "LC_HerbaceousGrowthForm": {
+   "name": "LC_HerbaceousGrowthFormType",
+   "ref": "LC_HerbaceousGrowthForm",
+   "kind": "element",
+   "doc": "Growth Form Element of Herbaceous Subtype",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "heightCM",
+     "type": "xs:decimal",
+     "doc": "Height",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "leafCharacterSizeType",
+     "type": "LeafCharacterSizeTypesEnum",
+     "doc": "Leaf Character Size Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "large_leaf",
+      "medium_leaf",
+      "small_leaf"
+     ]
+    },
+    {
+     "name": "herbaceousLeafPhenology",
+     "type": "HerbaceousLeafPhenologiesEnum",
+     "doc": "Herbaceous Leaf Phenology",
+     "range": false,
+     "required": false,
+     "enum": [
+      "NonPerennial",
+      "Perennial"
+     ]
+    },
+    {
+     "name": "perennialPercentage",
+     "type": "xs:decimal",
+     "doc": "Perennial Percentage",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "nonPerennialGrowthFrequency",
+     "type": "GrowthFrequenciesEnum",
+     "doc": "Non Perennial Growth Frequency",
+     "range": false,
+     "required": false,
+     "enum": [
+      "other",
+      "annual",
+      "biennial"
+     ]
+    },
+    {
+     "name": "nonPerennialPercentage",
+     "type": "xs:decimal",
+     "doc": "Non Perennial Percentage",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    },
+    {
+     "name": "lifeFormSpecialization",
+     "type": "LifeFormSpecializationTypesEnum",
+     "doc": "Life Form Specialization",
+     "range": false,
+     "required": false,
+     "enum": [
+      "bamboos",
+      "climbers",
+      "eppphytes",
+      "stem_succulents",
+      "tuft_plants",
+      "arboreal_giant_herbs"
+     ]
+    }
+   ]
+  },
+  "LC_Graminoid": {
+   "name": "LC_GraminoidType",
+   "ref": "LC_Graminoid",
+   "kind": "element",
+   "doc": "Herbaceous Growth Form Element of Graminoid Subtype",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "heightCM",
+     "type": "xs:decimal",
+     "doc": "Height",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "leafCharacterSizeType",
+     "type": "LeafCharacterSizeTypesEnum",
+     "doc": "Leaf Character Size Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "large_leaf",
+      "medium_leaf",
+      "small_leaf"
+     ]
+    },
+    {
+     "name": "herbaceousLeafPhenology",
+     "type": "HerbaceousLeafPhenologiesEnum",
+     "doc": "Herbaceous Leaf Phenology",
+     "range": false,
+     "required": false,
+     "enum": [
+      "NonPerennial",
+      "Perennial"
+     ]
+    },
+    {
+     "name": "perennialPercentage",
+     "type": "xs:decimal",
+     "doc": "Perennial Percentage",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "nonPerennialGrowthFrequency",
+     "type": "GrowthFrequenciesEnum",
+     "doc": "Non Perennial Growth Frequency",
+     "range": false,
+     "required": false,
+     "enum": [
+      "other",
+      "annual",
+      "biennial"
+     ]
+    },
+    {
+     "name": "nonPerennialPercentage",
+     "type": "xs:decimal",
+     "doc": "Non Perennial Percentage",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    },
+    {
+     "name": "lifeFormSpecialization",
+     "type": "LifeFormSpecializationTypesEnum",
+     "doc": "Life Form Specialization",
+     "range": false,
+     "required": false,
+     "enum": [
+      "bamboos",
+      "climbers",
+      "eppphytes",
+      "stem_succulents",
+      "tuft_plants",
+      "arboreal_giant_herbs"
+     ]
+    }
+   ]
+  },
+  "LC_Forbs": {
+   "name": "LC_ForbsType",
+   "ref": "LC_Forbs",
+   "kind": "element",
+   "doc": "Herbaceous Growth Form Element of Forbs Subtype",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "heightCM",
+     "type": "xs:decimal",
+     "doc": "Height",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "forbsStatus",
+     "type": "RootingStatusEnum",
+     "doc": "Forbs Status",
+     "range": false,
+     "required": false,
+     "enum": [
+      "nonRooted",
+      "Rooted"
+     ]
+    },
+    {
+     "name": "forbsLeafType",
+     "type": "xs:string",
+     "doc": "Forbs Leaf Type",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "leafCharacterSizeType",
+     "type": "LeafCharacterSizeTypesEnum",
+     "doc": "Leaf Character Size Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "large_leaf",
+      "medium_leaf",
+      "small_leaf"
+     ]
+    },
+    {
+     "name": "herbaceousLeafPhenology",
+     "type": "HerbaceousLeafPhenologiesEnum",
+     "doc": "Herbaceous Leaf Phenology",
+     "range": false,
+     "required": false,
+     "enum": [
+      "NonPerennial",
+      "Perennial"
+     ]
+    },
+    {
+     "name": "perennialPercentage",
+     "type": "xs:decimal",
+     "doc": "Perennial Percentage",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "nonPerennialGrowthFrequency",
+     "type": "GrowthFrequenciesEnum",
+     "doc": "Non Perennial Growth Frequency",
+     "range": false,
+     "required": false,
+     "enum": [
+      "other",
+      "annual",
+      "biennial"
+     ]
+    },
+    {
+     "name": "nonPerennialPercentage",
+     "type": "xs:decimal",
+     "doc": "Non Perennial Percentage",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    },
+    {
+     "name": "lifeFormSpecialization",
+     "type": "LifeFormSpecializationTypesEnum",
+     "doc": "Life Form Specialization",
+     "range": false,
+     "required": false,
+     "enum": [
+      "bamboos",
+      "climbers",
+      "eppphytes",
+      "stem_succulents",
+      "tuft_plants",
+      "arboreal_giant_herbs"
+     ]
+    }
+   ]
+  },
+  "LC_LichenAndMoss": {
+   "name": "LC_LichenAndMossType",
+   "ref": "LC_LichenAndMoss",
+   "kind": "element",
+   "doc": "Growth Form Element of Lichen & Moss Subtype",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_Lichen": {
+   "name": "LC_LichenType",
+   "ref": "LC_Lichen",
+   "kind": "element",
+   "doc": "Growth Form Element of Lichen Subtype",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_Moss": {
+   "name": "LC_MossType",
+   "ref": "LC_Moss",
+   "kind": "element",
+   "doc": "Growth Form Element of Moss Subtype",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_Algae": {
+   "name": "LC_AlgaeType",
+   "ref": "LC_Algae",
+   "kind": "element",
+   "doc": "Growth Form Element of Algae Subtype",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "heightCM",
+     "type": "xs:decimal",
+     "doc": "Height",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "algaeStatus",
+     "type": "FloatStatusEnum",
+     "doc": "Algae Status",
+     "range": false,
+     "required": false,
+     "enum": [
+      "floating",
+      "submerged"
+     ]
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_ArtificialSurfaceElement": {
+   "name": "LC_ArtificialSurfaceElementType",
+   "ref": "LC_ArtificialSurfaceElement",
+   "kind": "element",
+   "doc": "Artificial Surface Element",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "height",
+     "type": "xs:decimal",
+     "doc": "Height",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "depth",
+     "type": "xs:decimal",
+     "doc": "Depth",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_NonBuiltUpSurface": {
+   "name": "LC_NonBuiltUpSurfaceType",
+   "ref": "LC_NonBuiltUpSurface",
+   "kind": "element",
+   "doc": "Non-Built-Up Surface Element",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "height",
+     "type": "xs:decimal",
+     "doc": "Height",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "depth",
+     "type": "xs:decimal",
+     "doc": "Depth",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_DumpSite": {
+   "name": "LC_DumpSiteType",
+   "ref": "LC_DumpSite",
+   "kind": "element",
+   "doc": "Dump Site",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "dumpSiteType",
+     "type": "DumpSiteTypesEnum",
+     "doc": "Dump Site Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "wasteDump"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "height",
+     "type": "xs:decimal",
+     "doc": "Height",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "depth",
+     "type": "xs:decimal",
+     "doc": "Depth",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_Extraction": {
+   "name": "LC_ExtractionType",
+   "ref": "LC_Extraction",
+   "kind": "element",
+   "doc": "Extraction",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "extractionType",
+     "type": "ExtractionTypesEnum",
+     "doc": "Extraction Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "surface",
+      "subsurface"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "height",
+     "type": "xs:decimal",
+     "doc": "Height",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "depth",
+     "type": "xs:decimal",
+     "doc": "Depth",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_BuiltUpSurface": {
+   "name": "LC_BuiltUpSurfaceType",
+   "ref": "LC_BuiltUpSurface",
+   "kind": "element",
+   "doc": "Built-Up Surface Element",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "constructionMaterial",
+     "type": "xs:string",
+     "doc": "Construction Material",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "height",
+     "type": "xs:decimal",
+     "doc": "Height",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_NonLinearSurface": {
+   "name": "LC_NonLinearSurfaceType",
+   "ref": "LC_NonLinearSurface",
+   "kind": "element",
+   "doc": "Non-Linear Surface",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "constructionMaterial",
+     "type": "xs:string",
+     "doc": "Construction Material",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_Building": {
+   "name": "LC_BuildingType",
+   "ref": "LC_Building",
+   "kind": "element",
+   "doc": "Building",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "height",
+     "type": "xs:decimal",
+     "doc": "Height",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "constructionMaterial",
+     "type": "xs:string",
+     "doc": "Construction Material",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_OtherConstruction": {
+   "name": "LC_OtherConstructionType",
+   "ref": "LC_OtherConstruction",
+   "kind": "element",
+   "doc": "Other Construction",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "height",
+     "type": "xs:decimal",
+     "doc": "Height",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "constructionMaterial",
+     "type": "xs:string",
+     "doc": "Construction Material",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_OtherArtificialSurface": {
+   "name": "LC_OtherArtificialSurfaceType",
+   "ref": "LC_OtherArtificialSurface",
+   "kind": "element",
+   "doc": "Other Artificial Surface",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "sealed",
+     "type": "BooleanEnum",
+     "doc": "Sealed",
+     "range": false,
+     "required": false,
+     "enum": [
+      "true",
+      "false"
+     ]
+    },
+    {
+     "name": "constructionMaterial",
+     "type": "xs:string",
+     "doc": "Construction Material",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "height",
+     "type": "xs:decimal",
+     "doc": "Height",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "depth",
+     "type": "xs:decimal",
+     "doc": "Depth",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_LinearSurface": {
+   "name": "LC_LinearSurfaceType",
+   "ref": "LC_LinearSurface",
+   "kind": "element",
+   "doc": "Linear Surface",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "linearSurfaceType",
+     "type": "xs:string",
+     "doc": "Linear Surface Type",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "constructionMaterial",
+     "type": "xs:string",
+     "doc": "Construction Material",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_NaturalSurfaceElement": {
+   "name": "LC_NaturalSurfaceElementType",
+   "ref": "LC_NaturalSurfaceElement",
+   "kind": "element",
+   "doc": "Natural Surface Element",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "height",
+     "type": "xs:decimal",
+     "doc": "Height",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "depth",
+     "type": "xs:decimal",
+     "doc": "Depth",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_RocksSurfaceElement": {
+   "name": "LC_RocksSurfaceElementType",
+   "ref": "LC_RocksSurfaceElement",
+   "kind": "element",
+   "doc": "Rocks Surface Element",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_BareRock": {
+   "name": "LC_BareRockType",
+   "ref": "LC_BareRock",
+   "kind": "element",
+   "doc": "Bare Rock",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_Hardpan": {
+   "name": "LC_HardpanType",
+   "ref": "LC_Hardpan",
+   "kind": "element",
+   "doc": "Hardpan",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "hardpanType",
+     "type": "HardpanTypesEnum",
+     "doc": "Hardpan Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ironpan/laterite",
+      "petrocalcic",
+      "petrogypsic"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_SoilSandDepositsSurfaceElement": {
+   "name": "LC_SoilSandDepositsSurfaceElementType",
+   "ref": "LC_SoilSandDepositsSurfaceElement",
+   "kind": "element",
+   "doc": "Soils & Sand Deposits Surface Element",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "height",
+     "type": "xs:decimal",
+     "doc": "Height",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_BareSoil": {
+   "name": "LC_BareSoilType",
+   "ref": "LC_BareSoil",
+   "kind": "element",
+   "doc": "Bare Soil",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "macropatternType",
+     "type": "MacropatternTypesEnum",
+     "doc": "Macropattern Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "gilgai",
+      "termiteMounds"
+     ]
+    },
+    {
+     "name": "macropatternCoverage",
+     "type": "xs:decimal",
+     "doc": "Macropattern Coverage",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "height",
+     "type": "xs:decimal",
+     "doc": "Height",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_CoarseMineralFragments": {
+   "name": "LC_CoarseMineralFragmentsType",
+   "ref": "LC_CoarseMineralFragments",
+   "kind": "element",
+   "doc": "Coarse Mineral Fragments",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "coarseMineralFragmentType",
+     "type": "CoarseMineralFragmentTypesEnum",
+     "doc": "Coarse Mineral Fragment Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "gravel",
+      "stone",
+      "boulder",
+      "mixed"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "height",
+     "type": "xs:decimal",
+     "doc": "Height",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_LooseAndShiftingSand": {
+   "name": "LC_LooseAndShiftingSandType",
+   "ref": "LC_LooseAndShiftingSand",
+   "kind": "element",
+   "doc": "Loose & Shifting Sand",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "height",
+     "type": "xs:decimal",
+     "doc": "Height",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_Dune": {
+   "name": "LC_DuneType",
+   "ref": "LC_Dune",
+   "kind": "element",
+   "doc": "Dune",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "duneType",
+     "type": "DuneTypesEnum",
+     "doc": "Dune Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "barchan",
+      "parabolic",
+      "longitudinal"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "height",
+     "type": "xs:decimal",
+     "doc": "Height",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_Deposits": {
+   "name": "LC_DepositsType",
+   "ref": "LC_Deposits",
+   "kind": "element",
+   "doc": "Deposits",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "height",
+     "type": "xs:decimal",
+     "doc": "Height",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_InorganicDeposits": {
+   "name": "LC_InorganicDepositsType",
+   "ref": "LC_InorganicDeposits",
+   "kind": "element",
+   "doc": "Inorganic Deposits",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "inorganicDepositType",
+     "type": "InorganicDepositTypesEnum",
+     "doc": "Inorganic Deposit Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "salt",
+      "soda",
+      "lime",
+      "gypsum"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "height",
+     "type": "xs:decimal",
+     "doc": "Height",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_OrganicDeposits": {
+   "name": "LC_OrganicDepositsType",
+   "ref": "LC_OrganicDeposits",
+   "kind": "element",
+   "doc": "Organic Deposits",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "organicDepositType",
+     "type": "OrganicDepositTypesEnum",
+     "doc": "Organic Deposit Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ombrothrophicPeat",
+      "minerothrophicPeat"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "height",
+     "type": "xs:decimal",
+     "doc": "Height",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_WaterBodyAndAssociatedSurfaceElement": {
+   "name": "LC_WaterBodyAndAssociatedSurfaceElementType",
+   "ref": "LC_WaterBodyAndAssociatedSurfaceElement",
+   "kind": "element",
+   "doc": "Water Body & Associated Surface Element",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "periodVariationDescription",
+     "type": "xs:string",
+     "doc": "Period Variation Description",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "periodVariationType",
+     "type": "PeriodVariationsEnum",
+     "doc": "Period Variation Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "atmospheric",
+      "daily",
+      "seasonal",
+      "tidal"
+     ]
+    },
+    {
+     "name": "persistencePeriod",
+     "type": "xs:decimal",
+     "doc": "Persistence Period",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "persistenceUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Persistence Period Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "depth",
+     "type": "xs:decimal",
+     "doc": "Depth",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_WaterBody": {
+   "name": "LC_WaterBodyType",
+   "ref": "LC_WaterBody",
+   "kind": "element",
+   "doc": "Water Body Element",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "depth",
+     "type": "xs:decimal",
+     "doc": "Depth",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "dynamics",
+     "type": "WaterIceDynamicsEnum",
+     "doc": "Dynamics",
+     "range": false,
+     "required": false,
+     "enum": [
+      "flowingOrMoving",
+      "standing"
+     ]
+    },
+    {
+     "name": "position",
+     "type": "WaterBodyPositionsEnum",
+     "doc": "Position",
+     "range": false,
+     "required": false,
+     "enum": [
+      "aboveSurface",
+      "belowSurface"
+     ]
+    },
+    {
+     "name": "periodVariationDescription",
+     "type": "xs:string",
+     "doc": "Period Variation Description",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "periodVariationType",
+     "type": "PeriodVariationsEnum",
+     "doc": "Period Variation Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "atmospheric",
+      "daily",
+      "seasonal",
+      "tidal"
+     ]
+    },
+    {
+     "name": "persistencePeriod",
+     "type": "xs:decimal",
+     "doc": "Persistence Period",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "persistenceUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Persistence Period Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_Snow": {
+   "name": "LC_SnowType",
+   "ref": "LC_Snow",
+   "kind": "element",
+   "doc": "Snow Element",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "snowType",
+     "type": "SnowTypesEnum",
+     "doc": "Snow Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "crud",
+      "crust",
+      "powder",
+      "sludge"
+     ]
+    },
+    {
+     "name": "height",
+     "type": "xs:decimal",
+     "doc": "Height",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "periodVariationDescription",
+     "type": "xs:string",
+     "doc": "Period Variation Description",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "periodVariationType",
+     "type": "PeriodVariationsEnum",
+     "doc": "Period Variation Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "atmospheric",
+      "daily",
+      "seasonal",
+      "tidal"
+     ]
+    },
+    {
+     "name": "persistencePeriod",
+     "type": "xs:decimal",
+     "doc": "Persistence Period",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "persistenceUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Persistence Period Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_Ice": {
+   "name": "LC_IceType",
+   "ref": "LC_Ice",
+   "kind": "element",
+   "doc": "Ice Element",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "dynamics",
+     "type": "WaterIceDynamicsEnum",
+     "doc": "Dynamics",
+     "range": false,
+     "required": false,
+     "enum": [
+      "flowingOrMoving",
+      "standing"
+     ]
+    },
+    {
+     "name": "height",
+     "type": "xs:decimal",
+     "doc": "Height",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "periodVariationDescription",
+     "type": "xs:string",
+     "doc": "Period Variation Description",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "periodVariationType",
+     "type": "PeriodVariationsEnum",
+     "doc": "Period Variation Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "atmospheric",
+      "daily",
+      "seasonal",
+      "tidal"
+     ]
+    },
+    {
+     "name": "persistencePeriod",
+     "type": "xs:decimal",
+     "doc": "Persistence Period",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "persistenceUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Persistence Period Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_TerrestrialIce": {
+   "name": "LC_TerrestrialIceType",
+   "ref": "LC_TerrestrialIce",
+   "kind": "element",
+   "doc": "Terrestrial Ice Element",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "terrestrialIceType",
+     "type": "TerrestrialIceTypesEnum",
+     "doc": "Terrestrial Ice Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "iceCaps",
+      "iceFields",
+      "glacier",
+      "rockGlacier",
+      "tidewaterGlacier"
+     ]
+    },
+    {
+     "name": "dynamics",
+     "type": "WaterIceDynamicsEnum",
+     "doc": "Dynamics",
+     "range": false,
+     "required": false,
+     "enum": [
+      "flowingOrMoving",
+      "standing"
+     ]
+    },
+    {
+     "name": "height",
+     "type": "xs:decimal",
+     "doc": "Height",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "periodVariationDescription",
+     "type": "xs:string",
+     "doc": "Period Variation Description",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "periodVariationType",
+     "type": "PeriodVariationsEnum",
+     "doc": "Period Variation Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "atmospheric",
+      "daily",
+      "seasonal",
+      "tidal"
+     ]
+    },
+    {
+     "name": "persistencePeriod",
+     "type": "xs:decimal",
+     "doc": "Persistence Period",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "persistenceUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Persistence Period Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  },
+  "LC_FloatingIce": {
+   "name": "LC_FloatingIceType",
+   "ref": "LC_FloatingIce",
+   "kind": "element",
+   "doc": "Floating Ice Element",
+   "props": [
+    {
+     "name": "elementPresenceType",
+     "type": "ElementPresenceTypesEnum",
+     "doc": "Element Presence Type",
+     "range": false,
+     "required": true,
+     "enum": [
+      "fixed",
+      "exclusive",
+      "conditionalTemporal",
+      "precluded"
+     ]
+    },
+    {
+     "name": "floatingIceType",
+     "type": "FloatingIceTypesEnum",
+     "doc": "Floating Ice Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "lakeIce",
+      "riverIce",
+      "seaIce",
+      "fastSeaIce",
+      "driftIce"
+     ]
+    },
+    {
+     "name": "dynamics",
+     "type": "WaterIceDynamicsEnum",
+     "doc": "Dynamics",
+     "range": false,
+     "required": false,
+     "enum": [
+      "flowingOrMoving",
+      "standing"
+     ]
+    },
+    {
+     "name": "height",
+     "type": "xs:decimal",
+     "doc": "Height",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "periodVariationDescription",
+     "type": "xs:string",
+     "doc": "Period Variation Description",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "periodVariationType",
+     "type": "PeriodVariationsEnum",
+     "doc": "Period Variation Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "atmospheric",
+      "daily",
+      "seasonal",
+      "tidal"
+     ]
+    },
+    {
+     "name": "persistencePeriod",
+     "type": "xs:decimal",
+     "doc": "Persistence Period",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "persistenceUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Persistence Period Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "Cover",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "Portioning",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:decimal",
+     "doc": "Density",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "UnitsOfMeasureAreaEnum",
+     "doc": "Density Area Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "ha",
+      "m2",
+      "cm2",
+      "km2"
+     ]
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "ElementHorizontalSpreadingTypeEnum",
+     "doc": "Element Horizontal Spreading",
+     "range": false,
+     "required": false,
+     "enum": [
+      "clusters",
+      "regularRowMultipleElement",
+      "regularRowsMultipleElement",
+      "regularRowsSingleElement",
+      "unevenlySpread",
+      "other"
+     ]
+    },
+    {
+     "name": "temporalType",
+     "type": "SequentialTemporalRelationshipEnum",
+     "doc": "Temporal Relationship",
+     "range": false,
+     "required": false,
+     "enum": [
+      "sequentialSameYear",
+      "sequentialOtherYear"
+     ]
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:decimal",
+     "doc": "Length of Temporal Relationship",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "PeriodUnitsEnum",
+     "doc": "Length of Temporal Relationship Unit",
+     "range": false,
+     "required": false,
+     "enum": [
+      "second",
+      "minute",
+      "hour",
+      "day",
+      "week",
+      "month",
+      "year"
+     ]
+    }
+   ]
+  }
+ },
+ "characteristics": {
+  "LC_WaterSalinityCharacteristic": {
+   "name": "LC_WaterSalinityCharacteristicType",
+   "ref": "LC_WaterSalinityCharacteristic",
+   "kind": "characteristic",
+   "doc": "Water Salinity Characteristic",
+   "props": [
+    {
+     "name": "waterSalinity",
+     "type": "WaterSalinityTypesEnum",
+     "doc": "Water Salinity",
+     "range": false,
+     "required": false,
+     "enum": [
+      "fresh",
+      "brackish",
+      "saline",
+      "brine"
+     ]
+    }
+   ]
+  },
+  "LC_WaterChemistryCharacteristic": {
+   "name": "LC_WaterChemistryCharacteristicType",
+   "ref": "LC_WaterChemistryCharacteristic",
+   "kind": "characteristic",
+   "doc": "Water Chemistry Characteristic",
+   "props": [
+    {
+     "name": "nutrientLevel",
+     "type": "NutrientLevelsEnum",
+     "doc": "Nutrient Level",
+     "range": false,
+     "required": false,
+     "enum": [
+      "eutrophic",
+      "mesotrophic",
+      "oligotrophic"
+     ]
+    }
+   ]
+  },
+  "LC_ArtificialityCharacteristic": {
+   "name": "LC_ArtificialityCharacteristicType",
+   "ref": "LC_ArtificialityCharacteristic",
+   "kind": "characteristic",
+   "doc": "Element Artificiality Characteristic",
+   "props": [
+    {
+     "name": "artificiality",
+     "type": "ArtificialityTypesEnum",
+     "doc": "Artificiality",
+     "range": false,
+     "required": false,
+     "enum": [
+      "artificial",
+      "natural"
+     ]
+    }
+   ]
+  },
+  "LC_AquacultureCharacteristic": {
+   "name": "LC_AquacultureCharacteristicType",
+   "ref": "LC_AquacultureCharacteristic",
+   "kind": "characteristic",
+   "doc": "Aquaculture Characteristic",
+   "props": [
+    {
+     "name": "aquacultureType",
+     "type": "xs:string",
+     "doc": "Aquaculture Type",
+     "range": false,
+     "required": false,
+     "enum": null
+    }
+   ]
+  },
+  "LC_SnowCategoryCharacteristic": {
+   "name": "LC_SnowCategoryCharacteristicType",
+   "ref": "LC_SnowCategoryCharacteristic",
+   "kind": "characteristic",
+   "doc": "Snow Category Characteristic",
+   "props": [
+    {
+     "name": "category",
+     "type": "xs:string",
+     "doc": "Category",
+     "range": false,
+     "required": false,
+     "enum": null
+    }
+   ]
+  },
+  "LC_IceCategoryCharacteristic": {
+   "name": "LC_IceCategoryCharacteristicType",
+   "ref": "LC_IceCategoryCharacteristic",
+   "kind": "characteristic",
+   "doc": "Ice Category Characteristic",
+   "props": [
+    {
+     "name": "category",
+     "type": "xs:string",
+     "doc": "Category",
+     "range": false,
+     "required": false,
+     "enum": null
+    }
+   ]
+  },
+  "LC_ConstructionStatusCharacteristic": {
+   "name": "LC_ConstructionStatusCharacteristicType",
+   "ref": "LC_ConstructionStatusCharacteristic",
+   "kind": "characteristic",
+   "doc": "Construction Status Characteristic",
+   "props": [
+    {
+     "name": "age",
+     "type": "xs:decimal",
+     "doc": "Age",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "constructionStatusType",
+     "type": "ConstructionStatusesEnum",
+     "doc": "Construction Status Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "finished",
+      "inProgress",
+      "abandoned"
+     ]
+    }
+   ]
+  },
+  "LC_ArtificialSurfaceTypes": {
+   "name": "LC_ArtificialSurfaceTypesType",
+   "ref": "LC_ArtificialSurfaceTypes",
+   "kind": "characteristic",
+   "doc": "Artificial Surface Types",
+   "props": [
+    {
+     "name": "artificialSurfaceType",
+     "type": "xs:string",
+     "doc": "Artificial Surface Type",
+     "range": false,
+     "required": false,
+     "enum": null
+    }
+   ]
+  },
+  "LC_ArtificialSurfaceDamageCharacteristic": {
+   "name": "LC_ArtificialSurfaceDamageCharacteristicType",
+   "ref": "LC_ArtificialSurfaceDamageCharacteristic",
+   "kind": "characteristic",
+   "doc": "Artificial Surface Damage Characteristic",
+   "props": [
+    {
+     "name": "artificialSurfaceDamageType",
+     "type": "xs:string",
+     "doc": "Artificial Surface Damage Type",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "artificialSurfaceDamagePercentage",
+     "type": "xs:decimal",
+     "doc": "Artificial Surface Damage Percentage",
+     "range": true,
+     "required": false,
+     "enum": null
+    }
+   ]
+  },
+  "LC_ConstructionUse": {
+   "name": "LC_ConstructionUseType",
+   "ref": "LC_ConstructionUse",
+   "kind": "characteristic",
+   "doc": "Construction Use Characteristic",
+   "props": [
+    {
+     "name": "constructionUse",
+     "type": "ConstructionUsesEnum",
+     "doc": "Construction Use",
+     "range": false,
+     "required": false,
+     "enum": [
+      "Agricultural",
+      "Residential",
+      "Commercial",
+      "Industrial",
+      "Utlility"
+     ]
+    }
+   ]
+  },
+  "LC_FloristicAspectsCharacteristic": {
+   "name": "LC_FloristicAspectsCharacteristicType",
+   "ref": "LC_FloristicAspectsCharacteristic",
+   "kind": "characteristic",
+   "doc": "Floristic Aspects Characteristic",
+   "props": [
+    {
+     "name": "speciesName",
+     "type": "xs:string",
+     "doc": "Species Name",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "singlePlantSpeciesType",
+     "type": "SinglePlantSpeciesTypesEnum",
+     "doc": "Single Plant Species Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "dominant",
+      "mostFrequent"
+     ]
+    },
+    {
+     "name": "groupOfPlantSpeciesType",
+     "type": "GroupOfPlantSpeciesTypesEnum",
+     "doc": "Group Of Plant Species Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "statisticallyDerivedPlantGroup",
+      "nonStatisticallyDerivedPlantGroup"
+     ]
+    }
+   ]
+  },
+  "LC_AllometricMeasurementsCharacteristic": {
+   "name": "LC_AllometricMeasurementsCharacteristicType",
+   "ref": "LC_AllometricMeasurementsCharacteristic",
+   "kind": "characteristic",
+   "doc": "Allometric Measurements Characteristic",
+   "props": [
+    {
+     "name": "crownDiameter",
+     "type": "xs:decimal",
+     "doc": "Crown Diameter",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "trunkDiameter",
+     "type": "xs:decimal",
+     "doc": "Trunk Diameter",
+     "range": true,
+     "required": false,
+     "enum": null
+    }
+   ]
+  },
+  "LC_GrowthFormAgeCharacteristic": {
+   "name": "LC_GrowthFormAgeCharacteristicType",
+   "ref": "LC_GrowthFormAgeCharacteristic",
+   "kind": "characteristic",
+   "doc": "Growth Form Age Characteristic",
+   "props": [
+    {
+     "name": "age",
+     "type": "xs:decimal",
+     "doc": "Age",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "unevenAge",
+     "type": "xs:string",
+     "doc": "Uneven Age",
+     "range": false,
+     "required": false,
+     "enum": null
+    }
+   ]
+  },
+  "LC_BurntStatusCharacteristic": {
+   "name": "LC_BurntStatusCharacteristicType",
+   "ref": "LC_BurntStatusCharacteristic",
+   "kind": "characteristic",
+   "doc": "Burnt Status Characteristic",
+   "props": [
+    {
+     "name": "burntStatus",
+     "type": "xs:decimal",
+     "doc": "Burnt Status",
+     "range": true,
+     "required": false,
+     "enum": null
+    }
+   ]
+  },
+  "LC_DeadStatusCharacteristic": {
+   "name": "LC_DeadStatusCharacteristicType",
+   "ref": "LC_DeadStatusCharacteristic",
+   "kind": "characteristic",
+   "doc": "Dead Status Characteristic",
+   "props": [
+    {
+     "name": "deadStatus",
+     "type": "xs:decimal",
+     "doc": "Dead Status",
+     "range": true,
+     "required": false,
+     "enum": null
+    }
+   ]
+  },
+  "LC_VegetationDamageCharacteristic": {
+   "name": "LC_VegetationDamageCharacteristicType",
+   "ref": "LC_VegetationDamageCharacteristic",
+   "kind": "characteristic",
+   "doc": "Vegetation Damage Characteristic",
+   "props": [
+    {
+     "name": "damageType",
+     "type": "xs:string",
+     "doc": "Damage Type",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "damage",
+     "type": "xs:decimal",
+     "doc": "Damage Percentage",
+     "range": true,
+     "required": false,
+     "enum": null
+    }
+   ]
+  },
+  "LC_WaterStressCharacteristic": {
+   "name": "LC_WaterStressCharacteristicType",
+   "ref": "LC_WaterStressCharacteristic",
+   "kind": "characteristic",
+   "doc": "Water Stress Characteristic",
+   "props": [
+    {
+     "name": "waterStress",
+     "type": "xs:decimal",
+     "doc": "Water Stress",
+     "range": true,
+     "required": false,
+     "enum": null
+    }
+   ]
+  },
+  "LC_GrowthFormIllnessCharacteristic": {
+   "name": "LC_GrowthFormIllnessCharacteristicType",
+   "ref": "LC_GrowthFormIllnessCharacteristic",
+   "kind": "characteristic",
+   "doc": "Growth Form Illness Characteristic",
+   "props": [
+    {
+     "name": "growthFormIllnessType",
+     "type": "xs:string",
+     "doc": "Growth Form Illness Type",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "growthFormIllness",
+     "type": "xs:decimal",
+     "doc": "Growth Form Illness Percentage",
+     "range": true,
+     "required": false,
+     "enum": null
+    }
+   ]
+  },
+  "LC_GrazedCharacteristic": {
+   "name": "LC_GrazedCharacteristicType",
+   "ref": "LC_GrazedCharacteristic",
+   "kind": "characteristic",
+   "doc": "Grazed Characteristic",
+   "props": [
+    {
+     "name": "intensity",
+     "type": "xs:decimal",
+     "doc": "Intensity",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "animalType",
+     "type": "xs:string",
+     "doc": "Animal Type",
+     "range": false,
+     "required": false,
+     "enum": null
+    }
+   ]
+  },
+  "LC_MowedCharacteristic": {
+   "name": "LC_MowedCharacteristicType",
+   "ref": "LC_MowedCharacteristic",
+   "kind": "characteristic",
+   "doc": "Mowed Characteristic",
+   "props": [
+    {
+     "name": "mowed",
+     "type": "BooleanEnum",
+     "doc": "Mowed",
+     "range": false,
+     "required": false,
+     "enum": [
+      "true",
+      "false"
+     ]
+    }
+   ]
+  },
+  "LC_VegetationArtificialityCharacteristic": {
+   "name": "LC_VegetationArtificialityCharacteristicType",
+   "ref": "LC_VegetationArtificialityCharacteristic",
+   "kind": "characteristic",
+   "doc": "Vegetation Artificiality Characteristic",
+   "props": [
+    {
+     "name": "vegetationArtificiality",
+     "type": "VegetationArtificialityTypesEnum",
+     "doc": "Vegetation Artificiality",
+     "range": false,
+     "required": false,
+     "enum": [
+      "natural",
+      "seminatural",
+      "naturalOrSeminatural",
+      "cultivated&managed",
+      "cultivated",
+      "managed"
+     ]
+    }
+   ]
+  },
+  "LC_CultivatedAndManagedVegetationCharacteristics": {
+   "name": "LC_CultivatedAndManagedVegetationCharacteristicsType",
+   "ref": "LC_CultivatedAndManagedVegetationCharacteristics",
+   "kind": "characteristic",
+   "doc": "Cultivated & Managed Vegetation Characteristics",
+   "props": [
+    {
+     "name": "ploughType",
+     "type": "PloughTypesEnum",
+     "doc": "Plough Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "manual",
+      "manualOrAnimal",
+      "mechanical"
+     ]
+    },
+    {
+     "name": "frequencyMonth",
+     "type": "xs:decimal",
+     "doc": "Frequency (Month)",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "mechanicalErosionControl",
+     "type": "PloughTypesEnum",
+     "doc": "Mechanical Erosion Control",
+     "range": false,
+     "required": false,
+     "enum": [
+      "manual",
+      "manualOrAnimal",
+      "mechanical"
+     ]
+    },
+    {
+     "name": "fieldSize",
+     "type": "xs:decimal",
+     "doc": "Field Size",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "irrigationType",
+     "type": "IrrigationTypesEnum",
+     "doc": "Irrigation Type",
+     "range": false,
+     "required": false,
+     "enum": [
+      "surface",
+      "sprinkler",
+      "drip"
+     ]
+    },
+    {
+     "name": "irrigationPercentage",
+     "type": "xs:decimal",
+     "doc": "Irrigation Percentage",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "rainfedPercentage",
+     "type": "xs:decimal",
+     "doc": "Rainfed Percentage",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "postfloodingPercentage",
+     "type": "xs:decimal",
+     "doc": "Postflooding Percentage",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "seedingTime",
+     "type": "xs:decimal",
+     "doc": "Seeding Time",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "growingLength",
+     "type": "xs:decimal",
+     "doc": "Growing Length",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "overlapGrowing",
+     "type": "xs:decimal",
+     "doc": "Overlap Growing",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "overlapGrowingPeriodPercentage",
+     "type": "xs:decimal",
+     "doc": "Overlap Growing Period",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "treePlantation",
+     "type": "xs:string",
+     "doc": "Tree Plantation",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "orchardAndOtherPlantation",
+     "type": "xs:string",
+     "doc": "Orchard & Other Plantation",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "yield",
+     "type": "xs:decimal",
+     "doc": "Crop Yield",
+     "range": true,
+     "required": false,
+     "enum": null
+    }
+   ]
+  },
+  "LC_PermafrostCharacteristic": {
+   "name": "LC_PermafrostCharacteristicType",
+   "ref": "LC_PermafrostCharacteristic",
+   "kind": "characteristic",
+   "doc": "Permafrost Characteristic",
+   "props": [
+    {
+     "name": "depth",
+     "type": "xs:decimal",
+     "doc": "Depth",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "permafrostType",
+     "type": "xs:string",
+     "doc": "Permafrost Type",
+     "range": false,
+     "required": false,
+     "enum": null
+    }
+   ]
+  }
+ },
+ "records": {
+  "LC_LegendType": {
+   "name": "LC_LegendType",
+   "ref": "LC_Legend",
+   "kind": "record",
+   "doc": "Defines the complete legend structure including all classes, characteristics,\n        patterns, strata, and properties that describe land cover types.",
+   "props": [
+    {
+     "name": "objects",
+     "type": "ObjectsContainerType",
+     "doc": "Container for all legend components",
+     "range": false,
+     "required": true,
+     "enum": null
+    }
+   ]
+  },
+  "ObjectsContainerType": {
+   "name": "ObjectsContainerType",
+   "ref": "ObjectsContainer",
+   "kind": "record",
+   "doc": "",
+   "props": [
+    {
+     "name": "LC_Class",
+     "type": "LC_ClassType",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "LC_ClassCharacteristics",
+     "type": "LC_ClassCharacteristicsType",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "LC_HorizontalPatterns",
+     "type": "LC_HorizontalPatternsType",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "LC_Strata",
+     "type": "LC_StrataType",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "LC_Properties",
+     "type": "LC_PropertiesType",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "LC_Characteristics",
+     "type": "LC_CharacteristicsType",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    }
+   ]
+  },
+  "LC_ClassType": {
+   "name": "LC_ClassType",
+   "ref": "LC_Class",
+   "kind": "record",
+   "doc": "Land cover classification class with identifying attributes",
+   "props": [
+    {
+     "name": "legend_id",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "class_id",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": true,
+     "enum": null
+    },
+    {
+     "name": "class_name",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": true,
+     "enum": null
+    },
+    {
+     "name": "class_description",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "class_map_code",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "class_color_code",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    }
+   ]
+  },
+  "LC_ClassCharacteristicsType": {
+   "name": "LC_ClassCharacteristicsType",
+   "ref": "LC_ClassCharacteristics",
+   "kind": "record",
+   "doc": "Class-level characteristics (climate, soil, topography, etc.).\n        Contains dynamic elements prefixed with underscore (_classID).",
+   "props": []
+  },
+  "LC_HorizontalPatternsType": {
+   "name": "LC_HorizontalPatternsType",
+   "ref": "LC_HorizontalPatterns",
+   "kind": "record",
+   "doc": "Spatial patterns within land cover classes",
+   "props": [
+    {
+     "name": "class_id",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": true,
+     "enum": null
+    },
+    {
+     "name": "horizontal_pattern_id",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": true,
+     "enum": null
+    },
+    {
+     "name": "description",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "cover",
+     "type": "xs:decimal",
+     "doc": "",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "occurrence",
+     "type": "xs:decimal",
+     "doc": "",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "type",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    }
+   ]
+  },
+  "LC_StrataType": {
+   "name": "LC_StrataType",
+   "ref": "LC_Strata",
+   "kind": "record",
+   "doc": "Vertical strata layers within horizontal patterns",
+   "props": [
+    {
+     "name": "HPID",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": true,
+     "enum": null
+    },
+    {
+     "name": "stratumID",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": true,
+     "enum": null
+    },
+    {
+     "name": "description",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "presenceType",
+     "type": "PresenceTypeEnum",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": [
+      "Fixed",
+      "Exclusive",
+      "Conditional Temporal",
+      "Precluded",
+      "Mandatory",
+      "Temporal Sequence Depending"
+     ]
+    },
+    {
+     "name": "portioning",
+     "type": "xs:decimal",
+     "doc": "",
+     "range": true,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "onTop",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "onTopType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "order",
+     "type": "xs:integer",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    }
+   ]
+  },
+  "LC_PropertiesType": {
+   "name": "LC_PropertiesType",
+   "ref": "LC_Properties",
+   "kind": "record",
+   "doc": "Properties of land cover blocks within strata",
+   "props": [
+    {
+     "name": "StratumID",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": true,
+     "enum": null
+    },
+    {
+     "name": "BlockID",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": true,
+     "enum": null
+    },
+    {
+     "name": "BlockReference",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "description",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "algaeStatus",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "aphyllousPercentage",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "broadLeafPercentage",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "coarseMineralFragmentType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "constructionMaterial",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "cover",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "deciduousLength",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "deciduousPercentage",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "deciduousStart",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "density",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "depth",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "dumpSiteType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "duneType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "dynamics",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "elementHorizontalSpreading",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "elementPresenceType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "evergreenPercentage",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "extractionType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "floatingIceType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "forbsLeafType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "forbsStatus",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "hardpanType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "height",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "heightCM",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "herbaceousLeafPhenology",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "inorganicDepositType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "leafArragement",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "leafAspectType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "leafCharacterSizeType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "leafShape",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "leafVenation",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationship",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lengthOfTemporalRelationshipUnits",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "lifeFormSpecialization",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "linearSurfaceType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "macropatternCoverage",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "macropatternType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "needleLeafPercentage",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "nonPerennialGrowthFrequency",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "nonPerennialPercentage",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "organicDepositType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "perennialPercentage",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "periodVariationDescription",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "periodVariationType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "persistencePeriod",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "persistenceUnits",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "portioning",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "position",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "sealed",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "snowType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "temporalType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "terrestrialIceType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "uOMArea",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "woodyLeafPhenology",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "woodyLeafType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    }
+   ]
+  },
+  "LC_CharacteristicsType": {
+   "name": "LC_CharacteristicsType",
+   "ref": "LC_Characteristics",
+   "kind": "record",
+   "doc": "Detailed characteristics of individual elements within strata",
+   "props": [
+    {
+     "name": "StratumID",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": true,
+     "enum": null
+    },
+    {
+     "name": "BlockID",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": true,
+     "enum": null
+    },
+    {
+     "name": "BlockReference",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "CharacteristicID",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": true,
+     "enum": null
+    },
+    {
+     "name": "CharacteristicReference",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "CharacteristicLabel",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "description",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "age",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "animalType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "aquacultureType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "artificialSurfaceDamagePercentage",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "artificialSurfaceDamageType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "artificialSurfaceType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "artificiality",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "burntStatus",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "category",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "constructionStatusType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "constructionUse",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "crownDiameter",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "damage",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "damageType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "deadStatus",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "depth",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "fieldSize",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "frequencyMonth",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "groupOfPlantSpeciesType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "growingLength",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "growthFormIllness",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "growthFormIllnessType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "intensity",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "irrigationPercentage",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "irrigationType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "mechanicalErosionControl",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "mowed",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "nutrientLevel",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "orchardAndOtherPlantation",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "overlapGrowing",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "overlapGrowingPeriodPercentage",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "permafrostType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "ploughType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "postfloodingPercentage",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "rainfedPercentage",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "seedingTime",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "singlePlantSpeciesType",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "speciesName",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "treePlantation",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "trunkDiameter",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "unevenAge",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "vegetationArtificiality",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "waterSalinity",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "waterStress",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    },
+    {
+     "name": "yield",
+     "type": "xs:string",
+     "doc": "",
+     "range": false,
+     "required": false,
+     "enum": null
+    }
+   ]
+  },
+  "LC_ElementsType": {
+   "name": "LC_ElementsType",
+   "ref": "LC_Elements",
+   "kind": "record",
+   "doc": "Elements",
+   "props": []
+  }
+ },
+ "enums": {
+  "ArtificialityTypesEnum": {
+   "doc": "Artificiality",
+   "values": {
+    "artificial": "Artificial",
+    "natural": "Natural"
+   }
+  },
+  "BooleanEnum": {
+   "doc": "True or False",
+   "values": {
+    "true": "true",
+    "false": "false"
+   }
+  },
+  "ClimateTypesEnum": {
+   "doc": "Climate Types",
+   "values": {
+    "Af: Tropical rainforest": "Af: Tropical rainforest",
+    "Am: Tropical monsoon": "Am: Tropical monsoon",
+    "Aw: Tropical savanna (dry season in winter)": "Aw: Tropical savanna (dry season in winter)",
+    "As: Tropical savanna (dry season in summer)": "As: Tropical savanna (dry season in summer)",
+    "BWh: Hot desert ": "BWh: Hot desert",
+    "BWk: Cold desert": "BWk: Cold desert",
+    "BSh: Hot semi-arid": "BSh: Hot semi-arid",
+    "BSk: Cold semi-arid ": "BSk: Cold semi-arid",
+    "Cfa: Humid subtropical ": "Cfa: Humid subtropical",
+    "Cfb: Temperate oceanic": "Cfb: Temperate oceanic",
+    "Cfc: Subpolar oceanic ": "Cfc: Subpolar oceanic",
+    "Csa: Mediterranean ": "Csa: Mediterranean",
+    "Csb: Warm-summer Mediterranean ": "Csb: Warm-summer Mediterranean",
+    "Cwa: Monsoon-influenced humid subtropical": "Cwa: Monsoon-influenced humid subtropical",
+    "Cwb: Subtropical highland ": "Cwb: Subtropical highland",
+    "Dfa: Hot-summer humid continental (hot summers, no dry season)": "Dfa: Hot-summer humid continental (hot summers, no dry season)",
+    "Dfb: Warm-summer humid continental (warm summers, no dry season)": "Dfb: Warm-summer humid continental (warm summers, no dry season)",
+    "Dfc: Subarctic (short cool summers, no dry season)": "Dfc: Subarctic (short cool summers, no dry season)",
+    "Dfd: Extremely cold subarctic (severely cold winters)": "Dfd: Extremely cold subarctic (severely cold winters)",
+    "Dwa: Hot-summer humid continental (dry winters)": "Dwa: Hot-summer humid continental (dry winters)",
+    "Dwb: Warm-summer humid continental (dry winters)": "Dwb: Warm-summer humid continental (dry winters)",
+    "Dwc: Subarctic (dry winters)": "Dwc: Subarctic (dry winters)",
+    "Dwd: Extremely cold subarctic (dry winters)": "Dwd: Extremely cold subarctic (dry winters)",
+    "Dsa: Hot summer Mediterranean continental": "Dsa: Hot summer Mediterranean continental",
+    "Dsb: Warm summer Mediterranean continental": "Dsb: Warm summer Mediterranean continental",
+    "Dsc: Cool summer Mediterranean continental": "Dsc: Cool summer Mediterranean continental",
+    "Dsd: Extremely cold winter Mediterranean continental ": "Dsd: Extremely cold winter Mediterranean continental",
+    "ET: Tundra ": "ET: Tundra",
+    "EF: Ice cap ": "EF: Ice cap"
+   }
+  },
+  "CoarseMineralFragmentTypesEnum": {
+   "doc": "Coarse Mineral Fragment Types",
+   "values": {
+    "gravel": "Gravel",
+    "stone": "Stone",
+    "boulder": "Boulder",
+    "mixed": "Mixed"
+   }
+  },
+  "ConstructionStatusesEnum": {
+   "doc": "Construction Statuses",
+   "values": {
+    "finished": "Finished",
+    "inProgress": "In Progress",
+    "abandoned": "Abandoned"
+   }
+  },
+  "ConstructionUsesEnum": {
+   "doc": "Construction Uses",
+   "values": {
+    "Agricultural": "Agricultural",
+    "Residential": "Residential",
+    "Commercial": "Commercial",
+    "Industrial": "Industrial",
+    "Utlility": "Utility"
+   }
+  },
+  "DirectionsEnum": {
+   "doc": "Directions",
+   "values": {
+    "North": "North",
+    "East": "East",
+    "West": "West",
+    "South": "South"
+   }
+  },
+  "DumpSiteTypesEnum": {
+   "doc": "Dump Site Types",
+   "values": {
+    "wasteDump": "Waste Dump"
+   }
+  },
+  "DuneTypesEnum": {
+   "doc": "Dune Types",
+   "values": {
+    "barchan": "Barchan",
+    "parabolic": "Parabolic",
+    "longitudinal": "Longitudinal"
+   }
+  },
+  "ElementHorizontalSpreadingTypeEnum": {
+   "doc": "Element Horizontal Spreading Types",
+   "values": {
+    "clusters": "Clusters",
+    "regularRowMultipleElement": "Regular Row Multiple Element",
+    "regularRowsMultipleElement": "Regular Rows General",
+    "regularRowsSingleElement": "Regular Rows Single Element",
+    "unevenlySpread": "Unevenly Spread",
+    "other": "Other"
+   }
+  },
+  "ElementPresenceTypesEnum": {
+   "doc": "Element Presence Types",
+   "values": {
+    "fixed": "Fixed",
+    "exclusive": "Exclusive",
+    "conditionalTemporal": "Conditional Temporal",
+    "precluded": "Precluded"
+   }
+  },
+  "ErosionTypesEnum": {
+   "doc": "Erosion Types",
+   "values": {
+    "waterErosionSheet": "Water Erosion Sheet",
+    "waterErosionRill": "Water Erosion Rill",
+    "waterErosionGully": "Water Erosion Gully",
+    "gravityErosion": "Gravity Erosion",
+    "iceErosion": "Ice Erosion"
+   }
+  },
+  "ExtractionTypesEnum": {
+   "doc": "Extraction Types",
+   "values": {
+    "surface": "Surface",
+    "subsurface": "Subsurface"
+   }
+  },
+  "FloatStatusEnum": {
+   "doc": "Floating Status",
+   "values": {
+    "floating": "Floating",
+    "submerged": "Submerged"
+   }
+  },
+  "FloatingIceTypesEnum": {
+   "doc": "Floating Ice Types",
+   "values": {
+    "lakeIce": "Lake Ice",
+    "riverIce": "River Ice",
+    "seaIce": "Sea Ice",
+    "fastSeaIce": "Fast Sea Ice",
+    "driftIce": "Drift Ice"
+   }
+  },
+  "GeoAspectTypesEnum": {
+   "doc": "Geographical Aspect Types",
+   "values": {
+    "Bay": "Bay",
+    "Beach": "Beach",
+    "Estuary": "Estuary",
+    "Shore": "Shore",
+    "Urban-Periurban": "Urban-Periurban",
+    "Sabka": "Sabka",
+    "Wady": "Wady"
+   }
+  },
+  "GroupOfPlantSpeciesTypesEnum": {
+   "doc": "Group Of Plant Species Types",
+   "values": {
+    "statisticallyDerivedPlantGroup": "Statistically Derived Plant Group",
+    "nonStatisticallyDerivedPlantGroup": "Non Statistically Derived Plant Group"
+   }
+  },
+  "GrowthFrequenciesEnum": {
+   "doc": "Growth Frequencies",
+   "values": {
+    "other": "Other",
+    "annual": "Annual",
+    "biennial": "Biennial"
+   }
+  },
+  "HardpanTypesEnum": {
+   "doc": "Hardpan Types",
+   "values": {
+    "ironpan/laterite": "Ironpan / Laterite",
+    "petrocalcic": "Petrocalcic",
+    "petrogypsic": "Petrogypsic"
+   }
+  },
+  "HerbaceousLeafPhenologiesEnum": {
+   "doc": "Narrow Leaf Phenologies",
+   "values": {
+    "NonPerennial": "Non Perennial",
+    "Perennial": "Perennial"
+   }
+  },
+  "InorganicDepositTypesEnum": {
+   "doc": "Inorganic Deposit Types",
+   "values": {
+    "salt": "Salt",
+    "soda": "Soda",
+    "lime": "Lime",
+    "gypsum": "Gypsum"
+   }
+  },
+  "IrrigationTypesEnum": {
+   "doc": "Irrigation Types",
+   "values": {
+    "surface": "Surface",
+    "sprinkler": "Sprinkler",
+    "drip": "Drip"
+   }
+  },
+  "LandFormTypesEnum": {
+   "doc": "Land Form Types",
+   "values": {
+    "Major Depression": "Major Depression",
+    "Narrow Plateau": "Narrow Plateau",
+    "Valley": "Valley",
+    "Level Land - Depression": "Level Land - Depression",
+    "Level Land - Low Gradient Footslope": "Level Land - Low Gradient Footslope",
+    "Level Land - Plain": "Level Land - Plain",
+    "Level Land - Plateau": "Level Land - Plateau",
+    "Level Land - Valley Floor": "Level Land - Valley Floor",
+    "Sloping Land - Dissected Plain": "Sloping Land - Dissected Plain",
+    "Sloping Land - Medium-Gradient Escarpment Zone": "Sloping Land - Medium-Gradient Escarpment Zone",
+    "Sloping Land - Medium-Gradient Hill": "Sloping Land - Medium-Gradient Hill",
+    "Sloping Land - Medium-Gradient Mountain": "Sloping Land - Medium-Gradient Mountain",
+    "Sloping Land - Mountainous Highland": "Sloping Land - Mountainous Highland",
+    "Sloping Land - Ridges": "Sloping Land - Ridges",
+    "Steep Land - High-Gradient Escarpment Zone": "Steep Land - High-Gradient Escarpment Zone",
+    "Steep Land - Gradient Hill": "Steep Land - Gradient Hill",
+    "Steep Land - Gradient Mountain": "Steep Land - Gradient Mountain",
+    "Steep Land - Gradient Valleys": "Steep Land - Gradient Valleys"
+   }
+  },
+  "LeafArrangementsEnum": {
+   "doc": "Leaf Arrangments",
+   "values": {
+    "alternate": "Alternate",
+    "helical": "Helical",
+    "opposite": "Opposite",
+    "whorled": "Whorled"
+   }
+  },
+  "LeafAspectsEnum": {
+   "doc": "Leaf Aspects",
+   "values": {
+    "sclerophyllous": "Sclerophyllous",
+    "soft_leaved": "Soft Leaved",
+    "succulent": "Succulent"
+   }
+  },
+  "LeafCharacterSizeTypesEnum": {
+   "doc": "Leaf Character Size Types",
+   "values": {
+    "large_leaf": "Large Leaf",
+    "medium_leaf": "Medium Leaf",
+    "small_leaf": "Small Leaf"
+   }
+  },
+  "LeafPhenologiesEnum": {
+   "doc": "Leaf Phenologies",
+   "values": {
+    "Deciduous": "Deciduous",
+    "Evergreen": "Evergreen",
+    "NonPerennial": "Non Perennial",
+    "Perennial": "Perennial"
+   }
+  },
+  "LeafShapesEnum": {
+   "doc": "Leaf Shapes",
+   "values": {
+    "acicular": "Acicular",
+    "acuminate": "Acuminate",
+    "aristate": "Aristate",
+    "bipinnate": "Bipinnate",
+    "cordate": "Cordate",
+    "cuneate": "Cuneate",
+    "deltoid": "Deltoid",
+    "digitate": "Digitate",
+    "elliptic": "Elliptic",
+    "falcate": "Falcate",
+    "flabellate": "Flabellate",
+    "hastate": "Hastate",
+    "lanceShaped": "Lance Shaped",
+    "linear": "Linear",
+    "lobed": "Lobed",
+    "obcordat": "Obcordat",
+    "oblanceolate": "Oblanceolate",
+    "oblong": "Oblong",
+    "obovate": "Obovate",
+    "obtuse": "Obtuse",
+    "orbicular": "Orbicular",
+    "ovate": "Ovate",
+    "palmate": "Palmate",
+    "pedate": "Pedate",
+    "peltate": "Peltate",
+    "perfoliate": "Perfoliate",
+    "pinnate": "Pinnate",
+    "pinnatisect": "Pinnatisect",
+    "reniform": "Reniform",
+    "rhomboid": "Rhomboid",
+    "round": "Round",
+    "sagittate": "Sagittate",
+    "spatulate": "Spatulate",
+    "spearShaped": "Spear Shaped",
+    "subulate": "Subulate",
+    "swordShaped": "Sword Shaped",
+    "trifoliate": "Trifoliate",
+    "tripinnate": "Tripinnate",
+    "truncate": "Truncate",
+    "unifoliate": "Unifoliate"
+   }
+  },
+  "LeafTypesEnum": {
+   "doc": "Leaf Types",
+   "values": {
+    "Aphyllous": "Aphyllous",
+    "NeedleLeaf": "Needle Leaf",
+    "BroadLeaf": "Broad Leaf"
+   }
+  },
+  "LeafVenationsEnum": {
+   "doc": "Leaf Venations",
+   "values": {
+    "dichotomous": "Dichotomous",
+    "palmateReticulate": "Palmate Reticulate",
+    "parallelExpandedLeaf": "Parallel Expanded Leaf",
+    "parallelLinearLeaf": "Parallel Linear Leaf",
+    "pinnateReticulate": "Pinnate Reticulate"
+   }
+  },
+  "LengthOfGrowingPeriodsEnum": {
+   "doc": "Length of Growing Period",
+   "values": {
+    "Hyperarid": "Hyperarid",
+    "Arid": "Arid",
+    "Dry Semi-Arid": "Dry Semi-Arid",
+    "Moist Semi-Arid": "Moist Semi-Arid",
+    "Subhumid": "Subhumid",
+    "Humid": "Humid",
+    "Perhumid": "Perhumid"
+   }
+  },
+  "LifeFormSpecializationTypesEnum": {
+   "doc": "Life Form Specialization Types",
+   "values": {
+    "bamboos": "Bamboos",
+    "climbers": "Climbers",
+    "eppphytes": "Eppphytes",
+    "stem_succulents": "Stem Succulents",
+    "tuft_plants": "Tuft Plants",
+    "arboreal_giant_herbs": "Arboreal Giant Herbs"
+   }
+  },
+  "MacropatternTypesEnum": {
+   "doc": "Macropattern Types",
+   "values": {
+    "gilgai": "Gilgai",
+    "termiteMounds": "Termite Mounds"
+   }
+  },
+  "MechanicalErosionControlsEnum": {
+   "doc": "Mechanical Erosion Controls",
+   "values": {
+    "contourPloughing": "Contour Ploughing",
+    "terracing": "Terracing",
+    "windBreak": "Wind Break"
+   }
+  },
+  "NutrientLevelsEnum": {
+   "doc": "Nutrient Levels",
+   "values": {
+    "eutrophic": "Eutrophic",
+    "mesotrophic": "Mesotrophic",
+    "oligotrophic": "Oligotrophic"
+   }
+  },
+  "OnTopTypesEnum": {
+   "doc": "On Top Types",
+   "values": {
+    "baseline": "Baseline",
+    "previousAll": "PreviousAll",
+    "previousE1": "PreviousE1",
+    "previousE2": "PreviousE2",
+    "previousE3": "PreviousE3",
+    "stratum1All": "Stratum1All",
+    "stratum1E1": "Stratum1E1",
+    "stratum2All": "Stratum2All",
+    "stratum2E1": "Stratum2E1",
+    "all": "All",
+    "element": "Element"
+   }
+  },
+  "OrganicDepositTypesEnum": {
+   "doc": "Organic Deposit Types",
+   "values": {
+    "ombrothrophicPeat": "Ombrothrophic Peat",
+    "minerothrophicPeat": "Minerothrophic Peat"
+   }
+  },
+  "PeriodUnitsEnum": {
+   "doc": "Period Units",
+   "values": {
+    "second": "Second",
+    "minute": "Minute",
+    "hour": "Hour",
+    "day": "Day",
+    "week": "Week",
+    "month": "Month",
+    "year": "Year"
+   }
+  },
+  "PeriodVariationsEnum": {
+   "doc": "Period Variations",
+   "values": {
+    "atmospheric": "Atmospheric",
+    "daily": "Daily",
+    "seasonal": "Seasonal",
+    "tidal": "Tidal"
+   }
+  },
+  "PloughTypesEnum": {
+   "doc": "Plough Types",
+   "values": {
+    "manual": "Manual",
+    "manualOrAnimal": "Manual/Animal",
+    "mechanical": "Mechanical"
+   }
+  },
+  "PresenceTypesEnum": {
+   "doc": "Presence Types",
+   "values": {
+    "fixed": "Fixed",
+    "conditional": "Conditional",
+    "optional": "Optional"
+   }
+  },
+  "RockAgeTypesEnum": {
+   "doc": "Rock Age Types",
+   "values": {
+    "Mesozoic": "Mesozoic",
+    "Paleozoic": "Paleozoic",
+    "Precambrian": "Precambrian",
+    "Quaternary": "Quaternary",
+    "Tertiary": "Tertiary"
+   }
+  },
+  "RootingStatusEnum": {
+   "doc": "Rooting Status",
+   "values": {
+    "nonRooted": "Non Rooted",
+    "Rooted": "Rooted"
+   }
+  },
+  "SequentialTemporalRelationshipEnum": {
+   "doc": "Sequential Temporal Relationships",
+   "values": {
+    "sequentialSameYear": "Sequential Same Year",
+    "sequentialOtherYear": "Sequential Other Year"
+   }
+  },
+  "SinglePlantSpeciesTypesEnum": {
+   "doc": "Single Plant Species Types",
+   "values": {
+    "dominant": "Dominant",
+    "mostFrequent": "Most Frequent"
+   }
+  },
+  "SlopeClassTypesEnum": {
+   "doc": "Slope Class Types",
+   "values": {
+    "Flat to Almost Flat": "Flat to Almost Flat",
+    "Gently Undulating to Undulating": "Gently Undulating to Undulating",
+    "Rolling": "Rolling",
+    "Hilly": "Hilly",
+    "Steeply Dissected to Mountainous": "Steeply Dissected to Mountainous"
+   }
+  },
+  "SnowTypesEnum": {
+   "doc": "Snow Types",
+   "values": {
+    "crud": "Crud",
+    "crust": "Crust",
+    "powder": "Powder",
+    "sludge": "Sludge"
+   }
+  },
+  "TermalZonesEnum": {
+   "doc": "Termal Zones",
+   "values": {
+    "Boreal Continental": "Boreal Continental",
+    "Boreal Oceanic": "Boreal Oceanic",
+    "Polar Arctic": "Polar Arctic",
+    "Subtropics Summer Rainfall": "Subtropics Summer Rainfall",
+    "Subtropics Winter Rainfall": "Subtropics Winter Rainfall",
+    "Temperate Continental": "Temperate Continental",
+    "Temperate Oceanic": "Temperate Oceanic",
+    "Tropics": "Tropics"
+   }
+  },
+  "TerrestrialIceTypesEnum": {
+   "doc": "Terrestrial Ice Types",
+   "values": {
+    "iceCaps": "Ice Caps",
+    "iceFields": "Ice Fields",
+    "glacier": "Glacier",
+    "rockGlacier": "Rock Glacier",
+    "tidewaterGlacier": "Tidewater Glacier"
+   }
+  },
+  "UnitsOfMeasureAreaEnum": {
+   "doc": "Units of Measure Area",
+   "values": {
+    "ha": "Hectare",
+    "m2": "Square Metre",
+    "cm2": "Square Centimetre",
+    "km2": "Square Kilometre"
+   }
+  },
+  "VegetationArtificialityTypesEnum": {
+   "doc": "Vegetation Artificiality Types",
+   "values": {
+    "natural": "Natural",
+    "seminatural": "Seminatural",
+    "naturalOrSeminatural": "Natural or Seminatural",
+    "cultivated&managed": "Cultivated & Managed",
+    "cultivated": "Cultivated",
+    "managed": "Managed"
+   }
+  },
+  "WaterBodyPositionsEnum": {
+   "doc": "Water Body Positions",
+   "values": {
+    "aboveSurface": "Above Surface",
+    "belowSurface": "Below Surface"
+   }
+  },
+  "WaterIceDynamicsEnum": {
+   "doc": "Water & Ice Dynamics",
+   "values": {
+    "flowingOrMoving": "Flowing",
+    "standing": "Standing"
+   }
+  },
+  "WaterSalinityTypesEnum": {
+   "doc": "Water Salinity Types",
+   "values": {
+    "fresh": "Fresh",
+    "brackish": "Brackish",
+    "saline": "Saline",
+    "brine": "Brine"
+   }
+  },
+  "WoodyLeafPhenologiesEnum": {
+   "doc": "Broad Leaf Phenologies",
+   "values": {
+    "Deciduous": "Deciduous",
+    "Evergreen": "Evergreen"
+   }
+  },
+  "PresenceTypeEnum": {
+   "doc": "Presence requirements for elements and strata",
+   "values": {
+    "Fixed": "",
+    "Exclusive": "",
+    "Conditional Temporal": "",
+    "Precluded": "",
+    "Mandatory": "",
+    "Temporal Sequence Depending": ""
+   }
+  }
+ }
+}

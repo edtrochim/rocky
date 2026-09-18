@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<LC_Legend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="1" lccs_sort="0" uuid="7c928320-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:noNamespaceSchemaLocation="g4g2026_ideathon.xsd" xsi:type="LC_Legend">
+   <name>New Legend</name>
+   <description>Describe the legend</description>
+   <elements>
+      <LC_LandCoverClass id="2" uuid="833238b0-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClass">
+         <name>The Force be with you</name>
+         <description>Describe the land cover class</description>
+         <map_code>lcc1</map_code>
+         <elements>
+            <LC_HorizontalPattern id="3" uuid="8800fed0-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 1</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="4" ontop="0" uuid="88b75680-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Vegetation 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="5" uuid="8a5b4280-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_Trees">
+                           <name>Trees</name>
+                           <description>Describe a vegetation element of trees type</description>
+                           <presence_type>Mandatory</presence_type>
+                        </LC_LandCoverElement>
+                        <LC_LandCoverElement id="6" uuid="a4d3b020-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_Shrubs">
+                           <name>Shrubs</name>
+                           <description>Describe a vegetation element of shrubs type</description>
+                           <presence_type>Optional</presence_type>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+               </elements>
+            </LC_HorizontalPattern>
+         </elements>
+      </LC_LandCoverClass>
+      <LC_LandCoverClass id="7" uuid="8df75500-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClass">
+         <name>long long winding road</name>
+         <description>Describe the land cover class</description>
+         <map_code>lcc2</map_code>
+         <elements>
+            <LC_HorizontalPattern id="8" uuid="903c14e0-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 1</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="9" ontop="0" uuid="91382820-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Abiotic surface 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="A" uuid="95a12790-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_Road">
+                           <name>Road</name>
+                           <description>Describe a linear surface element of road type</description>
+                           <presence_type>Mandatory</presence_type>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+               </elements>
+            </LC_HorizontalPattern>
+         </elements>
+      </LC_LandCoverClass>
+      <LC_LandCoverClass id="B" uuid="9befafe0-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClass">
+         <name>mangroove</name>
+         <description>Describe the land cover class</description>
+         <map_code>lcc3</map_code>
+         <elements>
+            <LC_HorizontalPattern id="C" uuid="9dd3b220-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_HorizontalPattern">
+               <name>Horizontal Pattern 1</name>
+               <description>Describe the horizontal pattern</description>
+               <elements>
+                  <LC_Stratum id="D" ontop="0" uuid="9e78cbc0-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_Stratum">
+                     <name>Stratum 1</name>
+                     <description>Vegetation 1</description>
+                     <elements>
+                        <LC_LandCoverElement id="E" uuid="a99556e0-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_Trees">
+                           <name>Trees</name>
+                           <description>Describe a vegetation element of trees type</description>
+                           <presence_type>Mandatory</presence_type>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+                  <LC_Stratum id="F" ontop="0" uuid="aa9588d0-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_Stratum">
+                     <name>Stratum 2</name>
+                     <description>Abiotic surface 2</description>
+                     <elements>
+                        <LC_LandCoverElement id="10" uuid="ae66dc20-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_WaterBody">
+                           <name>Water Body</name>
+                           <description>Describe a water body surface element</description>
+                           <presence_type>Mandatory</presence_type>
+                        </LC_LandCoverElement>
+                     </elements>
+                     <presence_type>Mandatory</presence_type>
+                  </LC_Stratum>
+               </elements>
+            </LC_HorizontalPattern>
+         </elements>
+      </LC_LandCoverClass>
+   </elements>
+   <LC_MixedClasses id="11" uuid="55c4b631-915b-11de-bb5d-000cf147c442" xsi:type="LC_MixedClasses">
+      <name>Mixed Classes</name>
+      <description>Contains the mixed classes of the Legend</description>
+   </LC_MixedClasses>
+   <views>
+      <LC_LandCoverClassView id="1" uuid="6e090bd1-b2d9-11f1-82ec-2c7ba0ae56e5">
+         <name>Vegetated areas</name>
+         <description>Vegetated areas</description>
+         <LC_LandCoverClassView id="2" uuid="6e09f630-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClassView">
+            <name>Cultivated and Managed Vegetation</name>
+            <description>Cultivated and Managed Vegetation</description>
+            <LC_LandCoverClassView id="3" uuid="6e0cb551-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClassView">
+               <name>Woody Dominant Area</name>
+               <description>Woody Dominant Area</description>
+               <LC_LandCoverClassView id="4" uuid="6e0d5191-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClassView">
+                  <name>Trees Dominant Area</name>
+                  <description>Trees Dominant Area</description>
+               </LC_LandCoverClassView>
+               <LC_LandCoverClassView id="5" uuid="6e1010b1-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClassView">
+                  <name>Shrubs Dominant Area</name>
+                  <description>Shrubs Dominant Area</description>
+               </LC_LandCoverClassView>
+            </LC_LandCoverClassView>
+            <LC_LandCoverClassView id="6" uuid="6e114931-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClassView">
+               <name>Herbaceous Dominant Area</name>
+               <description>Herbaceous Dominant Area</description>
+               <LC_LandCoverClassView id="7" uuid="6e123391-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClassView">
+                  <name>Graminae Dominant Area</name>
+                  <description>Graminae Dominant Area</description>
+               </LC_LandCoverClassView>
+               <LC_LandCoverClassView id="8" uuid="6e12a8c1-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClassView">
+                  <name>Forbs Dominant Area</name>
+                  <description>Forbs Dominant Area</description>
+               </LC_LandCoverClassView>
+            </LC_LandCoverClassView>
+            <LC_LandCoverClassView id="9" uuid="6e12cfd1-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClassView">
+               <name>Lichen and Mosses Dominant Area</name>
+               <description>Lichen and Mosses Dominant Area</description>
+               <LC_LandCoverClassView id="A" uuid="6e12f6e1-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClassView">
+                  <name>Lichen Dominant Area</name>
+                  <description>Lichen Dominant Area</description>
+               </LC_LandCoverClassView>
+               <LC_LandCoverClassView id="B" uuid="6e136c11-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClassView">
+                  <name>Mosses Dominant Area</name>
+                  <description>Mosses Dominant Area</description>
+               </LC_LandCoverClassView>
+            </LC_LandCoverClassView>
+            <LC_LandCoverClassView id="C" uuid="6e13e141-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClassView">
+               <name>Algae Dominant Area</name>
+               <description>Algae Dominant Area</description>
+            </LC_LandCoverClassView>
+         </LC_LandCoverClassView>
+         <LC_LandCoverClassView id="D" uuid="6e13e142-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClassView">
+            <name>Natural and Seminatural Vegetation</name>
+            <description>Natural and Seminatural Vegetation</description>
+            <LC_LandCoverClassView id="E" uuid="6e145671-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClassView">
+               <name>Woody Dominant Area</name>
+               <description>Woody Dominant Area</description>
+               <LC_LandCoverClassView id="F" uuid="6e147d81-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClassView">
+                  <name>Trees Dominant Area</name>
+                  <description>Trees Dominant Area</description>
+               </LC_LandCoverClassView>
+               <LC_LandCoverClassView id="10" uuid="6e14cba1-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClassView">
+                  <name>Shrubs Dominant Area</name>
+                  <description>Shrubs Dominant Area</description>
+               </LC_LandCoverClassView>
+            </LC_LandCoverClassView>
+            <LC_LandCoverClassView id="11" uuid="6e1519c1-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClassView">
+               <name>Herbaceous Dominant Area</name>
+               <description>Herbaceous Dominant Area</description>
+               <LC_LandCoverClassView id="12" uuid="6e1540d1-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClassView">
+                  <name>Graminae Dominant Area</name>
+                  <description>Graminae Dominant Area</description>
+               </LC_LandCoverClassView>
+               <LC_LandCoverClassView id="13" uuid="6e1567e1-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClassView">
+                  <name>Forbs Dominant Area</name>
+                  <description>Forbs Dominant Area</description>
+               </LC_LandCoverClassView>
+            </LC_LandCoverClassView>
+            <LC_LandCoverClassView id="14" uuid="6e158ef1-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClassView">
+               <name>Lichen and Mosses Dominant Area</name>
+               <description>Lichen and Mosses Dominant Area</description>
+               <LC_LandCoverClassView id="15" uuid="6e15b601-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClassView">
+                  <name>Lichen Dominant Area</name>
+                  <description>Lichen Dominant Area</description>
+               </LC_LandCoverClassView>
+               <LC_LandCoverClassView id="16" uuid="6e15dd11-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClassView">
+                  <name>Mosses Dominant Area</name>
+                  <description>Mosses Dominant Area</description>
+               </LC_LandCoverClassView>
+            </LC_LandCoverClassView>
+            <LC_LandCoverClassView id="17" uuid="6e160421-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClassView">
+               <name>Algae Dominant Area</name>
+               <description>Algae Dominant Area</description>
+            </LC_LandCoverClassView>
+         </LC_LandCoverClassView>
+         <elements>
+            <LC_LandCoverClass>833238b0-b2d9-11f1-82ec-2c7ba0ae56e5<!--The Force be with you--></LC_LandCoverClass>
+            <LC_LandCoverClass>9befafe0-b2d9-11f1-82ec-2c7ba0ae56e5<!--mangroove--></LC_LandCoverClass>
+         </elements>
+      </LC_LandCoverClassView>
+      <LC_LandCoverClassView id="18" uuid="6e165241-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClassView">
+         <name>Non-Vegetated areas</name>
+         <description>Non-Vegetated areas</description>
+         <LC_LandCoverClassView id="19" uuid="6e16c771-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClassView">
+            <name>Artificial Surfaces</name>
+            <description>Artificial Surfaces</description>
+            <LC_LandCoverClassView id="1A" uuid="6e16ee81-b2d9-11f1-82ec-2c7ba0ae56e5">
+               <name>Built-Up Dominant Area</name>
+               <description>Built-Up Dominant Area</description>
+               <elements>
+                  <LC_LandCoverClass>8df75500-b2d9-11f1-82ec-2c7ba0ae56e5<!--long long winding road--></LC_LandCoverClass>
+               </elements>
+            </LC_LandCoverClassView>
+            <LC_LandCoverClassView id="1B" uuid="6e173ca1-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClassView">
+               <name>Non Built-Up Dominant Area</name>
+               <description>Non Built-Up Dominant Area</description>
+            </LC_LandCoverClassView>
+         </LC_LandCoverClassView>
+         <LC_LandCoverClassView id="1C" uuid="6e1763b1-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClassView">
+            <name>Natural Surfaces</name>
+            <description>Natural Surfaces</description>
+            <LC_LandCoverClassView id="1D" uuid="6e17b1d1-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClassView">
+               <name>Consolidated Dominant Area</name>
+               <description>Consolidated Dominant Area</description>
+            </LC_LandCoverClassView>
+            <LC_LandCoverClassView id="1E" uuid="6e17d8e1-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClassView">
+               <name>Unconsolidated Dominant Area</name>
+               <description>Unconsolidated Dominant Area</description>
+            </LC_LandCoverClassView>
+            <LC_LandCoverClassView id="1F" uuid="6e191161-b2d9-11f1-82ec-2c7ba0ae56e5" xsi:type="LC_LandCoverClassView">
+               <name>Water, snow, ice Dominant Area</name>
+               <description>Water, snow, ice Dominant Area</description>
+            </LC_LandCoverClassView>
+         </LC_LandCoverClassView>
+      </LC_LandCoverClassView>
+   </views>
+</LC_Legend>

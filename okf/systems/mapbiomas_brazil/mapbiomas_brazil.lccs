@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<LC_Legend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="1" lccs_sort="0" uuid="ccda9fe6-b6da-495e-a4e3-e5889e9f6ff9" xsi:noNamespaceSchemaLocation="lccs3.xsd" xsi:type="LC_Legend">
+  <name>New Legend</name>
+  <description>37 class(es) without an element decomposition are omitted from this LCCS3 file (LCCS3 cannot hold an empty class): 1 Forest, 3 Forest Formation, 5 Mangrove, 6 Floodable Forest, 49 Wooded Sandbank Vegetation, 10 Herbaceous and Shrubby Vegetation, 11 Wetland, 12 Grassland, 32 Hypersaline Tidal Flat, 29 Rocky Outcrop, 50 Herbaceous Sandbank Vegetation, 14 Farming, 15 Pasture, 18 Agriculture, 19 Temporary Crop, 39 Soybean, 20 Sugar cane, 40 Rice, 62 Cotton (beta), 41 Other Temporary Crops, 36 Perennial Crop, 46 Coffee, 47 Citrus, 35 Palm Oil, 48 Other Perennial Crops, 9 Forest Plantation, 21 Mosaic of Uses, 22 Non vegetated area, 23 Beach, Dune and Sand Spot, 24 Urban Area, 30 Mining, 75 Photovoltaic Power Plant (beta), 25 Other non Vegetated Areas, 26 Water, 33 River, Lake and Ocean, 31 Aquaculture, 27 Not Observed.</description>
+  <elements>
+    <LC_LandCoverClass id="4" uuid="dee2f46a-8f78-4935-9ac6-5dc8ccaea416" xsi:type="LC_LandCoverClass">
+      <name>Savanna Formation</name>
+      <description></description>
+      <map_code>4</map_code>
+      <elements>
+        <LC_HorizontalPattern id="4.hp1" uuid="06a78636-98a7-40d9-87e3-145a8ae330a1" xsi:type="LC_HorizontalPattern">
+          <name>Horizontal Pattern 1</name>
+          <description></description>
+          <elements>
+            <LC_Stratum id="4.st1" ontop="1" uuid="64a7479b-1da3-4e09-a8a2-702c24cfa94b" xsi:type="LC_Stratum">
+              <name>Stratum 1</name>
+              <description></description>
+              <elements>
+                <LC_LandCoverElement id="1001" uuid="6ec1f3a9-7fc9-4a13-b61f-7763db0968c9" xsi:type="LC_Trees">
+                  <name>Trees</name>
+                  <description></description>
+                  <elements>
+                    <LC_Characteristic id="1002" uuid="433343ce-d2ef-49ee-9316-6b6aecde2f28" xsi:type="LC_NaturalOrSeminaturalVegetation">
+                      <name>NaturalOrSeminaturalVegetation</name>
+                      <description></description>
+                    </LC_Characteristic>
+                  </elements>
+                  <presence_type>Mandatory</presence_type>
+                </LC_LandCoverElement>
+              </elements>
+              <presence_type>Mandatory</presence_type>
+            </LC_Stratum>
+            <LC_Stratum id="4.st2" ontop="0" uuid="0cee580f-b2d3-4ce9-8944-7f881658c799" xsi:type="LC_Stratum">
+              <name>Stratum 2</name>
+              <description></description>
+              <elements>
+                <LC_LandCoverElement id="1003" uuid="f70350e1-5132-4013-9ccf-73cbc0861d58" xsi:type="LC_Graminae">
+                  <name>Graminae</name>
+                  <description></description>
+                  <elements>
+                    <LC_Characteristic id="1004" uuid="d82e09be-13f0-462a-b81c-30f4a4b2a2be" xsi:type="LC_NaturalOrSeminaturalVegetation">
+                      <name>NaturalOrSeminaturalVegetation</name>
+                      <description></description>
+                    </LC_Characteristic>
+                  </elements>
+                  <presence_type>Mandatory</presence_type>
+                </LC_LandCoverElement>
+                <LC_LandCoverElement id="1005" uuid="441f592c-e090-4974-b8aa-56a3f61dbaa8" xsi:type="LC_Forbs">
+                  <name>Forbs</name>
+                  <description></description>
+                  <presence_type>Optional</presence_type>
+                </LC_LandCoverElement>
+              </elements>
+              <presence_type>Mandatory</presence_type>
+            </LC_Stratum>
+          </elements>
+        </LC_HorizontalPattern>
+      </elements>
+    </LC_LandCoverClass>
+  </elements>
+  <LC_MixedClasses id="1006" uuid="0bb46608-c314-4848-9802-72cc76199da9" xsi:type="LC_MixedClasses">
+    <name>Mixed Classes</name>
+    <description>Contains the mixed classes of the Legend</description>
+  </LC_MixedClasses>
+</LC_Legend>

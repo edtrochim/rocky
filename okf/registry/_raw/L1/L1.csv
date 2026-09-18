@@ -1,0 +1,24 @@
+ID,Hex,Class Code,Class Name
+1,#00BFFF,1A,Post-flooding
+2,#00BFFF,1B,Irrigated croplands
+3,#FFFF00,14,Rainfed croplands
+4,#B9DD79,20,"Mosaic cropland (50-70%) / vegetation (grassland, shrubland, forest) (20-50%)"
+5,#EEE8AA,30,"Mosaic vegetation (grassland, shrubland, forest) (50-70%) / cropland (20-50%)"
+6,#548235,40,Closed to open (>15%) broadleaved evergreen and/or semi-deciduous forest (>5m)
+7,#009900,50,Closed (>40%) broadleaved deciduous forest (>5m)
+8,#9ACD32,60,Open (15-40%) broadleaved deciduous forest (>5m)
+9,#375623,70,Closed (>40%) needleleaved evergreen forest (>5m)
+10,#006600,90,Open (15-40%) needleleaved deciduous or evergreen forest (>5m)
+11,#808000,100,Closed to open (>15%) mixed broadleaved and needleleaved forest (>5m)
+12,#669900,110,Mosaic forest/shrubland (50-70%) / grassland (20-50%)
+13,#DAA520,120,Mosaic grassland (50-70%) / forest/shrubland (20-50%)
+14,#806000,130,Closed to open (>15%) shrubland (<5m)
+15,#FFC000,140,Closed to open (>15%) grassland
+16,#FFCC99,150,"Sparse (>15%) vegetation (woody vegetation, shrubs, grassland)"
+17,#006666,160,Closed (>40%) broadleaved forest regularly flooded - fresh water
+18,#008080,170,Closed (>40%) broadleaved semi-deciduous and/or evergreen forest regularly flooded - Saline water
+19,#00CC99,180,"Closed to open (>15%) vegetation (grassland, shrubland, woody vegetation) on regularly flooded or waterlogged soil - fresh, brackish or saline water"
+20,#C00000,190,Artificial surfaces and associated areas (urban areas >50%)
+21,#FFF2CC,200,Bare areas
+22,#0033CC,210,Water bodies
+23,#FFFFFF,220,Permanent snow and ice

@@ -1,0 +1,20 @@
+ID,Hex,Class Code,Class Name
+1,#114611,Ad,Closed Forest
+2,#33A02C,Ac,Open Forest
+3,#694838,FO,Closed Shrubs
+4,#CD853F,Aro,Open Shrubs
+5,#BC13DE,Sa,Tree Savanna
+6,#BC92DE,Sar,Shrub Savanna
+7,#EBBFF2,Sh,Grass Savanna
+8,#FFC0CB,MI,Mangrove forest
+9,#008080,Bi,Flooded Woody
+10,#679ACB,Ahm,Swamp
+11,#111149,Ahms,Salt Marsh
+12,#90EE90,V,Orchards
+13,#FFFFC0,Canh,Annual herb Cultivation
+14,#FFFF00,Cih,Herbaceous crop dominated
+15,#0BF6FA,Chi,Paddy Rice
+16,#BFBFB7,P,Beaches
+17,#ED081F,Bnl,"Built up, non-linear"
+18,#FFA500,Bla,Built-up linear / Barren
+19,#BFE2FD,R,Rivers

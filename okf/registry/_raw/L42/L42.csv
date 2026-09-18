@@ -1,0 +1,19 @@
+ID,Hex,Class Code,Class Name
+1,#339933,Df,Deciduous forest
+2,#006600,Ef,Evergreen forest
+3,#CC3300,S,Shrubland
+4,#00CC66,H,Herbaceous dominated area
+5,#006666,Wb,Water bodies
+6,#CC0000,Al,Artificial land
+7,#92D050,Op,Olive plantation
+8,#3C7D22,Gf,Grape field
+9,#F7C7AC,Bl,Bare land
+10,#FFC000,Ce,Cereals
+11,#BE5014,Fc,Field crops
+12,#C1F0C8,Co,Citrus orchard
+13,#D86DCD,Ft,Fruit trees orchard
+14,#FFCC00,Gh,Greenhouse
+15,#747474,Cr,Cattle raising
+16,#156082,Pb,Poultry breeding
+17,#4EA72E,Bo,Banana orchard
+18,#DDDDDD,Ae,Agriculture equipment

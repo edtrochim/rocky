@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LC_Legend id="1" legend_name="Burkina_Faso_IGB" legend_description="This is the land cover classification translated from the national legends of Burkina Faso." legend_author="60c14ec1-8df5-11ef-b84a-2c3b705884fa">
+  <objects>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>2</class_id>
+      <class_name>Open forest</class_name>
+      <class_description>Tree formation characterized by large trees (15 to 20m high), with more or less contiguous crowns with a shrub layer which constitutes a light undergrowth. The recovery rate is between 50 and 70% with a sparse distribution. It is marked by the presence of grasses and a grassy layer.</class_description>
+      <class_map_code>Fc</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>11</class_id>
+      <class_name>Gallery forest</class_name>
+      <class_description>Linear in shape, this plant formation runs along watercourses and appears as a riparian barrier and is made up of tree species or deciduous forest. It is sometimes destroyed in places for the benefit of agricultural developments. It is easily identifiable in the image by its shape and tone which generally contrasts with the immediate environment when the latter has been degraded by man.</class_description>
+      <class_map_code>Fg</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>22</class_id>
+      <class_name>Forest plantation</class_name>
+      <class_description>This type of occupation refers to any form of vegetation made of trees planted by man for various needs (wood production, restoration and protection of soil). Generally isolated in highly humanized spaces, it appears on the image as a spot with sometimes a geometric shape. However, confusion is possible with sacred groves or other natural formations.</class_description>
+      <class_map_code>Pf</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>33</class_id>
+      <class_name>Tree savannah</class_name>
+      <class_description>This formation is present in the Sudanian phytogeographic domain. It is a grouping of trees mixed with a grassy layer and shrubs. The tree coverage rate is greater than 10% but less than 50%. The tree layer has a height that varies between 10 and 20 m, with well-individualized trees scattered within the shrub layer.</class_description>
+      <class_map_code>Savarbo</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>41</class_id>
+      <class_name>Tree steppe</class_name>
+      <class_description>This plant formation is especially present in the northern parts of Burkina Faso (sub-Sahelian phytogeographic sector) and strongly represented for example in the regions of Tougri-Yalgo, Djibo-Kongoussi. It presents itself in the form of an alternation of tree strata (7 to 12 m) and bare soils of small extent (compared to the vegetation), sometimes occupied by a rare herbaceous carpet dotted with termite mounds.</class_description>
+      <class_map_code>Starbo</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>47</class_id>
+      <class_name>Agroforestry park</class_name>
+      <class_description>These are the plant formations which mainly occupy the crop fields. They result from selective deforestation when the field was opened. This plant formation can also occupy plots left fallow. Their recovery rate must be greater than 25% of the entire territory. The trees must be composed mainly of forest species. Their identification on the image essentially takes into account the agricultural territories, in particular the particular characteristics of the tree layer found there. This formation has a variable appearance depending on the rate of coverage, the nature of the species on which the shape of the crowns, the foliage and the vegetative cycle depend.</class_description>
+      <class_map_code>Pa</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>53</class_id>
+      <class_name>Shrub savannah</class_name>
+      <class_description>This type of savannah is characterized by the dominance of shrub species with a coverage of between 10 and 50%. The shrubs are between 4 and 7 m high and are overlooked by a few rare trees scattered here and there, whose coverage is less than 10%. A high herbaceous stratum (1 to 1.5 m) and a lower stratum also occupy this plant formation. Its recognition in images is not always easy because of the physiognomic variability created according to the climatic seasons and which has an effect on reflectance.</class_description>
+      <class_map_code>Savarbu</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>64</class_id>
+      <class_name>Shrub steppe</class_name>
+      <class_description>This unit has the same structure as the tree steppe, marked by the alternation of vegetation and bare soil. However, in the present case, the vegetation consists of the shrub layer (4 to 6 m).</class_description>
+      <class_map_code>Starbu</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>72</class_id>
+      <class_name>Housing</class_name>
+      <class_description>Housing in urban areas is in the form of a continuous or discontinuous fabric depending on the size of the population and the density of the habitat. In the case of continuous urban fabric, vegetation is very little present and the coverage of artificial surfaces reaches more than 80% in these places. However, in the case of discontinuous urban fabric, the structure of the habitat is an alternation of artificialized spaces and vegetation. In this case, the artificialized surfaces have a coverage of more than 30% but less than 80%. As for housing in rural areas, it is dominated by unstructured groupings of buildings. The coverage of artificialized surfaces is less than 30%.</class_description>
+      <class_map_code>Ha</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>82</class_id>
+      <class_name>Annual cultivation</class_name>
+      <class_description>These are crops grown regularly each year and dependent on the rainfall regime. They are made up of cereal crops (millet, corn, sorghum, cotton, etc.), fodder crops, those produced for food seasoning and medical needs, as well as oilseeds and certain vegetable crops such as okra. The plant cover in these units is less than 25% and they are recognizable in the images by the structure of the plot and the plant cover combined with the nature of the soil, in particular the types of materials in place.</class_description>
+      <class_map_code>Ca</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>90</class_id>
+      <class_name>Rice field</class_name>
+      <class_description>This is rice production. This cereal production can be classified into both rainfed and irrigated crops. Depending on the type of variety, rice can be grown in the rainy season using rainwater, or in the dry season. In the second case, production takes place in the shallows. It is traditionally practiced in lowlands without development but is also practiced in lowlands equipped with hydro-agricultural development allowing the supply of water for production outside the rainy season.</class_description>
+      <class_map_code>Ri</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>98</class_id>
+      <class_name>Permanent culture</class_name>
+      <class_description>These are crops that are grown all year round without interruption. Industrial crops and orchards are grouped together in this unit. Industrial crops in the case of Burkina Faso boil down to sugar cane, for example, cultivated over vast areas with sophisticated technical means for sprinkler irrigation. It is easily identifiable in the images by the shape of the plots and the extent of the crops.</class_description>
+      <class_map_code>Cp</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>105</class_id>
+      <class_name>Orchard</class_name>
+      <class_description>These are plots planted with fruit trees; pure crops or mixture of fruit species, fruit trees in association with areas always covered with grass. Citrus fruits, mango trees, papayas, banana trees, cashews etc. are included in this class.</class_description>
+      <class_map_code>Vg</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>111</class_id>
+      <class_name>Wetland</class_name>
+      <class_description>These are low-lying lands generally flooded during the rainy season. Sparsely forested areas, partially, temporarily or permanently saturated with stagnant or running water.</class_description>
+      <class_map_code>Zh</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>116</class_id>
+      <class_name>Water surface</class_name>
+      <class_description>They represent the courses followed by the continuous natural flow of water on the surface of the ground and draining a given sector. Included in this class are natural and artificial watercourses that serve as water flow channels, including canals. Width to take into account: 100 m. Lakes, ponds, natural ponds and dam reservoirs are included in this class. They can be recognized in the images by their blue color but red in places where they are covered with vegetation (water lilies) on the surface.</class_description>
+      <class_map_code>Se</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>120</class_id>
+      <class_name>Grassy Savanna</class_name>
+      <class_description>They are areas where trees and shrubs are usually absent (coverage less than 10%). Grassy formations include a continuous grass layer at least 80 cm high.</class_description>
+      <class_map_code>Savher</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>128</class_id>
+      <class_name>Grassy steppe</class_name>
+      <class_description>Sparse grassy formation without trees or shrubs. It is dominated by the annual grass carpet.</class_description>
+      <class_map_code>Sther</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>133</class_id>
+      <class_name>Bare soil</class_name>
+      <class_description>Soils stripped of plant cover. Generally these soils are loose materials sensitive to erosion (stripping, ablation).</class_description>
+      <class_map_code>Sn</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>137</class_id>
+      <class_name>Crusty soil</class_name>
+      <class_description>Highly consolidated surface formation resulting from the accumulation of sesquioxides of iron, alumina, or even manganese, common in the tropical zone, where it restricts the agricultural domain. In general, these soils are devoid of plant cover. The grass layer is dominant.</class_description>
+      <class_map_code>Cu</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>142</class_id>
+      <class_name>Sand dune</class_name>
+      <class_description>The dunes are a set of ergs characteristic of the Sahelian regions (with 600 mm of rain per year). The vegetation present must be less than 10%.</class_description>
+      <class_map_code>Du</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>146</class_id>
+      <class_name>Bare rock</class_name>
+      <class_description>Screes, cliffs, rocks, rocky outcrops, lavas, are the main components of this class. For the interpretation of this post it is interesting to consult the topographical map and aerial photographs where they can be identified more easily. These documents also make it possible to identify rocky areas hidden by shadow effects in deep valleys</class_description>
+      <class_map_code>Ro</class_map_code>
+    </LC_Class>
+    <LC_ClassCharacteristics>
+      <_2/>
+      <_11/>
+      <_22/>
+      <_33/>
+      <_41/>
+      <_47/>
+      <_53/>
+      <_64/>
+      <_72/>
+      <_82/>
+      <_90/>
+      <_98/>
+      <_105/>
+      <_111/>
+      <_116/>
+      <_120/>
+      <_128/>
+      <_133/>
+      <_137/>
+      <_142/>
+      <_146/>
+    </LC_ClassCharacteristics>
+    <LC_HorizontalPatterns>
+      <class_id>2</class_id>
+      <horizontal_pattern_id>3</horizontal_pattern_id>
+      <name>Horizontal Pattern 1</name>
+      <description>Describe the horizontal pattern</description>
+    </LC_HorizontalPatterns>
+    <LC_HorizontalPatterns>
+      <class_id>11</class_id>
+      <horizontal_pattern_id>12</horizontal_pattern_id>
+      <name>Horizontal Pattern 1</name>
+      <description>Describe the horizontal pattern</description>
+    </LC_HorizontalPatterns>
+    <LC_HorizontalPatterns>
+      <class_id>22</class_id>
+      <horizontal_pattern_id>23</horizontal_pattern_id>
+      <name>Horizontal Pattern 1</name>
+      <description>Describe the horizontal pattern</description>
+    </LC_HorizontalPatterns>
+    <LC_HorizontalPatterns>
+      <class_id>33</class_id>
+      <horizontal_pattern_id>34</horizontal_pattern_id>
+      <name>Horizontal Pattern 1</name>
+      <description>Describe the horizontal pattern</description>
+    </LC_HorizontalPatterns>
+    <LC_HorizontalPatterns>
+      <class_id>41</class_id>
+      <horizontal_pattern_id>42</horizontal_pattern_id>
+      <name>Horizontal Pattern 1</name>
+      <description>Describe the horizontal pattern</description>
+    </LC_HorizontalPatterns>
+    <LC_HorizontalPatterns>
+      <class_id>47</class_id>
+      <horizontal_pattern_id>48</horizontal_pattern_id>
+      <name>Horizontal Pattern 1</name>
+      <description>Describe the horizontal pattern</description>
+    </LC_HorizontalPatterns>
+    <LC_HorizontalPatterns>
+      <class_id>53</class_id>
+      <horizontal_pattern_id>54</horizontal_pattern_id>
+      <name>Horizontal Pattern 1</name>
+      <description>Describe the horizontal pattern</description>
+    </LC_HorizontalPatterns>
+    <LC_HorizontalPatterns>
+      <class_id>64</class_id>
+      <horizontal_pattern_id>65</horizontal_pattern_id>
+      <name>Horizontal Pattern 1</name>
+      <description>Describe the horizontal pattern</description>
+    </LC_HorizontalPatterns>
+    <LC_HorizontalPatterns>
+      <class_id>72</class_id>
+      <horizontal_pattern_id>73</horizontal_pattern_id>
+      <name>Horizontal Pattern 1</name>
+      <description>Describe the horizontal pattern</description>
+    </LC_HorizontalPatterns>
+    <LC_HorizontalPatterns>
+      <class_id>82</class_id>
+      <horizontal_pattern_id>83</horizontal_pattern_id>
+      <name>Horizontal Pattern 1</name>
+      <description>Describe the horizontal pattern</description>
+    </LC_HorizontalPatterns>
+    <LC_HorizontalPatterns>
+      <class_id>90</class_id>
+      <horizontal_pattern_id>91</horizontal_pattern_id>
+      <name>Horizontal Pattern 1</name>
+      <description>Describe the horizontal pattern</description>
+    </LC_HorizontalPatterns>
+    <LC_HorizontalPatterns>
+      <class_id>98</class_id>
+      <horizontal_pattern_id>99</horizontal_pattern_id>
+      <name>Horizontal Pattern 1</name>
+      <description>Describe the horizontal pattern</description>
+    </LC_HorizontalPatterns>
+    <LC_HorizontalPatterns>
+      <class_id>105</class_id>
+      <horizontal_pattern_id>106</horizontal_pattern_id>
+      <name>Horizontal Pattern 1</name>
+      <description>Describe the horizontal pattern</description>
+    </LC_HorizontalPatterns>
+    <LC_HorizontalPatterns>
+      <class_id>111</class_id>
+      <horizontal_pattern_id>112</horizontal_pattern_id>
+      <name>Horizontal Pattern 1</name>
+      <description>Describe the horizontal pattern</description>
+    </LC_HorizontalPatterns>
+    <LC_HorizontalPatterns>
+      <class_id>116</class_id>
+      <horizontal_pattern_id>117</horizontal_pattern_id>
+      <name>Horizontal Pattern 1</name>
+      <description>Describe the horizontal pattern</description>
+    </LC_HorizontalPatterns>
+    <LC_HorizontalPatterns>
+      <class_id>120</class_id>
+      <horizontal_pattern_id>121</horizontal_pattern_id>
+      <name>Horizontal Pattern 1</name>
+      <description>Describe the horizontal pattern</description>
+    </LC_HorizontalPatterns>
+    <LC_HorizontalPatterns>
+      <class_id>128</class_id>
+      <horizontal_pattern_id>129</horizontal_pattern_id>
+      <name>Horizontal Pattern 1</name>
+      <description>Describe the horizontal pattern</description>
+    </LC_HorizontalPatterns>
+    <LC_HorizontalPatterns>
+      <class_id>133</class_id>
+      <horizontal_pattern_id>134</horizontal_pattern_id>
+      <name>Horizontal Pattern 1</name>
+      <description>Describe the horizontal pattern</description>
+    </LC_HorizontalPatterns>
+    <LC_HorizontalPatterns>
+      <class_id>137</class_id>
+      <horizontal_pattern_id>138</horizontal_pattern_id>
+      <name>Horizontal Pattern 1</name>
+      <description>Describe the horizontal pattern</description>
+    </LC_HorizontalPatterns>
+    <LC_HorizontalPatterns>
+      <class_id>142</class_id>
+      <horizontal_pattern_id>143</horizontal_pattern_id>
+      <name>Horizontal Pattern 1</name>
+      <description>Describe the horizontal pattern</description>
+    </LC_HorizontalPatterns>
+    <LC_HorizontalPatterns>
+      <class_id>146</class_id>
+      <horizontal_pattern_id>147</horizontal_pattern_id>
+      <name>Horizontal Pattern 1</name>
+      <description>Describe the horizontal pattern</description>
+    </LC_HorizontalPatterns>
+    <LC_Strata>
+      <HPID>3</HPID>
+      <stratumID>4</stratumID>
+      <name>Stratum 1</name>
+      <description>Vegetation 1</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>3</HPID>
+      <stratumID>8</stratumID>
+      <name>Stratum 2</name>
+      <description>Vegetation 2</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>12</HPID>
+      <stratumID>13</stratumID>
+      <name>Stratum 1</name>
+      <description>Vegetation 1</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>12</HPID>
+      <stratumID>16</stratumID>
+      <name>Stratum 2</name>
+      <description>Vegetation 2</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>12</HPID>
+      <stratumID>19</stratumID>
+      <name>Stratum 3</name>
+      <description>Vegetation 3</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>23</HPID>
+      <stratumID>24</stratumID>
+      <name>Stratum 1</name>
+      <description>Vegetation 1</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>34</HPID>
+      <stratumID>35</stratumID>
+      <name>Stratum 1</name>
+      <description>Vegetation 1</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>34</HPID>
+      <stratumID>38</stratumID>
+      <name>Stratum 2</name>
+      <description>Vegetation 2</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>42</HPID>
+      <stratumID>43</stratumID>
+      <name>Stratum 2</name>
+      <description>Vegetation 2</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>42</HPID>
+      <stratumID>45</stratumID>
+      <name>Stratum 1</name>
+      <description>Vegetation 1</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>48</HPID>
+      <stratumID>49</stratumID>
+      <name>Stratum 1</name>
+      <description>Vegetation 1</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>54</HPID>
+      <stratumID>55</stratumID>
+      <name>Stratum 1</name>
+      <description>Vegetation 1</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>54</HPID>
+      <stratumID>58</stratumID>
+      <name>Stratum 2</name>
+      <description>Vegetation 2</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>54</HPID>
+      <stratumID>61</stratumID>
+      <name>Stratum 3</name>
+      <description>Vegetation 3</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>65</HPID>
+      <stratumID>66</stratumID>
+      <name>Stratum 1</name>
+      <description>Vegetation 1</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>65</HPID>
+      <stratumID>69</stratumID>
+      <name>Stratum 2</name>
+      <description>Vegetation 2</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>73</HPID>
+      <stratumID>74</stratumID>
+      <name>Stratum 1</name>
+      <description>Abiotic surface 1</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>73</HPID>
+      <stratumID>76</stratumID>
+      <name>Stratum 2</name>
+      <description>Abiotic surface 2</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>73</HPID>
+      <stratumID>78</stratumID>
+      <name>Stratum 3</name>
+      <description>Vegetation 3</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>83</HPID>
+      <stratumID>84</stratumID>
+      <name>Stratum 1</name>
+      <description>Vegetation 1</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>91</HPID>
+      <stratumID>92</stratumID>
+      <name>Stratum 1</name>
+      <description>Vegetation 1</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>99</HPID>
+      <stratumID>100</stratumID>
+      <name>Stratum 1</name>
+      <description>Vegetation 1</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>106</HPID>
+      <stratumID>107</stratumID>
+      <name>Stratum 1</name>
+      <description>Vegetation 1</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>112</HPID>
+      <stratumID>113</stratumID>
+      <name>Stratum 1</name>
+      <description>Vegetation 1</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>117</HPID>
+      <stratumID>118</stratumID>
+      <name>Stratum 1</name>
+      <description>Abiotic surface 1</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>121</HPID>
+      <stratumID>122</stratumID>
+      <name>Stratum 1</name>
+      <description>Vegetation 1</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>121</HPID>
+      <stratumID>125</stratumID>
+      <name>Stratum 2</name>
+      <description>Vegetation 2</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>129</HPID>
+      <stratumID>130</stratumID>
+      <name>Stratum 1</name>
+      <description>Vegetation 1</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>134</HPID>
+      <stratumID>135</stratumID>
+      <name>Stratum 1</name>
+      <description>Abiotic surface 1</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>138</HPID>
+      <stratumID>139</stratumID>
+      <name>Stratum 1</name>
+      <description>Abiotic surface 1</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>143</HPID>
+      <stratumID>144</stratumID>
+      <name>Stratum 1</name>
+      <description>Abiotic surface 1</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>147</HPID>
+      <stratumID>148</stratumID>
+      <name>Stratum 1</name>
+      <description>Abiotic surface 1</description>
+      <presenceType>Mandatory</presenceType>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>42</HPID>
+      <stratumID>33</stratumID>
+      <name>Stratum 33</name>
+      <description>The Horizontal Pattern layer</description>
+      <presenceType>Fixed</presenceType>
+      <portioning>0</portioning>
+      <portioning>100</portioning>
+      <onTop/>
+      <onTopType/>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>48</HPID>
+      <stratumID>34</stratumID>
+      <name>Stratum 34</name>
+      <description>The Horizontal Pattern layer</description>
+      <presenceType>Fixed</presenceType>
+      <portioning>0</portioning>
+      <portioning>100</portioning>
+      <onTop/>
+      <onTopType/>
+    </LC_Strata>
+    <LC_Properties>
+      <StratumID>4</StratumID>
+      <BlockID>1005</BlockID>
+      <name>Trees</name>
+      <description>Describe a vegetation element of trees type</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+      <cover>50</cover>
+      <cover>70</cover>
+      <height>15</height>
+      <height>20</height>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>8</StratumID>
+      <BlockID>1006</BlockID>
+      <name>Shrubs</name>
+      <description>Describe a vegetation element of shrubs type</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+      <cover>50</cover>
+      <cover>70</cover>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>13</StratumID>
+      <BlockID>1005</BlockID>
+      <name>Trees</name>
+      <description>Describe a vegetation element of trees type</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+      <cover>40</cover>
+      <cover>65</cover>
+      <height>3</height>
+      <height>30</height>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>16</StratumID>
+      <BlockID>1006</BlockID>
+      <name>Shrubs</name>
+      <description>Describe a vegetation element of shrubs type</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+      <cover>15</cover>
+      <cover>65</cover>
+      <height>0</height>
+      <height>5</height>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>19</StratumID>
+      <BlockID>1007</BlockID>
+      <name>Herbaceous growth forms</name>
+      <description>Describe a vegetation element of herbaceous growth form type</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+      <cover>15</cover>
+      <cover>100</cover>
+      <height>3</height>
+      <height>300</height>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>24</StratumID>
+      <BlockID>1005</BlockID>
+      <name>Trees</name>
+      <description>Describe a vegetation element of trees type</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+      <LC_WoodyGrowthLeafPhenology>NaN</LC_WoodyGrowthLeafPhenology>
+      <LC_WoodyGrowthLeafPhenology>NaN</LC_WoodyGrowthLeafPhenology>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>35</StratumID>
+      <BlockID>1005</BlockID>
+      <name>Trees</name>
+      <description>Describe a vegetation element of trees type</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+      <cover>10</cover>
+      <cover>50</cover>
+      <height>10</height>
+      <height>20</height>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>38</StratumID>
+      <BlockID>1006</BlockID>
+      <name>Shrubs</name>
+      <description>Describe a vegetation element of shrubs type</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+      <cover>40</cover>
+      <cover>100</cover>
+      <height>5</height>
+      <height>7</height>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>43</StratumID>
+      <BlockID>1007</BlockID>
+      <name>Herbaceous growth forms</name>
+      <description>Describe a vegetation element of herbaceous growth form type</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+      <cover>20</cover>
+      <cover>50</cover>
+      <height>10</height>
+      <height>80</height>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>45</StratumID>
+      <BlockID>1004</BlockID>
+      <name>Woody Growth Forms</name>
+      <description>Describe a vegetation element of woody type</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+      <cover>20</cover>
+      <cover>50</cover>
+      <height>7</height>
+      <height>12</height>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>49</StratumID>
+      <BlockID>1005</BlockID>
+      <name>Trees</name>
+      <description>Describe a vegetation element of trees type</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+      <cover>0</cover>
+      <cover>60</cover>
+      <height>2</height>
+      <height>25</height>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>55</StratumID>
+      <BlockID>1006</BlockID>
+      <name>Shrubs</name>
+      <description>Describe a vegetation element of shrubs type</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+      <cover>10</cover>
+      <cover>50</cover>
+      <height>4</height>
+      <height>7</height>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>58</StratumID>
+      <BlockID>1005</BlockID>
+      <name>Trees</name>
+      <description>Describe a vegetation element of trees type</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+      <cover>0</cover>
+      <cover>10</cover>
+      <height>1</height>
+      <height>10</height>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>61</StratumID>
+      <BlockID>1007</BlockID>
+      <name>Herbaceous growth forms</name>
+      <description>Describe a vegetation element of herbaceous growth form type</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+      <height>100</height>
+      <height>150</height>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>66</StratumID>
+      <BlockID>1006</BlockID>
+      <name>Shrubs</name>
+      <description>Describe a vegetation element of shrubs type</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+      <cover>4</cover>
+      <cover>10</cover>
+      <height>4</height>
+      <height>6</height>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>69</StratumID>
+      <BlockID>1007</BlockID>
+      <name>Herbaceous growth forms</name>
+      <description>Describe a vegetation element of herbaceous growth form type</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+      <cover>20</cover>
+      <cover>50</cover>
+      <height>10</height>
+      <height>80</height>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>74</StratumID>
+      <BlockID>1020</BlockID>
+      <name>Building</name>
+      <description>Describe a building element</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+      <cover>30</cover>
+      <cover>80</cover>
+      <construction_material>Hard Material</construction_material>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>76</StratumID>
+      <BlockID>1030</BlockID>
+      <name>Bare Soil</name>
+      <description>Describe a bare soil surface type</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>78</StratumID>
+      <BlockID>1007</BlockID>
+      <name>Herbaceous growth forms</name>
+      <description>Describe a vegetation element of herbaceous growth form type</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>84</StratumID>
+      <BlockID>1003</BlockID>
+      <name>Growth Forms</name>
+      <description>Describe a vegetation element of growth form type</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+      <cover>0</cover>
+      <cover>25</cover>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>92</StratumID>
+      <BlockID>1007</BlockID>
+      <name>Herbaceous growth forms</name>
+      <description>Describe a vegetation element of herbaceous growth form type</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>100</StratumID>
+      <BlockID>1007</BlockID>
+      <name>Herbaceous growth forms</name>
+      <description>Describe a vegetation element of herbaceous growth form type</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>107</StratumID>
+      <BlockID>1005</BlockID>
+      <name>Trees</name>
+      <description>Describe a vegetation element of trees type</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>113</StratumID>
+      <BlockID>1003</BlockID>
+      <name>Growth Forms</name>
+      <description>Describe a vegetation element of growth form type</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>118</StratumID>
+      <BlockID>1038</BlockID>
+      <name>Water Body</name>
+      <description>Describe a water body surface element</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>122</StratumID>
+      <BlockID>1007</BlockID>
+      <name>Herbaceous growth forms</name>
+      <description>Describe a vegetation element of herbaceous growth form type</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+      <cover>0</cover>
+      <cover>90</cover>
+      <height>80</height>
+      <height>300</height>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>125</StratumID>
+      <BlockID>1004</BlockID>
+      <name>Woody Growth Forms</name>
+      <description>Describe a vegetation element of woody type</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+      <cover>0</cover>
+      <cover>10</cover>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>130</StratumID>
+      <BlockID>1007</BlockID>
+      <name>Herbaceous growth forms</name>
+      <description>Describe a vegetation element of herbaceous growth form type</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+      <cover>20</cover>
+      <cover>50</cover>
+      <height>10</height>
+      <height>60</height>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>135</StratumID>
+      <BlockID>1030</BlockID>
+      <name>Bare Soil</name>
+      <description>Describe a bare soil surface type</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+      <cover>0</cover>
+      <cover>100</cover>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>139</StratumID>
+      <BlockID>1030</BlockID>
+      <name>Bare Soil</name>
+      <description>Describe a bare soil surface type</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>139</StratumID>
+      <BlockID>1031</BlockID>
+      <name>Coarse Mineral Fragments</name>
+      <description>Describe coarse mineral fragments surface element</description>
+      <elementPresenceType>Optional</elementPresenceType>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>144</StratumID>
+      <BlockID>1033</BlockID>
+      <name>Dune</name>
+      <description>Describe a dune surface element</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+      <cover>0</cover>
+      <cover>100</cover>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>148</StratumID>
+      <BlockID>1027</BlockID>
+      <name>Bare Rocks</name>
+      <description>Describe bare rocks surface element</description>
+      <elementPresenceType>Mandatory</elementPresenceType>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>33</StratumID>
+      <BlockID>1030</BlockID>
+      <elementPresenceType>Fixed</elementPresenceType>
+      <macropatternType/>
+      <macropatternCoverage>0</macropatternCoverage>
+      <macropatternCoverage>100</macropatternCoverage>
+      <cover>0</cover>
+      <cover>100</cover>
+      <height>0</height>
+      <height>100</height>
+      <portioning>0</portioning>
+      <portioning>100</portioning>
+      <density>0</density>
+      <density>100000</density>
+      <uOMArea/>
+      <elementHorizontalSpreading/>
+      <temporalType/>
+      <lengthOfTemporalRelationship>1</lengthOfTemporalRelationship>
+      <lengthOfTemporalRelationship>100</lengthOfTemporalRelationship>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>34</StratumID>
+      <BlockID>1007</BlockID>
+      <elementPresenceType>Conditional Temporal</elementPresenceType>
+      <cover>0</cover>
+      <cover>100</cover>
+      <heightCM>0</heightCM>
+      <heightCM>100</heightCM>
+      <leafCharacterSizeType/>
+      <herbaceousLeafPhenology/>
+      <perennialPercentage>0</perennialPercentage>
+      <perennialPercentage>100</perennialPercentage>
+      <nonPerennialGrowthFrequency/>
+      <nonPerennialPercentage>0</nonPerennialPercentage>
+      <nonPerennialPercentage>100</nonPerennialPercentage>
+      <density>0</density>
+      <density>100000</density>
+      <uOMArea/>
+      <elementHorizontalSpreading/>
+      <portioning>0</portioning>
+      <portioning>100</portioning>
+      <temporalType/>
+      <lengthOfTemporalRelationship>1</lengthOfTemporalRelationship>
+      <lengthOfTemporalRelationship>100</lengthOfTemporalRelationship>
+      <lifeFormSpecialization/>
+    </LC_Properties>
+    <LC_Characteristics>
+      <StratumID>24</StratumID>
+      <BlockID>1005</BlockID>
+      <CharacteristicID>100021</CharacteristicID>
+      <name>Rainfed</name>
+      <description>Describe the rainfed</description>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <name>Plantation</name>
+      <description>Describe the plantation</description>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>24</StratumID>
+      <BlockID>1005</BlockID>
+      <CharacteristicID>100021</CharacteristicID>
+      <treePlantation>Forest Plantation</treePlantation>
+      <description>Describe the forest plantation</description>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>24</StratumID>
+      <BlockID>1005</BlockID>
+      <CharacteristicID>100020</CharacteristicID>
+      <name>Cultivated And Managed Vegetation</name>
+      <description>Describe the cultivated and managed vegetation</description>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>49</StratumID>
+      <BlockID>1005</BlockID>
+      <CharacteristicID>100021</CharacteristicID>
+      <treePlantation>Forest Plantation</treePlantation>
+      <description>Describe the forest plantation</description>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>49</StratumID>
+      <BlockID>1005</BlockID>
+      <CharacteristicID>100020</CharacteristicID>
+      <name>Cultivated And Managed Vegetation</name>
+      <description>Describe the cultivated and managed vegetation</description>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>66</StratumID>
+      <BlockID>1006</BlockID>
+      <CharacteristicID>100020</CharacteristicID>
+      <name>Natural Or Seminatural Vegetation</name>
+      <description>Describe the natural or seminatural vegetation</description>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>69</StratumID>
+      <BlockID>1007</BlockID>
+      <CharacteristicID>100020</CharacteristicID>
+      <name>Natural Or Seminatural Vegetation</name>
+      <description>Describe the natural or seminatural vegetation</description>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <name>Urban Park</name>
+      <description>Describe the urban park</description>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>78</StratumID>
+      <BlockID>1007</BlockID>
+      <CharacteristicID>100020</CharacteristicID>
+      <name>Cultivated And Managed Vegetation</name>
+      <description>Describe the cultivated and managed vegetation</description>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>84</StratumID>
+      <BlockID>1003</BlockID>
+      <CharacteristicID>100021</CharacteristicID>
+      <name>Crop Yield</name>
+      <description>Describe the crop yield</description>
+      <yield>0</yield>
+      <yield>1</yield>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>84</StratumID>
+      <BlockID>1003</BlockID>
+      <CharacteristicID>100020</CharacteristicID>
+      <name>Cultivated And Managed Vegetation</name>
+      <description>Describe the cultivated and managed vegetation</description>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>84</StratumID>
+      <BlockID>1003</BlockID>
+      <CharacteristicID>100010</CharacteristicID>
+      <name>Floristic Aspect Species</name>
+      <description>Describe the floristic aspect species</description>
+      <speciesName>Millet</speciesName>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>84</StratumID>
+      <BlockID>1003</BlockID>
+      <CharacteristicID>100010</CharacteristicID>
+      <name>Floristic Aspect</name>
+      <description>Describe the floristic aspect</description>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>92</StratumID>
+      <BlockID>1007</BlockID>
+      <CharacteristicID>100021</CharacteristicID>
+      <name>Irrigation</name>
+      <description>Describe the irrigation</description>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>92</StratumID>
+      <BlockID>1007</BlockID>
+      <CharacteristicID>100020</CharacteristicID>
+      <name>Cultivated And Managed Vegetation</name>
+      <description>Describe the cultivated and managed vegetation</description>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>92</StratumID>
+      <BlockID>1007</BlockID>
+      <CharacteristicID>100010</CharacteristicID>
+      <name>Floristic Aspect Species</name>
+      <description>Describe the floristic aspect species</description>
+      <speciesName>Rice</speciesName>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>92</StratumID>
+      <BlockID>1007</BlockID>
+      <CharacteristicID>100010</CharacteristicID>
+      <name>Floristic Aspect</name>
+      <description>Describe the floristic aspect</description>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>100</StratumID>
+      <BlockID>1007</BlockID>
+      <CharacteristicID>100020</CharacteristicID>
+      <name>Cultivated And Managed Vegetation</name>
+      <description>Describe the cultivated and managed vegetation</description>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>100</StratumID>
+      <BlockID>1007</BlockID>
+      <CharacteristicID>100010</CharacteristicID>
+      <name>Floristic Aspect Species</name>
+      <description>Describe the floristic aspect species</description>
+      <speciesName>Mango</speciesName>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>100</StratumID>
+      <BlockID>1007</BlockID>
+      <CharacteristicID>100010</CharacteristicID>
+      <name>Floristic Aspect</name>
+      <description>Describe the floristic aspect</description>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>107</StratumID>
+      <BlockID>1005</BlockID>
+      <CharacteristicID>100021</CharacteristicID>
+      <orchardAndOtherPlantation>Orchard And Other Plantation</orchardAndOtherPlantation>
+      <description>Describe the orchard and other plantation</description>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>107</StratumID>
+      <BlockID>1005</BlockID>
+      <CharacteristicID>100020</CharacteristicID>
+      <name>Cultivated And Managed Vegetation</name>
+      <description>Describe the cultivated and managed vegetation</description>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>4</StratumID>
+      <BlockID>1005</BlockID>
+      <CharacteristicID>100020</CharacteristicID>
+      <CharacteristicLabel>Vegetation Artificiality</CharacteristicLabel>
+      <vegetationArtificiality>Natural or Seminatural</vegetationArtificiality>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>8</StratumID>
+      <BlockID>1006</BlockID>
+      <CharacteristicID>100020</CharacteristicID>
+      <CharacteristicLabel>Vegetation Artificiality</CharacteristicLabel>
+      <vegetationArtificiality>Natural or Seminatural</vegetationArtificiality>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>13</StratumID>
+      <BlockID>1005</BlockID>
+      <CharacteristicID>100020</CharacteristicID>
+      <CharacteristicLabel>Vegetation Artificiality</CharacteristicLabel>
+      <vegetationArtificiality>Natural or Seminatural</vegetationArtificiality>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>16</StratumID>
+      <BlockID>1006</BlockID>
+      <CharacteristicID>100020</CharacteristicID>
+      <CharacteristicLabel>Vegetation Artificiality</CharacteristicLabel>
+      <vegetationArtificiality>Natural or Seminatural</vegetationArtificiality>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>19</StratumID>
+      <BlockID>1007</BlockID>
+      <CharacteristicID>100020</CharacteristicID>
+      <CharacteristicLabel>Vegetation Artificiality</CharacteristicLabel>
+      <vegetationArtificiality>Natural or Seminatural</vegetationArtificiality>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>35</StratumID>
+      <BlockID>1005</BlockID>
+      <CharacteristicID>100020</CharacteristicID>
+      <CharacteristicLabel>Vegetation Artificiality</CharacteristicLabel>
+      <vegetationArtificiality>Natural or Seminatural</vegetationArtificiality>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>38</StratumID>
+      <BlockID>1006</BlockID>
+      <CharacteristicID>100020</CharacteristicID>
+      <CharacteristicLabel>Vegetation Artificiality</CharacteristicLabel>
+      <vegetationArtificiality>Natural or Seminatural</vegetationArtificiality>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>55</StratumID>
+      <BlockID>1006</BlockID>
+      <CharacteristicID>100020</CharacteristicID>
+      <CharacteristicLabel>Vegetation Artificiality</CharacteristicLabel>
+      <vegetationArtificiality>Natural or Seminatural</vegetationArtificiality>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>58</StratumID>
+      <BlockID>1005</BlockID>
+      <CharacteristicID>100020</CharacteristicID>
+      <CharacteristicLabel>Vegetation Artificiality</CharacteristicLabel>
+      <vegetationArtificiality>Natural or Seminatural</vegetationArtificiality>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>43</StratumID>
+      <BlockID>1007</BlockID>
+      <CharacteristicID>100020</CharacteristicID>
+      <CharacteristicLabel>Vegetation Artificiality</CharacteristicLabel>
+      <vegetationArtificiality>Natural or Seminatural</vegetationArtificiality>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>45</StratumID>
+      <BlockID>1004</BlockID>
+      <CharacteristicID>100020</CharacteristicID>
+      <CharacteristicLabel>Vegetation Artificiality</CharacteristicLabel>
+      <vegetationArtificiality>Natural or Seminatural</vegetationArtificiality>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>61</StratumID>
+      <BlockID>1007</BlockID>
+      <CharacteristicID>100020</CharacteristicID>
+      <CharacteristicLabel>Vegetation Artificiality</CharacteristicLabel>
+      <vegetationArtificiality>Natural or Seminatural</vegetationArtificiality>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>113</StratumID>
+      <BlockID>1003</BlockID>
+      <CharacteristicID>100020</CharacteristicID>
+      <CharacteristicLabel>Vegetation Artificiality</CharacteristicLabel>
+      <vegetationArtificiality>Natural or Seminatural</vegetationArtificiality>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>122</StratumID>
+      <BlockID>1007</BlockID>
+      <CharacteristicID>100020</CharacteristicID>
+      <CharacteristicLabel>Vegetation Artificiality</CharacteristicLabel>
+      <vegetationArtificiality>Natural or Seminatural</vegetationArtificiality>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>125</StratumID>
+      <BlockID>1004</BlockID>
+      <CharacteristicID>100020</CharacteristicID>
+      <CharacteristicLabel>Vegetation Artificiality</CharacteristicLabel>
+      <vegetationArtificiality>Natural or Seminatural</vegetationArtificiality>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>130</StratumID>
+      <BlockID>1007</BlockID>
+      <CharacteristicID>100020</CharacteristicID>
+      <CharacteristicLabel>Vegetation Artificiality</CharacteristicLabel>
+      <vegetationArtificiality>Natural or Seminatural</vegetationArtificiality>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>34</StratumID>
+      <BlockID>1007</BlockID>
+      <CharacteristicID>100020</CharacteristicID>
+      <CharacteristicLabel>Vegetation Artificiality</CharacteristicLabel>
+      <vegetationArtificiality>Natural or Seminatural</vegetationArtificiality>
+    </LC_Characteristics>
+  </objects>
+</LC_Legend>

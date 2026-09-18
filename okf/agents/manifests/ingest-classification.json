@@ -1,0 +1,29 @@
+{
+ "skill": "ingest-classification",
+ "inputs": ["system"],
+ "reads": [
+  {"kind": "system"},
+  {"kind": "siblings"},
+  {"kind": "ingest_blocks", "cap": 120000}
+ ],
+ "apply": "apply_ingest",
+ "output_schema": {
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["system", "classes", "notes"],
+  "properties": {
+   "system": {"type": "object", "additionalProperties": false,
+     "required": ["name", "publisher", "version", "jurisdiction", "language", "scope_statement"],
+     "properties": {"name": {"type": "string"}, "publisher": {"type": "string"}, "version": {"type": "string"},
+                    "jurisdiction": {"type": "string"}, "language": {"type": "string"},
+                    "scope_statement": {"type": "string", "description": "verbatim sentence(s) stating what the system is for"}}},
+   "classes": {"type": "array", "items": {"type": "object", "additionalProperties": false,
+     "required": ["code", "name", "definition", "parent_code", "colour", "language", "source_span"],
+     "properties": {"code": {"type": "string"}, "name": {"type": "string"},
+                    "definition": {"type": "string", "description": "verbatim definition text, empty if none"},
+                    "parent_code": {"type": "string"}, "colour": {"type": "string"}, "language": {"type": "string"},
+                    "source_span": {"type": "string", "description": "page/row reference in the source"}}}},
+   "notes": {"type": "string", "description": "anything about the document structure a later step must know"}
+  }
+ }
+}

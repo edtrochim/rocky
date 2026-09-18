@@ -1,0 +1,218 @@
+country,code,national_class,tier_a_code,tier_a_class,tier_b_code,tier_b_class,tier_b_note,tier_c_code,tier_c_class,tier_c_lossy,tier_c_note
+argentina,3,Closed forests,1,Forest formation,3,Forest,,3,Forest Formation,no,
+argentina,4,Open forests,1,Forest formation,4,Open / dry forest or savanna formation,,4,Savanna Formation,no,
+argentina,6,Flooded forests,1,Forest formation,6,Flooded forest,,6,Floodable Forest,no,
+argentina,9,Forest plantations,14,Farming,9,Forest plantation,,9,Forest Plantation,no,
+argentina,11,Flooded grasslands,10,Non-forest natural formation,11,Wetland / flooded herbaceous,,11,Wetland,no,
+argentina,12,Grasslands,10,Non-forest natural formation,12,Grassland / herbaceous,,12,Grassland,no,
+argentina,15,Pastures,14,Farming,15,Pasture,,15,Pasture,no,
+argentina,19,Temporary crops,14,Farming,19,Temporary crop,,19,Temporary Crop,no,
+argentina,21,Agriculture and pasture mosaic,14,Farming,21,Mosaic of uses,,21,Mosaic of Uses,no,
+argentina,24,Urban areas,22,Non-vegetated area,24,Urban / infrastructure,,24,Urban Area,no,
+argentina,25,Other non-vegetated areas,22,Non-vegetated area,25,Other non-vegetated area,,25,Other non Vegetated Areas,no,
+argentina,27,Not observed,27,Not observed,27,Not observed,,27,Not Observed,no,
+argentina,33,"Rivers, lakes or ocean",26,Water body,33,"River, lake or ocean",,33,"River, Lake and Ocean",no,
+argentina,34,Ice and permanent snow,26,Water body,34,"Glacier, ice and permanent snow",,33,"River, Lake and Ocean",yes,"Brazil Collection 10 has no glacier class. Folded into 33 River, Lake and Ocean because every national legend files glacier under level-1 26 Water body; folding to 25 instead would move the pixels to level-1 22 Non-vegetated."
+argentina,36,Perennial crops,14,Farming,36,Perennial crop,,36,Perennial Crop,no,
+argentina,63,Shrubs and herbaceous mosaic,10,Non-forest natural formation,66,Shrubland,"Argentina's 63 is a shrub-and-herbaceous mosaic; Chile's 63 is Steppe. Merged into 66 Shrubland for Argentina to avoid the collision, and 63 is reserved for Chile's Steppe.",12,Grassland,yes,"Argentina's 63 is a shrub-and-herbaceous mosaic; Chile's 63 is Steppe. Merged into 66 Shrubland for Argentina to avoid the collision, and 63 is reserved for Chile's Steppe. No shrubland class in Brazil. Folded into 12 Grassland rather than 4 Savanna Formation: 4 sits under level-1 1 Forest, so mapping shrubland there would reclassify it as forest and inflate forest area across Chile, Argentina, Peru, Bolivia and Venezuela."
+argentina,66,Closed shrublands,10,Non-forest natural formation,66,Shrubland,,12,Grassland,yes,"No shrubland class in Brazil. Folded into 12 Grassland rather than 4 Savanna Formation: 4 sits under level-1 1 Forest, so mapping shrubland there would reclassify it as forest and inflate forest area across Chile, Argentina, Peru, Bolivia and Venezuela."
+argentina,73,Peatlands,10,Non-forest natural formation,73,Peatland,,11,Wetland,yes,No peatland class in Brazil. Folded into 11 Wetland; level-1 parent (10) is preserved.
+argentina,77,Open shrublands,10,Non-forest natural formation,66,Shrubland,"Argentina splits shrubland into 66 closed and 77 open. Only 66 exists in the other national legends, so 77 is merged into it.",12,Grassland,yes,"Argentina splits shrubland into 66 closed and 77 open. Only 66 exists in the other national legends, so 77 is merged into it. No shrubland class in Brazil. Folded into 12 Grassland rather than 4 Savanna Formation: 4 sits under level-1 1 Forest, so mapping shrubland there would reclassify it as forest and inflate forest area across Chile, Argentina, Peru, Bolivia and Venezuela."
+bolivia,3,Forest,1,Forest formation,3,Forest,,3,Forest Formation,no,
+bolivia,4,Open forest,1,Forest formation,4,Open / dry forest or savanna formation,,4,Savanna Formation,no,
+bolivia,6,Flooded forest,1,Forest formation,6,Flooded forest,,6,Floodable Forest,no,
+bolivia,11,Flooded grassland/shrubland,10,Non-forest natural formation,11,Wetland / flooded herbaceous,,11,Wetland,no,
+bolivia,12,Grassland/shrubland,10,Non-forest natural formation,12,Grassland / herbaceous,,12,Grassland,no,
+bolivia,13,Other non-forest natural formation,10,Non-forest natural formation,13,Other non-forest natural formation,,12,Grassland,yes,"Brazil Collection 10 dropped 'Other non-forest natural formation'. Folded into 12 Grassland, which shares its level-1 parent (10)."
+bolivia,15,Pasture,14,Farming,15,Pasture,,15,Pasture,no,
+bolivia,18,Agriculture,14,Farming,18,Agriculture,,18,Agriculture,no,
+bolivia,21,Mosaic of uses,14,Farming,21,Mosaic of uses,,21,Mosaic of Uses,no,
+bolivia,23,"Beach, dune and sand spot",22,Non-vegetated area,23,"Beach, dune and sand spot",,23,"Beach, Dune and Sand Spot",no,
+bolivia,24,Urban infrastructure,22,Non-vegetated area,24,Urban / infrastructure,,24,Urban Area,no,
+bolivia,25,Other non-vegetated anthropic area,22,Non-vegetated area,25,Other non-vegetated area,,25,Other non Vegetated Areas,no,
+bolivia,27,Not observed,27,Not observed,27,Not observed,,27,Not Observed,no,
+bolivia,29,Rocky outcrop,10,Non-forest natural formation,29,Rocky outcrop,,29,Rocky Outcrop,no,
+bolivia,30,Mining,22,Non-vegetated area,30,Mining,,30,Mining,no,
+bolivia,31,Aquaculture,26,Water body,31,Aquaculture,,31,Aquaculture,no,
+bolivia,33,"River, lake",26,Water body,33,"River, lake or ocean",,33,"River, Lake and Ocean",no,
+bolivia,34,Glacier,26,Water body,34,"Glacier, ice and permanent snow",,33,"River, Lake and Ocean",yes,"Brazil Collection 10 has no glacier class. Folded into 33 River, Lake and Ocean because every national legend files glacier under level-1 26 Water body; folding to 25 instead would move the pixels to level-1 22 Non-vegetated."
+bolivia,39,Soybean (beta),14,Farming,39,Soybean,,39,Soybean,no,
+bolivia,61,Salt flat,22,Non-vegetated area,61,Salt flat (salar),,25,Other non Vegetated Areas,yes,No salt flat class in Brazil. Folded into 25 Other non Vegetated Areas; level-1 parent (22) is preserved.
+bolivia,66,Scrublands,10,Non-forest natural formation,66,Shrubland,,12,Grassland,yes,"No shrubland class in Brazil. Folded into 12 Grassland rather than 4 Savanna Formation: 4 sits under level-1 1 Forest, so mapping shrubland there would reclassify it as forest and inflate forest area across Chile, Argentina, Peru, Bolivia and Venezuela."
+bolivia,68,Other non-vegetated natural area,22,Non-vegetated area,68,Other natural non-vegetated area,,25,Other non Vegetated Areas,yes,No 'other natural non-vegetated area' class in Brazil. Folded into 25; level-1 parent (22) is preserved.
+bolivia,72,Other crops,14,Farming,72,Other crops,,41,Other Temporary Crops,yes,"'Other crops' in Bolivia and Peru is not resolved to a crop cycle. Folded into 41 Other Temporary Crops, the Brazilian catch-all; level-1 parent (14) is preserved."
+bolivia,81,Andean grassland and shrubland,10,Non-forest natural formation,81,Andean grassland and shrubland,,12,Grassland,yes,"No Andean grassland/shrubland class in Brazil. Folded into 12 Grassland; level-1 parent (10) is preserved. This is a large share of the Bolivian, Peruvian, Ecuadorian and Colombian highlands - flag it in any highland analysis."
+bolivia,82,Flooded Andean grassland and shrubland,10,Non-forest natural formation,82,Flooded Andean grassland and shrubland,,11,Wetland,yes,No flooded Andean grassland/shrubland class in Brazil. Folded into 11 Wetland; level-1 parent (10) is preserved.
+brazil,3,Forest Formation,1,Forest formation,3,Forest,,3,Forest Formation,no,
+brazil,4,Savanna Formation,1,Forest formation,4,Open / dry forest or savanna formation,,4,Savanna Formation,no,
+brazil,5,Mangrove,1,Forest formation,5,Mangrove,,5,Mangrove,no,
+brazil,6,Floodable Forest,1,Forest formation,6,Flooded forest,,6,Floodable Forest,no,
+brazil,9,Forest Plantation,14,Farming,9,Forest plantation,,9,Forest Plantation,no,
+brazil,11,Wetland,10,Non-forest natural formation,11,Wetland / flooded herbaceous,,11,Wetland,no,
+brazil,12,Grassland,10,Non-forest natural formation,12,Grassland / herbaceous,,12,Grassland,no,
+brazil,15,Pasture,14,Farming,15,Pasture,,15,Pasture,no,
+brazil,20,Sugar cane,14,Farming,20,Sugar cane,,20,Sugar cane,no,
+brazil,21,Mosaic of Uses,14,Farming,21,Mosaic of uses,,21,Mosaic of Uses,no,
+brazil,23,"Beach, Dune and Sand Spot",22,Non-vegetated area,23,"Beach, dune and sand spot",,23,"Beach, Dune and Sand Spot",no,
+brazil,24,Urban Area,22,Non-vegetated area,24,Urban / infrastructure,,24,Urban Area,no,
+brazil,25,Other non Vegetated Areas,22,Non-vegetated area,25,Other non-vegetated area,,25,Other non Vegetated Areas,no,
+brazil,29,Rocky Outcrop,10,Non-forest natural formation,29,Rocky outcrop,,29,Rocky Outcrop,no,
+brazil,30,Mining,22,Non-vegetated area,30,Mining,,30,Mining,no,
+brazil,31,Aquaculture,26,Water body,31,Aquaculture,,31,Aquaculture,no,
+brazil,32,Hypersaline Tidal Flat,10,Non-forest natural formation,32,Hypersaline tidal flat / coastal salt flat,,32,Hypersaline Tidal Flat,no,
+brazil,33,"River, Lake and Ocean",26,Water body,33,"River, lake or ocean",,33,"River, Lake and Ocean",no,
+brazil,35,Palm Oil,14,Farming,35,Palm oil,,35,Palm Oil,no,
+brazil,39,Soybean,14,Farming,39,Soybean,,39,Soybean,no,
+brazil,40,Rice,14,Farming,40,Rice,,40,Rice,no,
+brazil,41,Other Temporary Crops,14,Farming,41,Other temporary crops,,41,Other Temporary Crops,no,
+brazil,46,Coffee,14,Farming,46,Coffee,,46,Coffee,no,
+brazil,47,Citrus,14,Farming,47,Citrus,,47,Citrus,no,
+brazil,48,Other Perennial Crops,14,Farming,48,Other perennial crops,,48,Other Perennial Crops,no,
+brazil,49,Wooded Sandbank Vegetation,1,Forest formation,49,Wooded sandbank vegetation,,49,Wooded Sandbank Vegetation,no,
+brazil,50,Herbaceous Sandbank Vegetation,10,Non-forest natural formation,50,Herbaceous sandbank vegetation,,50,Herbaceous Sandbank Vegetation,no,
+brazil,62,Cotton (beta),14,Farming,62,Cotton,,62,Cotton (beta),no,
+brazil,75,Photovoltaic Power Plant (beta),22,Non-vegetated area,75,Photovoltaic power plant,,75,Photovoltaic Power Plant (beta),no,
+chile,3,Forest,1,Forest formation,3,Forest,,3,Forest Formation,no,
+chile,4,Open forest (pan-MapBiomas standard code; not in the Chile Collection 2 legend),1,Forest formation,4,Open / dry forest or savanna formation,,4,Savanna Formation,no,
+chile,6,Flooded forest (pan-MapBiomas standard code; not in the Chile Collection 2 legend),1,Forest formation,6,Flooded forest,,6,Floodable Forest,no,
+chile,7,(not in the published national legend),27,Not observed,27,Not observed,"Not a MapBiomas class. A handful of stray pixels in the Chile 2022 raster, produced by a non-nearest resampling at mosaic time. Treated as Not observed.",27,Not Observed,no,"Not a MapBiomas class. A handful of stray pixels in the Chile 2022 raster, produced by a non-nearest resampling at mosaic time. Treated as Not observed."
+chile,9,Silviculture,14,Farming,9,Forest plantation,,9,Forest Plantation,no,
+chile,11,Wetland,10,Non-forest natural formation,11,Wetland / flooded herbaceous,,11,Wetland,no,
+chile,12,Grassland,10,Non-forest natural formation,12,Grassland / herbaceous,,12,Grassland,no,
+chile,13,Other non-forest natural formation (pan-MapBiomas standard code; not in the Chile Collection 2 legend),10,Non-forest natural formation,13,Other non-forest natural formation,,12,Grassland,yes,"Brazil Collection 10 dropped 'Other non-forest natural formation'. Folded into 12 Grassland, which shares its level-1 parent (10)."
+chile,15,Pasture,14,Farming,15,Pasture,,15,Pasture,no,
+chile,16,(not in the published national legend),27,Not observed,27,Not observed,Not a MapBiomas class. Same mosaic artefact as code 7.,27,Not Observed,no,Not a MapBiomas class. Same mosaic artefact as code 7.
+chile,18,Agriculture,14,Farming,18,Agriculture,,18,Agriculture,no,
+chile,21,Mosaic of uses (pan-MapBiomas standard code; not in the Chile Collection 2 legend),14,Farming,21,Mosaic of uses,,21,Mosaic of Uses,no,
+chile,23,"Beach, Dune and Sand Spot",22,Non-vegetated area,23,"Beach, dune and sand spot",,23,"Beach, Dune and Sand Spot",no,
+chile,24,Infrastructure,22,Non-vegetated area,24,Urban / infrastructure,,24,Urban Area,no,
+chile,25,Other non-vegetated area,22,Non-vegetated area,25,Other non-vegetated area,,25,Other non Vegetated Areas,no,
+chile,29,Rocky Outcrop,10,Non-forest natural formation,29,Rocky outcrop,,29,Rocky Outcrop,no,
+chile,32,Hypersaline tidal flat (pan-MapBiomas standard code; not in the Chile Collection 2 legend),10,Non-forest natural formation,32,Hypersaline tidal flat / coastal salt flat,,32,Hypersaline Tidal Flat,no,
+chile,33,"River, lake or ocean",26,Water body,33,"River, lake or ocean",,33,"River, Lake and Ocean",no,
+chile,34,Ice and snow,26,Water body,34,"Glacier, ice and permanent snow",,33,"River, Lake and Ocean",yes,"Brazil Collection 10 has no glacier class. Folded into 33 River, Lake and Ocean because every national legend files glacier under level-1 26 Water body; folding to 25 instead would move the pixels to level-1 22 Non-vegetated."
+chile,59,Primary Forest,1,Forest formation,59,?,,3,Forest Formation,yes,Brazil Collection 10 does not separate primary from secondary forest. Folded into 3 Forest Formation; level-1 parent (1) is preserved.
+chile,60,Secondary Forest,1,Forest formation,60,?,,3,Forest Formation,yes,As for 59.
+chile,61,Salt Flat,22,Non-vegetated area,61,Salt flat (salar),,25,Other non Vegetated Areas,yes,No salt flat class in Brazil. Folded into 25 Other non Vegetated Areas; level-1 parent (22) is preserved.
+chile,63,Steppe,10,Non-forest natural formation,63,Steppe,,12,Grassland,yes,No steppe class in Brazil. Folded into 12 Grassland; level-1 parent (10) is preserved.
+chile,66,Shrubland,10,Non-forest natural formation,66,Shrubland,,12,Grassland,yes,"No shrubland class in Brazil. Folded into 12 Grassland rather than 4 Savanna Formation: 4 sits under level-1 1 Forest, so mapping shrubland there would reclassify it as forest and inflate forest area across Chile, Argentina, Peru, Bolivia and Venezuela."
+chile,67,Dwarf forest,1,Forest formation,67,?,,4,Savanna Formation,yes,"No dwarf/krummholz forest class in Brazil. Folded into 4 Savanna Formation, the Brazilian open-canopy woody class; level-1 parent (1 Forest) is preserved."
+colombia,3,Forest,1,Forest formation,3,Forest,,3,Forest Formation,no,
+colombia,5,Mangrove,1,Forest formation,5,Mangrove,,5,Mangrove,no,
+colombia,6,Flooded forest,1,Forest formation,6,Flooded forest,,6,Floodable Forest,no,
+colombia,9,Forest plantation,14,Farming,9,Forest plantation,,9,Forest Plantation,no,
+colombia,11,Wetland,10,Non-forest natural formation,11,Wetland / flooded herbaceous,,11,Wetland,no,
+colombia,12,Grasslands / herbaceous,10,Non-forest natural formation,12,Grassland / herbaceous,,12,Grassland,no,
+colombia,13,Other non forest formation,10,Non-forest natural formation,13,Other non-forest natural formation,,12,Grassland,yes,"Brazil Collection 10 dropped 'Other non-forest natural formation'. Folded into 12 Grassland, which shares its level-1 parent (10)."
+colombia,21,Mosaic of agriculture and pasture,14,Farming,21,Mosaic of uses,,21,Mosaic of Uses,no,
+colombia,23,"Beach, dune and sand spot",22,Non-vegetated area,23,"Beach, dune and sand spot",,23,"Beach, Dune and Sand Spot",no,
+colombia,24,Infrastructure,22,Non-vegetated area,24,Urban / infrastructure,,24,Urban Area,no,
+colombia,25,Other non-vegetated area,22,Non-vegetated area,25,Other non-vegetated area,,25,Other non Vegetated Areas,no,
+colombia,27,Not observed,27,Not observed,27,Not observed,,27,Not Observed,no,
+colombia,29,Rocky outcrop,10,Non-forest natural formation,29,Rocky outcrop,,29,Rocky Outcrop,no,
+colombia,30,Mining,22,Non-vegetated area,30,Mining,,30,Mining,no,
+colombia,31,Aquaculture,26,Water body,31,Aquaculture,,31,Aquaculture,no,
+colombia,32,Hypersaline tidal flat,10,Non-forest natural formation,32,Hypersaline tidal flat / coastal salt flat,,32,Hypersaline Tidal Flat,no,
+colombia,33,"River, lake or ocean",26,Water body,33,"River, lake or ocean",,33,"River, Lake and Ocean",no,
+colombia,34,Glacier,26,Water body,34,"Glacier, ice and permanent snow",,33,"River, Lake and Ocean",yes,"Brazil Collection 10 has no glacier class. Folded into 33 River, Lake and Ocean because every national legend files glacier under level-1 26 Water body; folding to 25 instead would move the pixels to level-1 22 Non-vegetated."
+colombia,35,Palm oil,14,Farming,35,Palm oil,,35,Palm Oil,no,
+colombia,49,Wooded sand vegetation,1,Forest formation,49,Wooded sandbank vegetation,,49,Wooded Sandbank Vegetation,no,
+colombia,50,Herbaceous sand vegetation,10,Non-forest natural formation,50,Herbaceous sandbank vegetation,,50,Herbaceous Sandbank Vegetation,no,
+colombia,68,Other natural non-vegetated area,22,Non-vegetated area,68,Other natural non-vegetated area,,25,Other non Vegetated Areas,yes,No 'other natural non-vegetated area' class in Brazil. Folded into 25; level-1 parent (22) is preserved.
+colombia,74,Banana (beta),14,Farming,74,Banana,,48,Other Perennial Crops,yes,"No banana class in Brazil. Banana is a perennial crop, so it folds into 48 Other Perennial Crops; level-1 parent (14) is preserved. The Rmd previously sent it to 41 Other Temporary Crops, which is the wrong crop cycle."
+colombia,75,Solar panel farm,22,Non-vegetated area,75,Photovoltaic power plant,,75,Photovoltaic Power Plant (beta),no,
+colombia,81,Andean Herbaceous and Shrubby Vegetation,10,Non-forest natural formation,81,Andean grassland and shrubland,,12,Grassland,yes,"No Andean grassland/shrubland class in Brazil. Folded into 12 Grassland; level-1 parent (10) is preserved. This is a large share of the Bolivian, Peruvian, Ecuadorian and Colombian highlands - flag it in any highland analysis."
+colombia,82,Flooded Andean Herbaceous and Shrubby Vegetation,10,Non-forest natural formation,82,Flooded Andean grassland and shrubland,,11,Wetland,yes,No flooded Andean grassland/shrubland class in Brazil. Folded into 11 Wetland; level-1 parent (10) is preserved.
+ecuador,3,Forest,1,Forest formation,3,Forest,,3,Forest Formation,no,
+ecuador,4,Open Forest,1,Forest formation,4,Open / dry forest or savanna formation,,4,Savanna Formation,no,
+ecuador,5,Mangrove,1,Forest formation,5,Mangrove,,5,Mangrove,no,
+ecuador,6,Floodable forest,1,Forest formation,6,Flooded forest,,6,Floodable Forest,no,
+ecuador,9,Silviculture,14,Farming,9,Forest plantation,,9,Forest Plantation,no,
+ecuador,11,Non forest wetland,10,Non-forest natural formation,11,Wetland / flooded herbaceous,,11,Wetland,no,
+ecuador,12,Grassland,10,Non-forest natural formation,12,Grassland / herbaceous,,12,Grassland,no,
+ecuador,13,Other non-forest natural formation,10,Non-forest natural formation,13,Other non-forest natural formation,,12,Grassland,yes,"Brazil Collection 10 dropped 'Other non-forest natural formation'. Folded into 12 Grassland, which shares its level-1 parent (10)."
+ecuador,21,Mosaic of uses,14,Farming,21,Mosaic of uses,,21,Mosaic of Uses,no,
+ecuador,23,"Beach, dune and sand spot",22,Non-vegetated area,23,"Beach, dune and sand spot",,23,"Beach, Dune and Sand Spot",no,
+ecuador,24,Urban infrastructure,22,Non-vegetated area,24,Urban / infrastructure,,24,Urban Area,no,
+ecuador,25,Other anthropic non-vegetated area,22,Non-vegetated area,25,Other non-vegetated area,,25,Other non Vegetated Areas,no,
+ecuador,27,Not observed,27,Not observed,27,Not observed,,27,Not Observed,no,
+ecuador,29,Rocky Outcrop,10,Non-forest natural formation,29,Rocky outcrop,,29,Rocky Outcrop,no,
+ecuador,30,Mining,22,Non-vegetated area,30,Mining,,30,Mining,no,
+ecuador,31,Aquaculture,26,Water body,31,Aquaculture,,31,Aquaculture,no,
+ecuador,33,"River, Lake or Ocean",26,Water body,33,"River, lake or ocean",,33,"River, Lake and Ocean",no,
+ecuador,34,Glacier,26,Water body,34,"Glacier, ice and permanent snow",,33,"River, Lake and Ocean",yes,"Brazil Collection 10 has no glacier class. Folded into 33 River, Lake and Ocean because every national legend files glacier under level-1 26 Water body; folding to 25 instead would move the pixels to level-1 22 Non-vegetated."
+ecuador,68,Other natural non-vegetated area,22,Non-vegetated area,68,Other natural non-vegetated area,,25,Other non Vegetated Areas,yes,No 'other natural non-vegetated area' class in Brazil. Folded into 25; level-1 parent (22) is preserved.
+ecuador,74,Banana (beta),14,Farming,74,Banana,,48,Other Perennial Crops,yes,"No banana class in Brazil. Banana is a perennial crop, so it folds into 48 Other Perennial Crops; level-1 parent (14) is preserved. The Rmd previously sent it to 41 Other Temporary Crops, which is the wrong crop cycle."
+ecuador,81,Andean Herbaceous and Shrubby Vegetation,10,Non-forest natural formation,81,Andean grassland and shrubland,,12,Grassland,yes,"No Andean grassland/shrubland class in Brazil. Folded into 12 Grassland; level-1 parent (10) is preserved. This is a large share of the Bolivian, Peruvian, Ecuadorian and Colombian highlands - flag it in any highland analysis."
+ecuador,82,Flooded Andean Herbaceous,10,Non-forest natural formation,82,Flooded Andean grassland and shrubland,,11,Wetland,yes,No flooded Andean grassland/shrubland class in Brazil. Folded into 11 Wetland; level-1 parent (10) is preserved.
+paraguay,3,Closed Natural Woodlands,1,Forest formation,3,Forest,,3,Forest Formation,no,
+paraguay,4,Open Natural Woodlands,1,Forest formation,4,Open / dry forest or savanna formation,,4,Savanna Formation,no,
+paraguay,6,Flooded Natural Woodlands,1,Forest formation,6,Flooded forest,,6,Floodable Forest,no,
+paraguay,9,Forest Plantation,14,Farming,9,Forest plantation,,9,Forest Plantation,no,
+paraguay,11,Flooded grasslands,10,Non-forest natural formation,11,Wetland / flooded herbaceous,,11,Wetland,no,
+paraguay,12,Grassland,10,Non-forest natural formation,12,Grassland / herbaceous,,12,Grassland,no,
+paraguay,15,Pasture,14,Farming,15,Pasture,,15,Pasture,no,
+paraguay,18,Agriculture,14,Farming,18,Agriculture,,18,Agriculture,no,
+paraguay,22,Non-vegetated area,22,Non-vegetated area,22,Non-vegetated area (aggregate),,22,Non vegetated area,no,
+paraguay,26,Water body,26,Water body,26,Water body (aggregate),,26,Water,no,
+peru,3,Forest,1,Forest formation,3,Forest,,3,Forest Formation,no,
+peru,4,Dry forest,1,Forest formation,4,Open / dry forest or savanna formation,,4,Savanna Formation,no,
+peru,5,Mangrove,1,Forest formation,5,Mangrove,,5,Mangrove,no,
+peru,6,Flooded forest,1,Forest formation,6,Flooded forest,,6,Floodable Forest,no,
+peru,9,Planted forest,14,Farming,9,Forest plantation,,9,Forest Plantation,no,
+peru,11,Swamp or Flooded Grassland,10,Non-forest natural formation,11,Wetland / flooded herbaceous,,11,Wetland,no,
+peru,12,Grasslands / herbaceous,10,Non-forest natural formation,12,Grassland / herbaceous,,12,Grassland,no,
+peru,13,Other non-forest formations,10,Non-forest natural formation,13,Other non-forest natural formation,,12,Grassland,yes,"Brazil Collection 10 dropped 'Other non-forest natural formation'. Folded into 12 Grassland, which shares its level-1 parent (10)."
+peru,15,Pasture,14,Farming,15,Pasture,,15,Pasture,no,
+peru,21,Mosaic of agriculture and pasture,14,Farming,21,Mosaic of uses,,21,Mosaic of Uses,no,
+peru,23,Beach,22,Non-vegetated area,23,"Beach, dune and sand spot",,23,"Beach, Dune and Sand Spot",no,
+peru,24,Infrastructure,22,Non-vegetated area,24,Urban / infrastructure,,24,Urban Area,no,
+peru,25,Other non vegetated area,22,Non-vegetated area,25,Other non-vegetated area,,25,Other non Vegetated Areas,no,
+peru,27,Not observed,27,Not observed,27,Not observed,,27,Not Observed,no,
+peru,29,Rocky Outcrop,10,Non-forest natural formation,29,Rocky outcrop,,29,Rocky Outcrop,no,
+peru,30,Mining,22,Non-vegetated area,30,Mining,,30,Mining,no,
+peru,31,Aquaculture,26,Water body,31,Aquaculture,,31,Aquaculture,no,
+peru,32,Coastal Salt flat,22,Non-vegetated area,32,Hypersaline tidal flat / coastal salt flat,,32,Hypersaline Tidal Flat,no,
+peru,33,"River, lake or ocean",26,Water body,33,"River, lake or ocean",,33,"River, Lake and Ocean",no,
+peru,34,Glacier,26,Water body,34,"Glacier, ice and permanent snow",,33,"River, Lake and Ocean",yes,"Brazil Collection 10 has no glacier class. Folded into 33 River, Lake and Ocean because every national legend files glacier under level-1 26 Water body; folding to 25 instead would move the pixels to level-1 22 Non-vegetated."
+peru,35,Oil palm,14,Farming,35,Palm oil,,35,Palm Oil,no,
+peru,40,Rice,14,Farming,40,Rice,,40,Rice,no,
+peru,61,Salt flat,22,Non-vegetated area,61,Salt flat (salar),,25,Other non Vegetated Areas,yes,No salt flat class in Brazil. Folded into 25 Other non Vegetated Areas; level-1 parent (22) is preserved.
+peru,66,Scrubland,10,Non-forest natural formation,66,Shrubland,,12,Grassland,yes,"No shrubland class in Brazil. Folded into 12 Grassland rather than 4 Savanna Formation: 4 sits under level-1 1 Forest, so mapping shrubland there would reclassify it as forest and inflate forest area across Chile, Argentina, Peru, Bolivia and Venezuela."
+peru,68,Other natural non vegetated area,22,Non-vegetated area,68,Other natural non-vegetated area,,25,Other non Vegetated Areas,yes,No 'other natural non-vegetated area' class in Brazil. Folded into 25; level-1 parent (22) is preserved.
+peru,70,Fog oasis,10,Non-forest natural formation,70,Fog oasis (loma),,12,Grassland,yes,No fog oasis (loma) class in Brazil. Folded into 12 Grassland; level-1 parent (10) is preserved.
+peru,72,Other crops,14,Farming,72,Other crops,,41,Other Temporary Crops,yes,"'Other crops' in Bolivia and Peru is not resolved to a crop cycle. Folded into 41 Other Temporary Crops, the Brazilian catch-all; level-1 parent (14) is preserved."
+uruguay,3,Closed forest and closed shrubland,1,Forest formation,3,Forest,,3,Forest Formation,no,
+uruguay,11,Wetland,10,Non-forest natural formation,11,Wetland / flooded herbaceous,,11,Wetland,no,
+uruguay,12,Grassland,10,Non-forest natural formation,12,Grassland / herbaceous,,12,Grassland,no,
+uruguay,15,Pasture,14,Farming,15,Pasture,,15,Pasture,no,
+uruguay,18,Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette),14,Farming,18,Agriculture,,18,Agriculture,no,
+uruguay,22,Non-vegetated area,22,Non-vegetated area,22,Non-vegetated area (aggregate),,22,Non vegetated area,no,
+uruguay,33,"River, lake or ocean",26,Water body,33,"River, lake or ocean",,33,"River, Lake and Ocean",no,
+uruguay,79,Pinus plantation,14,Farming,79,Forest plantation - pine,,9,Forest Plantation,yes,"Brazil does not split forest plantation by species. Folded into 9 Forest Plantation, its own parent class - detail is lost but no class boundary is crossed."
+uruguay,80,Eucaliptus plantation,14,Farming,80,Forest plantation - eucalyptus,,9,Forest Plantation,yes,As for 79.
+uruguay,83,Other types of forest plantation,14,Farming,83,Forest plantation - other species,,9,Forest Plantation,yes,As for 79.
+venezuela,3,Forest,1,Forest formation,3,Forest,,3,Forest Formation,no,
+venezuela,4,Wooded savanna,1,Forest formation,4,Open / dry forest or savanna formation,,4,Savanna Formation,no,
+venezuela,5,Mangrove,1,Forest formation,5,Mangrove,,5,Mangrove,no,
+venezuela,6,Flooded forest,1,Forest formation,6,Flooded forest,,6,Floodable Forest,no,
+venezuela,9,Forest plantation,14,Farming,9,Forest plantation,,9,Forest Plantation,no,
+venezuela,11,Flooded grassland/shrubland,10,Non-forest natural formation,11,Wetland / flooded herbaceous,,11,Wetland,no,
+venezuela,12,Grassland,10,Non-forest natural formation,12,Grassland / herbaceous,,12,Grassland,no,
+venezuela,13,Other non-forest natural formations,10,Non-forest natural formation,13,Other non-forest natural formation,,12,Grassland,yes,"Brazil Collection 10 dropped 'Other non-forest natural formation'. Folded into 12 Grassland, which shares its level-1 parent (10)."
+venezuela,15,Pasture/Fallow lands,14,Farming,15,Pasture,,15,Pasture,no,
+venezuela,18,Agriculture/Fallow lands,14,Farming,18,Agriculture,,18,Agriculture,no,
+venezuela,21,Cropland/Pasture/Fallow lands,14,Farming,21,Mosaic of uses,,21,Mosaic of Uses,no,
+venezuela,23,Beach or dune,22,Non-vegetated area,23,"Beach, dune and sand spot",,23,"Beach, Dune and Sand Spot",no,
+venezuela,24,Urban,22,Non-vegetated area,24,Urban / infrastructure,,24,Urban Area,no,
+venezuela,25,Other non-vegetated anthropic areas,22,Non-vegetated area,25,Other non-vegetated area,,25,Other non Vegetated Areas,no,
+venezuela,29,Rocky outcrop,10,Non-forest natural formation,29,Rocky outcrop,,29,Rocky Outcrop,no,
+venezuela,30,Mining,22,Non-vegetated area,30,Mining,,30,Mining,no,
+venezuela,31,Aquaculture,26,Water body,31,Aquaculture,,31,Aquaculture,no,
+venezuela,32,Hypersaline tidal flat,10,Non-forest natural formation,32,Hypersaline tidal flat / coastal salt flat,,32,Hypersaline Tidal Flat,no,
+venezuela,33,"River, lake or ocean",26,Water body,33,"River, lake or ocean",,33,"River, Lake and Ocean",no,
+venezuela,50,Xerophytic grassland/shrubland,10,Non-forest natural formation,66,Shrubland,"Venezuela's 50 is Xerophytic grassland/shrubland, not the herbaceous sandbank vegetation that Brazil and Colombia encode as 50. Remapped to 66 Shrubland to avoid a silent collision.",12,Grassland,yes,"Venezuela's 50 is Xerophytic grassland/shrubland, not the herbaceous sandbank vegetation that Brazil and Colombia encode as 50. Remapped to 66 Shrubland to avoid a silent collision. No shrubland class in Brazil. Folded into 12 Grassland rather than 4 Savanna Formation: 4 sits under level-1 1 Forest, so mapping shrubland there would reclassify it as forest and inflate forest area across Chile, Argentina, Peru, Bolivia and Venezuela."
+venezuela,66,Shrubland,10,Non-forest natural formation,66,Shrubland,,12,Grassland,yes,"No shrubland class in Brazil. Folded into 12 Grassland rather than 4 Savanna Formation: 4 sits under level-1 1 Forest, so mapping shrubland there would reclassify it as forest and inflate forest area across Chile, Argentina, Peru, Bolivia and Venezuela."
+venezuela,68,Other non-vegetated natural areas,22,Non-vegetated area,68,Other natural non-vegetated area,,25,Other non Vegetated Areas,yes,No 'other natural non-vegetated area' class in Brazil. Folded into 25; level-1 parent (22) is preserved.
+venezuela,81,Andean herbaceous/shrubby vegetation,10,Non-forest natural formation,81,Andean grassland and shrubland,,12,Grassland,yes,"No Andean grassland/shrubland class in Brazil. Folded into 12 Grassland; level-1 parent (10) is preserved. This is a large share of the Bolivian, Peruvian, Ecuadorian and Colombian highlands - flag it in any highland analysis."
+venezuela,82,Flooded andean herbaceous/shrubby vegetation,10,Non-forest natural formation,82,Flooded Andean grassland and shrubland,,11,Wetland,yes,No flooded Andean grassland/shrubland class in Brazil. Folded into 11 Wetland; level-1 parent (10) is preserved.

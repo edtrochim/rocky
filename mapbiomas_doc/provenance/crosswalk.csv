@@ -1,0 +1,218 @@
+country,source_code,source_class,target_code,target_class,note
+argentina,3,Closed forests,3,Forest Formation,
+argentina,4,Open forests,4,Savanna Formation,
+argentina,6,Flooded forests,27,Not Observed,NOT in the Rmd crosswalk - falls through to 27 Not Observed
+argentina,9,Forest plantations,9,Forest Plantation,
+argentina,11,Flooded grasslands,11,Wetland,
+argentina,12,Grasslands,12,Grassland,
+argentina,15,Pastures,15,Pasture,
+argentina,19,Temporary crops,41,Other Temporary Crops,
+argentina,21,Agriculture and pasture mosaic,21,Mosaic of Uses,
+argentina,24,Urban areas,24,Urban Area,
+argentina,25,Other non-vegetated areas,25,Other non Vegetated Areas,
+argentina,27,Not observed,27,Not Observed,
+argentina,33,"Rivers, lakes or ocean",33,"River, Lake and Ocean",
+argentina,34,Ice and permanent snow,34,(code 34 is not in the Brazil Collection 10 legend),
+argentina,36,Perennial crops,48,Other Perennial Crops,
+argentina,63,Shrubs and herbaceous mosaic,12,Grassland,
+argentina,66,Closed shrublands,4,Savanna Formation,
+argentina,73,Peatlands,11,Wetland,
+argentina,77,Open shrublands,4,Savanna Formation,
+bolivia,3,Forest,3,Forest Formation,
+bolivia,4,Open forest,4,Savanna Formation,
+bolivia,6,Flooded forest,6,Floodable Forest,
+bolivia,11,Flooded grassland/shrubland,11,Wetland,
+bolivia,12,Grassland/shrubland,12,Grassland,
+bolivia,13,Other non-forest natural formation,3,Forest Formation,
+bolivia,15,Pasture,15,Pasture,
+bolivia,18,Agriculture,18,Agriculture,
+bolivia,21,Mosaic of uses,21,Mosaic of Uses,
+bolivia,23,"Beach, dune and sand spot",27,Not Observed,NOT in the Rmd crosswalk - falls through to 27 Not Observed
+bolivia,24,Urban infrastructure,24,Urban Area,
+bolivia,25,Other non-vegetated anthropic area,25,Other non Vegetated Areas,
+bolivia,27,Not observed,27,Not Observed,
+bolivia,29,Rocky outcrop,29,Rocky Outcrop,
+bolivia,30,Mining,30,Mining,
+bolivia,31,Aquaculture,31,Aquaculture,
+bolivia,33,"River, lake",33,"River, Lake and Ocean",
+bolivia,34,Glacier,34,(code 34 is not in the Brazil Collection 10 legend),
+bolivia,39,Soybean (beta),39,Soybean,
+bolivia,61,Salt flat,25,Other non Vegetated Areas,
+bolivia,66,Scrublands,12,Grassland,
+bolivia,68,Other non-vegetated natural area,25,Other non Vegetated Areas,
+bolivia,72,Other crops,41,Other Temporary Crops,
+bolivia,81,Andean grassland and shrubland,12,Grassland,
+bolivia,82,Flooded Andean grassland and shrubland,11,Wetland,
+brazil,3,Forest Formation,3,Forest Formation,passthrough (Rmd treats this legend as Brazil-compatible)
+brazil,4,Savanna Formation,4,Savanna Formation,passthrough (Rmd treats this legend as Brazil-compatible)
+brazil,5,Mangrove,5,Mangrove,passthrough (Rmd treats this legend as Brazil-compatible)
+brazil,6,Floodable Forest,6,Floodable Forest,passthrough (Rmd treats this legend as Brazil-compatible)
+brazil,9,Forest Plantation,9,Forest Plantation,passthrough (Rmd treats this legend as Brazil-compatible)
+brazil,11,Wetland,11,Wetland,passthrough (Rmd treats this legend as Brazil-compatible)
+brazil,12,Grassland,12,Grassland,passthrough (Rmd treats this legend as Brazil-compatible)
+brazil,15,Pasture,15,Pasture,passthrough (Rmd treats this legend as Brazil-compatible)
+brazil,20,Sugar cane,20,Sugar cane,passthrough (Rmd treats this legend as Brazil-compatible)
+brazil,21,Mosaic of Uses,21,Mosaic of Uses,passthrough (Rmd treats this legend as Brazil-compatible)
+brazil,23,"Beach, Dune and Sand Spot",23,"Beach, Dune and Sand Spot",passthrough (Rmd treats this legend as Brazil-compatible)
+brazil,24,Urban Area,24,Urban Area,passthrough (Rmd treats this legend as Brazil-compatible)
+brazil,25,Other non Vegetated Areas,25,Other non Vegetated Areas,passthrough (Rmd treats this legend as Brazil-compatible)
+brazil,29,Rocky Outcrop,29,Rocky Outcrop,passthrough (Rmd treats this legend as Brazil-compatible)
+brazil,30,Mining,30,Mining,passthrough (Rmd treats this legend as Brazil-compatible)
+brazil,31,Aquaculture,31,Aquaculture,passthrough (Rmd treats this legend as Brazil-compatible)
+brazil,32,Hypersaline Tidal Flat,32,Hypersaline Tidal Flat,passthrough (Rmd treats this legend as Brazil-compatible)
+brazil,33,"River, Lake and Ocean",33,"River, Lake and Ocean",passthrough (Rmd treats this legend as Brazil-compatible)
+brazil,35,Palm Oil,35,Palm Oil,passthrough (Rmd treats this legend as Brazil-compatible)
+brazil,39,Soybean,39,Soybean,passthrough (Rmd treats this legend as Brazil-compatible)
+brazil,40,Rice,40,Rice,passthrough (Rmd treats this legend as Brazil-compatible)
+brazil,41,Other Temporary Crops,41,Other Temporary Crops,passthrough (Rmd treats this legend as Brazil-compatible)
+brazil,46,Coffee,46,Coffee,passthrough (Rmd treats this legend as Brazil-compatible)
+brazil,47,Citrus,47,Citrus,passthrough (Rmd treats this legend as Brazil-compatible)
+brazil,48,Other Perennial Crops,48,Other Perennial Crops,passthrough (Rmd treats this legend as Brazil-compatible)
+brazil,49,Wooded Sandbank Vegetation,49,Wooded Sandbank Vegetation,passthrough (Rmd treats this legend as Brazil-compatible)
+brazil,50,Herbaceous Sandbank Vegetation,50,Herbaceous Sandbank Vegetation,passthrough (Rmd treats this legend as Brazil-compatible)
+brazil,62,Cotton (beta),62,Cotton (beta),passthrough (Rmd treats this legend as Brazil-compatible)
+brazil,75,Photovoltaic Power Plant (beta),75,Photovoltaic Power Plant (beta),passthrough (Rmd treats this legend as Brazil-compatible)
+chile,3,Forest,3,Forest Formation,
+chile,4,Open forest (pan-MapBiomas standard code; not in the Chile Collection 2 legend),4,Savanna Formation,
+chile,6,Flooded forest (pan-MapBiomas standard code; not in the Chile Collection 2 legend),27,Not Observed,NOT in the Rmd crosswalk - falls through to 27 Not Observed
+chile,7,(not in the published national legend),27,Not Observed,NOT in the Rmd crosswalk - falls through to 27 Not Observed
+chile,9,Silviculture,9,Forest Plantation,
+chile,11,Wetland,11,Wetland,
+chile,12,Grassland,12,Grassland,
+chile,13,Other non-forest natural formation (pan-MapBiomas standard code; not in the Chile Collection 2 legend),27,Not Observed,NOT in the Rmd crosswalk - falls through to 27 Not Observed
+chile,15,Pasture,15,Pasture,
+chile,16,(not in the published national legend),27,Not Observed,NOT in the Rmd crosswalk - falls through to 27 Not Observed
+chile,18,Agriculture,18,Agriculture,
+chile,21,Mosaic of uses (pan-MapBiomas standard code; not in the Chile Collection 2 legend),21,Mosaic of Uses,
+chile,23,"Beach, Dune and Sand Spot",23,"Beach, Dune and Sand Spot",
+chile,24,Infrastructure,24,Urban Area,
+chile,25,Other non-vegetated area,27,Not Observed,NOT in the Rmd crosswalk - falls through to 27 Not Observed
+chile,29,Rocky Outcrop,29,Rocky Outcrop,
+chile,32,Hypersaline tidal flat (pan-MapBiomas standard code; not in the Chile Collection 2 legend),32,Hypersaline Tidal Flat,
+chile,33,"River, lake or ocean",33,"River, Lake and Ocean",
+chile,34,Ice and snow,34,(code 34 is not in the Brazil Collection 10 legend),
+chile,59,Primary Forest,3,Forest Formation,
+chile,60,Secondary Forest,3,Forest Formation,
+chile,61,Salt Flat,25,Other non Vegetated Areas,
+chile,63,Steppe,12,Grassland,
+chile,66,Shrubland,4,Savanna Formation,
+chile,67,Dwarf forest,4,Savanna Formation,
+colombia,3,Forest,3,Forest Formation,passthrough (Rmd treats this legend as Brazil-compatible)
+colombia,5,Mangrove,5,Mangrove,passthrough (Rmd treats this legend as Brazil-compatible)
+colombia,6,Flooded forest,6,Floodable Forest,passthrough (Rmd treats this legend as Brazil-compatible)
+colombia,9,Forest plantation,9,Forest Plantation,passthrough (Rmd treats this legend as Brazil-compatible)
+colombia,11,Wetland,11,Wetland,passthrough (Rmd treats this legend as Brazil-compatible)
+colombia,12,Grasslands / herbaceous,12,Grassland,passthrough (Rmd treats this legend as Brazil-compatible)
+colombia,13,Other non forest formation,13,(code 13 is not in the Brazil Collection 10 legend),passthrough (Rmd treats this legend as Brazil-compatible)
+colombia,21,Mosaic of agriculture and pasture,21,Mosaic of Uses,passthrough (Rmd treats this legend as Brazil-compatible)
+colombia,23,"Beach, dune and sand spot",23,"Beach, Dune and Sand Spot",passthrough (Rmd treats this legend as Brazil-compatible)
+colombia,24,Infrastructure,24,Urban Area,passthrough (Rmd treats this legend as Brazil-compatible)
+colombia,25,Other non-vegetated area,25,Other non Vegetated Areas,passthrough (Rmd treats this legend as Brazil-compatible)
+colombia,27,Not observed,27,Not Observed,passthrough (Rmd treats this legend as Brazil-compatible)
+colombia,29,Rocky outcrop,29,Rocky Outcrop,passthrough (Rmd treats this legend as Brazil-compatible)
+colombia,30,Mining,30,Mining,passthrough (Rmd treats this legend as Brazil-compatible)
+colombia,31,Aquaculture,31,Aquaculture,passthrough (Rmd treats this legend as Brazil-compatible)
+colombia,32,Hypersaline tidal flat,32,Hypersaline Tidal Flat,passthrough (Rmd treats this legend as Brazil-compatible)
+colombia,33,"River, lake or ocean",33,"River, Lake and Ocean",passthrough (Rmd treats this legend as Brazil-compatible)
+colombia,34,Glacier,34,(code 34 is not in the Brazil Collection 10 legend),passthrough (Rmd treats this legend as Brazil-compatible)
+colombia,35,Palm oil,35,Palm Oil,passthrough (Rmd treats this legend as Brazil-compatible)
+colombia,49,Wooded sand vegetation,49,Wooded Sandbank Vegetation,passthrough (Rmd treats this legend as Brazil-compatible)
+colombia,50,Herbaceous sand vegetation,50,Herbaceous Sandbank Vegetation,passthrough (Rmd treats this legend as Brazil-compatible)
+colombia,68,Other natural non-vegetated area,68,(code 68 is not in the Brazil Collection 10 legend),passthrough (Rmd treats this legend as Brazil-compatible)
+colombia,74,Banana (beta),74,(code 74 is not in the Brazil Collection 10 legend),passthrough (Rmd treats this legend as Brazil-compatible)
+colombia,75,Solar panel farm,75,Photovoltaic Power Plant (beta),passthrough (Rmd treats this legend as Brazil-compatible)
+colombia,81,Andean Herbaceous and Shrubby Vegetation,81,(code 81 is not in the Brazil Collection 10 legend),passthrough (Rmd treats this legend as Brazil-compatible)
+colombia,82,Flooded Andean Herbaceous and Shrubby Vegetation,82,(code 82 is not in the Brazil Collection 10 legend),passthrough (Rmd treats this legend as Brazil-compatible)
+ecuador,3,Forest,3,Forest Formation,
+ecuador,4,Open Forest,4,Savanna Formation,
+ecuador,5,Mangrove,5,Mangrove,
+ecuador,6,Floodable forest,6,Floodable Forest,
+ecuador,9,Silviculture,9,Forest Plantation,
+ecuador,11,Non forest wetland,11,Wetland,
+ecuador,12,Grassland,12,Grassland,
+ecuador,13,Other non-forest natural formation,12,Grassland,
+ecuador,21,Mosaic of uses,21,Mosaic of Uses,
+ecuador,23,"Beach, dune and sand spot",27,Not Observed,NOT in the Rmd crosswalk - falls through to 27 Not Observed
+ecuador,24,Urban infrastructure,24,Urban Area,
+ecuador,25,Other anthropic non-vegetated area,27,Not Observed,NOT in the Rmd crosswalk - falls through to 27 Not Observed
+ecuador,27,Not observed,27,Not Observed,
+ecuador,29,Rocky Outcrop,29,Rocky Outcrop,
+ecuador,30,Mining,30,Mining,
+ecuador,31,Aquaculture,27,Not Observed,NOT in the Rmd crosswalk - falls through to 27 Not Observed
+ecuador,33,"River, Lake or Ocean",33,"River, Lake and Ocean",
+ecuador,34,Glacier,34,(code 34 is not in the Brazil Collection 10 legend),
+ecuador,68,Other natural non-vegetated area,25,Other non Vegetated Areas,
+ecuador,74,Banana (beta),41,Other Temporary Crops,
+ecuador,81,Andean Herbaceous and Shrubby Vegetation,12,Grassland,
+ecuador,82,Flooded Andean Herbaceous,11,Wetland,
+paraguay,3,Closed Natural Woodlands,3,Forest Formation,
+paraguay,4,Open Natural Woodlands,4,Savanna Formation,
+paraguay,6,Flooded Natural Woodlands,27,Not Observed,NOT in the Rmd crosswalk - falls through to 27 Not Observed
+paraguay,9,Forest Plantation,9,Forest Plantation,
+paraguay,11,Flooded grasslands,11,Wetland,
+paraguay,12,Grassland,12,Grassland,
+paraguay,15,Pasture,15,Pasture,
+paraguay,18,Agriculture,18,Agriculture,
+paraguay,22,Non-vegetated area,27,Not Observed,NOT in the Rmd crosswalk - falls through to 27 Not Observed
+paraguay,26,Water body,27,Not Observed,NOT in the Rmd crosswalk - falls through to 27 Not Observed
+peru,3,Forest,3,Forest Formation,
+peru,4,Dry forest,4,Savanna Formation,
+peru,5,Mangrove,5,Mangrove,
+peru,6,Flooded forest,6,Floodable Forest,
+peru,9,Planted forest,27,Not Observed,NOT in the Rmd crosswalk - falls through to 27 Not Observed
+peru,11,Swamp or Flooded Grassland,11,Wetland,
+peru,12,Grasslands / herbaceous,12,Grassland,
+peru,13,Other non-forest formations,12,Grassland,
+peru,15,Pasture,15,Pasture,
+peru,21,Mosaic of agriculture and pasture,21,Mosaic of Uses,
+peru,23,Beach,23,"Beach, Dune and Sand Spot",
+peru,24,Infrastructure,24,Urban Area,
+peru,25,Other non vegetated area,25,Other non Vegetated Areas,
+peru,27,Not observed,27,Not Observed,
+peru,29,Rocky Outcrop,29,Rocky Outcrop,
+peru,30,Mining,30,Mining,
+peru,31,Aquaculture,31,Aquaculture,
+peru,32,Coastal Salt flat,32,Hypersaline Tidal Flat,
+peru,33,"River, lake or ocean",33,"River, Lake and Ocean",
+peru,34,Glacier,34,(code 34 is not in the Brazil Collection 10 legend),
+peru,35,Oil palm,35,Palm Oil,
+peru,40,Rice,40,Rice,
+peru,61,Salt flat,25,Other non Vegetated Areas,
+peru,66,Scrubland,12,Grassland,
+peru,68,Other natural non vegetated area,25,Other non Vegetated Areas,
+peru,70,Fog oasis,12,Grassland,
+peru,72,Other crops,41,Other Temporary Crops,
+uruguay,3,Closed forest and closed shrubland,3,Forest Formation,
+uruguay,11,Wetland,11,Wetland,
+uruguay,12,Grassland,12,Grassland,
+uruguay,15,Pasture,15,Pasture,
+uruguay,18,Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette),27,Not Observed,NOT in the Rmd crosswalk - falls through to 27 Not Observed
+uruguay,22,Non-vegetated area,27,Not Observed,NOT in the Rmd crosswalk - falls through to 27 Not Observed
+uruguay,33,"River, lake or ocean",33,"River, Lake and Ocean",
+uruguay,79,Pinus plantation,27,Not Observed,NOT in the Rmd crosswalk - falls through to 27 Not Observed
+uruguay,80,Eucaliptus plantation,27,Not Observed,NOT in the Rmd crosswalk - falls through to 27 Not Observed
+uruguay,83,Other types of forest plantation,27,Not Observed,NOT in the Rmd crosswalk - falls through to 27 Not Observed
+venezuela,3,Forest,3,Forest Formation,passthrough (Rmd treats this legend as Brazil-compatible)
+venezuela,4,Wooded savanna,4,Savanna Formation,passthrough (Rmd treats this legend as Brazil-compatible)
+venezuela,5,Mangrove,5,Mangrove,passthrough (Rmd treats this legend as Brazil-compatible)
+venezuela,6,Flooded forest,6,Floodable Forest,passthrough (Rmd treats this legend as Brazil-compatible)
+venezuela,9,Forest plantation,9,Forest Plantation,passthrough (Rmd treats this legend as Brazil-compatible)
+venezuela,11,Flooded grassland/shrubland,11,Wetland,passthrough (Rmd treats this legend as Brazil-compatible)
+venezuela,12,Grassland,12,Grassland,passthrough (Rmd treats this legend as Brazil-compatible)
+venezuela,13,Other non-forest natural formations,13,(code 13 is not in the Brazil Collection 10 legend),passthrough (Rmd treats this legend as Brazil-compatible)
+venezuela,15,Pasture/Fallow lands,15,Pasture,passthrough (Rmd treats this legend as Brazil-compatible)
+venezuela,18,Agriculture/Fallow lands,18,Agriculture,passthrough (Rmd treats this legend as Brazil-compatible)
+venezuela,21,Cropland/Pasture/Fallow lands,21,Mosaic of Uses,passthrough (Rmd treats this legend as Brazil-compatible)
+venezuela,23,Beach or dune,23,"Beach, Dune and Sand Spot",passthrough (Rmd treats this legend as Brazil-compatible)
+venezuela,24,Urban,24,Urban Area,passthrough (Rmd treats this legend as Brazil-compatible)
+venezuela,25,Other non-vegetated anthropic areas,25,Other non Vegetated Areas,passthrough (Rmd treats this legend as Brazil-compatible)
+venezuela,29,Rocky outcrop,29,Rocky Outcrop,passthrough (Rmd treats this legend as Brazil-compatible)
+venezuela,30,Mining,30,Mining,passthrough (Rmd treats this legend as Brazil-compatible)
+venezuela,31,Aquaculture,31,Aquaculture,passthrough (Rmd treats this legend as Brazil-compatible)
+venezuela,32,Hypersaline tidal flat,32,Hypersaline Tidal Flat,passthrough (Rmd treats this legend as Brazil-compatible)
+venezuela,33,"River, lake or ocean",33,"River, Lake and Ocean",passthrough (Rmd treats this legend as Brazil-compatible)
+venezuela,50,Xerophytic grassland/shrubland,50,Herbaceous Sandbank Vegetation,passthrough (Rmd treats this legend as Brazil-compatible)
+venezuela,66,Shrubland,66,(code 66 is not in the Brazil Collection 10 legend),passthrough (Rmd treats this legend as Brazil-compatible)
+venezuela,68,Other non-vegetated natural areas,68,(code 68 is not in the Brazil Collection 10 legend),passthrough (Rmd treats this legend as Brazil-compatible)
+venezuela,81,Andean herbaceous/shrubby vegetation,81,(code 81 is not in the Brazil Collection 10 legend),passthrough (Rmd treats this legend as Brazil-compatible)
+venezuela,82,Flooded andean herbaceous/shrubby vegetation,82,(code 82 is not in the Brazil Collection 10 legend),passthrough (Rmd treats this legend as Brazil-compatible)

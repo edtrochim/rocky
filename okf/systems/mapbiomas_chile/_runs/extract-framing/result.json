@@ -1,0 +1,28 @@
+{
+ "summary": "MapBiomas Chile (Collection 2) is produced by the MapBiomas Chile initiative for annual land cover and land use monitoring. Its forest classes split 59 Primary Forest, 60 Secondary Forest and 67 Dwarf forest, a distinction that follows Chile's native forest policy vocabulary (bosque nativo adulto, renoval, bosque achaparrado) rather than a physical cover threshold, and it carries Patagonian and Andean classes (Steppe, Salt Flat, Ice and snow) that neighbouring systems lack. Evidence is as far as the legend code sheet supports it; the collection's ATBD should be checked before accepting these nodes.",
+ "none_stated_for": ["27", "33", "34", "23", "25", "29", "61", "11", "12", "63", "66", "24", "15", "18"],
+ "instruments": [
+  {
+   "id": "cl-mapbiomas-programme",
+   "title": "MapBiomas Chile annual mapping programme (Collection 2)",
+   "institution": "MapBiomas Chile",
+   "instrument_type": "programme",
+   "jurisdiction": "Chile",
+   "year": "2025",
+   "effect_on_classes": "Defines the level-1 aggregates (1 Forest formation, 10 Natural non forest formation, 14 Farming and silviculture, 22 Non-vegetated area, 26 Water bodies, 27 Not observed) and names 9 'Silviculture' where other national initiatives use 'Forest plantation'.",
+   "evidence": "legends.json: collection 'MapBiomas Chile Collection 2', source http://chile.mapbiomas.org/wp-content/uploads/sites/13/2025/10/Leyenda2025-LEYENDA-CODIGOS.pdf; class 9 'Silviculture', class 14 'Farming and silviculture'",
+   "classes": ["1", "10", "14", "22", "26", "27", "9"]
+  },
+  {
+   "id": "cl-native-forest-law-20283",
+   "title": "Chilean Native Forest Law (Ley 20.283, 2008) and forest-type vocabulary",
+   "institution": "Government of Chile (CONAF)",
+   "instrument_type": "law",
+   "jurisdiction": "Chile",
+   "year": "2008",
+   "effect_on_classes": "The split of 59 Primary Forest / 60 Secondary Forest / 67 Dwarf forest follows the native-forest categories used in Chilean forest policy (bosque nativo adulto, renoval, bosque achaparrado), which govern management plans and subsidies. Physically, primary and secondary forest are both LC_Tree stands; the split is a framing-only split. Likely instrument; the legend sheet does not cite the law.",
+   "evidence": "class names '59 Primary Forest', '60 Secondary Forest', '67 Dwarf forest' in legends.json; attribution to Ley 20.283 categories is inferred, not quoted",
+   "classes": ["59", "60", "67", "3"]
+  }
+ ]
+}

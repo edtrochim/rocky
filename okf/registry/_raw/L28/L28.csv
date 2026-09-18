@@ -1,0 +1,26 @@
+﻿Id,Hex,Class Code,Class Name
+842,,Bd,Bushland dense
+843,,Bo,Bushland open
+844,,Bsc,Bushland scattered cultivation
+845,,Bsl,Open land bare soil
+846,,Bt,Bushland thicket
+847,,Cbc,Cultivated land herbaceous crops
+848,,Cgc,Cultivated land grain crops
+849,,Cwc,Cultivated land wooded crops
+850,,Fhm,Forest humid montane
+851,,FL,Forest lowland
+852,,Fm,Forest mangrove
+853,,Fp,Forest plantation
+854,,Gb,Grassland bushed
+855,,Go,Grassland open
+856,,Gsc,Grassland scattered cropland
+857,,Gw,Grassland wooded
+858,,Ice,Open land ice cap / snow
+859,,ICaf,Cultivated land agro-forestry system
+860,,IWo,Woodland closed
+861,,Other,Other areas
+862,,Ro,Open land rock outcrops
+863,,Sc,Open land coastal bare land
+864,,Wi,Inland water
+865,,Wo,Water ocean
+866,,WsC,Water wetlands

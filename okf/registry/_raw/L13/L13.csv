@@ -1,0 +1,20 @@
+ID,Hex,Class Code,Class Name
+1,#FFE699,AGt,Cultivated and Managed Terrestrial Area(s)
+2,#C00000,TP,Tree Plantation
+3,#00B050,TSt,Sparse Trees (terrestrial)
+4,#996600,SSt,Sparse Shrubs (terrestrial)
+5,#A9D08E,HSt,Herbaceous Sparse Vegetation (terrestrial)
+6,#375623,TCOt,Closed to Open Trees
+7,#833C0C,SCOt,Closed to Open Shrubland (Thicket)
+8,#808000,HCOt,Herbaceous Closed to Open Vegetation
+9,#FFC000,AGa,Cultivated Aquatic or Regularly Flooded Area(s)
+10,#8EA9DB,TSa,Sparse Trees.(acquatic)
+11,#FF66FF,SSa,Sparse Shrubs (acquatic)
+12,#FF99FF,HSa,Sparse Herbaceous Vegetation (acquatic)
+13,#7030A0,TCOa,Closed to Open Trees (acquatic)
+14,#FF00FF,SCOa,Closed to Open Shrubs (acquatic)
+15,#FFCCFF,HCOa,Closed to Open Herbaceous Vegetation.
+16,#595959,URB,Urban Area(s)
+17,#BFBFBF,BS,Bare Rocks and Soil and/or Other Unconsolidated Material(s)
+18,#0070C0,WA,Artificial Waterbodies
+19,#002060,WN,Natural Waterbodies

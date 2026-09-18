@@ -1,0 +1,13 @@
+ID,Hex,Class Code,Class Name
+1,#808080,In,Infrastructure
+2,#006600,Fo,Forest
+3,#FF99FF,Cl,Cultivated land
+4,#CC6600,Bs,Bare soil
+5,#FFFFCC,Sv,Spare vegetation
+6,#FF3300,Me,Meadow
+7,#CC66FF,Su,Sugarcane
+8,#99FFCC,Ma,Mangrove
+9,#66CCFF,Wa,Water 
+10,#00CCFF,We,Wetland 
+11,#00CC66,Gr,Grassland
+12,#CC0099,Or,Orchard

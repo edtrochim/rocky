@@ -1,0 +1,36 @@
+ID,Hex,Class Code,Class Name
+1,#FFFF00,1H,Rainfed herbaceos crop
+2,#FFFF99,1HI,Irrigated herbaceous crops
+3,#F7E003,1T,Tree crop
+4,#F7E003,1S,Tea crop
+5,#CCCC00,1HSs,Small herbaceous crops in sloping land
+6,#EFFD5F,1HLMv,Large to medium herbaceous crops in valley floor
+7,#FCF4A3,1HSv,Small herbaceous crops in valley floor
+8,#FFC000,2HCO,Closed to open herbaceous
+9,#FFE699,2HS,Sparse herbaceous
+10,#FFCC66,2HS//6BR,Sparse herbaceous or  Bare rock
+11,#FF9966,2HCO//1H,Closed to open herbaceous or Rainfed herbaceous crops
+12,#833C0C,2SCO,Closed to open shrubs
+13,#C65911,2SS,Sparse shrubs with sparse herbaceous
+14,#FF9999,2SSd,Sparse dwarf shrubs with sparse herbaceous
+15,#FFCCCC,2SOd,Open dwarf shrubs with sparse herbaceous
+16,#33CC33,2TCOne//2TCObe,Closed to open needleleaved trees or closed to open broadleaved trees
+17,#006600,2TCOne,Closed to open needleleaved trees
+18,#375623,2TCObe,Closed to open broadleaved trees
+19,#008000,2TSne//2TSbe,Sparse needleleaved trees or Sparse broadleaved trees
+20,#548235,2TSne,Sparse needleleaved trees
+21,#92D050,2TSbe,Sparse broadleaved trees
+22,#CCFFFF,4HCOp,Closed to open permanently flooded herbaceous
+23,#00FFFF,4SCOs,Closed to open seasonally flooded shrubs
+24,#FF0000,5UI,Urban and industrial areas
+25,#EADDCA,6BR,Bare rock
+26,#DAA06D,6S,Bare soil
+27,#7B3F00,6GR,Rock debris
+28,#FFFFFF,8ICE,Glacier
+29,#A6A6A6,8ICEr,Rocky glacier
+30,#BFBFBF,8SN,Perennial snow
+31,#D9D9D9,8SNs,Seasonal snow
+32,#0066FF,8WNP,Non-Perennial lakes
+33,#9BC2E6,8WBS,Bare soil in seasonally flooded area
+34,#3333FF,8WP,Lakes
+35,#0000CC,8WF,Rivers

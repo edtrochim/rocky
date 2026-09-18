@@ -1,0 +1,44 @@
+{
+  "provenance/crosswalk.py": {
+    "mtime": 1789666906.2748287,
+    "seen": 1789667777.3702407,
+    "ast_hash": "c4f86b6633f4801bde3f752d98bb8fa8",
+    "semantic_hash": "c4f86b6633f4801bde3f752d98bb8fa8"
+  },
+  "provenance/harmonization.py": {
+    "mtime": 1789666906.0026224,
+    "seen": 1789667777.3702407,
+    "ast_hash": "8bc064349269e61200e92172c796217c",
+    "semantic_hash": "8bc064349269e61200e92172c796217c"
+  },
+  "provenance/legends.json": {
+    "mtime": 1789666885.9352646,
+    "seen": 1789667777.3702407,
+    "ast_hash": "195ece1954da5268ff66bd2fbd5888de",
+    "semantic_hash": "195ece1954da5268ff66bd2fbd5888de"
+  },
+  "AGENTS.md": {
+    "mtime": 1789666885.360247,
+    "seen": 1789667777.3702407,
+    "ast_hash": "60013fbbd546d3eb6511556a818948d5",
+    "semantic_hash": "60013fbbd546d3eb6511556a818948d5"
+  },
+  "README.md": {
+    "mtime": 1789666885.0747871,
+    "seen": 1789667777.3702407,
+    "ast_hash": "1afa70daa71bd6be9de3bba7b8dc0d48",
+    "semantic_hash": "1afa70daa71bd6be9de3bba7b8dc0d48"
+  },
+  "provenance/README.md": {
+    "mtime": 1789666886.2316496,
+    "seen": 1789667777.3702407,
+    "ast_hash": "5155337f994996365ed417ea555c3305",
+    "semantic_hash": "5155337f994996365ed417ea555c3305"
+  },
+  "provenance/REPRODUCE.md": {
+    "mtime": 1789666907.2200794,
+    "seen": 1789667777.3702407,
+    "ast_hash": "e9615351c392a24e1a6ef0a736b0ba5a",
+    "semantic_hash": "e9615351c392a24e1a6ef0a736b0ba5a"
+  }
+}

@@ -1,0 +1,31 @@
+{
+ "skill": "critique-system",
+ "inputs": ["system"],
+ "reads": [
+  {"kind": "node", "path": "standards/lcml-rules.md"},
+  {"kind": "system"},
+  {"kind": "framing_nodes"},
+  {"kind": "all_class_nodes", "cap": 2500},
+  {"kind": "attention_rules"}
+ ],
+ "apply": "apply_critique",
+ "output_schema": {
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["items"],
+  "properties": {
+   "items": {"type": "array", "items": {"type": "object", "additionalProperties": false,
+     "required": ["kind", "severity", "class_id", "code", "name", "explanation", "options", "affects", "framing_ref", "evidence"],
+     "properties": {
+      "kind": {"type": "string", "enum": ["underspecified", "sibling_overlap", "hierarchy_conflict", "land_use_masquerade", "mixed_class_without_proportion", "catch_all", "threshold_drift", "cross_system_collision", "framing_only_split", "definition_contradiction", "scale_dependence", "other"]},
+      "severity": {"type": "integer", "minimum": 1, "maximum": 5},
+      "class_id": {"type": "string"}, "code": {"type": "string"}, "name": {"type": "string"},
+      "explanation": {"type": "string"},
+      "options": {"type": "array", "items": {"type": "string"}, "description": "concrete decisions a stakeholder can pick between"},
+      "affects": {"type": "array", "items": {"type": "string"}, "description": "other class codes or systems that hinge on this"},
+      "framing_ref": {"type": "string", "description": "framing node id the decision belongs to, or empty"},
+      "evidence": {"type": "string"}
+     }}}
+  }
+ }
+}

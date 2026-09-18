@@ -1,0 +1,715 @@
+[
+ {
+  "text": "colombia 1 Forest formation",
+  "kind": "table_row",
+  "page": null,
+  "row": 1,
+  "cells": [
+   "colombia",
+   "1",
+   "Forest formation",
+   "#1f8d49",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 3 Forest",
+  "kind": "table_row",
+  "page": null,
+  "row": 2,
+  "cells": [
+   "colombia",
+   "3",
+   "Forest",
+   "#1f8d49",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 5 Mangrove",
+  "kind": "table_row",
+  "page": null,
+  "row": 3,
+  "cells": [
+   "colombia",
+   "5",
+   "Mangrove",
+   "#04381d",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 6 Flooded forest",
+  "kind": "table_row",
+  "page": null,
+  "row": 4,
+  "cells": [
+   "colombia",
+   "6",
+   "Flooded forest",
+   "#026975",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 49 Wooded sand vegetation",
+  "kind": "table_row",
+  "page": null,
+  "row": 5,
+  "cells": [
+   "colombia",
+   "49",
+   "Wooded sand vegetation",
+   "#02d659",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 10 Natural non forest formation",
+  "kind": "table_row",
+  "page": null,
+  "row": 6,
+  "cells": [
+   "colombia",
+   "10",
+   "Natural non forest formation",
+   "#d6bc74",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 11 Wetland",
+  "kind": "table_row",
+  "page": null,
+  "row": 7,
+  "cells": [
+   "colombia",
+   "11",
+   "Wetland",
+   "#519799",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 12 Grasslands / herbaceous",
+  "kind": "table_row",
+  "page": null,
+  "row": 8,
+  "cells": [
+   "colombia",
+   "12",
+   "Grasslands / herbaceous",
+   "#d6bc74",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 32 Hypersaline tidal flat",
+  "kind": "table_row",
+  "page": null,
+  "row": 9,
+  "cells": [
+   "colombia",
+   "32",
+   "Hypersaline tidal flat",
+   "#fc8114",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 29 Rocky outcrop",
+  "kind": "table_row",
+  "page": null,
+  "row": 10,
+  "cells": [
+   "colombia",
+   "29",
+   "Rocky outcrop",
+   "#ffaa5f",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 50 Herbaceous sand vegetation",
+  "kind": "table_row",
+  "page": null,
+  "row": 11,
+  "cells": [
+   "colombia",
+   "50",
+   "Herbaceous sand vegetation",
+   "#ad5100",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 13 Other non forest formation",
+  "kind": "table_row",
+  "page": null,
+  "row": 12,
+  "cells": [
+   "colombia",
+   "13",
+   "Other non forest formation",
+   "#d89f5c",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 81 Andean Herbaceous and Shrubby Vegetation",
+  "kind": "table_row",
+  "page": null,
+  "row": 13,
+  "cells": [
+   "colombia",
+   "81",
+   "Andean Herbaceous and Shrubby Vegetation",
+   "#dfeb62",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 82 Flooded Andean Herbaceous and Shrubby Vegetation",
+  "kind": "table_row",
+  "page": null,
+  "row": 14,
+  "cells": [
+   "colombia",
+   "82",
+   "Flooded Andean Herbaceous and Shrubby Vegetation",
+   "#6fc179",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 14 Agricultural and livestock area",
+  "kind": "table_row",
+  "page": null,
+  "row": 15,
+  "cells": [
+   "colombia",
+   "14",
+   "Agricultural and livestock area",
+   "#ffefc3",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 9 Forest plantation",
+  "kind": "table_row",
+  "page": null,
+  "row": 16,
+  "cells": [
+   "colombia",
+   "9",
+   "Forest plantation",
+   "#7a5900",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 35 Palm oil",
+  "kind": "table_row",
+  "page": null,
+  "row": 17,
+  "cells": [
+   "colombia",
+   "35",
+   "Palm oil",
+   "#9065d0",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 74 Banana (beta)",
+  "kind": "table_row",
+  "page": null,
+  "row": 18,
+  "cells": [
+   "colombia",
+   "74",
+   "Banana (beta)",
+   "#be83f7",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 21 Mosaic of agriculture and pasture",
+  "kind": "table_row",
+  "page": null,
+  "row": 19,
+  "cells": [
+   "colombia",
+   "21",
+   "Mosaic of agriculture and pasture",
+   "#ffefc3",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 22 Non-vegetated area",
+  "kind": "table_row",
+  "page": null,
+  "row": 20,
+  "cells": [
+   "colombia",
+   "22",
+   "Non-vegetated area",
+   "#d4271e",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 23 Beach, dune and sand spot",
+  "kind": "table_row",
+  "page": null,
+  "row": 21,
+  "cells": [
+   "colombia",
+   "23",
+   "Beach, dune and sand spot",
+   "#ffa07a",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 24 Infrastructure",
+  "kind": "table_row",
+  "page": null,
+  "row": 22,
+  "cells": [
+   "colombia",
+   "24",
+   "Infrastructure",
+   "#d4271e",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 30 Mining",
+  "kind": "table_row",
+  "page": null,
+  "row": 23,
+  "cells": [
+   "colombia",
+   "30",
+   "Mining",
+   "#9c0027",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 68 Other natural non-vegetated area",
+  "kind": "table_row",
+  "page": null,
+  "row": 24,
+  "cells": [
+   "colombia",
+   "68",
+   "Other natural non-vegetated area",
+   "#e97a7a",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 25 Other non-vegetated area",
+  "kind": "table_row",
+  "page": null,
+  "row": 25,
+  "cells": [
+   "colombia",
+   "25",
+   "Other non-vegetated area",
+   "#db4d4f",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 75 Solar panel farm",
+  "kind": "table_row",
+  "page": null,
+  "row": 26,
+  "cells": [
+   "colombia",
+   "75",
+   "Solar panel farm",
+   "#c12100",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 26 Water body",
+  "kind": "table_row",
+  "page": null,
+  "row": 27,
+  "cells": [
+   "colombia",
+   "26",
+   "Water body",
+   "#2532e4",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 33 River, lake or ocean",
+  "kind": "table_row",
+  "page": null,
+  "row": 28,
+  "cells": [
+   "colombia",
+   "33",
+   "River, lake or ocean",
+   "#2532e4",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 31 Aquaculture",
+  "kind": "table_row",
+  "page": null,
+  "row": 29,
+  "cells": [
+   "colombia",
+   "31",
+   "Aquaculture",
+   "#091077",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 34 Glacier",
+  "kind": "table_row",
+  "page": null,
+  "row": 30,
+  "cells": [
+   "colombia",
+   "34",
+   "Glacier",
+   "#93dfe6",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ },
+ {
+  "text": "colombia 27 Not observed",
+  "kind": "table_row",
+  "page": null,
+  "row": 31,
+  "cells": [
+   "colombia",
+   "27",
+   "Not observed",
+   "#ffffff",
+   "MapBiomas Colombia Collection 3",
+   "https://colombia.mapbiomas.org/wp-content/uploads/sites/3/2025/10/Codigo-de-la-Leyenda-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:colombia"
+ }
+]

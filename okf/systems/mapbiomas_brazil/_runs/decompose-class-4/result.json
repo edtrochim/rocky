@@ -1,0 +1,49 @@
+{
+ "status": "proposed",
+ "confidence": 0.35,
+ "land_use_hint": "",
+ "rationale": "The source gives only the title 'Savanna Formation' under level-1 'Forest' (code 1). A savanna is a woody stratum of trees over a continuous herbaceous stratum, so the decomposition is two strata: trees (fixed) above graminoids and forbs (fixed). MapBiomas files this class under Forest formation, which implies the tree stratum is what defines it; Argentina, Bolivia and Ecuador use code 4 for 'Open forest(s)', Peru for 'Dry forest', Venezuela for 'Wooded savanna', Paraguay for 'Open Natural Woodlands', so the discriminating attribute against sibling 3 'Forest Formation' is tree cover, and against 12 'Grassland' the fixed presence of trees. No cover threshold is stated anywhere in the source, so covers are left empty. Registry example L45 Sa (Tree savanna) sets trees at 4-20 % and herbaceous at 40-100 %, and L45 Sh (Grass savanna) has a woody stratum as conditional; this class is closer to Sa but Brazilian usage of 'Savanna Formation' (Cerrado) usually means denser tree cover than 20 %, so the L45 thresholds are not transcribed.",
+ "examples_note": "registry:L45:Sa followed for the two-strata structure (trees over herbaceous, both fixed); differs in that no cover ranges are stated here. registry:L45:Sh not followed: it makes the woody stratum conditional, whereas MapBiomas files this class under Forest, so trees are required. registry:L45:Sar (shrub savanna) not followed: no shrub element is implied by the name.",
+ "nearest_examples": ["registry:L45:Sa", "registry:L45:Sh", "registry:L45:Sar"],
+ "evidence": [
+  {"row_path": "hp1/st1/el1", "quote": "inferred from name: 'Savanna Formation' (class 4, parent 1 Forest)"},
+  {"row_path": "hp1/st2/el1", "quote": "inferred from name: 'Savanna Formation'; registry L45 Sa: 'Lands with herbaceous types of cover. Tree cover between 4-20%.'"}
+ ],
+ "open_questions": [
+  "Tree cover threshold not stated: Brazil's Cerrado savanna formations are usually described with tree cover between about 20 and 70 %; sibling 3 'Forest Formation' would then be > 70 %. Confirm the thresholds MapBiomas Brazil Collection 10 uses (ATBD).",
+  "Whether shrubs are part of the class (Cerrado sensu stricto has a shrub layer) or belong to 10 'Herbaceous and Shrubby Vegetation'.",
+  "Same code 4 means 'Open forest' in Argentina, Bolivia and Ecuador, 'Dry forest' in Peru, 'Wooded savanna' in Venezuela: decide whether these are the same cover with different thresholds or different covers."
+ ],
+ "patterns": [
+  {
+   "cover": null,
+   "occurrence": null,
+   "strata": [
+    {
+     "presence": "fixed",
+     "onTop": true,
+     "elements": [
+      {"ref": "LC_Tree", "presence": "fixed", "cover": null, "height": null,
+       "properties": {},
+       "characteristics": [{"ref": "LC_VegetationArtificialityCharacteristic", "fields": {"vegetationArtificiality": "Natural or Seminatural"}}],
+       "evidence": "inferred from name 'Savanna Formation' filed under Forest", "confidence": 0.4}
+     ]
+    },
+    {
+     "presence": "fixed",
+     "onTop": false,
+     "elements": [
+      {"ref": "LC_Graminoid", "presence": "fixed", "cover": null, "height": null,
+       "properties": {},
+       "characteristics": [{"ref": "LC_VegetationArtificialityCharacteristic", "fields": {"vegetationArtificiality": "Natural or Seminatural"}}],
+       "evidence": "inferred from name: savanna implies a continuous grass layer", "confidence": 0.35},
+      {"ref": "LC_Forbs", "presence": "conditionalTemporal", "cover": null, "height": null,
+       "properties": {},
+       "characteristics": [],
+       "evidence": "inferred: forbs commonly accompany graminoids; not stated", "confidence": 0.25}
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+﻿Id,Hex,Class Code,Class Name
+741,,BA,Bare Area
+742,,BU,Builtup Areas
+743,,GOC,Grassland open to close
+744,,HCI,Herbaceous crop irrigated
+745,,HCR,Herbaceous crop rainfed
+746,,Man,Mangroves
+747,,SA,Sand
+748,,SC,Shrubs close
+749,,SGS,Shrubs and grasses sparse
+750,,SO,Shrubs open
+751,,SVO,Shrubs very open
+752,,TC,Trees close
+753,,TCI,Tree crop irrigated
+754,,TO,Trees open
+755,,TS,Trees sparse
+756,,TVO,Trees very open
+757,,WA,Wadi and riverbed
+758,,WB,Seasonal water bodies
+759,,WOC,Woodland open to close

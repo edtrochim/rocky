@@ -1,0 +1,761 @@
+[
+ {
+  "text": "peru 1 Forest formation",
+  "kind": "table_row",
+  "page": null,
+  "row": 1,
+  "cells": [
+   "peru",
+   "1",
+   "Forest formation",
+   "#1f8d49",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 3 Forest",
+  "kind": "table_row",
+  "page": null,
+  "row": 2,
+  "cells": [
+   "peru",
+   "3",
+   "Forest",
+   "#1f8d49",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 4 Dry forest",
+  "kind": "table_row",
+  "page": null,
+  "row": 3,
+  "cells": [
+   "peru",
+   "4",
+   "Dry forest",
+   "#7dc975",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 5 Mangrove",
+  "kind": "table_row",
+  "page": null,
+  "row": 4,
+  "cells": [
+   "peru",
+   "5",
+   "Mangrove",
+   "#04381d",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 6 Flooded forest",
+  "kind": "table_row",
+  "page": null,
+  "row": 5,
+  "cells": [
+   "peru",
+   "6",
+   "Flooded forest",
+   "#026975",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 10 Non-forest formation",
+  "kind": "table_row",
+  "page": null,
+  "row": 6,
+  "cells": [
+   "peru",
+   "10",
+   "Non-forest formation",
+   "#d6bc74",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 11 Swamp or Flooded Grassland",
+  "kind": "table_row",
+  "page": null,
+  "row": 7,
+  "cells": [
+   "peru",
+   "11",
+   "Swamp or Flooded Grassland",
+   "#519799",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 12 Grasslands / herbaceous",
+  "kind": "table_row",
+  "page": null,
+  "row": 8,
+  "cells": [
+   "peru",
+   "12",
+   "Grasslands / herbaceous",
+   "#d6bc74",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 29 Rocky Outcrop",
+  "kind": "table_row",
+  "page": null,
+  "row": 9,
+  "cells": [
+   "peru",
+   "29",
+   "Rocky Outcrop",
+   "#ffaa5f",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 66 Scrubland",
+  "kind": "table_row",
+  "page": null,
+  "row": 10,
+  "cells": [
+   "peru",
+   "66",
+   "Scrubland",
+   "#a89358",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 70 Fog oasis",
+  "kind": "table_row",
+  "page": null,
+  "row": 11,
+  "cells": [
+   "peru",
+   "70",
+   "Fog oasis",
+   "#be9e00",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 13 Other non-forest formations",
+  "kind": "table_row",
+  "page": null,
+  "row": 12,
+  "cells": [
+   "peru",
+   "13",
+   "Other non-forest formations",
+   "#d89f5c",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 14 Agricultural area",
+  "kind": "table_row",
+  "page": null,
+  "row": 13,
+  "cells": [
+   "peru",
+   "14",
+   "Agricultural area",
+   "#ffefc3",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 15 Pasture",
+  "kind": "table_row",
+  "page": null,
+  "row": 14,
+  "cells": [
+   "peru",
+   "15",
+   "Pasture",
+   "#edde8e",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 18 Agriculture",
+  "kind": "table_row",
+  "page": null,
+  "row": 15,
+  "cells": [
+   "peru",
+   "18",
+   "Agriculture",
+   "#e974ed",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 35 Oil palm",
+  "kind": "table_row",
+  "page": null,
+  "row": 16,
+  "cells": [
+   "peru",
+   "35",
+   "Oil palm",
+   "#9065d0",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 40 Rice",
+  "kind": "table_row",
+  "page": null,
+  "row": 17,
+  "cells": [
+   "peru",
+   "40",
+   "Rice",
+   "#c71585",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 72 Other crops",
+  "kind": "table_row",
+  "page": null,
+  "row": 18,
+  "cells": [
+   "peru",
+   "72",
+   "Other crops",
+   "#910046",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 9 Planted forest",
+  "kind": "table_row",
+  "page": null,
+  "row": 19,
+  "cells": [
+   "peru",
+   "9",
+   "Planted forest",
+   "#7a5900",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 21 Mosaic of agriculture and pasture",
+  "kind": "table_row",
+  "page": null,
+  "row": 20,
+  "cells": [
+   "peru",
+   "21",
+   "Mosaic of agriculture and pasture",
+   "#ffefc3",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 22 Non-vegetated area",
+  "kind": "table_row",
+  "page": null,
+  "row": 21,
+  "cells": [
+   "peru",
+   "22",
+   "Non-vegetated area",
+   "#d4271e",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 23 Beach",
+  "kind": "table_row",
+  "page": null,
+  "row": 22,
+  "cells": [
+   "peru",
+   "23",
+   "Beach",
+   "#ffa07a",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 24 Infrastructure",
+  "kind": "table_row",
+  "page": null,
+  "row": 23,
+  "cells": [
+   "peru",
+   "24",
+   "Infrastructure",
+   "#d4271e",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 30 Mining",
+  "kind": "table_row",
+  "page": null,
+  "row": 24,
+  "cells": [
+   "peru",
+   "30",
+   "Mining",
+   "#9c0027",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 32 Coastal Salt flat",
+  "kind": "table_row",
+  "page": null,
+  "row": 25,
+  "cells": [
+   "peru",
+   "32",
+   "Coastal Salt flat",
+   "#fc8114",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 61 Salt flat",
+  "kind": "table_row",
+  "page": null,
+  "row": 26,
+  "cells": [
+   "peru",
+   "61",
+   "Salt flat",
+   "#f5d5d5",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 68 Other natural non vegetated area",
+  "kind": "table_row",
+  "page": null,
+  "row": 27,
+  "cells": [
+   "peru",
+   "68",
+   "Other natural non vegetated area",
+   "#e97a7a",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 25 Other non vegetated area",
+  "kind": "table_row",
+  "page": null,
+  "row": 28,
+  "cells": [
+   "peru",
+   "25",
+   "Other non vegetated area",
+   "#db4d4f",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 26 Water body",
+  "kind": "table_row",
+  "page": null,
+  "row": 29,
+  "cells": [
+   "peru",
+   "26",
+   "Water body",
+   "#2532e4",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 33 River, lake or ocean",
+  "kind": "table_row",
+  "page": null,
+  "row": 30,
+  "cells": [
+   "peru",
+   "33",
+   "River, lake or ocean",
+   "#2532e4",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 31 Aquaculture",
+  "kind": "table_row",
+  "page": null,
+  "row": 31,
+  "cells": [
+   "peru",
+   "31",
+   "Aquaculture",
+   "#091077",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 34 Glacier",
+  "kind": "table_row",
+  "page": null,
+  "row": 32,
+  "cells": [
+   "peru",
+   "34",
+   "Glacier",
+   "#93dfe6",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ },
+ {
+  "text": "peru 27 Not observed",
+  "kind": "table_row",
+  "page": null,
+  "row": 33,
+  "cells": [
+   "peru",
+   "27",
+   "Not observed",
+   "#ffffff",
+   "MapBiomas Peru Collection 3",
+   "https://peru.mapbiomas.org/wp-content/uploads/sites/14/2025/10/Leyenda_MapBiomasPeru_3-Leyenda-CortaENES.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:peru"
+ }
+]

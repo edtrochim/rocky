@@ -1,0 +1,30 @@
+﻿ID,Hex,Class Code,Class Name
+1,#808080,BA,Bare area
+2,#808080,BLR,Boulder and loose rock
+3,#808080,BR,Bare rock
+4,#B9DD79,GR,Grassland
+5,#B9DD79,GRD,Grassland - degraded
+6,#808080,GU,Gullies
+7,#FFE699,HCER,"Rainfed agriculture, sheet erosion"
+8,#FFE699,HCIR,Irrigated agriculture
+9,#FFE699,HCP,"Rainfed agriculture, plain areas"
+10,#FFE699,HCSM,"Rainfed agriculture, sloping & mountaineous regions"
+11,#FFE699,HCT,Rainfed agriculture + rainfed orchards
+12,#808080,MQ,Mines & quarries
+13,#00BFFF,RB,River bank
+14,#FF0000,RH1,Rural settlements (plain area)
+15,#FF0000,RH2,Rural settlements (sloping and mountaneous area)
+16,#B9DD79,SH1,Shrubland (closed)
+17,#B9DD79,SH2,Shrubland (open)
+18,#006600,TBL1,"Trees, broadleaved (closed)"
+19,#006600,TBL2,"Trees, broadleaved (open)"
+20,#006600,TM1,"Trees, undifferentiated (closed)"
+21,#006600,TM2,"Trees, undifferentiated (open)"
+22,#006600,TNL1,"Trees, needle-leaved (closed)"
+23,#006600,TNL2,"Trees, needle-leaved (open)"
+24,#006600,TS,Trees (sparse)
+25,#FF0000,UA1,Urban area
+26,#FF0000,UA2,Urban commercial and/or industrial
+27,#00BFFF,WB1,Large waterbody
+28,#00BFFF,WB2,Small waterbody
+29,#00BFFF,WET,Wetland (perennial and/or seasonal)

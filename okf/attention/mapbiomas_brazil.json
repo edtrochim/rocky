@@ -1,0 +1,1486 @@
+[
+ {
+  "kind": "cross_system_collision",
+  "severity": 4,
+  "class_id": "1",
+  "code": "1",
+  "name": "Forest",
+  "explanation": "Code 1 is used by 10 systems as: Forest, Forest formation, Forest formations, Forests, Natural forest, Natural woody vegetation, Woody Natural Vegetation; the class names share no content word and no decomposition settles whether they mean the same cover.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_argentina:1",
+   "mapbiomas_bolivia:1",
+   "mapbiomas_chile:1",
+   "mapbiomas_colombia:1",
+   "mapbiomas_ecuador:1",
+   "mapbiomas_paraguay:1",
+   "mapbiomas_peru:1",
+   "mapbiomas_uruguay:1",
+   "mapbiomas_venezuela:1"
+  ],
+  "rank_score": 24
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 4,
+  "class_id": "10",
+  "code": "10",
+  "name": "Herbaceous and Shrubby Vegetation",
+  "explanation": "Code 10 is used by 9 systems as: Grassland and shrubland, Grasslands and shrublands, Herbaceous Natural Vegetation, Herbaceous and Shrubby Vegetation, Natural herbaceous vegetation, Natural non forest formation, Non-forest formation, Non-forest natural formation; the class names share no content word and no decomposition settles whether they mean the same cover.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_bolivia:10",
+   "mapbiomas_chile:10",
+   "mapbiomas_colombia:10",
+   "mapbiomas_ecuador:10",
+   "mapbiomas_paraguay:10",
+   "mapbiomas_peru:10",
+   "mapbiomas_uruguay:10",
+   "mapbiomas_venezuela:10"
+  ],
+  "rank_score": 24
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 4,
+  "class_id": "11",
+  "code": "11",
+  "name": "Wetland",
+  "explanation": "Code 11 is used by 10 systems as: Flooded grassland/shrubland, Flooded grasslands, Non forest wetland, Swamp or Flooded Grassland, Wetland; the class names share no content word and no decomposition settles whether they mean the same cover.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_argentina:11",
+   "mapbiomas_bolivia:11",
+   "mapbiomas_chile:11",
+   "mapbiomas_colombia:11",
+   "mapbiomas_ecuador:11",
+   "mapbiomas_paraguay:11",
+   "mapbiomas_peru:11",
+   "mapbiomas_uruguay:11",
+   "mapbiomas_venezuela:11"
+  ],
+  "rank_score": 24
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 4,
+  "class_id": "14",
+  "code": "14",
+  "name": "Farming",
+  "explanation": "Code 14 is used by 9 systems as: Agricultural Areas, Agricultural and livestock area, Agricultural area, Agricultural areas, Farming, Farming and silviculture; the class names share no content word and no decomposition settles whether they mean the same cover.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_bolivia:14",
+   "mapbiomas_chile:14",
+   "mapbiomas_colombia:14",
+   "mapbiomas_ecuador:14",
+   "mapbiomas_paraguay:14",
+   "mapbiomas_peru:14",
+   "mapbiomas_uruguay:14",
+   "mapbiomas_venezuela:14"
+  ],
+  "rank_score": 24
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 4,
+  "class_id": "21",
+  "code": "21",
+  "name": "Mosaic of Uses",
+  "explanation": "Code 21 is used by 8 systems as: Agriculture and pasture mosaic, Cropland/Pasture/Fallow lands, Mosaic of Uses, Mosaic of agriculture and pasture, Mosaic of uses, Mosaic of uses (pan-MapBiomas standard code; not in the Chile Collection 2 legend); the class names share no content word and no decomposition settles whether they mean the same cover.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_argentina:21",
+   "mapbiomas_bolivia:21",
+   "mapbiomas_chile:21",
+   "mapbiomas_colombia:21",
+   "mapbiomas_ecuador:21",
+   "mapbiomas_peru:21",
+   "mapbiomas_venezuela:21"
+  ],
+  "rank_score": 24
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 4,
+  "class_id": "24",
+  "code": "24",
+  "name": "Urban Area",
+  "explanation": "Code 24 is used by 8 systems as: Infrastructure, Urban, Urban Area, Urban areas, Urban infrastructure; the class names share no content word and no decomposition settles whether they mean the same cover.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_argentina:24",
+   "mapbiomas_bolivia:24",
+   "mapbiomas_chile:24",
+   "mapbiomas_colombia:24",
+   "mapbiomas_ecuador:24",
+   "mapbiomas_peru:24",
+   "mapbiomas_venezuela:24"
+  ],
+  "rank_score": 24
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 4,
+  "class_id": "3",
+  "code": "3",
+  "name": "Forest Formation",
+  "explanation": "Code 3 is used by 10 systems as: Closed Natural Woodlands, Closed forest and closed shrubland, Closed forests, Forest, Forest Formation; the class names share no content word and no decomposition settles whether they mean the same cover.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_argentina:3",
+   "mapbiomas_bolivia:3",
+   "mapbiomas_chile:3",
+   "mapbiomas_colombia:3",
+   "mapbiomas_ecuador:3",
+   "mapbiomas_paraguay:3",
+   "mapbiomas_peru:3",
+   "mapbiomas_uruguay:3",
+   "mapbiomas_venezuela:3"
+  ],
+  "rank_score": 24
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 4,
+  "class_id": "34",
+  "code": "34",
+  "name": "Ice and permanent snow",
+  "explanation": "Code 34 is used by 7 systems as: Glacier, Ice and permanent snow, Ice and snow; the class names share no content word and no decomposition settles whether they mean the same cover.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_bolivia:34",
+   "mapbiomas_chile:34",
+   "mapbiomas_colombia:34",
+   "mapbiomas_ecuador:34",
+   "mapbiomas_peru:34",
+   "mapbiomas_venezuela:34"
+  ],
+  "rank_score": 24
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 4,
+  "class_id": "4",
+  "code": "4",
+  "name": "Savanna Formation",
+  "explanation": "Code 4 is used by 8 systems as: Dry forest, Open Forest, Open Natural Woodlands, Open forest, Open forest (pan-MapBiomas standard code; not in the Chile Collection 2 legend), Open forests, Savanna Formation, Wooded savanna; the class names share no content word and no decomposition settles whether they mean the same cover.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_argentina:4",
+   "mapbiomas_bolivia:4",
+   "mapbiomas_chile:4",
+   "mapbiomas_ecuador:4",
+   "mapbiomas_paraguay:4",
+   "mapbiomas_peru:4",
+   "mapbiomas_venezuela:4"
+  ],
+  "rank_score": 24
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 4,
+  "class_id": "6",
+  "code": "6",
+  "name": "Floodable Forest",
+  "explanation": "Code 6 is used by 9 systems as: Floodable Forest, Floodable forest, Flooded Natural Woodlands, Flooded forest, Flooded forest (pan-MapBiomas standard code; not in the Chile Collection 2 legend), Flooded forests; the class names share no content word and no decomposition settles whether they mean the same cover.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_argentina:6",
+   "mapbiomas_bolivia:6",
+   "mapbiomas_chile:6",
+   "mapbiomas_colombia:6",
+   "mapbiomas_ecuador:6",
+   "mapbiomas_paraguay:6",
+   "mapbiomas_peru:6",
+   "mapbiomas_venezuela:6"
+  ],
+  "rank_score": 24
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 4,
+  "class_id": "9",
+  "code": "9",
+  "name": "Forest Plantation",
+  "explanation": "Code 9 is used by 9 systems as: Forest Plantation, Forest plantation, Forest plantations, Planted forest, Silviculture; the class names share no content word and no decomposition settles whether they mean the same cover.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_argentina:9",
+   "mapbiomas_chile:9",
+   "mapbiomas_colombia:9",
+   "mapbiomas_ecuador:9",
+   "mapbiomas_paraguay:9",
+   "mapbiomas_peru:9",
+   "mapbiomas_uruguay:9",
+   "mapbiomas_venezuela:9"
+  ],
+  "rank_score": 24
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 4,
+  "class_id": "66",
+  "code": "66",
+  "name": "Closed shrublands",
+  "explanation": "Code 66 is used by 5 systems as: Closed shrublands, Scrubland, Scrublands, Shrubland; the class names share no content word and no decomposition settles whether they mean the same cover.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_bolivia:66",
+   "mapbiomas_chile:66",
+   "mapbiomas_peru:66",
+   "mapbiomas_venezuela:66"
+  ],
+  "rank_score": 20
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 4,
+  "class_id": "19",
+  "code": "19",
+  "name": "Temporary Crop",
+  "explanation": "Code 19 is used by 3 systems as: Agriculture, Temporary Crop, Temporary crops; the class names share no content word and no decomposition settles whether they mean the same cover.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_argentina:19",
+   "mapbiomas_uruguay:19"
+  ],
+  "rank_score": 12
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 4,
+  "class_id": "50",
+  "code": "50",
+  "name": "Herbaceous Sandbank Vegetation",
+  "explanation": "Code 50 is used by 3 systems as: Herbaceous Sandbank Vegetation, Herbaceous sand vegetation, Xerophytic grassland/shrubland; the class names share no content word and no decomposition settles whether they mean the same cover.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_colombia:50",
+   "mapbiomas_venezuela:50"
+  ],
+  "rank_score": 12
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 4,
+  "class_id": "63",
+  "code": "63",
+  "name": "Shrubs and herbaceous mosaic",
+  "explanation": "Code 63 is used by 2 systems as: Shrubs and herbaceous mosaic, Steppe; the class names share no content word and no decomposition settles whether they mean the same cover.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_chile:63"
+  ],
+  "rank_score": 8
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 4,
+  "class_id": "75",
+  "code": "75",
+  "name": "Photovoltaic Power Plant (beta)",
+  "explanation": "Code 75 is used by 2 systems as: Photovoltaic Power Plant (beta), Solar panel farm; the class names share no content word and no decomposition settles whether they mean the same cover.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_colombia:75"
+  ],
+  "rank_score": 8
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 1,
+  "class_id": "12",
+  "code": "12",
+  "name": "Grassland",
+  "explanation": "Code 12 is used by 10 systems as: Grassland, Grassland/shrubland, Grasslands, Grasslands / herbaceous; the names differ only in wording; probably a translation, confirm by decomposing.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_argentina:12",
+   "mapbiomas_bolivia:12",
+   "mapbiomas_chile:12",
+   "mapbiomas_colombia:12",
+   "mapbiomas_ecuador:12",
+   "mapbiomas_paraguay:12",
+   "mapbiomas_peru:12",
+   "mapbiomas_uruguay:12",
+   "mapbiomas_venezuela:12"
+  ],
+  "rank_score": 6
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 1,
+  "class_id": "13",
+  "code": "13",
+  "name": "Other non-forest natural formation",
+  "explanation": "Code 13 is used by 6 systems as: Other non forest formation, Other non-forest formations, Other non-forest natural formation, Other non-forest natural formation (pan-MapBiomas standard code; not in the Chile Collection 2 legend), Other non-forest natural formations; the names differ only in wording; probably a translation, confirm by decomposing.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_chile:13",
+   "mapbiomas_colombia:13",
+   "mapbiomas_ecuador:13",
+   "mapbiomas_peru:13",
+   "mapbiomas_venezuela:13"
+  ],
+  "rank_score": 6
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 1,
+  "class_id": "15",
+  "code": "15",
+  "name": "Pasture",
+  "explanation": "Code 15 is used by 8 systems as: Pasture, Pasture/Fallow lands, Pastures; the names differ only in wording; probably a translation, confirm by decomposing.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_argentina:15",
+   "mapbiomas_bolivia:15",
+   "mapbiomas_chile:15",
+   "mapbiomas_paraguay:15",
+   "mapbiomas_peru:15",
+   "mapbiomas_uruguay:15",
+   "mapbiomas_venezuela:15"
+  ],
+  "rank_score": 6
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 1,
+  "class_id": "18",
+  "code": "18",
+  "name": "Agriculture",
+  "explanation": "Code 18 is used by 8 systems as: Agriculture, Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette), Agriculture/Fallow lands; the names differ only in wording; probably a translation, confirm by decomposing.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_argentina:18",
+   "mapbiomas_bolivia:18",
+   "mapbiomas_chile:18",
+   "mapbiomas_paraguay:18",
+   "mapbiomas_peru:18",
+   "mapbiomas_uruguay:18",
+   "mapbiomas_venezuela:18"
+  ],
+  "rank_score": 6
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 1,
+  "class_id": "22",
+  "code": "22",
+  "name": "Non vegetated area",
+  "explanation": "Code 22 is used by 9 systems as: Non vegetated area, Non-vegetated area, Non-vegetated areas; the names differ only in wording; probably a translation, confirm by decomposing.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_bolivia:22",
+   "mapbiomas_chile:22",
+   "mapbiomas_colombia:22",
+   "mapbiomas_ecuador:22",
+   "mapbiomas_paraguay:22",
+   "mapbiomas_peru:22",
+   "mapbiomas_uruguay:22",
+   "mapbiomas_venezuela:22"
+  ],
+  "rank_score": 6
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 1,
+  "class_id": "23",
+  "code": "23",
+  "name": "Beach, Dune and Sand Spot",
+  "explanation": "Code 23 is used by 7 systems as: Beach, Beach or dune, Beach, Dune and Sand Spot, Beach, dune and sand spot; the names differ only in wording; probably a translation, confirm by decomposing.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_bolivia:23",
+   "mapbiomas_chile:23",
+   "mapbiomas_colombia:23",
+   "mapbiomas_ecuador:23",
+   "mapbiomas_peru:23",
+   "mapbiomas_venezuela:23"
+  ],
+  "rank_score": 6
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 1,
+  "class_id": "25",
+  "code": "25",
+  "name": "Other non Vegetated Areas",
+  "explanation": "Code 25 is used by 8 systems as: Other anthropic non-vegetated area, Other non Vegetated Areas, Other non vegetated area, Other non-vegetated anthropic area, Other non-vegetated anthropic areas, Other non-vegetated area, Other non-vegetated areas; the names differ only in wording; probably a translation, confirm by decomposing.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_argentina:25",
+   "mapbiomas_bolivia:25",
+   "mapbiomas_chile:25",
+   "mapbiomas_colombia:25",
+   "mapbiomas_ecuador:25",
+   "mapbiomas_peru:25",
+   "mapbiomas_venezuela:25"
+  ],
+  "rank_score": 6
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 1,
+  "class_id": "26",
+  "code": "26",
+  "name": "Water",
+  "explanation": "Code 26 is used by 9 systems as: Water, Water bodies, Water body; the names differ only in wording; probably a translation, confirm by decomposing.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_bolivia:26",
+   "mapbiomas_chile:26",
+   "mapbiomas_colombia:26",
+   "mapbiomas_ecuador:26",
+   "mapbiomas_paraguay:26",
+   "mapbiomas_peru:26",
+   "mapbiomas_uruguay:26",
+   "mapbiomas_venezuela:26"
+  ],
+  "rank_score": 6
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 1,
+  "class_id": "33",
+  "code": "33",
+  "name": "River, Lake and Ocean",
+  "explanation": "Code 33 is used by 9 systems as: River, Lake and Ocean, River, Lake or Ocean, River, lake, River, lake or ocean, Rivers, lakes or ocean; the names differ only in wording; probably a translation, confirm by decomposing.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_argentina:33",
+   "mapbiomas_bolivia:33",
+   "mapbiomas_chile:33",
+   "mapbiomas_colombia:33",
+   "mapbiomas_ecuador:33",
+   "mapbiomas_peru:33",
+   "mapbiomas_uruguay:33",
+   "mapbiomas_venezuela:33"
+  ],
+  "rank_score": 6
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 1,
+  "class_id": "32",
+  "code": "32",
+  "name": "Hypersaline Tidal Flat",
+  "explanation": "Code 32 is used by 5 systems as: Coastal Salt flat, Hypersaline Tidal Flat, Hypersaline tidal flat, Hypersaline tidal flat (pan-MapBiomas standard code; not in the Chile Collection 2 legend); the names differ only in wording; probably a translation, confirm by decomposing.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_chile:32",
+   "mapbiomas_colombia:32",
+   "mapbiomas_peru:32",
+   "mapbiomas_venezuela:32"
+  ],
+  "rank_score": 5
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 1,
+  "class_id": "68",
+  "code": "68",
+  "name": "Other non-vegetated natural area",
+  "explanation": "Code 68 is used by 5 systems as: Other natural non vegetated area, Other natural non-vegetated area, Other non-vegetated natural area, Other non-vegetated natural areas; the names differ only in wording; probably a translation, confirm by decomposing.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_colombia:68",
+   "mapbiomas_ecuador:68",
+   "mapbiomas_peru:68",
+   "mapbiomas_venezuela:68"
+  ],
+  "rank_score": 5
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 1,
+  "class_id": "81",
+  "code": "81",
+  "name": "Andean grassland and shrubland",
+  "explanation": "Code 81 is used by 4 systems as: Andean Herbaceous and Shrubby Vegetation, Andean grassland and shrubland, Andean herbaceous/shrubby vegetation; the names differ only in wording; probably a translation, confirm by decomposing.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_colombia:81",
+   "mapbiomas_ecuador:81",
+   "mapbiomas_venezuela:81"
+  ],
+  "rank_score": 4
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 1,
+  "class_id": "82",
+  "code": "82",
+  "name": "Flooded Andean grassland and shrubland",
+  "explanation": "Code 82 is used by 4 systems as: Flooded Andean Herbaceous, Flooded Andean Herbaceous and Shrubby Vegetation, Flooded Andean grassland and shrubland, Flooded andean herbaceous/shrubby vegetation; the names differ only in wording; probably a translation, confirm by decomposing.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_colombia:82",
+   "mapbiomas_ecuador:82",
+   "mapbiomas_venezuela:82"
+  ],
+  "rank_score": 4
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 1,
+  "class_id": "35",
+  "code": "35",
+  "name": "Palm Oil",
+  "explanation": "Code 35 is used by 3 systems as: Oil palm, Palm Oil, Palm oil; the names differ only in wording; probably a translation, confirm by decomposing.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_colombia:35",
+   "mapbiomas_peru:35"
+  ],
+  "rank_score": 3
+ },
+ {
+  "kind": "land_use_masquerade",
+  "severity": 3,
+  "class_id": "14",
+  "code": "14",
+  "name": "Farming",
+  "explanation": "'Farming' names an activity (LU_PrimaryProductionActivities), not a physical cover.",
+  "options": [
+   "describe the physical cover and record the activity as land_use_hint",
+   "declare the system a land-use legend for this class"
+  ],
+  "affects": [],
+  "land_use_hint": "LU_PrimaryProductionActivities",
+  "rank_score": 3
+ },
+ {
+  "kind": "land_use_masquerade",
+  "severity": 3,
+  "class_id": "15",
+  "code": "15",
+  "name": "Pasture",
+  "explanation": "'Pasture' names an activity (LU_PrimaryProductionActivities (livestock grazing)), not a physical cover.",
+  "options": [
+   "describe the physical cover and record the activity as land_use_hint",
+   "declare the system a land-use legend for this class"
+  ],
+  "affects": [],
+  "land_use_hint": "LU_PrimaryProductionActivities (livestock grazing)",
+  "rank_score": 3
+ },
+ {
+  "kind": "land_use_masquerade",
+  "severity": 3,
+  "class_id": "18",
+  "code": "18",
+  "name": "Agriculture",
+  "explanation": "'Agriculture' names an activity (LU_PrimaryProductionActivities (crop cultivation)), not a physical cover.",
+  "options": [
+   "describe the physical cover and record the activity as land_use_hint",
+   "declare the system a land-use legend for this class"
+  ],
+  "affects": [],
+  "land_use_hint": "LU_PrimaryProductionActivities (crop cultivation)",
+  "rank_score": 3
+ },
+ {
+  "kind": "land_use_masquerade",
+  "severity": 3,
+  "class_id": "19",
+  "code": "19",
+  "name": "Temporary Crop",
+  "explanation": "'Temporary Crop' names an activity (LU_PrimaryProductionActivities (crop cultivation)), not a physical cover.",
+  "options": [
+   "describe the physical cover and record the activity as land_use_hint",
+   "declare the system a land-use legend for this class"
+  ],
+  "affects": [],
+  "land_use_hint": "LU_PrimaryProductionActivities (crop cultivation)",
+  "rank_score": 3
+ },
+ {
+  "kind": "land_use_masquerade",
+  "severity": 3,
+  "class_id": "24",
+  "code": "24",
+  "name": "Urban Area",
+  "explanation": "'Urban Area' names an activity (LU_ResidentialActivities), not a physical cover.",
+  "options": [
+   "describe the physical cover and record the activity as land_use_hint",
+   "declare the system a land-use legend for this class"
+  ],
+  "affects": [],
+  "land_use_hint": "LU_ResidentialActivities",
+  "rank_score": 3
+ },
+ {
+  "kind": "land_use_masquerade",
+  "severity": 3,
+  "class_id": "30",
+  "code": "30",
+  "name": "Mining",
+  "explanation": "'Mining' names an activity (LU_RawEndProductionIndustryActivities (extraction)), not a physical cover.",
+  "options": [
+   "describe the physical cover and record the activity as land_use_hint",
+   "declare the system a land-use legend for this class"
+  ],
+  "affects": [],
+  "land_use_hint": "LU_RawEndProductionIndustryActivities (extraction)",
+  "rank_score": 3
+ },
+ {
+  "kind": "land_use_masquerade",
+  "severity": 3,
+  "class_id": "31",
+  "code": "31",
+  "name": "Aquaculture",
+  "explanation": "'Aquaculture' names an activity (LU_PrimaryProductionActivities (aquaculture)), not a physical cover.",
+  "options": [
+   "describe the physical cover and record the activity as land_use_hint",
+   "declare the system a land-use legend for this class"
+  ],
+  "affects": [],
+  "land_use_hint": "LU_PrimaryProductionActivities (aquaculture)",
+  "rank_score": 3
+ },
+ {
+  "kind": "land_use_masquerade",
+  "severity": 3,
+  "class_id": "36",
+  "code": "36",
+  "name": "Perennial Crop",
+  "explanation": "'Perennial Crop' names an activity (LU_PrimaryProductionActivities (crop cultivation)), not a physical cover.",
+  "options": [
+   "describe the physical cover and record the activity as land_use_hint",
+   "declare the system a land-use legend for this class"
+  ],
+  "affects": [],
+  "land_use_hint": "LU_PrimaryProductionActivities (crop cultivation)",
+  "rank_score": 3
+ },
+ {
+  "kind": "land_use_masquerade",
+  "severity": 3,
+  "class_id": "75",
+  "code": "75",
+  "name": "Photovoltaic Power Plant (beta)",
+  "explanation": "'Photovoltaic Power Plant (beta)' names an activity (LU_EnergyProductionIndustryActivities), not a physical cover.",
+  "options": [
+   "describe the physical cover and record the activity as land_use_hint",
+   "declare the system a land-use legend for this class"
+  ],
+  "affects": [],
+  "land_use_hint": "LU_EnergyProductionIndustryActivities",
+  "rank_score": 3
+ },
+ {
+  "kind": "land_use_masquerade",
+  "severity": 3,
+  "class_id": "9",
+  "code": "9",
+  "name": "Forest Plantation",
+  "explanation": "'Forest Plantation' names an activity (LU_PrimaryProductionActivities (forestry)), not a physical cover.",
+  "options": [
+   "describe the physical cover and record the activity as land_use_hint",
+   "declare the system a land-use legend for this class"
+  ],
+  "affects": [],
+  "land_use_hint": "LU_PrimaryProductionActivities (forestry)",
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "1",
+  "code": "1",
+  "name": "Forest",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "10",
+  "code": "10",
+  "name": "Herbaceous and Shrubby Vegetation",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "11",
+  "code": "11",
+  "name": "Wetland",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "12",
+  "code": "12",
+  "name": "Grassland",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "14",
+  "code": "14",
+  "name": "Farming",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "15",
+  "code": "15",
+  "name": "Pasture",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "18",
+  "code": "18",
+  "name": "Agriculture",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "19",
+  "code": "19",
+  "name": "Temporary Crop",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "20",
+  "code": "20",
+  "name": "Sugar cane",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "21",
+  "code": "21",
+  "name": "Mosaic of Uses",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "22",
+  "code": "22",
+  "name": "Non vegetated area",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "23",
+  "code": "23",
+  "name": "Beach, Dune and Sand Spot",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "24",
+  "code": "24",
+  "name": "Urban Area",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "25",
+  "code": "25",
+  "name": "Other non Vegetated Areas",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "26",
+  "code": "26",
+  "name": "Water",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "27",
+  "code": "27",
+  "name": "Not Observed",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "29",
+  "code": "29",
+  "name": "Rocky Outcrop",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "3",
+  "code": "3",
+  "name": "Forest Formation",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "30",
+  "code": "30",
+  "name": "Mining",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "31",
+  "code": "31",
+  "name": "Aquaculture",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "32",
+  "code": "32",
+  "name": "Hypersaline Tidal Flat",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "33",
+  "code": "33",
+  "name": "River, Lake and Ocean",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "35",
+  "code": "35",
+  "name": "Palm Oil",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "36",
+  "code": "36",
+  "name": "Perennial Crop",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "39",
+  "code": "39",
+  "name": "Soybean",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "40",
+  "code": "40",
+  "name": "Rice",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "41",
+  "code": "41",
+  "name": "Other Temporary Crops",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "46",
+  "code": "46",
+  "name": "Coffee",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "47",
+  "code": "47",
+  "name": "Citrus",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "48",
+  "code": "48",
+  "name": "Other Perennial Crops",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "49",
+  "code": "49",
+  "name": "Wooded Sandbank Vegetation",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "5",
+  "code": "5",
+  "name": "Mangrove",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "50",
+  "code": "50",
+  "name": "Herbaceous Sandbank Vegetation",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "6",
+  "code": "6",
+  "name": "Floodable Forest",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "62",
+  "code": "62",
+  "name": "Cotton (beta)",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "75",
+  "code": "75",
+  "name": "Photovoltaic Power Plant (beta)",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "underspecified",
+  "severity": 3,
+  "class_id": "9",
+  "code": "9",
+  "name": "Forest Plantation",
+  "explanation": "No element decomposition yet (titles only or not proposed).",
+  "options": [
+   "propose a decomposition from the name and nearest registry examples",
+   "ask the publisher for the class definition"
+  ],
+  "affects": [],
+  "rank_score": 3
+ },
+ {
+  "kind": "catch_all",
+  "severity": 2,
+  "class_id": "21",
+  "code": "21",
+  "name": "Mosaic of Uses",
+  "explanation": "The class name is a residual or mixed category; its physical content depends on what the other classes exclude.",
+  "options": [
+   "define it by exclusion explicitly (list the elements it may contain)",
+   "split it",
+   "keep as a mapping-unit mixed class"
+  ],
+  "affects": [],
+  "rank_score": 2
+ },
+ {
+  "kind": "catch_all",
+  "severity": 2,
+  "class_id": "25",
+  "code": "25",
+  "name": "Other non Vegetated Areas",
+  "explanation": "The class name is a residual or mixed category; its physical content depends on what the other classes exclude.",
+  "options": [
+   "define it by exclusion explicitly (list the elements it may contain)",
+   "split it",
+   "keep as a mapping-unit mixed class"
+  ],
+  "affects": [],
+  "rank_score": 2
+ },
+ {
+  "kind": "catch_all",
+  "severity": 2,
+  "class_id": "27",
+  "code": "27",
+  "name": "Not Observed",
+  "explanation": "The class name is a residual or mixed category; its physical content depends on what the other classes exclude.",
+  "options": [
+   "define it by exclusion explicitly (list the elements it may contain)",
+   "split it",
+   "keep as a mapping-unit mixed class"
+  ],
+  "affects": [],
+  "rank_score": 2
+ },
+ {
+  "kind": "catch_all",
+  "severity": 2,
+  "class_id": "41",
+  "code": "41",
+  "name": "Other Temporary Crops",
+  "explanation": "The class name is a residual or mixed category; its physical content depends on what the other classes exclude.",
+  "options": [
+   "define it by exclusion explicitly (list the elements it may contain)",
+   "split it",
+   "keep as a mapping-unit mixed class"
+  ],
+  "affects": [],
+  "rank_score": 2
+ },
+ {
+  "kind": "catch_all",
+  "severity": 2,
+  "class_id": "48",
+  "code": "48",
+  "name": "Other Perennial Crops",
+  "explanation": "The class name is a residual or mixed category; its physical content depends on what the other classes exclude.",
+  "options": [
+   "define it by exclusion explicitly (list the elements it may contain)",
+   "split it",
+   "keep as a mapping-unit mixed class"
+  ],
+  "affects": [],
+  "rank_score": 2
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 1,
+  "class_id": "36",
+  "code": "36",
+  "name": "Perennial Crop",
+  "explanation": "Code 36 is used by 2 systems as: Perennial Crop, Perennial crops; the names differ only in wording; probably a translation, confirm by decomposing.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_argentina:36"
+  ],
+  "rank_score": 2
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 1,
+  "class_id": "39",
+  "code": "39",
+  "name": "Soybean",
+  "explanation": "Code 39 is used by 2 systems as: Soybean, Soybean (beta); the names differ only in wording; probably a translation, confirm by decomposing.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_bolivia:39"
+  ],
+  "rank_score": 2
+ },
+ {
+  "kind": "cross_system_collision",
+  "severity": 1,
+  "class_id": "49",
+  "code": "49",
+  "name": "Wooded Sandbank Vegetation",
+  "explanation": "Code 49 is used by 2 systems as: Wooded Sandbank Vegetation, Wooded sand vegetation; the names differ only in wording; probably a translation, confirm by decomposing.",
+  "options": [
+   "never compare raw codes across these systems",
+   "decompose each and compare elements",
+   "define a shared code table",
+   "rename the outlier"
+  ],
+  "affects": [
+   "mapbiomas_colombia:49"
+  ],
+  "rank_score": 2
+ }
+]

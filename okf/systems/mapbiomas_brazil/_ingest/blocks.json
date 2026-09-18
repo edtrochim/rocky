@@ -1,0 +1,876 @@
+[
+ {
+  "text": "brazil 1 Forest",
+  "kind": "table_row",
+  "page": null,
+  "row": 1,
+  "cells": [
+   "brazil",
+   "1",
+   "Forest",
+   "#1f8d49",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 3 Forest Formation",
+  "kind": "table_row",
+  "page": null,
+  "row": 2,
+  "cells": [
+   "brazil",
+   "3",
+   "Forest Formation",
+   "#1f8d49",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 4 Savanna Formation",
+  "kind": "table_row",
+  "page": null,
+  "row": 3,
+  "cells": [
+   "brazil",
+   "4",
+   "Savanna Formation",
+   "#7dc975",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 5 Mangrove",
+  "kind": "table_row",
+  "page": null,
+  "row": 4,
+  "cells": [
+   "brazil",
+   "5",
+   "Mangrove",
+   "#04381d",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 6 Floodable Forest",
+  "kind": "table_row",
+  "page": null,
+  "row": 5,
+  "cells": [
+   "brazil",
+   "6",
+   "Floodable Forest",
+   "#007785",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 49 Wooded Sandbank Vegetation",
+  "kind": "table_row",
+  "page": null,
+  "row": 6,
+  "cells": [
+   "brazil",
+   "49",
+   "Wooded Sandbank Vegetation",
+   "#02d659",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 10 Herbaceous and Shrubby Vegetation",
+  "kind": "table_row",
+  "page": null,
+  "row": 7,
+  "cells": [
+   "brazil",
+   "10",
+   "Herbaceous and Shrubby Vegetation",
+   "#d6bc74",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 11 Wetland",
+  "kind": "table_row",
+  "page": null,
+  "row": 8,
+  "cells": [
+   "brazil",
+   "11",
+   "Wetland",
+   "#519799",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 12 Grassland",
+  "kind": "table_row",
+  "page": null,
+  "row": 9,
+  "cells": [
+   "brazil",
+   "12",
+   "Grassland",
+   "#d6bc74",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 32 Hypersaline Tidal Flat",
+  "kind": "table_row",
+  "page": null,
+  "row": 10,
+  "cells": [
+   "brazil",
+   "32",
+   "Hypersaline Tidal Flat",
+   "#fc8114",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 29 Rocky Outcrop",
+  "kind": "table_row",
+  "page": null,
+  "row": 11,
+  "cells": [
+   "brazil",
+   "29",
+   "Rocky Outcrop",
+   "#ffaa5f",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 50 Herbaceous Sandbank Vegetation",
+  "kind": "table_row",
+  "page": null,
+  "row": 12,
+  "cells": [
+   "brazil",
+   "50",
+   "Herbaceous Sandbank Vegetation",
+   "#ad5100",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 14 Farming",
+  "kind": "table_row",
+  "page": null,
+  "row": 13,
+  "cells": [
+   "brazil",
+   "14",
+   "Farming",
+   "#ffefc3",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 15 Pasture",
+  "kind": "table_row",
+  "page": null,
+  "row": 14,
+  "cells": [
+   "brazil",
+   "15",
+   "Pasture",
+   "#edde8e",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 18 Agriculture",
+  "kind": "table_row",
+  "page": null,
+  "row": 15,
+  "cells": [
+   "brazil",
+   "18",
+   "Agriculture",
+   "#e974ed",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 19 Temporary Crop",
+  "kind": "table_row",
+  "page": null,
+  "row": 16,
+  "cells": [
+   "brazil",
+   "19",
+   "Temporary Crop",
+   "#c27ba0",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 39 Soybean",
+  "kind": "table_row",
+  "page": null,
+  "row": 17,
+  "cells": [
+   "brazil",
+   "39",
+   "Soybean",
+   "#f5b3c8",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 20 Sugar cane",
+  "kind": "table_row",
+  "page": null,
+  "row": 18,
+  "cells": [
+   "brazil",
+   "20",
+   "Sugar cane",
+   "#db7093",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 40 Rice",
+  "kind": "table_row",
+  "page": null,
+  "row": 19,
+  "cells": [
+   "brazil",
+   "40",
+   "Rice",
+   "#c71585",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 62 Cotton (beta)",
+  "kind": "table_row",
+  "page": null,
+  "row": 20,
+  "cells": [
+   "brazil",
+   "62",
+   "Cotton (beta)",
+   "#ff69b4",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 41 Other Temporary Crops",
+  "kind": "table_row",
+  "page": null,
+  "row": 21,
+  "cells": [
+   "brazil",
+   "41",
+   "Other Temporary Crops",
+   "#f54ca9",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 36 Perennial Crop",
+  "kind": "table_row",
+  "page": null,
+  "row": 22,
+  "cells": [
+   "brazil",
+   "36",
+   "Perennial Crop",
+   "#d082de",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 46 Coffee",
+  "kind": "table_row",
+  "page": null,
+  "row": 23,
+  "cells": [
+   "brazil",
+   "46",
+   "Coffee",
+   "#d68fe2",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 47 Citrus",
+  "kind": "table_row",
+  "page": null,
+  "row": 24,
+  "cells": [
+   "brazil",
+   "47",
+   "Citrus",
+   "#9932cc",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 35 Palm Oil",
+  "kind": "table_row",
+  "page": null,
+  "row": 25,
+  "cells": [
+   "brazil",
+   "35",
+   "Palm Oil",
+   "#9065d0",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 48 Other Perennial Crops",
+  "kind": "table_row",
+  "page": null,
+  "row": 26,
+  "cells": [
+   "brazil",
+   "48",
+   "Other Perennial Crops",
+   "#e6ccff",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 9 Forest Plantation",
+  "kind": "table_row",
+  "page": null,
+  "row": 27,
+  "cells": [
+   "brazil",
+   "9",
+   "Forest Plantation",
+   "#7a5900",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 21 Mosaic of Uses",
+  "kind": "table_row",
+  "page": null,
+  "row": 28,
+  "cells": [
+   "brazil",
+   "21",
+   "Mosaic of Uses",
+   "#ffefc3",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 22 Non vegetated area",
+  "kind": "table_row",
+  "page": null,
+  "row": 29,
+  "cells": [
+   "brazil",
+   "22",
+   "Non vegetated area",
+   "#d4271e",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 23 Beach, Dune and Sand Spot",
+  "kind": "table_row",
+  "page": null,
+  "row": 30,
+  "cells": [
+   "brazil",
+   "23",
+   "Beach, Dune and Sand Spot",
+   "#ffa07a",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 24 Urban Area",
+  "kind": "table_row",
+  "page": null,
+  "row": 31,
+  "cells": [
+   "brazil",
+   "24",
+   "Urban Area",
+   "#d4271e",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 30 Mining",
+  "kind": "table_row",
+  "page": null,
+  "row": 32,
+  "cells": [
+   "brazil",
+   "30",
+   "Mining",
+   "#9c0027",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 75 Photovoltaic Power Plant (beta)",
+  "kind": "table_row",
+  "page": null,
+  "row": 33,
+  "cells": [
+   "brazil",
+   "75",
+   "Photovoltaic Power Plant (beta)",
+   "#c12100",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 25 Other non Vegetated Areas",
+  "kind": "table_row",
+  "page": null,
+  "row": 34,
+  "cells": [
+   "brazil",
+   "25",
+   "Other non Vegetated Areas",
+   "#db4d4f",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 26 Water",
+  "kind": "table_row",
+  "page": null,
+  "row": 35,
+  "cells": [
+   "brazil",
+   "26",
+   "Water",
+   "#2532e4",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 33 River, Lake and Ocean",
+  "kind": "table_row",
+  "page": null,
+  "row": 36,
+  "cells": [
+   "brazil",
+   "33",
+   "River, Lake and Ocean",
+   "#2532e4",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 31 Aquaculture",
+  "kind": "table_row",
+  "page": null,
+  "row": 37,
+  "cells": [
+   "brazil",
+   "31",
+   "Aquaculture",
+   "#091077",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ },
+ {
+  "text": "brazil 27 Not Observed",
+  "kind": "table_row",
+  "page": null,
+  "row": 38,
+  "cells": [
+   "brazil",
+   "27",
+   "Not Observed",
+   "#ffffff",
+   "MapBiomas Brazil Collection 10",
+   "https://brasil.mapbiomas.org/wp-content/uploads/sites/4/2025/08/Legenda-Colecao-10-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:brazil"
+ }
+]

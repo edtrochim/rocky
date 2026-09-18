@@ -1,0 +1,8 @@
+ID,Hex,Class Code,Class Name
+1,#FF99FF,AG,Agriculture 
+2,#FFE699,BS,Bare rocks and soils
+3,#00FF00,TCO,Forest
+4,#CCFF66,HCO,Herbaceous
+5,#00FFCC,SCO,Shrubs
+6,#800000,URB,Urban areas
+7,#0066CC,WAT,Water bodies

@@ -1,0 +1,715 @@
+[
+ {
+  "text": "venezuela 1 Forest formations",
+  "kind": "table_row",
+  "page": null,
+  "row": 1,
+  "cells": [
+   "venezuela",
+   "1",
+   "Forest formations",
+   "#1f8d49",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 3 Forest",
+  "kind": "table_row",
+  "page": null,
+  "row": 2,
+  "cells": [
+   "venezuela",
+   "3",
+   "Forest",
+   "#1f8d49",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 4 Wooded savanna",
+  "kind": "table_row",
+  "page": null,
+  "row": 3,
+  "cells": [
+   "venezuela",
+   "4",
+   "Wooded savanna",
+   "#7dc975",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 5 Mangrove",
+  "kind": "table_row",
+  "page": null,
+  "row": 4,
+  "cells": [
+   "venezuela",
+   "5",
+   "Mangrove",
+   "#04381d",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 6 Flooded forest",
+  "kind": "table_row",
+  "page": null,
+  "row": 5,
+  "cells": [
+   "venezuela",
+   "6",
+   "Flooded forest",
+   "#026975",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 10 Grasslands and shrublands",
+  "kind": "table_row",
+  "page": null,
+  "row": 6,
+  "cells": [
+   "venezuela",
+   "10",
+   "Grasslands and shrublands",
+   "#d6bc74",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 11 Flooded grassland/shrubland",
+  "kind": "table_row",
+  "page": null,
+  "row": 7,
+  "cells": [
+   "venezuela",
+   "11",
+   "Flooded grassland/shrubland",
+   "#519799",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 12 Grassland",
+  "kind": "table_row",
+  "page": null,
+  "row": 8,
+  "cells": [
+   "venezuela",
+   "12",
+   "Grassland",
+   "#d6bc74",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 29 Rocky outcrop",
+  "kind": "table_row",
+  "page": null,
+  "row": 9,
+  "cells": [
+   "venezuela",
+   "29",
+   "Rocky outcrop",
+   "#ffaa5f",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 32 Hypersaline tidal flat",
+  "kind": "table_row",
+  "page": null,
+  "row": 10,
+  "cells": [
+   "venezuela",
+   "32",
+   "Hypersaline tidal flat",
+   "#fc8114",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 66 Shrubland",
+  "kind": "table_row",
+  "page": null,
+  "row": 11,
+  "cells": [
+   "venezuela",
+   "66",
+   "Shrubland",
+   "#a89358",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 50 Xerophytic grassland/shrubland",
+  "kind": "table_row",
+  "page": null,
+  "row": 12,
+  "cells": [
+   "venezuela",
+   "50",
+   "Xerophytic grassland/shrubland",
+   "#ad5100",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 13 Other non-forest natural formations",
+  "kind": "table_row",
+  "page": null,
+  "row": 13,
+  "cells": [
+   "venezuela",
+   "13",
+   "Other non-forest natural formations",
+   "#d89f5c",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 81 Andean herbaceous/shrubby vegetation",
+  "kind": "table_row",
+  "page": null,
+  "row": 14,
+  "cells": [
+   "venezuela",
+   "81",
+   "Andean herbaceous/shrubby vegetation",
+   "#dfeb62",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 82 Flooded andean herbaceous/shrubby vegetation",
+  "kind": "table_row",
+  "page": null,
+  "row": 15,
+  "cells": [
+   "venezuela",
+   "82",
+   "Flooded andean herbaceous/shrubby vegetation",
+   "#6fc179",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 14 Agricultural areas",
+  "kind": "table_row",
+  "page": null,
+  "row": 16,
+  "cells": [
+   "venezuela",
+   "14",
+   "Agricultural areas",
+   "#ffefc3",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 15 Pasture/Fallow lands",
+  "kind": "table_row",
+  "page": null,
+  "row": 17,
+  "cells": [
+   "venezuela",
+   "15",
+   "Pasture/Fallow lands",
+   "#edde8e",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 18 Agriculture/Fallow lands",
+  "kind": "table_row",
+  "page": null,
+  "row": 18,
+  "cells": [
+   "venezuela",
+   "18",
+   "Agriculture/Fallow lands",
+   "#e974ed",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 21 Cropland/Pasture/Fallow lands",
+  "kind": "table_row",
+  "page": null,
+  "row": 19,
+  "cells": [
+   "venezuela",
+   "21",
+   "Cropland/Pasture/Fallow lands",
+   "#ffefc3",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 9 Forest plantation",
+  "kind": "table_row",
+  "page": null,
+  "row": 20,
+  "cells": [
+   "venezuela",
+   "9",
+   "Forest plantation",
+   "#7a6c00",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 22 Non-vegetated areas",
+  "kind": "table_row",
+  "page": null,
+  "row": 21,
+  "cells": [
+   "venezuela",
+   "22",
+   "Non-vegetated areas",
+   "#d4271e",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 23 Beach or dune",
+  "kind": "table_row",
+  "page": null,
+  "row": 22,
+  "cells": [
+   "venezuela",
+   "23",
+   "Beach or dune",
+   "#ffa07a",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 24 Urban",
+  "kind": "table_row",
+  "page": null,
+  "row": 23,
+  "cells": [
+   "venezuela",
+   "24",
+   "Urban",
+   "#d4271e",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 30 Mining",
+  "kind": "table_row",
+  "page": null,
+  "row": 24,
+  "cells": [
+   "venezuela",
+   "30",
+   "Mining",
+   "#9c0027",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 68 Other non-vegetated natural areas",
+  "kind": "table_row",
+  "page": null,
+  "row": 25,
+  "cells": [
+   "venezuela",
+   "68",
+   "Other non-vegetated natural areas",
+   "#e97a7a",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 25 Other non-vegetated anthropic areas",
+  "kind": "table_row",
+  "page": null,
+  "row": 26,
+  "cells": [
+   "venezuela",
+   "25",
+   "Other non-vegetated anthropic areas",
+   "#db4d4f",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 26 Water bodies",
+  "kind": "table_row",
+  "page": null,
+  "row": 27,
+  "cells": [
+   "venezuela",
+   "26",
+   "Water bodies",
+   "#2532e4",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 33 River, lake or ocean",
+  "kind": "table_row",
+  "page": null,
+  "row": 28,
+  "cells": [
+   "venezuela",
+   "33",
+   "River, lake or ocean",
+   "#2532e4",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 34 Glacier",
+  "kind": "table_row",
+  "page": null,
+  "row": 29,
+  "cells": [
+   "venezuela",
+   "34",
+   "Glacier",
+   "#93dfe6",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 31 Aquaculture",
+  "kind": "table_row",
+  "page": null,
+  "row": 30,
+  "cells": [
+   "venezuela",
+   "31",
+   "Aquaculture",
+   "#091077",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ },
+ {
+  "text": "venezuela 27 Not observed",
+  "kind": "table_row",
+  "page": null,
+  "row": 31,
+  "cells": [
+   "venezuela",
+   "27",
+   "Not observed",
+   "#ffffff",
+   "MapBiomas Venezuela Collection 3",
+   "https://venezuela.mapbiomas.org/wp-content/uploads/sites/5/2025/11/MB-Venezuela-Col-3-Legend-Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:venezuela"
+ }
+]

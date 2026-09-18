@@ -1,0 +1,30 @@
+ID,Hex,Class Code,Class Name
+1,#C00000,BA,Bare Area
+2,#006600,FC,Forest Closed
+3,#92D050,FO,Forest Open
+4,#CCCC00,GRWS,Grassland
+5,#FFCC99,HCI,Irrigated Agriculture
+6,#FFCC00,HCR,Rainfed Agriculture
+7,#757171,IA,Industrial Area
+8,#9900CC,MN,Mines
+9,#FFFF99,RB,River Bank
+10,#CCCC00,RC,Rice Crop
+11,#A6A6A6,RD,Roads
+12,#FF0000,TCP,Orchard and other Plantation
+13,#00B0F0,UA,Urban area
+14,#833C0C,UAM,Urban area mixed
+15,#4472C4,WB,Water Body
+16,#CC00CC,WET,Wetland
+17,#33CC33,FS,Forest Sparse
+18,#A9D08E,SHTS,Shrubland
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,

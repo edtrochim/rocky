@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<LC_Legend>
+  <objects>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>1</class_id>
+      <class_name>Forest</class_name>
+      <class_map_code>1</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>3</class_id>
+      <class_name>Forest Formation</class_name>
+      <class_map_code>3</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>5</class_id>
+      <class_name>Mangrove</class_name>
+      <class_map_code>5</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>6</class_id>
+      <class_name>Floodable Forest</class_name>
+      <class_map_code>6</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>49</class_id>
+      <class_name>Wooded Sandbank Vegetation</class_name>
+      <class_map_code>49</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>10</class_id>
+      <class_name>Herbaceous and Shrubby Vegetation</class_name>
+      <class_map_code>10</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>11</class_id>
+      <class_name>Wetland</class_name>
+      <class_map_code>11</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>12</class_id>
+      <class_name>Grassland</class_name>
+      <class_map_code>12</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>32</class_id>
+      <class_name>Hypersaline Tidal Flat</class_name>
+      <class_map_code>32</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>29</class_id>
+      <class_name>Rocky Outcrop</class_name>
+      <class_map_code>29</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>50</class_id>
+      <class_name>Herbaceous Sandbank Vegetation</class_name>
+      <class_map_code>50</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>14</class_id>
+      <class_name>Farming</class_name>
+      <class_map_code>14</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>15</class_id>
+      <class_name>Pasture</class_name>
+      <class_map_code>15</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>18</class_id>
+      <class_name>Agriculture</class_name>
+      <class_map_code>18</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>19</class_id>
+      <class_name>Temporary Crop</class_name>
+      <class_map_code>19</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>39</class_id>
+      <class_name>Soybean</class_name>
+      <class_map_code>39</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>20</class_id>
+      <class_name>Sugar cane</class_name>
+      <class_map_code>20</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>40</class_id>
+      <class_name>Rice</class_name>
+      <class_map_code>40</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>62</class_id>
+      <class_name>Cotton (beta)</class_name>
+      <class_map_code>62</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>41</class_id>
+      <class_name>Other Temporary Crops</class_name>
+      <class_map_code>41</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>36</class_id>
+      <class_name>Perennial Crop</class_name>
+      <class_map_code>36</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>46</class_id>
+      <class_name>Coffee</class_name>
+      <class_map_code>46</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>47</class_id>
+      <class_name>Citrus</class_name>
+      <class_map_code>47</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>35</class_id>
+      <class_name>Palm Oil</class_name>
+      <class_map_code>35</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>48</class_id>
+      <class_name>Other Perennial Crops</class_name>
+      <class_map_code>48</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>9</class_id>
+      <class_name>Forest Plantation</class_name>
+      <class_map_code>9</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>21</class_id>
+      <class_name>Mosaic of Uses</class_name>
+      <class_map_code>21</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>22</class_id>
+      <class_name>Non vegetated area</class_name>
+      <class_map_code>22</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>23</class_id>
+      <class_name>Beach, Dune and Sand Spot</class_name>
+      <class_map_code>23</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>24</class_id>
+      <class_name>Urban Area</class_name>
+      <class_map_code>24</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>30</class_id>
+      <class_name>Mining</class_name>
+      <class_map_code>30</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>75</class_id>
+      <class_name>Photovoltaic Power Plant (beta)</class_name>
+      <class_map_code>75</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>25</class_id>
+      <class_name>Other non Vegetated Areas</class_name>
+      <class_map_code>25</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>26</class_id>
+      <class_name>Water</class_name>
+      <class_map_code>26</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>33</class_id>
+      <class_name>River, Lake and Ocean</class_name>
+      <class_map_code>33</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>31</class_id>
+      <class_name>Aquaculture</class_name>
+      <class_map_code>31</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>27</class_id>
+      <class_name>Not Observed</class_name>
+      <class_map_code>27</class_map_code>
+    </LC_Class>
+    <LC_Class>
+      <legend_id>1</legend_id>
+      <class_id>4</class_id>
+      <class_name>Savanna Formation</class_name>
+      <class_map_code>4</class_map_code>
+    </LC_Class>
+    <LC_HorizontalPatterns>
+      <class_id>4</class_id>
+      <horizontal_pattern_id>4.hp1</horizontal_pattern_id>
+      <name>Horizontal Pattern 1</name>
+    </LC_HorizontalPatterns>
+    <LC_Strata>
+      <HPID>4.hp1</HPID>
+      <stratumID>4.st1</stratumID>
+      <name>Stratum 1</name>
+      <presenceType>Fixed</presenceType>
+      <onTop>1</onTop>
+    </LC_Strata>
+    <LC_Strata>
+      <HPID>4.hp1</HPID>
+      <stratumID>4.st2</stratumID>
+      <name>Stratum 2</name>
+      <presenceType>Fixed</presenceType>
+    </LC_Strata>
+    <LC_Properties>
+      <StratumID>4.st1</StratumID>
+      <BlockID>1</BlockID>
+      <BlockReference>LC_Tree</BlockReference>
+      <elementPresenceType>Fixed</elementPresenceType>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>4.st2</StratumID>
+      <BlockID>1</BlockID>
+      <BlockReference>LC_Graminoid</BlockReference>
+      <elementPresenceType>Fixed</elementPresenceType>
+    </LC_Properties>
+    <LC_Properties>
+      <StratumID>4.st2</StratumID>
+      <BlockID>2</BlockID>
+      <BlockReference>LC_Forbs</BlockReference>
+      <elementPresenceType>Conditional Temporal</elementPresenceType>
+    </LC_Properties>
+    <LC_Characteristics>
+      <StratumID>4.st1</StratumID>
+      <BlockID>1</BlockID>
+      <CharacteristicID>1</CharacteristicID>
+      <CharacteristicReference>LC_VegetationArtificialityCharacteristic</CharacteristicReference>
+      <vegetationArtificiality>Natural or Seminatural</vegetationArtificiality>
+    </LC_Characteristics>
+    <LC_Characteristics>
+      <StratumID>4.st2</StratumID>
+      <BlockID>1</BlockID>
+      <CharacteristicID>1</CharacteristicID>
+      <CharacteristicReference>LC_VegetationArtificialityCharacteristic</CharacteristicReference>
+      <vegetationArtificiality>Natural or Seminatural</vegetationArtificiality>
+    </LC_Characteristics>
+  </objects>
+</LC_Legend>

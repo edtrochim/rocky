@@ -1,0 +1,39 @@
+---
+id: registry:L7:Obr
+kind: class
+title: Obr Bare rocks
+system: registry:L7
+code: Obr
+name: Bare rocks
+status: registered
+decomposed: true
+file_class_id: '84'
+n_rows: 14
+rows_in: ../elements.csv
+element_refs:
+- LC_BareRock
+links:
+- rel: in_system
+  id: registry:L7
+  path: ../SYSTEM.md
+- rel: uses_type
+  id: element:LC_BareRock
+  path: ../../../vocab/elements/LC_BareRock.md
+sources:
+- okf/registry/_raw/L7/L7.lccs
+schema: okf/0.1
+---
+
+# Obr Bare rocks
+
+## Definition (verbatim, FAO LCLR)
+
+Lands with exposed rocks, that never have more than 4% vegetated cover during any time of the year.
+
+## Decomposition (from the registry file)
+
+| pattern | stratum | element | presence | cover | other properties | characteristics |
+|---|---|---|---|---|---|---|
+| 85 | 86 Mandatory | `LC_BareRock` | Mandatory |  |  |  |
+
+Full rows: `../elements.csv`, class_id `84`.

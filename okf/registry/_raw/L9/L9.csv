@@ -1,0 +1,30 @@
+ID,Hex,Class Code,Class Name
+1,#8EA9DB,511rb,Riverbank
+2,#8EA9DB,511,River
+3,#8EA9DB,512,Waterbody fresh
+4,#8EA9DB,512a,Artificial Pond
+5,#8EA9DB,411,Wetland
+6,#D9D9D9,332,Bare surface
+7,#D9D9D9,331,Beach
+8,#FF7C80,111,Urban Area
+9,#FF7C80,121,Industrial or commercial unit
+10,#FF7C80,131,Artificial surface - Extraction site
+11,#FF7C80,132,Artificial Surface - Dump site
+12,#FF7C80,111v,Rural Settlement
+13,#FF7C80,122,Network
+14,#FF7C80,124,Airport
+15,#375623,311,Tree-Broadleaved
+16,#375623,312,Tree-Needleleaved
+17,#375623,313,Tree-Mixed
+18,#375623,33fp,Tree Plantation
+19,#375623,324,Tree Open/Sparse
+20,#A9D08E,321,Herbaceous-Natural grassland
+21,#A9D08E,322,Shrub
+22,#A9D08E,323,Woodland
+23,#A9D08E,333,Sparsely vegetated areas
+24,#FFCC66,211,Non-irrigated field
+25,#FFCC66,212,Permanently irrigated crop
+26,#FFCC66,213,Rice field
+27,#FFCC66,221,Vineyards
+28,#FFCC66,222,Trees Orchard
+29,#9966FF,243,Complex unit - Agriculture and Natural vegetation

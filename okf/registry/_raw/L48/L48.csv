@@ -1,0 +1,8 @@
+﻿ID,Hex,Class_code,Class_name
+1,#FFFFCC,IC,Irrigated crops
+2,#FF9933,RC,Rainfed crops
+3,#D6EE3E,O,Orchards or home garden
+4,#FEF881,Gh,Greenhouse
+5,#DCDEDA,Bl,Bare land (current fallow)
+6,#6F6F6E,Bu,Built-up
+7,#4272D2,Wb,Water body

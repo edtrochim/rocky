@@ -1,0 +1,333 @@
+[
+ {
+  "text": "paraguay 1 Woody Natural Vegetation",
+  "kind": "table_row",
+  "page": null,
+  "row": 1,
+  "cells": [
+   "paraguay",
+   "1",
+   "Woody Natural Vegetation",
+   "#1f8d49",
+   "MapBiomas Paraguay Collection 2",
+   "https://paraguay.mapbiomas.org/en/codigos-de-la-leyenda/ (Legend Code PDF, Google Drive id 1VtWlK-cmd47Kyg4jMiKRjWxv5OpPVG1U)"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:paraguay"
+ },
+ {
+  "text": "paraguay 3 Closed Natural Woodlands",
+  "kind": "table_row",
+  "page": null,
+  "row": 2,
+  "cells": [
+   "paraguay",
+   "3",
+   "Closed Natural Woodlands",
+   "#1f8d49",
+   "MapBiomas Paraguay Collection 2",
+   "https://paraguay.mapbiomas.org/en/codigos-de-la-leyenda/ (Legend Code PDF, Google Drive id 1VtWlK-cmd47Kyg4jMiKRjWxv5OpPVG1U)"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:paraguay"
+ },
+ {
+  "text": "paraguay 4 Open Natural Woodlands",
+  "kind": "table_row",
+  "page": null,
+  "row": 3,
+  "cells": [
+   "paraguay",
+   "4",
+   "Open Natural Woodlands",
+   "#7dc975",
+   "MapBiomas Paraguay Collection 2",
+   "https://paraguay.mapbiomas.org/en/codigos-de-la-leyenda/ (Legend Code PDF, Google Drive id 1VtWlK-cmd47Kyg4jMiKRjWxv5OpPVG1U)"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:paraguay"
+ },
+ {
+  "text": "paraguay 6 Flooded Natural Woodlands",
+  "kind": "table_row",
+  "page": null,
+  "row": 4,
+  "cells": [
+   "paraguay",
+   "6",
+   "Flooded Natural Woodlands",
+   "#007785",
+   "MapBiomas Paraguay Collection 2",
+   "https://paraguay.mapbiomas.org/en/codigos-de-la-leyenda/ (Legend Code PDF, Google Drive id 1VtWlK-cmd47Kyg4jMiKRjWxv5OpPVG1U)"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:paraguay"
+ },
+ {
+  "text": "paraguay 10 Herbaceous Natural Vegetation",
+  "kind": "table_row",
+  "page": null,
+  "row": 5,
+  "cells": [
+   "paraguay",
+   "10",
+   "Herbaceous Natural Vegetation",
+   "#d6bc74",
+   "MapBiomas Paraguay Collection 2",
+   "https://paraguay.mapbiomas.org/en/codigos-de-la-leyenda/ (Legend Code PDF, Google Drive id 1VtWlK-cmd47Kyg4jMiKRjWxv5OpPVG1U)"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:paraguay"
+ },
+ {
+  "text": "paraguay 11 Flooded grasslands",
+  "kind": "table_row",
+  "page": null,
+  "row": 6,
+  "cells": [
+   "paraguay",
+   "11",
+   "Flooded grasslands",
+   "#519799",
+   "MapBiomas Paraguay Collection 2",
+   "https://paraguay.mapbiomas.org/en/codigos-de-la-leyenda/ (Legend Code PDF, Google Drive id 1VtWlK-cmd47Kyg4jMiKRjWxv5OpPVG1U)"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:paraguay"
+ },
+ {
+  "text": "paraguay 12 Grassland",
+  "kind": "table_row",
+  "page": null,
+  "row": 7,
+  "cells": [
+   "paraguay",
+   "12",
+   "Grassland",
+   "#d6bc74",
+   "MapBiomas Paraguay Collection 2",
+   "https://paraguay.mapbiomas.org/en/codigos-de-la-leyenda/ (Legend Code PDF, Google Drive id 1VtWlK-cmd47Kyg4jMiKRjWxv5OpPVG1U)"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:paraguay"
+ },
+ {
+  "text": "paraguay 14 Agricultural Areas",
+  "kind": "table_row",
+  "page": null,
+  "row": 8,
+  "cells": [
+   "paraguay",
+   "14",
+   "Agricultural Areas",
+   "#ffefc3",
+   "MapBiomas Paraguay Collection 2",
+   "https://paraguay.mapbiomas.org/en/codigos-de-la-leyenda/ (Legend Code PDF, Google Drive id 1VtWlK-cmd47Kyg4jMiKRjWxv5OpPVG1U)"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:paraguay"
+ },
+ {
+  "text": "paraguay 15 Pasture",
+  "kind": "table_row",
+  "page": null,
+  "row": 9,
+  "cells": [
+   "paraguay",
+   "15",
+   "Pasture",
+   "#edde8e",
+   "MapBiomas Paraguay Collection 2",
+   "https://paraguay.mapbiomas.org/en/codigos-de-la-leyenda/ (Legend Code PDF, Google Drive id 1VtWlK-cmd47Kyg4jMiKRjWxv5OpPVG1U)"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:paraguay"
+ },
+ {
+  "text": "paraguay 18 Agriculture",
+  "kind": "table_row",
+  "page": null,
+  "row": 10,
+  "cells": [
+   "paraguay",
+   "18",
+   "Agriculture",
+   "#e974ed",
+   "MapBiomas Paraguay Collection 2",
+   "https://paraguay.mapbiomas.org/en/codigos-de-la-leyenda/ (Legend Code PDF, Google Drive id 1VtWlK-cmd47Kyg4jMiKRjWxv5OpPVG1U)"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:paraguay"
+ },
+ {
+  "text": "paraguay 9 Forest Plantation",
+  "kind": "table_row",
+  "page": null,
+  "row": 11,
+  "cells": [
+   "paraguay",
+   "9",
+   "Forest Plantation",
+   "#ffefc3",
+   "MapBiomas Paraguay Collection 2",
+   "https://paraguay.mapbiomas.org/en/codigos-de-la-leyenda/ (Legend Code PDF, Google Drive id 1VtWlK-cmd47Kyg4jMiKRjWxv5OpPVG1U)"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:paraguay"
+ },
+ {
+  "text": "paraguay 22 Non-vegetated area",
+  "kind": "table_row",
+  "page": null,
+  "row": 12,
+  "cells": [
+   "paraguay",
+   "22",
+   "Non-vegetated area",
+   "#d4271e",
+   "MapBiomas Paraguay Collection 2",
+   "https://paraguay.mapbiomas.org/en/codigos-de-la-leyenda/ (Legend Code PDF, Google Drive id 1VtWlK-cmd47Kyg4jMiKRjWxv5OpPVG1U)"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:paraguay"
+ },
+ {
+  "text": "paraguay 26 Water body",
+  "kind": "table_row",
+  "page": null,
+  "row": 13,
+  "cells": [
+   "paraguay",
+   "26",
+   "Water body",
+   "#2532e4",
+   "MapBiomas Paraguay Collection 2",
+   "https://paraguay.mapbiomas.org/en/codigos-de-la-leyenda/ (Legend Code PDF, Google Drive id 1VtWlK-cmd47Kyg4jMiKRjWxv5OpPVG1U)"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:paraguay"
+ },
+ {
+  "text": "paraguay 27 Not observed",
+  "kind": "table_row",
+  "page": null,
+  "row": 14,
+  "cells": [
+   "paraguay",
+   "27",
+   "Not observed",
+   "#ffffff",
+   "MapBiomas Paraguay Collection 2",
+   "https://paraguay.mapbiomas.org/en/codigos-de-la-leyenda/ (Legend Code PDF, Google Drive id 1VtWlK-cmd47Kyg4jMiKRjWxv5OpPVG1U)"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:paraguay"
+ },
+ {
+  "text": "The official Paraguay Collection 2 legend PDF assigns #ffefc3 to class 9 (Forest Plantation), the same color it assigns to class 14 (Agricultural Areas). Every other MapBiomas national legend uses #7a5900 for class 9. The published value is reproduced here verbatim rather than corrected.",
+  "kind": "text",
+  "page": null,
+  "row": null,
+  "cells": [],
+  "header": [],
+  "source": "legends.json:paraguay"
+ }
+]

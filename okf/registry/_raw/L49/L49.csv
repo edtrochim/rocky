@@ -1,0 +1,13 @@
+ID,Hex,Class_code,Class_name
+1,4D7400,Ad,Closed forest
+2,AF963C,Ab,Shrubland
+3,F405C4,Sv,Savanna woodland
+4,65CDAA,Vnar,Mangroves
+5,AAFF00,Ca,Permanent crops
+6,085BE7,E,Water
+7,37A704,Fsw,Freshwater swamps
+8,A1C27D,Ac,Open forest
+9,FDE9AA,GL,Savanna grassland
+10,65CDAA,Sa,Artificial surfaces
+11,CCCCCC,Sn,Bare surface
+12,FEFF73,Can,Annual crops

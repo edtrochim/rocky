@@ -1,0 +1,13 @@
+﻿ID,Hex,Class_code,Class_name
+1,#006400,UF,Undisturbed forest
+2,#00FF00,DF,Disturbed forest
+3,#8EA969,FWS,Freshwater swamp forest
+4,#7CDCBB,MF,Mangrove forest
+5,#D4FE81,FP,Forest plantation
+6,#F0B5F1,AL,Arable land
+7,#D813DE,SV,Savanna woodland
+8,#FEF881,GL,Grassland
+9,#D6EE3E,TP,Tree crop plantation
+10,#DCDEDA,BS,Bare surfaces
+11,#6F6F6E,ST,Settlements
+12,#4272D2,WB,Water bodies

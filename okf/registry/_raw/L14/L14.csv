@@ -1,0 +1,35 @@
+ID,Hex,Class Code,Class Name
+1,#FFC000,IO,Fruit tree orchards* including vineyards
+2,#FFC000,DP,Date palm plantation
+3,#FFFF00,HCI,Herbaceous crop irrigated
+4,#FFE699,HCR,Herbaceous crop rainfed
+5,#FFE699,TRC,Terraced rainfed crop
+6,#F4B084,HCT,Herbaceous crop rainfed and orchard plantation
+7,#548235,TNL1,Closed needle-leaved trees
+8,#548235,TM1,Closed trees (mixed leaf type)
+9,#92D050,TNL2,Open needle-leaved trees
+10,#92D050,TM2,Open trees (mixed leaf type)
+11,#00B050,OW,Sparse to very open woody vegetation
+12,#00B050,CW,Open to closed woody vegetation
+13,#C6E0B4,GR,Grassland sparse to very open
+14,#FF0000,UA,Urban areas
+15,#FF0000,IA,Industrial and/or other areas
+16,#FF0000,UAM,Urban areas mixed with small cultivated fields and orchards
+17,#CCCCFF,SS,Saline soil
+18,#D9D9D9,BS,Bare soil
+19,#FCE4D6,SD,Sandy areas
+20,#806000,BR,Undifferentiated bare rock
+21,#FF99CC,BRG,Bare rock granite
+22,#FFCCFF,CH,Chert plain
+23,#9999FF,BAS,Basaltic plain
+24,#777777,EX,Extraction site
+25,#0099FF,WNS,Waterbody natural saline
+26,#0099FF,SA,Salt evaporation ponds
+27,#3366CC,WNF,Waterbody natural
+28,#3366CC,RB,River
+29,#003366,WA,Waterbody artificial
+30,#003366,WP,Water ponds
+31,#009999,WET,Seasonal wetland
+32,#800080,WAD,Wady
+33,#CC0066,MUDW,Wet mudflat
+34,#CC0066,MUDD,Dry mudflat

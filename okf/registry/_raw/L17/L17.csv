@@ -1,0 +1,36 @@
+﻿ID,Hex,Class Code,Class Name
+1,#FF0000, 1 - 11,Residential (urban or built up)
+2,#CC3300, 1 - 12,Commercial and services (urban or built up)
+3,#C00000, 1 - 13,Industrial (urban or built up)
+4,#CC0000, 1 - 14,"Transportation, communication and utilities"
+5,#FF3399, 1 - 15,Industrial and commercial
+6,#FF6600, 1 - 16,Mixed urban or built up land
+7,#FF9933, 1 - 17 ,Other urban or built up land
+8,#A9D08E, 2 - 1,Cropland and pasture
+9,#FFFF99, 2 - 2,Horchards
+10,#ED7D31, 2 - 3,Confined feeding operations
+11,#C6E0B4,31,Herbaceous rangeland
+12,#548235,32,Shrub and brush rangeland
+13,#008000,41,Deciduous forest
+14,#006600,42,Evergreen forest
+15,#66FF33,43,Mixed forest
+16,#9BC2E6,51,Streams and canals
+17,#0099FF,52,Lakes
+18,#00CCFF,53,Reservoir
+19,#0066CC,54,Bay and estuaries
+20,#BDD7EE,61,Forested wetland
+21,#47DCFF,62,Non forested wetlands
+22,#FFE699,71,Dry salt flats
+23,#4472C4,72,Beaches
+24,#FFFF00,73,Sandy areas other than beaches
+25,#808080,74,Bare rock
+26,#969696,75,"Strip mines, quarries and gravel pits"
+27,#007400,81,Shrub and bush tundra
+28,#66FF99,82,Herbaceouse tundra
+29,#99FF33,84,Bare ground tundra
+30,#CCECFF,83,Perennial snowfields
+31,#FFFFFF,92,Glaciers
+32,#CCFFFF,91,Perennial snowfields
+33,#FF33CC,mix 1,Herbaceous rangeland/shrub and brush rangeland
+34,#B2B2B2,77,"Dry salt flats/bare rock/strip mines, quarries and gravel pits"
+35,#FF66FF,85,Shrub and bush tundra/herbaceouse tundra/wet tundra

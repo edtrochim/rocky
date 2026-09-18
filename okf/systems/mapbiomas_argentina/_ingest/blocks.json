@@ -1,0 +1,485 @@
+[
+ {
+  "text": "argentina 1 Forests",
+  "kind": "table_row",
+  "page": null,
+  "row": 1,
+  "cells": [
+   "argentina",
+   "1",
+   "Forests",
+   "#1f8d49",
+   "MapBiomas Argentina Collection 2",
+   "https://argentina.mapbiomas.org/wp-content/uploads/sites/12/2025/09/Leyenda_Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:argentina"
+ },
+ {
+  "text": "argentina 3 Closed forests",
+  "kind": "table_row",
+  "page": null,
+  "row": 2,
+  "cells": [
+   "argentina",
+   "3",
+   "Closed forests",
+   "#1f8d49",
+   "MapBiomas Argentina Collection 2",
+   "https://argentina.mapbiomas.org/wp-content/uploads/sites/12/2025/09/Leyenda_Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:argentina"
+ },
+ {
+  "text": "argentina 4 Open forests",
+  "kind": "table_row",
+  "page": null,
+  "row": 3,
+  "cells": [
+   "argentina",
+   "4",
+   "Open forests",
+   "#7dc975",
+   "MapBiomas Argentina Collection 2",
+   "https://argentina.mapbiomas.org/wp-content/uploads/sites/12/2025/09/Leyenda_Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:argentina"
+ },
+ {
+  "text": "argentina 6 Flooded forests",
+  "kind": "table_row",
+  "page": null,
+  "row": 4,
+  "cells": [
+   "argentina",
+   "6",
+   "Flooded forests",
+   "#026975",
+   "MapBiomas Argentina Collection 2",
+   "https://argentina.mapbiomas.org/wp-content/uploads/sites/12/2025/09/Leyenda_Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:argentina"
+ },
+ {
+  "text": "argentina 66 Closed shrublands",
+  "kind": "table_row",
+  "page": null,
+  "row": 5,
+  "cells": [
+   "argentina",
+   "66",
+   "Closed shrublands",
+   "#a89358",
+   "MapBiomas Argentina Collection 2",
+   "https://argentina.mapbiomas.org/wp-content/uploads/sites/12/2025/09/Leyenda_Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:argentina"
+ },
+ {
+  "text": "argentina 77 Open shrublands",
+  "kind": "table_row",
+  "page": null,
+  "row": 6,
+  "cells": [
+   "argentina",
+   "77",
+   "Open shrublands",
+   "#86b074",
+   "MapBiomas Argentina Collection 2",
+   "https://argentina.mapbiomas.org/wp-content/uploads/sites/12/2025/09/Leyenda_Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:argentina"
+ },
+ {
+  "text": "argentina 63 Shrubs and herbaceous mosaic",
+  "kind": "table_row",
+  "page": null,
+  "row": 7,
+  "cells": [
+   "argentina",
+   "63",
+   "Shrubs and herbaceous mosaic",
+   "#c7e0ab",
+   "MapBiomas Argentina Collection 2",
+   "https://argentina.mapbiomas.org/wp-content/uploads/sites/12/2025/09/Leyenda_Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:argentina"
+ },
+ {
+  "text": "argentina 12 Grasslands",
+  "kind": "table_row",
+  "page": null,
+  "row": 8,
+  "cells": [
+   "argentina",
+   "12",
+   "Grasslands",
+   "#d6bc74",
+   "MapBiomas Argentina Collection 2",
+   "https://argentina.mapbiomas.org/wp-content/uploads/sites/12/2025/09/Leyenda_Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:argentina"
+ },
+ {
+  "text": "argentina 11 Flooded grasslands",
+  "kind": "table_row",
+  "page": null,
+  "row": 9,
+  "cells": [
+   "argentina",
+   "11",
+   "Flooded grasslands",
+   "#519799",
+   "MapBiomas Argentina Collection 2",
+   "https://argentina.mapbiomas.org/wp-content/uploads/sites/12/2025/09/Leyenda_Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:argentina"
+ },
+ {
+  "text": "argentina 73 Peatlands",
+  "kind": "table_row",
+  "page": null,
+  "row": 10,
+  "cells": [
+   "argentina",
+   "73",
+   "Peatlands",
+   "#6fc179",
+   "MapBiomas Argentina Collection 2",
+   "https://argentina.mapbiomas.org/wp-content/uploads/sites/12/2025/09/Leyenda_Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:argentina"
+ },
+ {
+  "text": "argentina 18 Agriculture",
+  "kind": "table_row",
+  "page": null,
+  "row": 11,
+  "cells": [
+   "argentina",
+   "18",
+   "Agriculture",
+   "#e974ed",
+   "MapBiomas Argentina Collection 2",
+   "https://argentina.mapbiomas.org/wp-content/uploads/sites/12/2025/09/Leyenda_Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:argentina"
+ },
+ {
+  "text": "argentina 19 Temporary crops",
+  "kind": "table_row",
+  "page": null,
+  "row": 12,
+  "cells": [
+   "argentina",
+   "19",
+   "Temporary crops",
+   "#c27ba0",
+   "MapBiomas Argentina Collection 2",
+   "https://argentina.mapbiomas.org/wp-content/uploads/sites/12/2025/09/Leyenda_Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:argentina"
+ },
+ {
+  "text": "argentina 36 Perennial crops",
+  "kind": "table_row",
+  "page": null,
+  "row": 13,
+  "cells": [
+   "argentina",
+   "36",
+   "Perennial crops",
+   "#d082de",
+   "MapBiomas Argentina Collection 2",
+   "https://argentina.mapbiomas.org/wp-content/uploads/sites/12/2025/09/Leyenda_Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:argentina"
+ },
+ {
+  "text": "argentina 15 Pastures",
+  "kind": "table_row",
+  "page": null,
+  "row": 14,
+  "cells": [
+   "argentina",
+   "15",
+   "Pastures",
+   "#edde8e",
+   "MapBiomas Argentina Collection 2",
+   "https://argentina.mapbiomas.org/wp-content/uploads/sites/12/2025/09/Leyenda_Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:argentina"
+ },
+ {
+  "text": "argentina 9 Forest plantations",
+  "kind": "table_row",
+  "page": null,
+  "row": 15,
+  "cells": [
+   "argentina",
+   "9",
+   "Forest plantations",
+   "#7a5900",
+   "MapBiomas Argentina Collection 2",
+   "https://argentina.mapbiomas.org/wp-content/uploads/sites/12/2025/09/Leyenda_Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:argentina"
+ },
+ {
+  "text": "argentina 21 Agriculture and pasture mosaic",
+  "kind": "table_row",
+  "page": null,
+  "row": 16,
+  "cells": [
+   "argentina",
+   "21",
+   "Agriculture and pasture mosaic",
+   "#ffefc3",
+   "MapBiomas Argentina Collection 2",
+   "https://argentina.mapbiomas.org/wp-content/uploads/sites/12/2025/09/Leyenda_Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:argentina"
+ },
+ {
+  "text": "argentina 24 Urban areas",
+  "kind": "table_row",
+  "page": null,
+  "row": 17,
+  "cells": [
+   "argentina",
+   "24",
+   "Urban areas",
+   "#d4271e",
+   "MapBiomas Argentina Collection 2",
+   "https://argentina.mapbiomas.org/wp-content/uploads/sites/12/2025/09/Leyenda_Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:argentina"
+ },
+ {
+  "text": "argentina 25 Other non-vegetated areas",
+  "kind": "table_row",
+  "page": null,
+  "row": 18,
+  "cells": [
+   "argentina",
+   "25",
+   "Other non-vegetated areas",
+   "#db4d4f",
+   "MapBiomas Argentina Collection 2",
+   "https://argentina.mapbiomas.org/wp-content/uploads/sites/12/2025/09/Leyenda_Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:argentina"
+ },
+ {
+  "text": "argentina 34 Ice and permanent snow",
+  "kind": "table_row",
+  "page": null,
+  "row": 19,
+  "cells": [
+   "argentina",
+   "34",
+   "Ice and permanent snow",
+   "#93dfe6",
+   "MapBiomas Argentina Collection 2",
+   "https://argentina.mapbiomas.org/wp-content/uploads/sites/12/2025/09/Leyenda_Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:argentina"
+ },
+ {
+  "text": "argentina 33 Rivers, lakes or ocean",
+  "kind": "table_row",
+  "page": null,
+  "row": 20,
+  "cells": [
+   "argentina",
+   "33",
+   "Rivers, lakes or ocean",
+   "#2532e4",
+   "MapBiomas Argentina Collection 2",
+   "https://argentina.mapbiomas.org/wp-content/uploads/sites/12/2025/09/Leyenda_Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:argentina"
+ },
+ {
+  "text": "argentina 27 Not observed",
+  "kind": "table_row",
+  "page": null,
+  "row": 21,
+  "cells": [
+   "argentina",
+   "27",
+   "Not observed",
+   "#ffffff",
+   "MapBiomas Argentina Collection 2",
+   "https://argentina.mapbiomas.org/wp-content/uploads/sites/12/2025/09/Leyenda_Code.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:argentina"
+ }
+]

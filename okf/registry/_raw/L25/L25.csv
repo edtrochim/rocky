@@ -1,0 +1,95 @@
+﻿Id,Hex,Class Code,Class Name
+647,,A,Tree dominated area
+648,,Ad,Closed tree formation
+649,,Fh,Moist forest
+650,,Fs,Dry forest
+651,,Ac,Open tree formation
+652,,Fco,Woodland (open)
+653,,Fct,Woodland (very open) - wooded land savanna
+654,,Ab,Shrubland dominated area
+655,,Abm/h,"Shrubland (medium , high)"
+656,,FO,Thicket
+657,,Aro,Open shrublands
+658,,Arb,Shrubland (low/dwarf)
+659,,Bt,Tiger bush
+660,,Arbo,Open low shrublands
+661,,H,Herbs dominated area
+662,,S,Savanna
+663,,Saa,Tree and shrub savanna
+664,,Sa,Tree savanna
+665,,Sar,Shrub savanna
+666,,Sh,Grass savanna
+667,,St,Steppe
+668,,Staa,Trees and shrub steppe
+669,,Stb,Dwarf shrub steppe
+670,,Sth,Herbaceous steppe
+671,,Sb,Woody dominated area
+672,,Ml,Woody mangrove
+673,,Ma,Tree mangrove
+674,,Mar,Shrub mangrove
+675,,Bi,Flooded woody
+676,,Bip,Permenantly flooded woody
+677,,Aip,Permanently flooded trees
+678,,Abip,Permanently flooded shrubs
+679,,Bis,Seasonally flooded woody
+680,,Ais,Seasonally flooded trees
+681,,Abis,Seasonally flooded shrubs
+682,,Adh,Herbaceous dominated area
+683,,Ahm,Swamps
+684,,Ahms,Salt marsh
+685,,Carf,Tree crop plantation
+686,,Cpf,Forest plantation
+687,,Cfp,Forest plantation evergreen
+688,,Cfm,Forest plantation mixed
+689,,Cfc,Forest plantation deciduous
+690,,V,Orchards
+691,,Vmp,Orchards (single crop) - rainfed
+692,,Vcp,Orchards (multiple crop) - rainfed
+693,,Cab,Shrub crop plantation
+694,,Cabs,Single layer shrub crop
+695,,Cabo,Shadowed shrub crop
+696,,Ch,Herbaceous crop
+697,,Canh,Annual herb cultivation
+698,,Cith,Shifting herb cultivation
+699,,Cia,Active shifting cultivation
+700,,Cir,Regrowth shifting cultivation
+701,,Cad,Tree crop dominated
+702,,Vmi,Orchards (single crop) - irrigated
+703,,Vci,Orchards (multiple crop) - irrigated
+704,,Ciab,Shrub crop dominated
+705,,Cih,Herbeceous crop dominated
+706,,Mohi,Single crop - herbaceous irrigated
+707,,Muhi,Multiple crop - herbaceous irrigated
+708,,Chai,Postflooded herbaceous cultivation
+709,,Chi,Flooded herbaceous cultivation
+710,,Tr,"Rocks, coarse fragments"
+711,,Sr,Bare rocks
+712,,Cl,Bowal lateritic crust
+713,,Dp,Stony desert - reg
+714,,Ss,"Soil, sand deposit"
+715,,Dsa,Sandy desert
+716,,Er,Erg (dunes)
+717,,El,Erg (dunes) longitudinal
+718,,Eb,Erg (dunes) barchan
+719,,Ep,Erg (dunes) parabolic
+720,,Ds,Salt deposit
+721,,Sn,Bare soil
+722,,P,Beaches
+723,,Bnl,Builtup - non-linear
+724,,Zu,Urban areas
+725,,Vr,Rural villages
+726,,Ia,Industrial and other
+727,,I,Infrastructure
+728,,Bo,Bomas
+729,,Po,Port
+730,,Ae,Airport
+731,,Bla,Builtup linear & others
+732,,Sd,Dump sites - extraction sites
+733,,Pep,Permanent waterbodies
+734,,R,River
+735,,L,Lakes
+736,,Pes,Seasonal waterbodies
+737,,Rr,River bank
+738,,W,Wadies
+739,,Rl,Lake shore
+740,,Ea,Artificial water bodies

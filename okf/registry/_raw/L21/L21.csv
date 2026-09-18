@@ -1,0 +1,30 @@
+﻿ID,Hex,Class Code,Class Name
+1,#C6E0B4,B,Bamboo
+2,#C00000,Bt,Village
+3,#FF0000,Bu,Built-up
+4,#008000,D,Deciduous forest
+5,#007400,E,Evergreen forest
+6,#BDD7EE,Ff,Flooded forest
+7,#FFF2CC,Fr,Forest regrowth
+8,#FFFF99,G,Grassland
+9,#A9D08E,Hc,Cropland
+10,#FFFF00,Hr,Paddy field
+11,#548235,M,Mangrove
+12,#548235,Mr,Rear mangrove
+13,#008000,P,Pine forest
+14,#FF66FF,Po,Oil palm plantation
+15,#FF33CC,Pp,Pine plantation
+16,#808080,R,Rock
+17,#FF66CC,Rp,Rubber plantation
+18,#FFE699,S,Sand
+19,#B9DD79,Se,Semi-evergreen forest
+20,#006600,Tp,Trees plantation
+21,#00BFFF,W,Water
+22,#66FF33,Ws,Woodshrub
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,

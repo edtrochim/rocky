@@ -1,0 +1,20 @@
+﻿Id,Hex,Class Code,Class Name
+878,,5UR,Urban areas
+879,,6S,Bare Soil
+880,,8WFP,River
+881,,1Torc,Irrigated Orchard
+882,,8L,Natural Lakes - Ponds
+883,,7L,Fishponds - Artificial basin
+884,,2H,Herbaceous vegetation
+885,,1HM,Herbaceous Crop Continuous Medium Fields
+886,,2T,Closed to Opend forest Trees
+887,,2SR,Closed to Opend Shrubs
+888,,4H,Closed to Open Natural Acquatic Herbaceous Vegetation
+889,,2HR,Sparse Herbaceous Vegetation
+890,,4T,Mangrove
+891,,1MC,Multiple Crop - Agroforest
+892,,1MixU,Complex Units
+893,,1HR,Herbaceous Crop Fields - Small
+894,,2NatVeg,Natural vegetation
+895,,1HS_Isol,Agricultural fields Scattered Isolated
+896,,1HS_Clust,Herbaceous crop fields -small clustered

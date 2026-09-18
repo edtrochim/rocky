@@ -1,0 +1,10 @@
+ID,Hex,Class Code,Class Name
+1,#275317,Tt,Tree-dominated area (terrestiral)
+2,#92D050,St,Shrub-dominated area
+3,#C1F0C8,GL,Grassland
+4,#5CCABA,War,Mangroves (woody dominated aquatic areas)
+5,#F1A983,Cr,Cultivated rainfed area
+6,#F7C7AC,Ci,Cultivated irrigated area
+7,#FF0000,Ast,Artificial surfaces
+8,#FFC000,Nst,Natural surfaces
+9,#215C98,W,Water

@@ -1,0 +1,1082 @@
+{
+ "_index": {
+  "url": "https://us-central1-fao-maps-review.cloudfunctions.net/getLandCoverLegend",
+  "fetched": "2026-09-17T21:49:30+00:00",
+  "entries": 52
+ },
+ "L1/L1.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L1.lccs",
+  "sha256": "a03d28775342c04243b653fe7c86868992259c2ebbdd86569e1aa47fc54245f7",
+  "bytes": 102374,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L1/L1.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L1.csv",
+  "sha256": "3546970eabe063177ae1a81778b87d94dc7f4a52d00c86a25e41c5f958cc99e4",
+  "bytes": 1613,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L1/L1.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L1.xsd",
+  "sha256": "31505ec11c4d9ac775b966ac6ed73e4d67fd95a6fd867ef2ef711da9dba902b7",
+  "bytes": 89085,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L1/L1.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L1.eapx",
+  "sha256": "8ed4d27f9f6e0e0191eb029c0445d17034abe8722f9c0ecb98798fd5cf928b53",
+  "bytes": 3465216,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L2/L2.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L2.lccs",
+  "sha256": "11e8ed763b971ef6850ca78e08def8881747b3bfb6e9ee78c2813c0525023269",
+  "bytes": 112677,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L2/L2.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L2.csv",
+  "sha256": "452bad484082496e4ab06634c5724dccbf011fc0bcff0157b27efe260ff3dc7b",
+  "bytes": 1611,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L2/L2.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L2.xsd",
+  "sha256": "d93347e10ed539c881762cd6e55a1e48642a988b1db86b1a282a38a5e53a875c",
+  "bytes": 111675,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L2/L2.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L2.eapx",
+  "sha256": "8c2dbbe328e007eefb18f6d15e7ea9a8fca3bff13e636aa7060cd9a71e0ddd74",
+  "bytes": 3497984,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L3/L3.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L3.lccs",
+  "sha256": "387b5922191de2df57f0506a26cda67e22a8ed425b96c32da069b232b06b63db",
+  "bytes": 62943,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L3/L3.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L3.csv",
+  "sha256": "89b6fff2be542e2e331bbabb7e58beb019e5880c6d9b8d828ccfa74f8052a97c",
+  "bytes": 592,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L3/L3.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L3.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L3/L3.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L3.eapx",
+  "sha256": "205fe92131447f592b3a922634d3e47591d559ea71825d711b5e42d81c6919a4",
+  "bytes": 3514368,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L4/L4.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L4.lccs",
+  "sha256": "41bd8175107bf6237af292cba71100bd9bcdf9e381b544188ddb7df8e4af7e47",
+  "bytes": 45371,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L4/L4.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L4.csv",
+  "sha256": "aa50ad148fd4cbaf513f2eeb39ba1bc09084f29fa941a41862ac85d12d2bb9ff",
+  "bytes": 398,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L4/L4.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L4.xsd",
+  "sha256": "ab7029179e0e316d4a8aaa6249dd420816ee968d75ed86edf2588daab916bc87",
+  "bytes": 42315,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L4/L4.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L4.eapx",
+  "sha256": "3f8c6859d4269a9494400d8cbad9a1e52093d3b2239233b324bd948f87f58ff4",
+  "bytes": 2920448,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L5/L5.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L5.lccs",
+  "sha256": "335ca1747be7e821745de5158246804563ce49a8e786fcc96e8297dda7ba735d",
+  "bytes": 55678,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L5/L5.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L5.csv",
+  "sha256": "8e68e237fcb99ae5e1672f769fee973397d2d48d418725678ce4cd064611984b",
+  "bytes": 739,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L5/L5.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L5.xsd",
+  "sha256": "8eac8dbc5ceb617bee1d9bf89bce843a581ee44ce6d80b8be33798ac6a7345f3",
+  "bytes": 54692,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L5/L5.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L5.eapx",
+  "sha256": "7e60680d0a694ef4874a7cc272a36ec678d0d93c0563d48f35a06c88e186262a",
+  "bytes": 3481600,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L6/L6.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L6.lccs",
+  "sha256": "5029d9b9c898c1b78b98c5e88ff98b13c9d80cc84f99ebbb54ade6f46588bca7",
+  "bytes": 54082,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L6/L6.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L6.csv",
+  "sha256": "7ad95a2c8c967ff8a8fcfeeac7ef0644b407fab29537bba42fa877f421671831",
+  "bytes": 694,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L6/L6.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L6.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L6/L6.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L6.eapx",
+  "sha256": "b8412bbdb5b47f257c1e010969f485263ec3e72c7fa937149fea067466b60b2f",
+  "bytes": 3559424,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L7/L7.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L7.lccs",
+  "sha256": "7df8d34c52609eb09ff69d4b1a57bff8e0bcc414b8b267cdca3c0969dd69eb3d",
+  "bytes": 107006,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L7/L7.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L7.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L7/L7.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L7.eapx",
+  "sha256": "8266bc79e0d149054e0bdf2d48e1a772ee9ad8fcf91bbf2f4192ef7698f20e9f",
+  "bytes": 3538944,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L8/L8.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L8.lccs",
+  "sha256": "be45550913363dd7a5dd6b759184695924bdb28bad20e8ffbd1665931408dd67",
+  "bytes": 168715,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L8/L8.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L8.csv",
+  "sha256": "22e9c25c931c213224309d1e2405ba4a66d201427df213fde19f93a6ee556862",
+  "bytes": 1168,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L8/L8.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L8.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L8/L8.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L8.eapx",
+  "sha256": "03bcd7dccac7d0a82f0d8e9a689fcbda818f75f1e5576d71fd94355e611d997a",
+  "bytes": 3502080,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L9/L9.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L9.lccs",
+  "sha256": "8f1049d9921392168aefb2ae95d7907b0f42d8facb82049ffca420e0d9733394",
+  "bytes": 91598,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L9/L9.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L9.csv",
+  "sha256": "5f9e7d04f8e810473d8c7a2629826bd18b29882e3317ba994865b243bd374024",
+  "bytes": 987,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L9/L9.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L9.xsd",
+  "sha256": "12b13bf5a7513fa996cd13e3fe6235c20c9aeb40934ce742e3b84d006224c6b2",
+  "bytes": 103673,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L9/L9.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L9.eapx",
+  "sha256": "c57c5b9cac895ef1d6dc9ab5883127033ae8b409489ce1f0d769fc22116704c7",
+  "bytes": 3584000,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L10/L10.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L10.lccs",
+  "sha256": "31c6e419ce295943fb03ecabe15a8bdbbbbd00bba46404b873759d702b63ca7e",
+  "bytes": 93860,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L10/L10.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L10.csv",
+  "sha256": "4b9255194f0e58479670d79325f433efbaefccbdc68f17afeedd4d54b0b1ac7f",
+  "bytes": 1178,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L10/L10.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L10.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L10/L10.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L10.eapx",
+  "sha256": "b81fcc399d80f15f454b0dd63805d02f31466e37ed2bfa162b59bb3af65c99c2",
+  "bytes": 3493888,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L11/L11.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L11.lccs",
+  "sha256": "bc62b3531b37d3a8aa85c25681e06e993088311704b849249770ad93ca47c1e2",
+  "bytes": 79506,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L11/L11.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L11.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L11/L11.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L11.eapx",
+  "sha256": "2034beb35814813ddca025e9b3d74fb6f42d897b72c96347d4e675db4a3bb775",
+  "bytes": 3395584,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L12/L12.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L12.lccs",
+  "sha256": "e55daca71385259f61327fde9d21f27ba3d78a2d742db39d990fea4842e582ed",
+  "bytes": 105928,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L12/L12.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L12.csv",
+  "sha256": "520523193e6117a2545462e2ab1540358b60d3d74a37915ba541f7e397f88354",
+  "bytes": 1218,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L12/L12.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L12.xsd",
+  "sha256": "f2cbfa083d5f3e5e2ebf1aecddc2c35b9936f73c1ec0dd33f860be8d9da5163a",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L12/L12.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L12.eapx",
+  "sha256": "750bdc22a11ecfa212c75e98aacddac1b4d96b7562a5235dea3817d1a59abe08",
+  "bytes": 3481600,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L13/L13.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L13.lccs",
+  "sha256": "ff59042522fac1d77c157eda0061073d21c85f15f2c15613c0a8e0bd32ffce7a",
+  "bytes": 60874,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L13/L13.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L13.csv",
+  "sha256": "4c6b190c90fb0c57b8f7d28ae5f451b29b9c8634fe4e29da003bc638d9973844",
+  "bytes": 934,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L13/L13.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L13.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L13/L13.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L13.eapx",
+  "sha256": "db805dae166cb7c685c8b609c219adb6169b28fd5c918a86355ec485d6ca801a",
+  "bytes": 3497984,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L14/L14.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L14.lccs",
+  "sha256": "cf5f11946e843e171e78b3ca48fa75eb7d0eae571bbc7ffb795c2b400a1b062a",
+  "bytes": 115942,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L14/L14.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L14.csv",
+  "sha256": "d90c6ec823cb32725a875d952d5c79f4ab2d2d9e26ebe3f34aac6188c0ab0f40",
+  "bytes": 1319,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L14/L14.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L14.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L14/L14.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L14.eapx",
+  "sha256": "4118ebde012c7aa5c0913ed10a6b969cffb980545d805ccba8378055143a96f8",
+  "bytes": 3489792,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L15/L15.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L15.lccs",
+  "sha256": "5758a95b62d9fcf3d65ee0ff9e8fddf786bfc9ae1617b2280ec4b206f8eff5a6",
+  "bytes": 71069,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L15/L15.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L15.csv",
+  "sha256": "ed242c6436e347a8bd582d9432e57506bcda8babad25306641aec60d9ca19665",
+  "bytes": 756,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L15/L15.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L15.xsd",
+  "sha256": "31505ec11c4d9ac775b966ac6ed73e4d67fd95a6fd867ef2ef711da9dba902b7",
+  "bytes": 89085,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L15/L15.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L15.eapx",
+  "sha256": "c7c943a3ab9f91c30bf9b7418bfea729b25aa7f3185286c6c87ca0d292514226",
+  "bytes": 3092480,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L16/L16.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L16.lccs",
+  "sha256": "78e7843a02226238afc41e48419a8419f04610c551143a93f176f02a693d5563",
+  "bytes": 165671,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L16/L16.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L16.csv",
+  "sha256": "cf854f8f37f0fea519799b49d150d9cb06b9e7cb8dd721130ff91ec12a19ca61",
+  "bytes": 1556,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L16/L16.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L16.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L16/L16.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L16.eapx",
+  "sha256": "2dbacca4bb90f4f0dfbecd84ca7f308c2c7502676a2beec6550017b60022f83c",
+  "bytes": 4034560,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L17/L17.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L17.lccs",
+  "sha256": "31f90321afb73964fe64d37fda1cd3f24226b46d429be1e8e61224c18a25b6d4",
+  "bytes": 90018,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L17/L17.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L17.csv",
+  "sha256": "b43c19af6d54e598fc49db8b875fc51b63910d80a90bc0dca7603c783196a0ae",
+  "bytes": 1461,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L17/L17.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L17.xsd",
+  "sha256": "31505ec11c4d9ac775b966ac6ed73e4d67fd95a6fd867ef2ef711da9dba902b7",
+  "bytes": 89085,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L17/L17.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L17.eapx",
+  "sha256": "ab3d08505fdb764ba38dca78f89384e5becbd42e8e28400d92eea67ab0594f27",
+  "bytes": 3252224,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L18/L18.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L18.lccs",
+  "sha256": "a866f27492e9466c09bfdf60bf9d34888fe12e27d020fecf266eb4b04ac43405",
+  "bytes": 46492,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L18/L18.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L18.csv",
+  "sha256": "0877fedb38ab6217cf583ac1e6ae141c6f7345978c37ddac7b411a0b61e8f934",
+  "bytes": 396,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L18/L18.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L18.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L18/L18.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L18.eapx",
+  "sha256": "a4be9e40987f1d7a1ae63b5e7189ca7f6cb6859e79563be9da0c4d2a4ac6e71c",
+  "bytes": 3469312,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L19/L19.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L19.lccs",
+  "sha256": "e4d43d354eb61fac12b8a9b18bb0067c51ad4bddb21971435932b19489714c2e",
+  "bytes": 61399,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L19/L19.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L19.csv",
+  "sha256": "24c937b35132a2a53c25f0e30bd977115bf2b660173ca16af01a85219b2f1f48",
+  "bytes": 710,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L19/L19.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L19.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L19/L19.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L19.eapx",
+  "sha256": "e4941708ec7123de1ff172c33a8b656147b58bbb048fe392260920b63ea58345",
+  "bytes": 3538944,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L20/L20.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L20.lccs",
+  "sha256": "315dcc9d84a213bc6fa09c15dbbfd7635446f698b1e29f6138c2c58817fab825",
+  "bytes": 133479,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L20/L20.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L20.csv",
+  "sha256": "6d648911a066947c1b4bf42a20870b3a4b587b10d0014c60d44dd317d4cccaf4",
+  "bytes": 1243,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L20/L20.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L20.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L20/L20.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L20.eapx",
+  "sha256": "be4ea479e3f967610c73b577604113c5c9ab41a359ecd36223aea623d594fc70",
+  "bytes": 3485696,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L21/L21.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L21.lccs",
+  "sha256": "d3d97bca843ee0bb93e5e93de6790ca38f8d48a706793cc6239820ab123c33ea",
+  "bytes": 105427,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L21/L21.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L21.csv",
+  "sha256": "92f5ae1f91224431c9995ab54e8411ea35075b573b5f5a7e864652199319e9c2",
+  "bytes": 654,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L21/L21.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L21.xsd",
+  "sha256": "5f7a0796d206f8b50103d6bbe5984121d792f5e2891abba56e809a7b2dd139b2",
+  "bytes": 91320,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L21/L21.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L21.eapx",
+  "sha256": "d88cdb90af8f9596d2425ae35b38c97e703b9b4ea909ce91fd3a149d5825717b",
+  "bytes": 3489792,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L22/L22.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L22.lccs",
+  "sha256": "ac77f4ca88711b00b6206d48392e0bdc0c2f65b868941b33b303b8bb386996c3",
+  "bytes": 73724,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L22/L22.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L22.csv",
+  "sha256": "221bd2f04bdf231f937544d6bfbaa7ff1bc43b16df20d1d7d306a993d0065a53",
+  "bytes": 622,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L22/L22.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L22.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L22/L22.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L22.eapx",
+  "sha256": "bc8a969b3c6e7d326363191e7f52186f5b11d3a867360a443e98f3ed35be2707",
+  "bytes": 3956736,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L23/L23.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L23.lccs",
+  "sha256": "c8e6f796cd5161ec90584f753ee547530a79ffa98f3c888d7e2ea4510664dab0",
+  "bytes": 23859,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L23/L23.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L23.csv",
+  "sha256": "e74424126f97811b5e45d078ca0c8d6cd4a6a82f77250d989d098803fb16b1fc",
+  "bytes": 303,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L23/L23.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L23.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L23/L23.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L23.eapx",
+  "sha256": "5fdbf4cb7731aaea11990edb96526120f5a4153bf5f3427a8b7cc2bfe6d6b958",
+  "bytes": 3518464,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L24/L24.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L24.lccs",
+  "sha256": "e61a036f068dabdd7cef93dc2313d1c8f5e3ae1104f73958bbb410e7b31967ba",
+  "bytes": 25938,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L24/L24.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L24.csv",
+  "sha256": "34ba44af6e5c2d3c346780a87d96a33d9d3c20ee6021564f8516fe51b2508f5d",
+  "bytes": 217,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L24/L24.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L24.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L24/L24.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L24.eapx",
+  "sha256": "56818a634bec18c766df7597ed64c690d5331ece6b3628437c3e775950fe01a1",
+  "bytes": 2744320,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L25/L25.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L25.lccs",
+  "sha256": "d6b85b64ea5ad26bae5dfc1f13717d85a15438e32b348fff429dbb6f9dffb035",
+  "bytes": 319459,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L25/L25.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L25.csv",
+  "sha256": "14ef9e3e76a3ef6dbdb1a43545ea1b510be31d9fc61a75d0472b3f3cec106647",
+  "bytes": 2798,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L25/L25.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L25.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L25/L25.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L25.eapx",
+  "sha256": "d1d50b4197d66f7a1c072acf127429dcc58d90ecd4bfe86f2bc68a5717850f28",
+  "bytes": 3485696,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L26/L26.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L26.lccs",
+  "sha256": "d2d65dad0e61e93641bf469ee9bfbb30557131f5302ef8f4085b5da6b8d0d43d",
+  "bytes": 83331,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L26/L26.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L26.csv",
+  "sha256": "bf2880cf94987fac5874cbbff314f1e5283440f048799ea846b32c0b973d3473",
+  "bytes": 529,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L26/L26.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L26.xsd",
+  "sha256": "31505ec11c4d9ac775b966ac6ed73e4d67fd95a6fd867ef2ef711da9dba902b7",
+  "bytes": 89085,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L26/L26.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L26.eapx",
+  "sha256": "1d9a23148344dde4faab6767838766735e35f8946aca1afd8216eb916d6b9506",
+  "bytes": 3481600,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L27/L27.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L27.lccs",
+  "sha256": "3677b657055820670e77c8aa58d84d7ab5518fa6119d9f6b3a818c0cccfdf778",
+  "bytes": 62237,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L27/L27.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L27.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L27/L27.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L27.eapx",
+  "sha256": "15ade0a5b667914e8d17716681a3687b79a67462ad78e0806a791341b30ddfa1",
+  "bytes": 3485696,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L28/L28.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L28.lccs",
+  "sha256": "be9be74ce49055aedd4bea9c7f81d116477462ef609f3003318467efab7c445e",
+  "bytes": 81297,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L28/L28.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L28.csv",
+  "sha256": "a4e673a768a8799605595f94ed7a51c3f82ac4b0652afc41c5871ab678490700",
+  "bytes": 790,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L28/L28.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L28.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L28/L28.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L28.eapx",
+  "sha256": "6521e9bdc3704632dcb509745a075a6a06c0980b2a11f1d963d48bbb06fadeea",
+  "bytes": 3448832,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L29/L29.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L29.lccs",
+  "sha256": "832c946b5ed64694a6328fb4407f9ebde744088ab95493ea763e4a687b850c97",
+  "bytes": 66940,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L29/L29.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L29.csv",
+  "sha256": "7fa8d372a436142ef8519e2b1f2730eb60f785c64461b86ae9cdebf2a1fe6ca0",
+  "bytes": 330,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L29/L29.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L29.xsd",
+  "sha256": "03dd40d7c2c4b17bbaae0f990542fd6d0bb61fae44176fd72f1c9e129b44c947",
+  "bytes": 53829,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L29/L29.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L29.eapx",
+  "sha256": "3f202a23079c7caad6e00b232572f73fc6c76d410e62e697098ce24481313a5f",
+  "bytes": 3248128,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L30/L30.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L30.lccs",
+  "sha256": "7fe35253310281ab539bb778a4baa43d803d23c7f16b5b8f583cf9c92d3cf0fe",
+  "bytes": 204933,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L30/L30.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L30.csv",
+  "sha256": "a6b74134d492fa9bc31edbb8da82af6491285654e12fe95c7170ec25284506dd",
+  "bytes": 1509,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L30/L30.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L30.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L30/L30.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L30.eapx",
+  "sha256": "552c10f7da08c5b9310f4bbd744e1231bdf240c7b521adfcde242701a96780f8",
+  "bytes": 3538944,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L31/L31.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L31.lccs",
+  "sha256": "7ef6a8de0e7170d4187b0d3fc9f0990058367675ce87e402e35652b3cad26b43",
+  "bytes": 86496,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L31/L31.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L31.csv",
+  "sha256": "d9c8ace29ed81febe0a3df0efdd1f7d02e59c121fb57f499264ca4d40016a1b8",
+  "bytes": 766,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L31/L31.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L31.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L31/L31.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L31.eapx",
+  "sha256": "78a99ce60e0d93c92f6fb36cb7ea4a577c0534d99a7380316ffc5877bd2b85da",
+  "bytes": 3457024,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L32/L32.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L32.lccs",
+  "sha256": "819e4a214867c56aaef8c0c79eb4a1b6557b924be78ca63831fded9736f5786f",
+  "bytes": 42283,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L32/L32.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L32.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L32/L32.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L32.eapx",
+  "sha256": "cde2530e5832d109d1b24dce77ff0c5fedd16dee9ed63ceee00cc257fef60132",
+  "bytes": 3461120,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L33/L33.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L33.lccs",
+  "sha256": "f31eaf0b1e47ed23f45349a93064fe61357a99d11a1066f17c37dfa045bb7eb1",
+  "bytes": 53415,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L33/L33.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L33.csv",
+  "sha256": "fcb7ca91285bbf092fff410fda7554d0b104c41c632c418bbb892dee5afdd9e8",
+  "bytes": 375,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L33/L33.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L33.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L33/L33.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L33.eapx",
+  "sha256": "9f10fc6cea6b3ae1fac24bb5f0cafd2c204b88bc7bdd1af3bbf5415811e357cb",
+  "bytes": 3452928,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L34/L34.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L34.lccs",
+  "sha256": "211841beb84646c10497d7b0ce3c07ca519f878f9ac907e935906fd377431c19",
+  "bytes": 39563,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L34/L34.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L34.csv",
+  "sha256": "7b5526c66355e028d8e913f3f56abff19d9a1ea5f9dfeeb092770ddd657bd2db",
+  "bytes": 326,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L34/L34.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L34.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L34/L34.eapx": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L34.eapx",
+  "sha256": "91c043a5f8833e0f22b5a629641c673943e956da4050918316119ce96bce04a5",
+  "bytes": 3493888,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L35/L35.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L35.lccs",
+  "sha256": "789b3c2c365c1e4f83c5a870be56ce040648967f24a8515ed64ea75eded0e9a7",
+  "bytes": 166944,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L35/L35.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L35.csv",
+  "sha256": "92aceb50ad52d9aacf84b402dd46f3ba674e17d5de164230991a9423b636591c",
+  "bytes": 2566,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L35/L35.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L35.xsd",
+  "sha256": "fae6060c7ba5e0b0273fa84070c0fdf4484b8c38efd7c65d035a595d848c25de",
+  "bytes": 176566,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L36/L36.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L36.lccs",
+  "sha256": "f6796edc8a8972fe253eb2fb85cbff92d8bd1212125c428462ba0aec525bbe2f",
+  "bytes": 65993,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L36/L36.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L36.xsd",
+  "sha256": "602ec0afcda4a8ea6ff32641e6ed1a23f88f3348e340049b52049d01554cd14d",
+  "bytes": 5613,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L37/L37.LChS": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L37.LChS",
+  "sha256": "448d4d390b998bcfcb5889bbec5e81a7b96f5af42580ff2e558ae0671069a540",
+  "bytes": 49733,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L37/L37.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L37.csv",
+  "sha256": "86de65fa9b299d0032c16fae5bb525b152c48b81c75d51eea18ebc4758c9a4a6",
+  "bytes": 694,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L37/L37.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L37.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L38/L38.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L38.lccs",
+  "sha256": "45402ae18db8b248be1ff361935b6e644b3c8a3c13dcda966719c5ac3b6d37a0",
+  "bytes": 103722,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L38/L38.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L38.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L39/L39.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L39.lccs",
+  "sha256": "fd80facee4fa35cfdf6e1ec80b99e4accdeb910ae812acbc04bebecb80ab3557",
+  "bytes": 47439,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L39/L39.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L39.csv",
+  "sha256": "5d05820aad9fe6aea36f5f6b911189d8e54869f78fb3e187cb08ad95203e007c",
+  "bytes": 449,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L39/L39.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L39.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L41/L41.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L41.lccs",
+  "sha256": "48dcc546d6ec61ac711ce5f5e8d58d45714a9998ac8ee0a1986709afae72656c",
+  "bytes": 88494,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L41/L41.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L41.csv",
+  "sha256": "db91c004e9eb3eca673cdd9439af177b5b4f7a08f8ae42641a771015afdaf7e2",
+  "bytes": 1072,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L41/L41.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L41.xsd",
+  "sha256": "9bdc0085a8f0b7a63a90285c1f9a03462dcd714660c54febc666c385b9eb2c9b",
+  "bytes": 62331,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L42/L42.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L42.lccs",
+  "sha256": "65d8aca71b51915c70154abca4287aa1a8001f521146140e4786450f1a9ec5e5",
+  "bytes": 70334,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L42/L42.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L42.csv",
+  "sha256": "3998d6b78ba31907a591ce315aaf356114aec360311a947e465fdedfa56edd9d",
+  "bytes": 562,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L42/L42.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L42.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L43/L43.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L43.lccs",
+  "sha256": "73979c057176ba6a3d275720f294ec644054043914abc84f6f1cde8cf39ac7b4",
+  "bytes": 36364,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L43/L43.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L43.csv",
+  "sha256": "be369abf65a70f7007b9a55ce000d7af8032c6b6b45db0e7cd0c54265eaaf09a",
+  "bytes": 358,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L43/L43.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L43.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L45/L45.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L45.lccs",
+  "sha256": "1a6c807af1807a3a3559039297cfb416c6c91a06b8abad52a9358f4a13d1e7d6",
+  "bytes": 71120,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L45/L45.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L45.csv",
+  "sha256": "19fb6ca4a0f605555bcf4aa052d363cdc1747f4473138cfef0491dd873d5b9ee",
+  "bytes": 587,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L45/L45.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L45.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L48/L48.lccs": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L48.lccs",
+  "sha256": "00a6bc9a187ff325915fcebc0286fe7b48aa380efc65416390dd628bfec66557",
+  "bytes": 25101,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L48/L48.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L48.csv",
+  "sha256": "0afcac2280449eab54f2862c5986629e25dac9bf7d370e7909f85856b6ccd02e",
+  "bytes": 242,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L48/L48.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L48.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L49/L49.LChS": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L49.LChS",
+  "sha256": "45fbf6a64e2a7a2f1154f459dc04ab02da9cfacb1ab4c14442a81a5542bc0055",
+  "bytes": 66276,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L49/L49.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L49.csv",
+  "sha256": "24e63c4217cfd24404ed051fb458aecdfff56ecdc7f95a18565849deeb17c4fe",
+  "bytes": 359,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L49/L49.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L49.xsd",
+  "sha256": "3b0a33b6f1cef8e6f4695f00ead82d8bcfa7d134c8f1c0b8276b9fb462a5d868",
+  "bytes": 228520,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L50/L50.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L50.csv",
+  "sha256": "a27a31d22f66ed8ad9aa6a2f3997092e5aca2fb37bd9835a30ed0c2a4a97dc53",
+  "bytes": 434,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L50/L50.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L50.xsd",
+  "sha256": "636781d562cb2dc13996542734bed30b8eefd7a63dc25400174e33f30130c5d4",
+  "bytes": 89180,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L51/L51.LChS": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L51.LChS",
+  "sha256": "1f37e27b7f6e3d60088e4da2a676244d5df5b7b25256a0372485a84bade844b4",
+  "bytes": 42992,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L51/L51.csv": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L51.csv",
+  "sha256": "f654109442810ff0f88417245880479bace5cc1dc5241a106972c14b0cfb782c",
+  "bytes": 280,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "L51/L51.xsd": {
+  "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L51.xsd",
+  "sha256": "08bd4d17c0eca069ec7dc291825a2329f9349df8a7a0c902d6406bc4d2a3cd20",
+  "bytes": 229705,
+  "fetched": "2026-09-17T21:49:30+00:00"
+ },
+ "_problems": [
+  {
+   "file": "L7/L7.csv",
+   "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L7.csv",
+   "status": 404
+  },
+  {
+   "file": "L11/L11.csv",
+   "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L11.csv",
+   "status": 404
+  },
+  {
+   "file": "L27/L27.csv",
+   "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L27.csv",
+   "status": 404
+  },
+  {
+   "file": "L32/L32.csv",
+   "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L32.csv",
+   "status": 404
+  },
+  {
+   "file": "L36/L36.csv",
+   "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L36.csv",
+   "status": 404
+  },
+  {
+   "file": "L38/L38.csv",
+   "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L38.csv",
+   "status": 404
+  },
+  {
+   "file": "L40/L40.lccs",
+   "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L40.lccs",
+   "status": 404
+  },
+  {
+   "file": "L40/L40.csv",
+   "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L40.csv",
+   "status": 404
+  },
+  {
+   "file": "L40/L40.xsd",
+   "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L40.xsd",
+   "status": 404
+  },
+  {
+   "file": "L46/L46.lccs",
+   "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L46.lccs",
+   "status": 404
+  },
+  {
+   "file": "L46/L46.csv",
+   "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L46.csv",
+   "status": 404
+  },
+  {
+   "file": "L46/L46.xsd",
+   "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L46.xsd",
+   "status": 404
+  },
+  {
+   "file": "L50/L50.LChS",
+   "url": "https://storage.googleapis.com/fao-hih-gs-website-review/resources/lclr/legend/L50.LChS",
+   "status": 404
+  }
+ ]
+}

@@ -1,0 +1,6462 @@
+[
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "A",
+  "b_name": "Sandy (beach, dunes) area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_LooseAndShiftingSand"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "Aa_c",
+  "b_name": "Canal",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "Aa_l",
+  "b_name": "Lakes, reservoirs and barrages",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "An_c",
+  "b_name": "Streams and rivers",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "An_l",
+  "b_name": "Lagoons",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "Ar_c",
+  "b_name": "Shrubs land",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "Ar_p",
+  "b_name": "Shrubs with grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "Cp",
+  "b_name": "Cropland <2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "Crg",
+  "b_name": "Irrigated cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "Crg_a",
+  "b_name": "Rice field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "Crg_c",
+  "b_name": "Sugarcane field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "Csg",
+  "b_name": "Rainfed cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "FP_ma",
+  "b_name": "Vegetation for shelter and shade",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "FP_mx",
+  "b_name": "Mixed forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "FP_ps",
+  "b_name": "Alamo and willow forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "Fr",
+  "b_name": "Orchard",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "He",
+  "b_name": "Grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "He_ar",
+  "b_name": "Grassland with scattered bushes",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "He_ein",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "He_in",
+  "b_name": "Parmenently flooded grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "He_p",
+  "b_name": "Improved grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "He_pa",
+  "b_name": "Grassland with scattered palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "He_ps",
+  "b_name": "Psamophilic forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Dune",
+   "LC_Graminoid",
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "He_r",
+  "b_name": "Grassland with rock outcrop",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock",
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "Mn",
+  "b_name": "Native forest (40-100%)",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "Mn_p",
+  "b_name": "Native park forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "Pa",
+  "b_name": "Palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "PF_e",
+  "b_name": "Eucalyptus forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "PF_p",
+  "b_name": "Pine forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "Rc",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "Sd",
+  "b_name": "Bare ground",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareSoil"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "Ur",
+  "b_name": "Urban area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "1",
+  "a_name": "Natural woody vegetation",
+  "b": "Ur_he",
+  "b_name": "Dispersed urban",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_HerbaceousGrowthForm",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "A",
+  "b_name": "Sandy (beach, dunes) area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_LooseAndShiftingSand"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "Aa_c",
+  "b_name": "Canal",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "Aa_l",
+  "b_name": "Lakes, reservoirs and barrages",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "An_c",
+  "b_name": "Streams and rivers",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "An_l",
+  "b_name": "Lagoons",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "Ar_c",
+  "b_name": "Shrubs land",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "Ar_p",
+  "b_name": "Shrubs with grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "Cp",
+  "b_name": "Cropland <2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "Crg",
+  "b_name": "Irrigated cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "Crg_a",
+  "b_name": "Rice field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "Crg_c",
+  "b_name": "Sugarcane field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "Csg",
+  "b_name": "Rainfed cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "FP_ma",
+  "b_name": "Vegetation for shelter and shade",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "FP_mx",
+  "b_name": "Mixed forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "FP_ps",
+  "b_name": "Alamo and willow forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "Fr",
+  "b_name": "Orchard",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "He",
+  "b_name": "Grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "He_ar",
+  "b_name": "Grassland with scattered bushes",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "He_ein",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "He_in",
+  "b_name": "Parmenently flooded grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "He_p",
+  "b_name": "Improved grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "He_pa",
+  "b_name": "Grassland with scattered palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "He_ps",
+  "b_name": "Psamophilic forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Dune",
+   "LC_Graminoid",
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "He_r",
+  "b_name": "Grassland with rock outcrop",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock",
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "Mn",
+  "b_name": "Native forest (40-100%)",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "Mn_p",
+  "b_name": "Native park forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "Pa",
+  "b_name": "Palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "PF_e",
+  "b_name": "Eucalyptus forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "PF_p",
+  "b_name": "Pine forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "Rc",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "Sd",
+  "b_name": "Bare ground",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareSoil"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "Ur",
+  "b_name": "Urban area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "10",
+  "a_name": "Natural herbaceous vegetation",
+  "b": "Ur_he",
+  "b_name": "Dispersed urban",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_HerbaceousGrowthForm",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "A",
+  "b_name": "Sandy (beach, dunes) area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_LooseAndShiftingSand"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "Aa_c",
+  "b_name": "Canal",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "Aa_l",
+  "b_name": "Lakes, reservoirs and barrages",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "An_c",
+  "b_name": "Streams and rivers",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "An_l",
+  "b_name": "Lagoons",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "Ar_c",
+  "b_name": "Shrubs land",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "Ar_p",
+  "b_name": "Shrubs with grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "Cp",
+  "b_name": "Cropland <2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "Crg",
+  "b_name": "Irrigated cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "Crg_a",
+  "b_name": "Rice field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "Crg_c",
+  "b_name": "Sugarcane field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "Csg",
+  "b_name": "Rainfed cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "FP_ma",
+  "b_name": "Vegetation for shelter and shade",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "FP_mx",
+  "b_name": "Mixed forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "FP_ps",
+  "b_name": "Alamo and willow forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "Fr",
+  "b_name": "Orchard",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "He",
+  "b_name": "Grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "He_ar",
+  "b_name": "Grassland with scattered bushes",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "He_ein",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "He_in",
+  "b_name": "Parmenently flooded grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "He_p",
+  "b_name": "Improved grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "He_pa",
+  "b_name": "Grassland with scattered palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "He_ps",
+  "b_name": "Psamophilic forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Dune",
+   "LC_Graminoid",
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "He_r",
+  "b_name": "Grassland with rock outcrop",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock",
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "Mn",
+  "b_name": "Native forest (40-100%)",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "Mn_p",
+  "b_name": "Native park forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "Pa",
+  "b_name": "Palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "PF_e",
+  "b_name": "Eucalyptus forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "PF_p",
+  "b_name": "Pine forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "Rc",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "Sd",
+  "b_name": "Bare ground",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareSoil"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "Ur",
+  "b_name": "Urban area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "11",
+  "a_name": "Wetland",
+  "b": "Ur_he",
+  "b_name": "Dispersed urban",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_HerbaceousGrowthForm",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "A",
+  "b_name": "Sandy (beach, dunes) area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_LooseAndShiftingSand"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "Aa_c",
+  "b_name": "Canal",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "Aa_l",
+  "b_name": "Lakes, reservoirs and barrages",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "An_c",
+  "b_name": "Streams and rivers",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "An_l",
+  "b_name": "Lagoons",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "Ar_c",
+  "b_name": "Shrubs land",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "Ar_p",
+  "b_name": "Shrubs with grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "Cp",
+  "b_name": "Cropland <2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "Crg",
+  "b_name": "Irrigated cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "Crg_a",
+  "b_name": "Rice field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "Crg_c",
+  "b_name": "Sugarcane field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "Csg",
+  "b_name": "Rainfed cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "FP_ma",
+  "b_name": "Vegetation for shelter and shade",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "FP_mx",
+  "b_name": "Mixed forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "FP_ps",
+  "b_name": "Alamo and willow forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "Fr",
+  "b_name": "Orchard",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "He",
+  "b_name": "Grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "He_ar",
+  "b_name": "Grassland with scattered bushes",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "He_ein",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "He_in",
+  "b_name": "Parmenently flooded grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "He_p",
+  "b_name": "Improved grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "He_pa",
+  "b_name": "Grassland with scattered palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "He_ps",
+  "b_name": "Psamophilic forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Dune",
+   "LC_Graminoid",
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "He_r",
+  "b_name": "Grassland with rock outcrop",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock",
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "Mn",
+  "b_name": "Native forest (40-100%)",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "Mn_p",
+  "b_name": "Native park forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "Pa",
+  "b_name": "Palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "PF_e",
+  "b_name": "Eucalyptus forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "PF_p",
+  "b_name": "Pine forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "Rc",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "Sd",
+  "b_name": "Bare ground",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareSoil"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "Ur",
+  "b_name": "Urban area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "12",
+  "a_name": "Grassland",
+  "b": "Ur_he",
+  "b_name": "Dispersed urban",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_HerbaceousGrowthForm",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "A",
+  "b_name": "Sandy (beach, dunes) area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_LooseAndShiftingSand"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "Aa_c",
+  "b_name": "Canal",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "Aa_l",
+  "b_name": "Lakes, reservoirs and barrages",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "An_c",
+  "b_name": "Streams and rivers",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "An_l",
+  "b_name": "Lagoons",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "Ar_c",
+  "b_name": "Shrubs land",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "Ar_p",
+  "b_name": "Shrubs with grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "Cp",
+  "b_name": "Cropland <2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "Crg",
+  "b_name": "Irrigated cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "Crg_a",
+  "b_name": "Rice field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "Crg_c",
+  "b_name": "Sugarcane field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "Csg",
+  "b_name": "Rainfed cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "FP_ma",
+  "b_name": "Vegetation for shelter and shade",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "FP_mx",
+  "b_name": "Mixed forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "FP_ps",
+  "b_name": "Alamo and willow forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "Fr",
+  "b_name": "Orchard",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "He",
+  "b_name": "Grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "He_ar",
+  "b_name": "Grassland with scattered bushes",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "He_ein",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "He_in",
+  "b_name": "Parmenently flooded grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "He_p",
+  "b_name": "Improved grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "He_pa",
+  "b_name": "Grassland with scattered palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "He_ps",
+  "b_name": "Psamophilic forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Dune",
+   "LC_Graminoid",
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "He_r",
+  "b_name": "Grassland with rock outcrop",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock",
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "Mn",
+  "b_name": "Native forest (40-100%)",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "Mn_p",
+  "b_name": "Native park forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "Pa",
+  "b_name": "Palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "PF_e",
+  "b_name": "Eucalyptus forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "PF_p",
+  "b_name": "Pine forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "Rc",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "Sd",
+  "b_name": "Bare ground",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareSoil"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "Ur",
+  "b_name": "Urban area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "14",
+  "a_name": "Agricultural and livestock area",
+  "b": "Ur_he",
+  "b_name": "Dispersed urban",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_HerbaceousGrowthForm",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "A",
+  "b_name": "Sandy (beach, dunes) area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_LooseAndShiftingSand"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "Aa_c",
+  "b_name": "Canal",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "Aa_l",
+  "b_name": "Lakes, reservoirs and barrages",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "An_c",
+  "b_name": "Streams and rivers",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "An_l",
+  "b_name": "Lagoons",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "Ar_c",
+  "b_name": "Shrubs land",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "Ar_p",
+  "b_name": "Shrubs with grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "Cp",
+  "b_name": "Cropland <2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "Crg",
+  "b_name": "Irrigated cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "Crg_a",
+  "b_name": "Rice field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "Crg_c",
+  "b_name": "Sugarcane field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "Csg",
+  "b_name": "Rainfed cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "FP_ma",
+  "b_name": "Vegetation for shelter and shade",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "FP_mx",
+  "b_name": "Mixed forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "FP_ps",
+  "b_name": "Alamo and willow forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "Fr",
+  "b_name": "Orchard",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "He",
+  "b_name": "Grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "He_ar",
+  "b_name": "Grassland with scattered bushes",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "He_ein",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "He_in",
+  "b_name": "Parmenently flooded grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "He_p",
+  "b_name": "Improved grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "He_pa",
+  "b_name": "Grassland with scattered palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "He_ps",
+  "b_name": "Psamophilic forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Dune",
+   "LC_Graminoid",
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "He_r",
+  "b_name": "Grassland with rock outcrop",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock",
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "Mn",
+  "b_name": "Native forest (40-100%)",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "Mn_p",
+  "b_name": "Native park forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "Pa",
+  "b_name": "Palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "PF_e",
+  "b_name": "Eucalyptus forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "PF_p",
+  "b_name": "Pine forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "Rc",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "Sd",
+  "b_name": "Bare ground",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareSoil"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "Ur",
+  "b_name": "Urban area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "15",
+  "a_name": "Pasture",
+  "b": "Ur_he",
+  "b_name": "Dispersed urban",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_HerbaceousGrowthForm",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "A",
+  "b_name": "Sandy (beach, dunes) area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_LooseAndShiftingSand"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "Aa_c",
+  "b_name": "Canal",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "Aa_l",
+  "b_name": "Lakes, reservoirs and barrages",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "An_c",
+  "b_name": "Streams and rivers",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "An_l",
+  "b_name": "Lagoons",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "Ar_c",
+  "b_name": "Shrubs land",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "Ar_p",
+  "b_name": "Shrubs with grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "Cp",
+  "b_name": "Cropland <2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "Crg",
+  "b_name": "Irrigated cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "Crg_a",
+  "b_name": "Rice field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "Crg_c",
+  "b_name": "Sugarcane field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "Csg",
+  "b_name": "Rainfed cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "FP_ma",
+  "b_name": "Vegetation for shelter and shade",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "FP_mx",
+  "b_name": "Mixed forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "FP_ps",
+  "b_name": "Alamo and willow forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "Fr",
+  "b_name": "Orchard",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "He",
+  "b_name": "Grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "He_ar",
+  "b_name": "Grassland with scattered bushes",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "He_ein",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "He_in",
+  "b_name": "Parmenently flooded grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "He_p",
+  "b_name": "Improved grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "He_pa",
+  "b_name": "Grassland with scattered palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "He_ps",
+  "b_name": "Psamophilic forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Dune",
+   "LC_Graminoid",
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "He_r",
+  "b_name": "Grassland with rock outcrop",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock",
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "Mn",
+  "b_name": "Native forest (40-100%)",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "Mn_p",
+  "b_name": "Native park forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "Pa",
+  "b_name": "Palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "PF_e",
+  "b_name": "Eucalyptus forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "PF_p",
+  "b_name": "Pine forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "Rc",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "Sd",
+  "b_name": "Bare ground",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareSoil"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "Ur",
+  "b_name": "Urban area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "18",
+  "a_name": "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "b": "Ur_he",
+  "b_name": "Dispersed urban",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_HerbaceousGrowthForm",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "A",
+  "b_name": "Sandy (beach, dunes) area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_LooseAndShiftingSand"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "Aa_c",
+  "b_name": "Canal",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "Aa_l",
+  "b_name": "Lakes, reservoirs and barrages",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "An_c",
+  "b_name": "Streams and rivers",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "An_l",
+  "b_name": "Lagoons",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "Ar_c",
+  "b_name": "Shrubs land",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "Ar_p",
+  "b_name": "Shrubs with grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "Cp",
+  "b_name": "Cropland <2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "Crg",
+  "b_name": "Irrigated cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "Crg_a",
+  "b_name": "Rice field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "Crg_c",
+  "b_name": "Sugarcane field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "Csg",
+  "b_name": "Rainfed cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "FP_ma",
+  "b_name": "Vegetation for shelter and shade",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "FP_mx",
+  "b_name": "Mixed forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "FP_ps",
+  "b_name": "Alamo and willow forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "Fr",
+  "b_name": "Orchard",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "He",
+  "b_name": "Grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "He_ar",
+  "b_name": "Grassland with scattered bushes",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "He_ein",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "He_in",
+  "b_name": "Parmenently flooded grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "He_p",
+  "b_name": "Improved grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "He_pa",
+  "b_name": "Grassland with scattered palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "He_ps",
+  "b_name": "Psamophilic forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Dune",
+   "LC_Graminoid",
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "He_r",
+  "b_name": "Grassland with rock outcrop",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock",
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "Mn",
+  "b_name": "Native forest (40-100%)",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "Mn_p",
+  "b_name": "Native park forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "Pa",
+  "b_name": "Palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "PF_e",
+  "b_name": "Eucalyptus forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "PF_p",
+  "b_name": "Pine forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "Rc",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "Sd",
+  "b_name": "Bare ground",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareSoil"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "Ur",
+  "b_name": "Urban area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "19",
+  "a_name": "Agriculture",
+  "b": "Ur_he",
+  "b_name": "Dispersed urban",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_HerbaceousGrowthForm",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "A",
+  "b_name": "Sandy (beach, dunes) area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_LooseAndShiftingSand"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "Aa_c",
+  "b_name": "Canal",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "Aa_l",
+  "b_name": "Lakes, reservoirs and barrages",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "An_c",
+  "b_name": "Streams and rivers",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "An_l",
+  "b_name": "Lagoons",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "Ar_c",
+  "b_name": "Shrubs land",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "Ar_p",
+  "b_name": "Shrubs with grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "Cp",
+  "b_name": "Cropland <2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "Crg",
+  "b_name": "Irrigated cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "Crg_a",
+  "b_name": "Rice field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "Crg_c",
+  "b_name": "Sugarcane field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "Csg",
+  "b_name": "Rainfed cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "FP_ma",
+  "b_name": "Vegetation for shelter and shade",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "FP_mx",
+  "b_name": "Mixed forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "FP_ps",
+  "b_name": "Alamo and willow forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "Fr",
+  "b_name": "Orchard",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "He",
+  "b_name": "Grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "He_ar",
+  "b_name": "Grassland with scattered bushes",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "He_ein",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "He_in",
+  "b_name": "Parmenently flooded grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "He_p",
+  "b_name": "Improved grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "He_pa",
+  "b_name": "Grassland with scattered palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "He_ps",
+  "b_name": "Psamophilic forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Dune",
+   "LC_Graminoid",
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "He_r",
+  "b_name": "Grassland with rock outcrop",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock",
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "Mn",
+  "b_name": "Native forest (40-100%)",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "Mn_p",
+  "b_name": "Native park forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "Pa",
+  "b_name": "Palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "PF_e",
+  "b_name": "Eucalyptus forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "PF_p",
+  "b_name": "Pine forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "Rc",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "Sd",
+  "b_name": "Bare ground",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareSoil"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "Ur",
+  "b_name": "Urban area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "22",
+  "a_name": "Non-vegetated area",
+  "b": "Ur_he",
+  "b_name": "Dispersed urban",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_HerbaceousGrowthForm",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "A",
+  "b_name": "Sandy (beach, dunes) area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_LooseAndShiftingSand"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "Aa_c",
+  "b_name": "Canal",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "Aa_l",
+  "b_name": "Lakes, reservoirs and barrages",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "An_c",
+  "b_name": "Streams and rivers",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "An_l",
+  "b_name": "Lagoons",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "Ar_c",
+  "b_name": "Shrubs land",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "Ar_p",
+  "b_name": "Shrubs with grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "Cp",
+  "b_name": "Cropland <2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "Crg",
+  "b_name": "Irrigated cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "Crg_a",
+  "b_name": "Rice field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "Crg_c",
+  "b_name": "Sugarcane field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "Csg",
+  "b_name": "Rainfed cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "FP_ma",
+  "b_name": "Vegetation for shelter and shade",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "FP_mx",
+  "b_name": "Mixed forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "FP_ps",
+  "b_name": "Alamo and willow forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "Fr",
+  "b_name": "Orchard",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "He",
+  "b_name": "Grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "He_ar",
+  "b_name": "Grassland with scattered bushes",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "He_ein",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "He_in",
+  "b_name": "Parmenently flooded grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "He_p",
+  "b_name": "Improved grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "He_pa",
+  "b_name": "Grassland with scattered palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "He_ps",
+  "b_name": "Psamophilic forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Dune",
+   "LC_Graminoid",
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "He_r",
+  "b_name": "Grassland with rock outcrop",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock",
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "Mn",
+  "b_name": "Native forest (40-100%)",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "Mn_p",
+  "b_name": "Native park forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "Pa",
+  "b_name": "Palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "PF_e",
+  "b_name": "Eucalyptus forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "PF_p",
+  "b_name": "Pine forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "Rc",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "Sd",
+  "b_name": "Bare ground",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareSoil"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "Ur",
+  "b_name": "Urban area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "26",
+  "a_name": "Water body",
+  "b": "Ur_he",
+  "b_name": "Dispersed urban",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_HerbaceousGrowthForm",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "A",
+  "b_name": "Sandy (beach, dunes) area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_LooseAndShiftingSand"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "Aa_c",
+  "b_name": "Canal",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "Aa_l",
+  "b_name": "Lakes, reservoirs and barrages",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "An_c",
+  "b_name": "Streams and rivers",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "An_l",
+  "b_name": "Lagoons",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "Ar_c",
+  "b_name": "Shrubs land",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "Ar_p",
+  "b_name": "Shrubs with grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "Cp",
+  "b_name": "Cropland <2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "Crg",
+  "b_name": "Irrigated cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "Crg_a",
+  "b_name": "Rice field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "Crg_c",
+  "b_name": "Sugarcane field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "Csg",
+  "b_name": "Rainfed cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "FP_ma",
+  "b_name": "Vegetation for shelter and shade",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "FP_mx",
+  "b_name": "Mixed forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "FP_ps",
+  "b_name": "Alamo and willow forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "Fr",
+  "b_name": "Orchard",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "He",
+  "b_name": "Grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "He_ar",
+  "b_name": "Grassland with scattered bushes",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "He_ein",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "He_in",
+  "b_name": "Parmenently flooded grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "He_p",
+  "b_name": "Improved grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "He_pa",
+  "b_name": "Grassland with scattered palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "He_ps",
+  "b_name": "Psamophilic forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Dune",
+   "LC_Graminoid",
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "He_r",
+  "b_name": "Grassland with rock outcrop",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock",
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "Mn",
+  "b_name": "Native forest (40-100%)",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "Mn_p",
+  "b_name": "Native park forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "Pa",
+  "b_name": "Palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "PF_e",
+  "b_name": "Eucalyptus forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "PF_p",
+  "b_name": "Pine forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "Rc",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "Sd",
+  "b_name": "Bare ground",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareSoil"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "Ur",
+  "b_name": "Urban area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "27",
+  "a_name": "Not observed",
+  "b": "Ur_he",
+  "b_name": "Dispersed urban",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_HerbaceousGrowthForm",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "A",
+  "b_name": "Sandy (beach, dunes) area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_LooseAndShiftingSand"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "Aa_c",
+  "b_name": "Canal",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "Aa_l",
+  "b_name": "Lakes, reservoirs and barrages",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "An_c",
+  "b_name": "Streams and rivers",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "An_l",
+  "b_name": "Lagoons",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "Ar_c",
+  "b_name": "Shrubs land",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "Ar_p",
+  "b_name": "Shrubs with grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "Cp",
+  "b_name": "Cropland <2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "Crg",
+  "b_name": "Irrigated cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "Crg_a",
+  "b_name": "Rice field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "Crg_c",
+  "b_name": "Sugarcane field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "Csg",
+  "b_name": "Rainfed cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "FP_ma",
+  "b_name": "Vegetation for shelter and shade",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "FP_mx",
+  "b_name": "Mixed forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "FP_ps",
+  "b_name": "Alamo and willow forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "Fr",
+  "b_name": "Orchard",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "He",
+  "b_name": "Grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "He_ar",
+  "b_name": "Grassland with scattered bushes",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "He_ein",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "He_in",
+  "b_name": "Parmenently flooded grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "He_p",
+  "b_name": "Improved grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "He_pa",
+  "b_name": "Grassland with scattered palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "He_ps",
+  "b_name": "Psamophilic forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Dune",
+   "LC_Graminoid",
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "He_r",
+  "b_name": "Grassland with rock outcrop",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock",
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "Mn",
+  "b_name": "Native forest (40-100%)",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "Mn_p",
+  "b_name": "Native park forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "Pa",
+  "b_name": "Palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "PF_e",
+  "b_name": "Eucalyptus forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "PF_p",
+  "b_name": "Pine forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "Rc",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "Sd",
+  "b_name": "Bare ground",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareSoil"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "Ur",
+  "b_name": "Urban area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "3",
+  "a_name": "Closed forest and closed shrubland",
+  "b": "Ur_he",
+  "b_name": "Dispersed urban",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_HerbaceousGrowthForm",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "A",
+  "b_name": "Sandy (beach, dunes) area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_LooseAndShiftingSand"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "Aa_c",
+  "b_name": "Canal",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "Aa_l",
+  "b_name": "Lakes, reservoirs and barrages",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "An_c",
+  "b_name": "Streams and rivers",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "An_l",
+  "b_name": "Lagoons",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "Ar_c",
+  "b_name": "Shrubs land",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "Ar_p",
+  "b_name": "Shrubs with grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "Cp",
+  "b_name": "Cropland <2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "Crg",
+  "b_name": "Irrigated cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "Crg_a",
+  "b_name": "Rice field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "Crg_c",
+  "b_name": "Sugarcane field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "Csg",
+  "b_name": "Rainfed cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "FP_ma",
+  "b_name": "Vegetation for shelter and shade",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "FP_mx",
+  "b_name": "Mixed forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "FP_ps",
+  "b_name": "Alamo and willow forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "Fr",
+  "b_name": "Orchard",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "He",
+  "b_name": "Grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "He_ar",
+  "b_name": "Grassland with scattered bushes",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "He_ein",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "He_in",
+  "b_name": "Parmenently flooded grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "He_p",
+  "b_name": "Improved grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "He_pa",
+  "b_name": "Grassland with scattered palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "He_ps",
+  "b_name": "Psamophilic forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Dune",
+   "LC_Graminoid",
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "He_r",
+  "b_name": "Grassland with rock outcrop",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock",
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "Mn",
+  "b_name": "Native forest (40-100%)",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "Mn_p",
+  "b_name": "Native park forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "Pa",
+  "b_name": "Palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "PF_e",
+  "b_name": "Eucalyptus forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "PF_p",
+  "b_name": "Pine forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "Rc",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "Sd",
+  "b_name": "Bare ground",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareSoil"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "Ur",
+  "b_name": "Urban area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "33",
+  "a_name": "River, lake or ocean",
+  "b": "Ur_he",
+  "b_name": "Dispersed urban",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_HerbaceousGrowthForm",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "A",
+  "b_name": "Sandy (beach, dunes) area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_LooseAndShiftingSand"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "Aa_c",
+  "b_name": "Canal",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "Aa_l",
+  "b_name": "Lakes, reservoirs and barrages",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "An_c",
+  "b_name": "Streams and rivers",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "An_l",
+  "b_name": "Lagoons",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "Ar_c",
+  "b_name": "Shrubs land",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "Ar_p",
+  "b_name": "Shrubs with grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "Cp",
+  "b_name": "Cropland <2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "Crg",
+  "b_name": "Irrigated cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "Crg_a",
+  "b_name": "Rice field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "Crg_c",
+  "b_name": "Sugarcane field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "Csg",
+  "b_name": "Rainfed cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "FP_ma",
+  "b_name": "Vegetation for shelter and shade",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "FP_mx",
+  "b_name": "Mixed forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "FP_ps",
+  "b_name": "Alamo and willow forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "Fr",
+  "b_name": "Orchard",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "He",
+  "b_name": "Grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "He_ar",
+  "b_name": "Grassland with scattered bushes",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "He_ein",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "He_in",
+  "b_name": "Parmenently flooded grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "He_p",
+  "b_name": "Improved grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "He_pa",
+  "b_name": "Grassland with scattered palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "He_ps",
+  "b_name": "Psamophilic forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Dune",
+   "LC_Graminoid",
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "He_r",
+  "b_name": "Grassland with rock outcrop",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock",
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "Mn",
+  "b_name": "Native forest (40-100%)",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "Mn_p",
+  "b_name": "Native park forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "Pa",
+  "b_name": "Palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "PF_e",
+  "b_name": "Eucalyptus forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "PF_p",
+  "b_name": "Pine forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "Rc",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "Sd",
+  "b_name": "Bare ground",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareSoil"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "Ur",
+  "b_name": "Urban area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "79",
+  "a_name": "Pinus plantation",
+  "b": "Ur_he",
+  "b_name": "Dispersed urban",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_HerbaceousGrowthForm",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "A",
+  "b_name": "Sandy (beach, dunes) area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_LooseAndShiftingSand"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "Aa_c",
+  "b_name": "Canal",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "Aa_l",
+  "b_name": "Lakes, reservoirs and barrages",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "An_c",
+  "b_name": "Streams and rivers",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "An_l",
+  "b_name": "Lagoons",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "Ar_c",
+  "b_name": "Shrubs land",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "Ar_p",
+  "b_name": "Shrubs with grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "Cp",
+  "b_name": "Cropland <2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "Crg",
+  "b_name": "Irrigated cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "Crg_a",
+  "b_name": "Rice field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "Crg_c",
+  "b_name": "Sugarcane field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "Csg",
+  "b_name": "Rainfed cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "FP_ma",
+  "b_name": "Vegetation for shelter and shade",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "FP_mx",
+  "b_name": "Mixed forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "FP_ps",
+  "b_name": "Alamo and willow forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "Fr",
+  "b_name": "Orchard",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "He",
+  "b_name": "Grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "He_ar",
+  "b_name": "Grassland with scattered bushes",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "He_ein",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "He_in",
+  "b_name": "Parmenently flooded grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "He_p",
+  "b_name": "Improved grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "He_pa",
+  "b_name": "Grassland with scattered palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "He_ps",
+  "b_name": "Psamophilic forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Dune",
+   "LC_Graminoid",
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "He_r",
+  "b_name": "Grassland with rock outcrop",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock",
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "Mn",
+  "b_name": "Native forest (40-100%)",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "Mn_p",
+  "b_name": "Native park forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "Pa",
+  "b_name": "Palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "PF_e",
+  "b_name": "Eucalyptus forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "PF_p",
+  "b_name": "Pine forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "Rc",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "Sd",
+  "b_name": "Bare ground",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareSoil"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "Ur",
+  "b_name": "Urban area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "80",
+  "a_name": "Eucaliptus plantation",
+  "b": "Ur_he",
+  "b_name": "Dispersed urban",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_HerbaceousGrowthForm",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "A",
+  "b_name": "Sandy (beach, dunes) area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_LooseAndShiftingSand"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "Aa_c",
+  "b_name": "Canal",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "Aa_l",
+  "b_name": "Lakes, reservoirs and barrages",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "An_c",
+  "b_name": "Streams and rivers",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "An_l",
+  "b_name": "Lagoons",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "Ar_c",
+  "b_name": "Shrubs land",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "Ar_p",
+  "b_name": "Shrubs with grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "Cp",
+  "b_name": "Cropland <2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "Crg",
+  "b_name": "Irrigated cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "Crg_a",
+  "b_name": "Rice field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "Crg_c",
+  "b_name": "Sugarcane field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "Csg",
+  "b_name": "Rainfed cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "FP_ma",
+  "b_name": "Vegetation for shelter and shade",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "FP_mx",
+  "b_name": "Mixed forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "FP_ps",
+  "b_name": "Alamo and willow forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "Fr",
+  "b_name": "Orchard",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "He",
+  "b_name": "Grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "He_ar",
+  "b_name": "Grassland with scattered bushes",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "He_ein",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "He_in",
+  "b_name": "Parmenently flooded grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "He_p",
+  "b_name": "Improved grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "He_pa",
+  "b_name": "Grassland with scattered palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "He_ps",
+  "b_name": "Psamophilic forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Dune",
+   "LC_Graminoid",
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "He_r",
+  "b_name": "Grassland with rock outcrop",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock",
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "Mn",
+  "b_name": "Native forest (40-100%)",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "Mn_p",
+  "b_name": "Native park forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "Pa",
+  "b_name": "Palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "PF_e",
+  "b_name": "Eucalyptus forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "PF_p",
+  "b_name": "Pine forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "Rc",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "Sd",
+  "b_name": "Bare ground",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareSoil"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "Ur",
+  "b_name": "Urban area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "83",
+  "a_name": "Other types of forest plantation",
+  "b": "Ur_he",
+  "b_name": "Dispersed urban",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_HerbaceousGrowthForm",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "A",
+  "b_name": "Sandy (beach, dunes) area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_LooseAndShiftingSand"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "Aa_c",
+  "b_name": "Canal",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "Aa_l",
+  "b_name": "Lakes, reservoirs and barrages",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "An_c",
+  "b_name": "Streams and rivers",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "An_l",
+  "b_name": "Lagoons",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "Ar_c",
+  "b_name": "Shrubs land",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "Ar_p",
+  "b_name": "Shrubs with grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "Cp",
+  "b_name": "Cropland <2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "Crg",
+  "b_name": "Irrigated cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "Crg_a",
+  "b_name": "Rice field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "Crg_c",
+  "b_name": "Sugarcane field",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "Csg",
+  "b_name": "Rainfed cropland >2ha",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "FP_ma",
+  "b_name": "Vegetation for shelter and shade",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "FP_mx",
+  "b_name": "Mixed forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "FP_ps",
+  "b_name": "Alamo and willow forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "Fr",
+  "b_name": "Orchard",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "He",
+  "b_name": "Grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "He_ar",
+  "b_name": "Grassland with scattered bushes",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Shrub"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "He_ein",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "He_in",
+  "b_name": "Parmenently flooded grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_WaterBody"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "He_p",
+  "b_name": "Improved grassland",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "He_pa",
+  "b_name": "Grassland with scattered palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_HerbaceousGrowthForm",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "He_ps",
+  "b_name": "Psamophilic forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Dune",
+   "LC_Graminoid",
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "He_r",
+  "b_name": "Grassland with rock outcrop",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock",
+   "LC_HerbaceousGrowthForm"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "Mn",
+  "b_name": "Native forest (40-100%)",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Shrub",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "Mn_p",
+  "b_name": "Native park forest",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Graminoid",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "Pa",
+  "b_name": "Palm trees",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "PF_e",
+  "b_name": "Eucalyptus forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "PF_p",
+  "b_name": "Pine forest plantation",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "Rc",
+  "b_name": "Consolidated rock",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareRock"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "Sd",
+  "b_name": "Bare ground",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_BareSoil"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "Ur",
+  "b_name": "Urban area",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ },
+ {
+  "a": "9",
+  "a_name": "Forest plantation",
+  "b": "Ur_he",
+  "b_name": "Dispersed urban",
+  "relation": "undecided",
+  "detail": "no decomposition on one side",
+  "decides": [
+   "LC_Building",
+   "LC_HerbaceousGrowthForm",
+   "LC_LinearSurface",
+   "LC_Tree"
+  ]
+ }
+]

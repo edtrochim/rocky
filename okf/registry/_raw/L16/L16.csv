@@ -1,0 +1,45 @@
+﻿ID,Hex,Class Code,Class Name
+1,#FF3399,131,Mineral extraction
+2,#ED7D31,132,Dump site
+3,#CC3300,133,Construction sites
+4,#A9D08E,141,Urban park
+5,#FF6600,142,Sport facilities
+6,#FF9933,211,Non irrigated arable land
+7,#66FF33,212,Permanently irrigated land
+8,#99FF33,213,Rice fields
+9,#FFFF99,221,Vineyards
+10,#C6E0B4,222,Fruit trees and berry plantation
+11,#548235,223,Olives groves
+12,#008000,231,Pasture
+13,#006600,241,Annual crops associated with permanent crops
+14,#9BC2E6,242,Complex cultivation pattern
+15,#99FF66,243,Land principally occupied by agriculture with signficant areas of natural vegetation
+16,#FFCC99,244,Agroforestry areas
+17,#007400,311,Broadleaved forest
+18,#FFCC66,312,Coniferous forest
+19,#CC99FF,313,Mixed forest
+20,#CC66FF,321,Natural grassland
+21,#CCCC00,322,Moors and heathland
+22,#ACB9CA,323,Sclerophillous vegetation
+23,#FF33CC,324,Transitional woodland-scrub
+24,#99FFCC,331,Sparse vegetation
+25,#808080,332,Bare rocks
+26,#66FF99,333,Sparsely vegetated areas
+27,#969696,334,Brunt areas
+28,#FFFFFF,335,Glaciers and perennial snow
+29,#FFFF00,411,Inland marches
+30,#FFE699,412,Peat bogs
+31,#BDD7EE,421,Salt marshes
+32,#CCFFFF,422,Salines
+33,#CCECFF,423,Intertidal flats
+34,#00CCFF,511,Water course
+35,#0066CC,512,Water bodies
+,#47DCFF,521,Coastal lagoons
+,#4472C4,522,Estuaries
+,#0099FF,523,Sea and ocean
+,#FF0000,111,Urban dense
+,#C00000,112,Urban open
+,#CC0000,121,Industrial
+,#CC0066,122,Road and rail networks and associated areas
+,#B2B2B2,123,Port areas
+,#FF66FF,124,Airports

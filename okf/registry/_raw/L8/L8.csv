@@ -1,0 +1,34 @@
+ID,Hex,Class Code,Class Name
+1,#00734C,FEh,Evergreen hill forest
+2,#1DBD9C,FP,Forest plantation
+3,#5C8944,SF,Swamp forest
+4,#666633,FPr,Rubber plantation
+5,#8CB8A3,NMF,Mangrove forest
+6,#B3FF80,FDp,Plain land forest (sal forest)
+7,#704489,OT,Orchards & other plantations (trees)
+8,#99FF00,FMp,Mangrove plantation
+9,#C8BE00,BF,Bamboo forest
+10,#FFBEE8,OS,Orchards & other plantations (shrubs)
+11,#005CE6,R,Rivers/khals
+12,#FFFFBE,PCs,Single crop
+13,#FFAA00,H,Herb dominated area
+14,#F2D9BF,PCm,Multiple crop
+15,#E6E600,SC,Shifting cultivation
+16,#2699CC,Ba,Baor
+17,#40B3FF,BH,Perennial beels/haors
+18,#444F89,L,Standing artificial water body - lake
+19,#73B3FF,Po,Ponds
+20,#6699CC,BWa,Brackish water aquaculture
+21,#0000FF,FWa,Fresh water aquaculture
+22,#661900,MF,Mud flats or inter tidal areas
+23,#A60000,BNL,Built-up non-linear
+24,#FFD9F2,BS,Beach/sand bar
+25,#686868,DS,Dump sites/ extraction sites
+26,#997359,RB,River banks
+27,#E60000,Ap,Air port
+28,#9C9C9C,SP,Salt pans
+29,#FF7F7F,RS,Rural settlement
+30,#A80084,FSp,Swap plantation
+31,#9980BF,ShT,Shrubs with scattered trees
+32,#FFDEE8,SWr,Swamp reed land
+33,#FA6302,Br,Brickfields

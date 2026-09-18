@@ -1,0 +1,402 @@
+[
+ {
+  "text": "uruguay 1 Natural woody vegetation",
+  "kind": "table_row",
+  "page": null,
+  "row": 1,
+  "cells": [
+   "uruguay",
+   "1",
+   "Natural woody vegetation",
+   "#1f8d49",
+   "MapBiomas Uruguay Collection 3",
+   "https://uruguay.mapbiomas.org/wp-content/uploads/sites/6/2025/11/CodigoColorLeyenda.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:uruguay"
+ },
+ {
+  "text": "uruguay 3 Closed forest and closed shrubland",
+  "kind": "table_row",
+  "page": null,
+  "row": 2,
+  "cells": [
+   "uruguay",
+   "3",
+   "Closed forest and closed shrubland",
+   "#1f8d49",
+   "MapBiomas Uruguay Collection 3",
+   "https://uruguay.mapbiomas.org/wp-content/uploads/sites/6/2025/11/CodigoColorLeyenda.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:uruguay"
+ },
+ {
+  "text": "uruguay 10 Natural herbaceous vegetation",
+  "kind": "table_row",
+  "page": null,
+  "row": 3,
+  "cells": [
+   "uruguay",
+   "10",
+   "Natural herbaceous vegetation",
+   "#ccc87e",
+   "MapBiomas Uruguay Collection 3",
+   "https://uruguay.mapbiomas.org/wp-content/uploads/sites/6/2025/11/CodigoColorLeyenda.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:uruguay"
+ },
+ {
+  "text": "uruguay 11 Wetland",
+  "kind": "table_row",
+  "page": null,
+  "row": 4,
+  "cells": [
+   "uruguay",
+   "11",
+   "Wetland",
+   "#519799",
+   "MapBiomas Uruguay Collection 3",
+   "https://uruguay.mapbiomas.org/wp-content/uploads/sites/6/2025/11/CodigoColorLeyenda.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:uruguay"
+ },
+ {
+  "text": "uruguay 12 Grassland",
+  "kind": "table_row",
+  "page": null,
+  "row": 5,
+  "cells": [
+   "uruguay",
+   "12",
+   "Grassland",
+   "#ccc87e",
+   "MapBiomas Uruguay Collection 3",
+   "https://uruguay.mapbiomas.org/wp-content/uploads/sites/6/2025/11/CodigoColorLeyenda.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:uruguay"
+ },
+ {
+  "text": "uruguay 14 Agricultural and livestock area",
+  "kind": "table_row",
+  "page": null,
+  "row": 6,
+  "cells": [
+   "uruguay",
+   "14",
+   "Agricultural and livestock area",
+   "#ffefc3",
+   "MapBiomas Uruguay Collection 3",
+   "https://uruguay.mapbiomas.org/wp-content/uploads/sites/6/2025/11/CodigoColorLeyenda.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:uruguay"
+ },
+ {
+  "text": "uruguay 9 Forest plantation",
+  "kind": "table_row",
+  "page": null,
+  "row": 7,
+  "cells": [
+   "uruguay",
+   "9",
+   "Forest plantation",
+   "#7a5900",
+   "MapBiomas Uruguay Collection 3",
+   "https://uruguay.mapbiomas.org/wp-content/uploads/sites/6/2025/11/CodigoColorLeyenda.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:uruguay"
+ },
+ {
+  "text": "uruguay 79 Pinus plantation",
+  "kind": "table_row",
+  "page": null,
+  "row": 8,
+  "cells": [
+   "uruguay",
+   "79",
+   "Pinus plantation",
+   "#67671c",
+   "MapBiomas Uruguay Collection 3",
+   "https://uruguay.mapbiomas.org/wp-content/uploads/sites/6/2025/11/CodigoColorLeyenda.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:uruguay"
+ },
+ {
+  "text": "uruguay 80 Eucaliptus plantation",
+  "kind": "table_row",
+  "page": null,
+  "row": 9,
+  "cells": [
+   "uruguay",
+   "80",
+   "Eucaliptus plantation",
+   "#886827",
+   "MapBiomas Uruguay Collection 3",
+   "https://uruguay.mapbiomas.org/wp-content/uploads/sites/6/2025/11/CodigoColorLeyenda.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:uruguay"
+ },
+ {
+  "text": "uruguay 83 Other types of forest plantation",
+  "kind": "table_row",
+  "page": null,
+  "row": 10,
+  "cells": [
+   "uruguay",
+   "83",
+   "Other types of forest plantation",
+   "#ab8231",
+   "MapBiomas Uruguay Collection 3",
+   "https://uruguay.mapbiomas.org/wp-content/uploads/sites/6/2025/11/CodigoColorLeyenda.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:uruguay"
+ },
+ {
+  "text": "uruguay 15 Pasture",
+  "kind": "table_row",
+  "page": null,
+  "row": 11,
+  "cells": [
+   "uruguay",
+   "15",
+   "Pasture",
+   "#fbf0ab",
+   "MapBiomas Uruguay Collection 3",
+   "https://uruguay.mapbiomas.org/wp-content/uploads/sites/6/2025/11/CodigoColorLeyenda.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:uruguay"
+ },
+ {
+  "text": "uruguay 19 Agriculture",
+  "kind": "table_row",
+  "page": null,
+  "row": 12,
+  "cells": [
+   "uruguay",
+   "19",
+   "Agriculture",
+   "#c27ba0",
+   "MapBiomas Uruguay Collection 3",
+   "https://uruguay.mapbiomas.org/wp-content/uploads/sites/6/2025/11/CodigoColorLeyenda.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:uruguay"
+ },
+ {
+  "text": "uruguay 22 Non-vegetated area",
+  "kind": "table_row",
+  "page": null,
+  "row": 13,
+  "cells": [
+   "uruguay",
+   "22",
+   "Non-vegetated area",
+   "#d4271e",
+   "MapBiomas Uruguay Collection 3",
+   "https://uruguay.mapbiomas.org/wp-content/uploads/sites/6/2025/11/CodigoColorLeyenda.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:uruguay"
+ },
+ {
+  "text": "uruguay 26 Water body",
+  "kind": "table_row",
+  "page": null,
+  "row": 14,
+  "cells": [
+   "uruguay",
+   "26",
+   "Water body",
+   "#2532e4",
+   "MapBiomas Uruguay Collection 3",
+   "https://uruguay.mapbiomas.org/wp-content/uploads/sites/6/2025/11/CodigoColorLeyenda.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:uruguay"
+ },
+ {
+  "text": "uruguay 33 River, lake or ocean",
+  "kind": "table_row",
+  "page": null,
+  "row": 15,
+  "cells": [
+   "uruguay",
+   "33",
+   "River, lake or ocean",
+   "#2532e4",
+   "MapBiomas Uruguay Collection 3",
+   "https://uruguay.mapbiomas.org/wp-content/uploads/sites/6/2025/11/CodigoColorLeyenda.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:uruguay"
+ },
+ {
+  "text": "uruguay 27 Not observed",
+  "kind": "table_row",
+  "page": null,
+  "row": 16,
+  "cells": [
+   "uruguay",
+   "27",
+   "Not observed",
+   "#ffffff",
+   "MapBiomas Uruguay Collection 3",
+   "https://uruguay.mapbiomas.org/wp-content/uploads/sites/6/2025/11/CodigoColorLeyenda.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:uruguay"
+ },
+ {
+  "text": "uruguay 18 Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+  "kind": "table_row",
+  "page": null,
+  "row": 17,
+  "cells": [
+   "uruguay",
+   "18",
+   "Agriculture (code used by the rasters in place of the legend's code 19; color from the pan-MapBiomas standard palette)",
+   "#e974ed",
+   "MapBiomas Uruguay Collection 3",
+   "https://uruguay.mapbiomas.org/wp-content/uploads/sites/6/2025/11/CodigoColorLeyenda.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:uruguay"
+ },
+ {
+  "text": "The published Uruguay Collection 3 legend lists Agriculture as code 19, but every Uruguay raster in this dataset encodes agriculture as code 18 and contains no pixels with value 19. Code 18 is therefore included with the pan-MapBiomas standard Agriculture color.",
+  "kind": "text",
+  "page": null,
+  "row": null,
+  "cells": [],
+  "header": [],
+  "source": "legends.json:uruguay"
+ }
+]

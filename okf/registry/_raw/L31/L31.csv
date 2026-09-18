@@ -1,0 +1,24 @@
+ID,Hex,Class Code,Class Name
+1,#FFCC66,HRC,Herbaceous rainfed cropland
+2,#FFFF99,CIC,Commercial irrigated cropland
+3,#CCCC00,SFC,Seasonally flooded cropland (Nakas)
+4,#C65911,Orc,Orchard
+5,#C6E0B4,TPl,Timber plantation
+6,#808080,Roc,Rocks
+7,#F8D5AA,BSo,Bare soil
+8,#9933FF,Qua,Quarry
+9,#FF3300,Roa,Road
+10,#FF0000,DUA,Dense urban area
+11,#CC0000,SUA,Scattered urban area
+12,#00CC66,Gra,Grassland
+13,#CC9900,BGr,Burnt grassland
+14,#339933,OMF,Open Miombo forest
+15,#006600,DMF,Dense Miombo forest
+16,#339966,RMF,Regenerating Miombo forest
+17,#FFCC00,BMF,Burnt Miombo forest
+18,#305496,Riv,River
+19,#00CC99,Lak,Lake
+20,#FF99FF,PWe,Permanent wetland
+21,#FF9999,SWe,Seasonal wetland
+22,#00CCFF,SWC,Seasonal water channel
+23,#FFFF66,Shr,Shrubland

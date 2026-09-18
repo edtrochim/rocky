@@ -1,0 +1,19 @@
+ID,Hex,Class Code,Class Name
+1,#FF0000,BUP ,Built-up 
+2,#C00000,ROA ,Roads 
+3,#C65911,ORC ,Tree orchards 
+4,#FFFF99,HCI ,Herbaceous crops irrigated 
+5,#FFCC66,HCR ,Herbaceous crops rainfed 
+6,#CCCC00,HCF ,Herbaceous crops in flood plain 
+7,#F4B084,HER ,Herbaceous natural vegetation 
+8,#CC99FF,SOP ,Shrubs sparse natural vegetation 
+9,#FF66FF,SCL ,Shrubs dense natural vegetation 
+10,#9900CC,SWE ,Shrubs in temporary wet soil 
+11,#C6E0B4,TOP ,Trees sparse natural vegetation 
+12,#00B050,TFP ,Tree forest plantations 
+13,#375623,TCL ,Trees dense natural vegetation 
+14,#A6A6A6,SDU ,Sand dunes 
+15,#F8D5AA,BSO ,Bare soil 
+16,#DDEBF7,BTW ,Bare soil in temporary wet 
+17,#00CC99,WBO ,Water bodies 
+18,#305496,WET ,Wetlands 

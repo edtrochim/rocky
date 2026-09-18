@@ -1,0 +1,623 @@
+[
+ {
+  "text": "ecuador 1 Natural forest",
+  "kind": "table_row",
+  "page": null,
+  "row": 1,
+  "cells": [
+   "ecuador",
+   "1",
+   "Natural forest",
+   "#1f8d49",
+   "MapBiomas Ecuador Collection 3",
+   "https://ecuador.mapbiomas.org/wp-content/uploads/sites/7/2025/10/Codigos-de-las-clases-de-cobertura-y-uso-del-suelo-y-paleta-de-colores-utilizadas-en-la-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:ecuador"
+ },
+ {
+  "text": "ecuador 3 Forest",
+  "kind": "table_row",
+  "page": null,
+  "row": 2,
+  "cells": [
+   "ecuador",
+   "3",
+   "Forest",
+   "#1f8d49",
+   "MapBiomas Ecuador Collection 3",
+   "https://ecuador.mapbiomas.org/wp-content/uploads/sites/7/2025/10/Codigos-de-las-clases-de-cobertura-y-uso-del-suelo-y-paleta-de-colores-utilizadas-en-la-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:ecuador"
+ },
+ {
+  "text": "ecuador 4 Open Forest",
+  "kind": "table_row",
+  "page": null,
+  "row": 3,
+  "cells": [
+   "ecuador",
+   "4",
+   "Open Forest",
+   "#7dc975",
+   "MapBiomas Ecuador Collection 3",
+   "https://ecuador.mapbiomas.org/wp-content/uploads/sites/7/2025/10/Codigos-de-las-clases-de-cobertura-y-uso-del-suelo-y-paleta-de-colores-utilizadas-en-la-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:ecuador"
+ },
+ {
+  "text": "ecuador 5 Mangrove",
+  "kind": "table_row",
+  "page": null,
+  "row": 4,
+  "cells": [
+   "ecuador",
+   "5",
+   "Mangrove",
+   "#04381d",
+   "MapBiomas Ecuador Collection 3",
+   "https://ecuador.mapbiomas.org/wp-content/uploads/sites/7/2025/10/Codigos-de-las-clases-de-cobertura-y-uso-del-suelo-y-paleta-de-colores-utilizadas-en-la-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:ecuador"
+ },
+ {
+  "text": "ecuador 6 Floodable forest",
+  "kind": "table_row",
+  "page": null,
+  "row": 5,
+  "cells": [
+   "ecuador",
+   "6",
+   "Floodable forest",
+   "#026975",
+   "MapBiomas Ecuador Collection 3",
+   "https://ecuador.mapbiomas.org/wp-content/uploads/sites/7/2025/10/Codigos-de-las-clases-de-cobertura-y-uso-del-suelo-y-paleta-de-colores-utilizadas-en-la-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:ecuador"
+ },
+ {
+  "text": "ecuador 10 Non-forest natural formation",
+  "kind": "table_row",
+  "page": null,
+  "row": 6,
+  "cells": [
+   "ecuador",
+   "10",
+   "Non-forest natural formation",
+   "#d6bc74",
+   "MapBiomas Ecuador Collection 3",
+   "https://ecuador.mapbiomas.org/wp-content/uploads/sites/7/2025/10/Codigos-de-las-clases-de-cobertura-y-uso-del-suelo-y-paleta-de-colores-utilizadas-en-la-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:ecuador"
+ },
+ {
+  "text": "ecuador 11 Non forest wetland",
+  "kind": "table_row",
+  "page": null,
+  "row": 7,
+  "cells": [
+   "ecuador",
+   "11",
+   "Non forest wetland",
+   "#519799",
+   "MapBiomas Ecuador Collection 3",
+   "https://ecuador.mapbiomas.org/wp-content/uploads/sites/7/2025/10/Codigos-de-las-clases-de-cobertura-y-uso-del-suelo-y-paleta-de-colores-utilizadas-en-la-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:ecuador"
+ },
+ {
+  "text": "ecuador 12 Grassland",
+  "kind": "table_row",
+  "page": null,
+  "row": 8,
+  "cells": [
+   "ecuador",
+   "12",
+   "Grassland",
+   "#d6bc74",
+   "MapBiomas Ecuador Collection 3",
+   "https://ecuador.mapbiomas.org/wp-content/uploads/sites/7/2025/10/Codigos-de-las-clases-de-cobertura-y-uso-del-suelo-y-paleta-de-colores-utilizadas-en-la-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:ecuador"
+ },
+ {
+  "text": "ecuador 81 Andean Herbaceous and Shrubby Vegetation",
+  "kind": "table_row",
+  "page": null,
+  "row": 9,
+  "cells": [
+   "ecuador",
+   "81",
+   "Andean Herbaceous and Shrubby Vegetation",
+   "#dfeb62",
+   "MapBiomas Ecuador Collection 3",
+   "https://ecuador.mapbiomas.org/wp-content/uploads/sites/7/2025/10/Codigos-de-las-clases-de-cobertura-y-uso-del-suelo-y-paleta-de-colores-utilizadas-en-la-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:ecuador"
+ },
+ {
+  "text": "ecuador 82 Flooded Andean Herbaceous",
+  "kind": "table_row",
+  "page": null,
+  "row": 10,
+  "cells": [
+   "ecuador",
+   "82",
+   "Flooded Andean Herbaceous",
+   "#6fc179",
+   "MapBiomas Ecuador Collection 3",
+   "https://ecuador.mapbiomas.org/wp-content/uploads/sites/7/2025/10/Codigos-de-las-clases-de-cobertura-y-uso-del-suelo-y-paleta-de-colores-utilizadas-en-la-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:ecuador"
+ },
+ {
+  "text": "ecuador 29 Rocky Outcrop",
+  "kind": "table_row",
+  "page": null,
+  "row": 11,
+  "cells": [
+   "ecuador",
+   "29",
+   "Rocky Outcrop",
+   "#ffaa5f",
+   "MapBiomas Ecuador Collection 3",
+   "https://ecuador.mapbiomas.org/wp-content/uploads/sites/7/2025/10/Codigos-de-las-clases-de-cobertura-y-uso-del-suelo-y-paleta-de-colores-utilizadas-en-la-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:ecuador"
+ },
+ {
+  "text": "ecuador 13 Other non-forest natural formation",
+  "kind": "table_row",
+  "page": null,
+  "row": 12,
+  "cells": [
+   "ecuador",
+   "13",
+   "Other non-forest natural formation",
+   "#d89f5c",
+   "MapBiomas Ecuador Collection 3",
+   "https://ecuador.mapbiomas.org/wp-content/uploads/sites/7/2025/10/Codigos-de-las-clases-de-cobertura-y-uso-del-suelo-y-paleta-de-colores-utilizadas-en-la-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:ecuador"
+ },
+ {
+  "text": "ecuador 14 Farming and silviculture",
+  "kind": "table_row",
+  "page": null,
+  "row": 13,
+  "cells": [
+   "ecuador",
+   "14",
+   "Farming and silviculture",
+   "#ffefc3",
+   "MapBiomas Ecuador Collection 3",
+   "https://ecuador.mapbiomas.org/wp-content/uploads/sites/7/2025/10/Codigos-de-las-clases-de-cobertura-y-uso-del-suelo-y-paleta-de-colores-utilizadas-en-la-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:ecuador"
+ },
+ {
+  "text": "ecuador 9 Silviculture",
+  "kind": "table_row",
+  "page": null,
+  "row": 14,
+  "cells": [
+   "ecuador",
+   "9",
+   "Silviculture",
+   "#7a5900",
+   "MapBiomas Ecuador Collection 3",
+   "https://ecuador.mapbiomas.org/wp-content/uploads/sites/7/2025/10/Codigos-de-las-clases-de-cobertura-y-uso-del-suelo-y-paleta-de-colores-utilizadas-en-la-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:ecuador"
+ },
+ {
+  "text": "ecuador 21 Mosaic of uses",
+  "kind": "table_row",
+  "page": null,
+  "row": 15,
+  "cells": [
+   "ecuador",
+   "21",
+   "Mosaic of uses",
+   "#ffefc3",
+   "MapBiomas Ecuador Collection 3",
+   "https://ecuador.mapbiomas.org/wp-content/uploads/sites/7/2025/10/Codigos-de-las-clases-de-cobertura-y-uso-del-suelo-y-paleta-de-colores-utilizadas-en-la-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:ecuador"
+ },
+ {
+  "text": "ecuador 74 Banana (beta)",
+  "kind": "table_row",
+  "page": null,
+  "row": 16,
+  "cells": [
+   "ecuador",
+   "74",
+   "Banana (beta)",
+   "#be83f7",
+   "MapBiomas Ecuador Collection 3",
+   "https://ecuador.mapbiomas.org/wp-content/uploads/sites/7/2025/10/Codigos-de-las-clases-de-cobertura-y-uso-del-suelo-y-paleta-de-colores-utilizadas-en-la-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:ecuador"
+ },
+ {
+  "text": "ecuador 22 Non-vegetated area",
+  "kind": "table_row",
+  "page": null,
+  "row": 17,
+  "cells": [
+   "ecuador",
+   "22",
+   "Non-vegetated area",
+   "#d4271e",
+   "MapBiomas Ecuador Collection 3",
+   "https://ecuador.mapbiomas.org/wp-content/uploads/sites/7/2025/10/Codigos-de-las-clases-de-cobertura-y-uso-del-suelo-y-paleta-de-colores-utilizadas-en-la-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:ecuador"
+ },
+ {
+  "text": "ecuador 24 Urban infrastructure",
+  "kind": "table_row",
+  "page": null,
+  "row": 18,
+  "cells": [
+   "ecuador",
+   "24",
+   "Urban infrastructure",
+   "#d4271e",
+   "MapBiomas Ecuador Collection 3",
+   "https://ecuador.mapbiomas.org/wp-content/uploads/sites/7/2025/10/Codigos-de-las-clases-de-cobertura-y-uso-del-suelo-y-paleta-de-colores-utilizadas-en-la-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:ecuador"
+ },
+ {
+  "text": "ecuador 30 Mining",
+  "kind": "table_row",
+  "page": null,
+  "row": 19,
+  "cells": [
+   "ecuador",
+   "30",
+   "Mining",
+   "#9c0027",
+   "MapBiomas Ecuador Collection 3",
+   "https://ecuador.mapbiomas.org/wp-content/uploads/sites/7/2025/10/Codigos-de-las-clases-de-cobertura-y-uso-del-suelo-y-paleta-de-colores-utilizadas-en-la-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:ecuador"
+ },
+ {
+  "text": "ecuador 23 Beach, dune and sand spot",
+  "kind": "table_row",
+  "page": null,
+  "row": 20,
+  "cells": [
+   "ecuador",
+   "23",
+   "Beach, dune and sand spot",
+   "#ffa07a",
+   "MapBiomas Ecuador Collection 3",
+   "https://ecuador.mapbiomas.org/wp-content/uploads/sites/7/2025/10/Codigos-de-las-clases-de-cobertura-y-uso-del-suelo-y-paleta-de-colores-utilizadas-en-la-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:ecuador"
+ },
+ {
+  "text": "ecuador 25 Other anthropic non-vegetated area",
+  "kind": "table_row",
+  "page": null,
+  "row": 21,
+  "cells": [
+   "ecuador",
+   "25",
+   "Other anthropic non-vegetated area",
+   "#db4d4f",
+   "MapBiomas Ecuador Collection 3",
+   "https://ecuador.mapbiomas.org/wp-content/uploads/sites/7/2025/10/Codigos-de-las-clases-de-cobertura-y-uso-del-suelo-y-paleta-de-colores-utilizadas-en-la-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:ecuador"
+ },
+ {
+  "text": "ecuador 68 Other natural non-vegetated area",
+  "kind": "table_row",
+  "page": null,
+  "row": 22,
+  "cells": [
+   "ecuador",
+   "68",
+   "Other natural non-vegetated area",
+   "#e97a7a",
+   "MapBiomas Ecuador Collection 3",
+   "https://ecuador.mapbiomas.org/wp-content/uploads/sites/7/2025/10/Codigos-de-las-clases-de-cobertura-y-uso-del-suelo-y-paleta-de-colores-utilizadas-en-la-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:ecuador"
+ },
+ {
+  "text": "ecuador 26 Water",
+  "kind": "table_row",
+  "page": null,
+  "row": 23,
+  "cells": [
+   "ecuador",
+   "26",
+   "Water",
+   "#2532e4",
+   "MapBiomas Ecuador Collection 3",
+   "https://ecuador.mapbiomas.org/wp-content/uploads/sites/7/2025/10/Codigos-de-las-clases-de-cobertura-y-uso-del-suelo-y-paleta-de-colores-utilizadas-en-la-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:ecuador"
+ },
+ {
+  "text": "ecuador 33 River, Lake or Ocean",
+  "kind": "table_row",
+  "page": null,
+  "row": 24,
+  "cells": [
+   "ecuador",
+   "33",
+   "River, Lake or Ocean",
+   "#2532e4",
+   "MapBiomas Ecuador Collection 3",
+   "https://ecuador.mapbiomas.org/wp-content/uploads/sites/7/2025/10/Codigos-de-las-clases-de-cobertura-y-uso-del-suelo-y-paleta-de-colores-utilizadas-en-la-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:ecuador"
+ },
+ {
+  "text": "ecuador 34 Glacier",
+  "kind": "table_row",
+  "page": null,
+  "row": 25,
+  "cells": [
+   "ecuador",
+   "34",
+   "Glacier",
+   "#93dfe6",
+   "MapBiomas Ecuador Collection 3",
+   "https://ecuador.mapbiomas.org/wp-content/uploads/sites/7/2025/10/Codigos-de-las-clases-de-cobertura-y-uso-del-suelo-y-paleta-de-colores-utilizadas-en-la-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:ecuador"
+ },
+ {
+  "text": "ecuador 31 Aquaculture",
+  "kind": "table_row",
+  "page": null,
+  "row": 26,
+  "cells": [
+   "ecuador",
+   "31",
+   "Aquaculture",
+   "#091077",
+   "MapBiomas Ecuador Collection 3",
+   "https://ecuador.mapbiomas.org/wp-content/uploads/sites/7/2025/10/Codigos-de-las-clases-de-cobertura-y-uso-del-suelo-y-paleta-de-colores-utilizadas-en-la-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:ecuador"
+ },
+ {
+  "text": "ecuador 27 Not observed",
+  "kind": "table_row",
+  "page": null,
+  "row": 27,
+  "cells": [
+   "ecuador",
+   "27",
+   "Not observed",
+   "#ffffff",
+   "MapBiomas Ecuador Collection 3",
+   "https://ecuador.mapbiomas.org/wp-content/uploads/sites/7/2025/10/Codigos-de-las-clases-de-cobertura-y-uso-del-suelo-y-paleta-de-colores-utilizadas-en-la-coleccion-3.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:ecuador"
+ }
+]

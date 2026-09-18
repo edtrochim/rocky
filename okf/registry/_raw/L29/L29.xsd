@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:complexType name="Forest (2)">
+        <xs:sequence>
+            <xs:element name="name" type="Forest (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Describe the land cover class (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="mapcode" type="lcc1 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="2 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="6443fdf0-f944-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="class" type="LC_LandCoverClass (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Horizontal Pattern 1 (3)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Horizontal Pattern 1 (3)">
+        <xs:sequence>
+            <xs:element name="name" type="Horizontal Pattern 1 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Describe the horizontal pattern (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="3 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="6b6abdd0-f944-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Broadleaf Dense Forest (4)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Broadleaf Medium Forest (C)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Broadleaf Sparse Forest (E)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Conifer Dense Forest (10)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Conifer Medium Forest (16)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Conifer Sparse Forest (18)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Mixed Dense Forest (1A)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Mixed Medium Forest (1C)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Mixed Sparse Forest (1E)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Broadleaf Dense Forest (4)">
+        <xs:sequence>
+            <xs:element name="name" type="Broadleaf Dense Forest (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Vegetation (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="7386b320-f944-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="ontop" type="0 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Trees (5)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Trees (5)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="cover" type="70...100 (numeric_range)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="height" type="5...50 (numeric_range)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="LeafPhenology" type="LC_Deciduous" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="LeafPhenology" type="LC_Evergreen" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="LeafType" type="LC_Broadleaved" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="LC_Deciduous">
+        <xs:sequence>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="LC_Evergreen">
+        <xs:sequence>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="LC_Broadleaved">
+        <xs:sequence>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Broadleaf Medium Forest (C)">
+        <xs:sequence>
+            <xs:element name="name" type="Broadleaf Medium Forest (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Vegetation (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="C (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="5c1e73d0-f9d5-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="ontop" type="0 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Trees (D)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Trees (D)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="cover" type="40...70 (numeric_range)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="height" type="5...50 (numeric_range)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="LeafPhenology" type="LC_Deciduous" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="LeafPhenology" type="LC_Evergreen" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="LeafType" type="LC_Broadleaved" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Broadleaf Sparse Forest (E)">
+        <xs:sequence>
+            <xs:element name="name" type="Broadleaf Sparse Forest (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Vegetation (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="E (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="81d94410-f9d5-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="ontop" type="0 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Trees (F)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Trees (F)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="cover" type="10...40 (numeric_range)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="height" type="5...50 (numeric_range)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="LeafPhenology" type="LC_Deciduous" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="LeafPhenology" type="LC_Evergreen" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="LeafType" type="LC_Broadleaved" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Conifer Dense Forest (10)">
+        <xs:sequence>
+            <xs:element name="name" type="Conifer Dense Forest (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Vegetation (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="10 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="d4692150-f9d5-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="ontop" type="0 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Trees (11)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Trees (11)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="cover" type="70...100 (numeric_range)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="height" type="5...50 (numeric_range)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="LeafPhenology" type="LC_Evergreen" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="LeafType" type="LC_Needleleaved" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="LC_Needleleaved">
+        <xs:sequence>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Conifer Medium Forest (16)">
+        <xs:sequence>
+            <xs:element name="name" type="Conifer Medium Forest (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Vegetation (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="16 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="3d6dbe42-f9d6-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="ontop" type="0 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Trees (17)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Trees (17)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="cover" type="40...70 (numeric_range)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="height" type="5...50 (numeric_range)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="LeafPhenology" type="LC_Evergreen" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="LeafType" type="LC_Needleleaved" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Conifer Sparse Forest (18)">
+        <xs:sequence>
+            <xs:element name="name" type="Conifer Sparse Forest (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Vegetation (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="18 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="514ae322-f9d6-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="ontop" type="0 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Trees (19)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Trees (19)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="cover" type="10...40 (numeric_range)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="height" type="5...50 (numeric_range)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="LeafPhenology" type="LC_Evergreen" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="LeafType" type="LC_Needleleaved" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Mixed Dense Forest (1A)">
+        <xs:sequence>
+            <xs:element name="name" type="Mixed Dense Forest (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Vegetation (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="1A (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="71776dd2-f9d6-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="ontop" type="0 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Trees (1B)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Trees (1B)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="cover" type="70...100 (numeric_range)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="height" type="5...50 (numeric_range)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="LeafPhenology" type="LC_Deciduous" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="LeafPhenology" type="LC_Evergreen" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="LeafType" type="LC_Broadleaved" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="LeafType" type="LC_Needleleaved" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Mixed Medium Forest (1C)">
+        <xs:sequence>
+            <xs:element name="name" type="Mixed Medium Forest (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Vegetation (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="1C (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="f27fcee3-f9d6-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="ontop" type="0 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Trees (1D)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Trees (1D)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="cover" type="40...70 (numeric_range)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="height" type="5...50 (numeric_range)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="LeafPhenology" type="LC_Deciduous" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="LeafPhenology" type="LC_Evergreen" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="LeafType" type="LC_Broadleaved" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="LeafType" type="LC_Needleleaved" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Mixed Sparse Forest (1E)">
+        <xs:sequence>
+            <xs:element name="name" type="Mixed Sparse Forest (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Vegetation (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="1E (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="06b88142-f9d7-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="ontop" type="0 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Trees (1F)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Trees (1F)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="cover" type="10...40 (numeric_range)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="height" type="5...50 (numeric_range)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="LeafPhenology" type="LC_Deciduous" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="LeafPhenology" type="LC_Evergreen" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="LeafType" type="LC_Broadleaved" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="LeafType" type="LC_Needleleaved" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Cropland (20)">
+        <xs:sequence>
+            <xs:element name="name" type="Cropland (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Describe the land cover class (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="mapcode" type="lcc2 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="20 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="3a4e6060-f9d7-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="class" type="LC_LandCoverClass (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Horizontal Pattern 1 (21)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Horizontal Pattern 1 (21)">
+        <xs:sequence>
+            <xs:element name="name" type="Horizontal Pattern 1 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Describe the horizontal pattern (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="21 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="537b1420-f9d7-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Agri-cultivated Land (22)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Agriculture with trees (26)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Agri-abondoned (2A)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Agri-cultivated Land (22)">
+        <xs:sequence>
+            <xs:element name="name" type="Agri-cultivated Land (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Vegetation (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="22 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="54e57990-f9d7-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="ontop" type="0 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Graminae (23)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Forbs (24)" minOccurs="0" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Graminae (23)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Forbs (24)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Optional (string)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Agriculture with trees (26)">
+        <xs:sequence>
+            <xs:element name="name" type="Agriculture with trees (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Vegetation (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="26 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="9642df90-f9d7-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="ontop" type="0 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Trees (27)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Trees (27)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Agri-abondoned (2A)">
+        <xs:sequence>
+            <xs:element name="name" type="Agri-abondoned (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Vegetation (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="2A (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="37a5b920-f9d8-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="ontop" type="0 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Graminae (2B)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Forbs (2C)" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Shrubs (2D)" minOccurs="0" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Graminae (2B)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Forbs (2C)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Optional (string)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Shrubs (2D)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Optional (string)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Built-up area (2E)">
+        <xs:sequence>
+            <xs:element name="name" type="Built-up area (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Describe the land cover class (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="mapcode" type="lcc3 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="2E (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="5e63c890-f9d8-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="class" type="LC_LandCoverClass (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Horizontal Pattern 1 (2F)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Horizontal Pattern 1 (2F)">
+        <xs:sequence>
+            <xs:element name="name" type="Horizontal Pattern 1 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Describe the horizontal pattern (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="2F (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="7bb34b00-f9d8-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Built-up (30)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Built-up (30)">
+        <xs:sequence>
+            <xs:element name="name" type="Built-up (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Abiotic surface (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="30 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="7ccbe6f0-f9d8-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="ontop" type="0 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Linear Surface (31)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Non Linear Surface (32)" minOccurs="0" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Linear Surface (31)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Non Linear Surface (32)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Optional (string)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Water body (33)">
+        <xs:sequence>
+            <xs:element name="name" type="Water body (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Describe the land cover class (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="mapcode" type="lcc4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="33 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="b5e78020-f9d8-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="class" type="LC_LandCoverClass (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Horizontal Pattern 1 (34)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Horizontal Pattern 1 (34)">
+        <xs:sequence>
+            <xs:element name="name" type="Horizontal Pattern 1 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Describe the horizontal pattern (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="34 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="e39f24f0-f9d8-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="River (35)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Lake (37)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Pond (39)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Swampland (3E)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="River (35)">
+        <xs:sequence>
+            <xs:element name="name" type="River (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Abiotic surface (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="35 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="e490d7f0-f9d8-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="ontop" type="0 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Water Body (36)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Water Body (36)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="dynamics" type="Flowing (string)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Lake (37)">
+        <xs:sequence>
+            <xs:element name="name" type="Lake (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Abiotic surface 1 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="37 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="fa6320a0-f9d9-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="ontop" type="0 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Water Body (38)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Water Body (38)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="dynamics" type="Standing (string)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Pond (39)">
+        <xs:sequence>
+            <xs:element name="name" type="Pond (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Abiotic surface (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="39 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="191e8f20-f9da-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="ontop" type="0 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Water Body (3A)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Water Body (3A)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="dynamics" type="Standing (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Water and Associated Surfaces Characteristic (3A)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Water and Associated Surfaces Characteristic (3A)">
+        <xs:sequence>
+            <xs:element name="describedBy" type="Artificiality (3B)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Artificiality (3B)">
+        <xs:sequence>
+            <xs:element name="type" type="Artificial (string)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Swampland (3E)">
+        <xs:sequence>
+            <xs:element name="name" type="Swampland (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Vegetation (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="3E (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="9044e0e0-f9da-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="ontop" type="0 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Mosses (3F)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Algae (40)" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Water Body (41)" minOccurs="0" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Mosses (3F)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Algae (40)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Optional (string)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Water Body (41)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Optional (string)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Other Wooded Land (42)">
+        <xs:sequence>
+            <xs:element name="name" type="Other Wooded Land (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Describe the land cover class (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="mapcode" type="lcc5 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="42 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="0a0824a0-f9db-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="class" type="LC_LandCoverClass (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Horizontal Pattern 1 (43)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Horizontal Pattern 1 (43)">
+        <xs:sequence>
+            <xs:element name="name" type="Horizontal Pattern 1 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Describe the horizontal pattern (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="43 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="1cfc2200-f9db-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Other Wooded Land (44)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Other Wooded Land (44)">
+        <xs:sequence>
+            <xs:element name="name" type="Other Wooded Land (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Vegetation 1 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="44 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="21844230-f9db-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="ontop" type="0 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Trees (45)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Shrubs (46)" minOccurs="0" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Trees (45)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="cover" type="5...10 (numeric_range)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="height" type="5...50 (numeric_range)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Shrubs (46)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Optional (string)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Grassland (57)">
+        <xs:sequence>
+            <xs:element name="name" type="Grassland (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Describe the land cover class (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="mapcode" type="lcc8 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="57 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="1d21e790-f9dd-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="class" type="LC_LandCoverClass (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Horizontal Pattern 1 (58)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Horizontal Pattern 1 (58)">
+        <xs:sequence>
+            <xs:element name="name" type="Horizontal Pattern 1 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Describe the horizontal pattern (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="58 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="2d33fab0-f9dd-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Grassland (59)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Grassland (59)">
+        <xs:sequence>
+            <xs:element name="name" type="Grassland (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Vegetation (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="59 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="2df88330-f9dd-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="ontop" type="0 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Graminae (5A)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Forbs (5C)" minOccurs="0" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Graminae (5A)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Forbs (5C)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Optional (string)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Glacier (4B)">
+        <xs:sequence>
+            <xs:element name="name" type="Glacier (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Describe the land cover class (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="mapcode" type="lcc6 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="4B (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="a90aee20-f9db-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="class" type="LC_LandCoverClass (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Horizontal Pattern 1 (4C)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Horizontal Pattern 1 (4C)">
+        <xs:sequence>
+            <xs:element name="name" type="Horizontal Pattern 1 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Describe the horizontal pattern (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="4C (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="ae5db150-f9db-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Snow and Glacier (4D)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Snow and Glacier (4D)">
+        <xs:sequence>
+            <xs:element name="name" type="Snow and Glacier (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Abiotic surface (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="4D (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="af1827b0-f9db-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="ontop" type="0 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Snow (4E)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Ice (4F)" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Loose and Shifting Sand (50)" minOccurs="0" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Snow (4E)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Ice (4F)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Optional (string)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Loose and Shifting Sand (50)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Optional (string)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Bare rock (51)">
+        <xs:sequence>
+            <xs:element name="name" type="Bare rock (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Describe the land cover class (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="mapcode" type="lcc7 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="51 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="d0c69770-f9db-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="class" type="LC_LandCoverClass (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Topographical Aspects (51)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Horizontal Pattern 1 (52)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Topographical Aspects (51)">
+        <xs:sequence>
+            <xs:element name="altitude" type="3000...9779 (numeric_range)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Horizontal Pattern 1 (52)">
+        <xs:sequence>
+            <xs:element name="name" type="Horizontal Pattern 1 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Describe the horizontal pattern (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="52 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="ea547e00-f9db-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Barren area (53)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Barren area (53)">
+        <xs:sequence>
+            <xs:element name="name" type="Barren area (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Abiotic surface (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="53 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="eb1de880-f9db-11e8-9db5-3417ebaa4dd4 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="ontop" type="0 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Bare Rocks (65)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Bare Rocks (65)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Snow (5E)">
+        <xs:sequence>
+            <xs:element name="name" type="Snow (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Describe the land cover class (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="mapcode" type="lcc9 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="5E (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="1623e2f0-f960-11ec-b2b3-68ecc57a3028 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="class" type="LC_LandCoverClass (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Topographical Aspects (5E)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Horizontal Pattern 1 (5F)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Topographical Aspects (5E)">
+        <xs:sequence>
+            <xs:element name="altitude" type="2000...10000 (numeric_range)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Horizontal Pattern 1 (5F)">
+        <xs:sequence>
+            <xs:element name="name" type="Horizontal Pattern 1 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Describe the horizontal pattern (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="5F (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="1fdc9850-f960-11ec-b2b3-68ecc57a3028 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Stratum 1 (60)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Stratum 1 (60)">
+        <xs:sequence>
+            <xs:element name="name" type="Stratum 1 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Abiotic surface 1 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="60 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="377eb470-f960-11ec-b2b3-68ecc57a3028 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="ontop" type="0 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Snow (61)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Snow (61)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="cover" type="10...100 (numeric_range)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="PeriodicVariation" type="LC_PeriodicVariation" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="LC_PeriodicVariation">
+        <xs:sequence>
+            <xs:element name="persistence_units" type="Months (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="persistence_period" type="10...20 (numeric_range)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Bare soil (68)">
+        <xs:sequence>
+            <xs:element name="name" type="Bare soil (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Describe the land cover class (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="mapcode" type="lcc10 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="68 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="5cf38590-f961-11ec-b2b3-68ecc57a3028 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="class" type="LC_LandCoverClass (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Horizontal Pattern 1 (69)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Horizontal Pattern 1 (69)">
+        <xs:sequence>
+            <xs:element name="name" type="Horizontal Pattern 1 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Describe the horizontal pattern (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="69 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="8e8c3520-f961-11ec-b2b3-68ecc57a3028 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Stratum 1 (6A)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Stratum 1 (6A)">
+        <xs:sequence>
+            <xs:element name="name" type="Stratum 1 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Abiotic surface 1 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="6A (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="8fa3e6b0-f961-11ec-b2b3-68ecc57a3028 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="ontop" type="0 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Bare Soil (6B)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Dune (6C)" minOccurs="0" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Bare Soil (6B)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Dune (6C)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Optional (string)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Riverbed (6D)">
+        <xs:sequence>
+            <xs:element name="name" type="Riverbed (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Describe the land cover class (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="mapcode" type="lcc11 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="6D (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="bebaf470-f961-11ec-b2b3-68ecc57a3028 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="class" type="LC_LandCoverClass (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Geographical Aspects (6D)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Land Form (6D)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Horizontal Pattern 1 (6E)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Geographical Aspects (6D)">
+        <xs:sequence>
+            <xs:element name="type" type="Beach (string)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Land Form (6D)">
+        <xs:sequence>
+            <xs:element name="slope_class_type" type="Flat to Almost Flat (string)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Horizontal Pattern 1 (6E)">
+        <xs:sequence>
+            <xs:element name="name" type="Horizontal Pattern 1 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Describe the horizontal pattern (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="6E (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="c7c98720-f961-11ec-b2b3-68ecc57a3028 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="composedBy" type="Stratum 1 (6F)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Stratum 1 (6F)">
+        <xs:sequence>
+            <xs:element name="name" type="Stratum 1 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="description" type="Abiotic surface 1 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="id" type="6F (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="uuid" type="cf9eaf70-f961-11ec-b2b3-68ecc57a3028 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="ontop" type="0 (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Bare Soil (70)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="describedBy" type="Water Body (71)" minOccurs="0" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Bare Soil (70)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Mandatory (string)" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Water Body (71)">
+        <xs:sequence>
+            <xs:element name="presence_type" type="Optional (string)" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="PeriodicVariation" type="LC_PeriodicVariation" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

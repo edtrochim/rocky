@@ -1,0 +1,30 @@
+ID,Hex,Class Code,Class Name
+1,#FF0000,1A,Settlements/urban areas
+2,#FF0000,1B,Non urban builtup areas
+3,#CCCC00,2A,Fruit trees
+4,#FFFF99,2B,Vineyard
+5,#FFFF00,3A(1),Intesively cultivated area (component 1 of mixed class)
+6,#FFFF00,3A(2),Intesively irrigated area (component 2 of mixed class)
+7,#FFFF00,3A,Intensely irrigated area
+8,#FFFF00,3A1(1),Irrigated crop (component 1 of mixed class)
+9,#FFFF00,3A1(2),Irrigated crop (component 2 of mixed class)
+10,#FFFF00,3A1,Irrigated herbaceous crop
+11,#FFFF00,3B,Marginal irrigated crops
+12,#FFFF00,3C,Karez system
+13,#FFCC00,4A,Rainfed cultivation in flat areas
+14,#FFCC00,4B,Rainfed cultivation in sloping land
+15,#92D050,6A,Closed trees
+16,#92D050,6B,Open trees
+17,#92D050,6B1,Open trees undifferentiated
+18,#92D050,6C,Close to open shrubland
+19,#CC9900,7,Rangeland
+20,#FFCC99,8A,Bare soil or rock outcrops
+21,#FFCC99,8B,Sandy areas
+22,#FFCC99,8C,Dunes
+23,#8EA9DB,9A,Marsh (permanently innundated)
+24,#8EA9DB,9B,Seasonally innundated vegetation
+25,#8EA9DB,10A,Artifiicial and natural waterbodies
+26,#8EA9DB,10B,Seasonal lakes
+27,#8EA9DB,11,River
+28,#8EA9DB,12,River banks
+29,#D9E1F2,13,Perenial snow

@@ -1,0 +1,692 @@
+[
+ {
+  "text": "bolivia 1 Forest formation",
+  "kind": "table_row",
+  "page": null,
+  "row": 1,
+  "cells": [
+   "bolivia",
+   "1",
+   "Forest formation",
+   "#1f8d49",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ },
+ {
+  "text": "bolivia 3 Forest",
+  "kind": "table_row",
+  "page": null,
+  "row": 2,
+  "cells": [
+   "bolivia",
+   "3",
+   "Forest",
+   "#1f8d49",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ },
+ {
+  "text": "bolivia 4 Open forest",
+  "kind": "table_row",
+  "page": null,
+  "row": 3,
+  "cells": [
+   "bolivia",
+   "4",
+   "Open forest",
+   "#7dc975",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ },
+ {
+  "text": "bolivia 6 Flooded forest",
+  "kind": "table_row",
+  "page": null,
+  "row": 4,
+  "cells": [
+   "bolivia",
+   "6",
+   "Flooded forest",
+   "#026975",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ },
+ {
+  "text": "bolivia 10 Grassland and shrubland",
+  "kind": "table_row",
+  "page": null,
+  "row": 5,
+  "cells": [
+   "bolivia",
+   "10",
+   "Grassland and shrubland",
+   "#d6bc74",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ },
+ {
+  "text": "bolivia 11 Flooded grassland/shrubland",
+  "kind": "table_row",
+  "page": null,
+  "row": 6,
+  "cells": [
+   "bolivia",
+   "11",
+   "Flooded grassland/shrubland",
+   "#519799",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ },
+ {
+  "text": "bolivia 12 Grassland/shrubland",
+  "kind": "table_row",
+  "page": null,
+  "row": 7,
+  "cells": [
+   "bolivia",
+   "12",
+   "Grassland/shrubland",
+   "#d6bc74",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ },
+ {
+  "text": "bolivia 29 Rocky outcrop",
+  "kind": "table_row",
+  "page": null,
+  "row": 8,
+  "cells": [
+   "bolivia",
+   "29",
+   "Rocky outcrop",
+   "#ffaa5f",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ },
+ {
+  "text": "bolivia 66 Scrublands",
+  "kind": "table_row",
+  "page": null,
+  "row": 9,
+  "cells": [
+   "bolivia",
+   "66",
+   "Scrublands",
+   "#a89358",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ },
+ {
+  "text": "bolivia 81 Andean grassland and shrubland",
+  "kind": "table_row",
+  "page": null,
+  "row": 10,
+  "cells": [
+   "bolivia",
+   "81",
+   "Andean grassland and shrubland",
+   "#c8c099",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ },
+ {
+  "text": "bolivia 82 Flooded Andean grassland and shrubland",
+  "kind": "table_row",
+  "page": null,
+  "row": 11,
+  "cells": [
+   "bolivia",
+   "82",
+   "Flooded Andean grassland and shrubland",
+   "#66b2a3",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ },
+ {
+  "text": "bolivia 13 Other non-forest natural formation",
+  "kind": "table_row",
+  "page": null,
+  "row": 12,
+  "cells": [
+   "bolivia",
+   "13",
+   "Other non-forest natural formation",
+   "#d89f5c",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ },
+ {
+  "text": "bolivia 14 Farming",
+  "kind": "table_row",
+  "page": null,
+  "row": 13,
+  "cells": [
+   "bolivia",
+   "14",
+   "Farming",
+   "#ffefc3",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ },
+ {
+  "text": "bolivia 15 Pasture",
+  "kind": "table_row",
+  "page": null,
+  "row": 14,
+  "cells": [
+   "bolivia",
+   "15",
+   "Pasture",
+   "#edde8e",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ },
+ {
+  "text": "bolivia 18 Agriculture",
+  "kind": "table_row",
+  "page": null,
+  "row": 15,
+  "cells": [
+   "bolivia",
+   "18",
+   "Agriculture",
+   "#e974ed",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ },
+ {
+  "text": "bolivia 39 Soybean (beta)",
+  "kind": "table_row",
+  "page": null,
+  "row": 16,
+  "cells": [
+   "bolivia",
+   "39",
+   "Soybean (beta)",
+   "#f5b3c8",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ },
+ {
+  "text": "bolivia 72 Other crops",
+  "kind": "table_row",
+  "page": null,
+  "row": 17,
+  "cells": [
+   "bolivia",
+   "72",
+   "Other crops",
+   "#c1799c",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ },
+ {
+  "text": "bolivia 21 Mosaic of uses",
+  "kind": "table_row",
+  "page": null,
+  "row": 18,
+  "cells": [
+   "bolivia",
+   "21",
+   "Mosaic of uses",
+   "#ffefc3",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ },
+ {
+  "text": "bolivia 22 Non-vegetated area",
+  "kind": "table_row",
+  "page": null,
+  "row": 19,
+  "cells": [
+   "bolivia",
+   "22",
+   "Non-vegetated area",
+   "#d4271e",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ },
+ {
+  "text": "bolivia 23 Beach, dune and sand spot",
+  "kind": "table_row",
+  "page": null,
+  "row": 20,
+  "cells": [
+   "bolivia",
+   "23",
+   "Beach, dune and sand spot",
+   "#ffa07a",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ },
+ {
+  "text": "bolivia 24 Urban infrastructure",
+  "kind": "table_row",
+  "page": null,
+  "row": 21,
+  "cells": [
+   "bolivia",
+   "24",
+   "Urban infrastructure",
+   "#d4271e",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ },
+ {
+  "text": "bolivia 30 Mining",
+  "kind": "table_row",
+  "page": null,
+  "row": 22,
+  "cells": [
+   "bolivia",
+   "30",
+   "Mining",
+   "#9c0027",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ },
+ {
+  "text": "bolivia 61 Salt flat",
+  "kind": "table_row",
+  "page": null,
+  "row": 23,
+  "cells": [
+   "bolivia",
+   "61",
+   "Salt flat",
+   "#f5d5d5",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ },
+ {
+  "text": "bolivia 68 Other non-vegetated natural area",
+  "kind": "table_row",
+  "page": null,
+  "row": 24,
+  "cells": [
+   "bolivia",
+   "68",
+   "Other non-vegetated natural area",
+   "#e97a7a",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ },
+ {
+  "text": "bolivia 25 Other non-vegetated anthropic area",
+  "kind": "table_row",
+  "page": null,
+  "row": 25,
+  "cells": [
+   "bolivia",
+   "25",
+   "Other non-vegetated anthropic area",
+   "#db4d4f",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ },
+ {
+  "text": "bolivia 26 Water body",
+  "kind": "table_row",
+  "page": null,
+  "row": 26,
+  "cells": [
+   "bolivia",
+   "26",
+   "Water body",
+   "#2532e4",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ },
+ {
+  "text": "bolivia 33 River, lake",
+  "kind": "table_row",
+  "page": null,
+  "row": 27,
+  "cells": [
+   "bolivia",
+   "33",
+   "River, lake",
+   "#2532e4",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ },
+ {
+  "text": "bolivia 31 Aquaculture",
+  "kind": "table_row",
+  "page": null,
+  "row": 28,
+  "cells": [
+   "bolivia",
+   "31",
+   "Aquaculture",
+   "#091077",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ },
+ {
+  "text": "bolivia 34 Glacier",
+  "kind": "table_row",
+  "page": null,
+  "row": 29,
+  "cells": [
+   "bolivia",
+   "34",
+   "Glacier",
+   "#93dfe6",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ },
+ {
+  "text": "bolivia 27 Not observed",
+  "kind": "table_row",
+  "page": null,
+  "row": 30,
+  "cells": [
+   "bolivia",
+   "27",
+   "Not observed",
+   "#ffffff",
+   "MapBiomas Bolivia Collection 3 (2024); earlier collection for 2019-2023, see README",
+   "https://bolivia.mapbiomas.org/wp-content/uploads/sites/15/2026/02/Codigo_leyenda_Col3-1.pdf"
+  ],
+  "header": [
+   "system",
+   "code",
+   "name",
+   "colour",
+   "collection",
+   "source"
+  ],
+  "source": "legends.json:bolivia"
+ }
+]

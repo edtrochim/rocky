@@ -1,0 +1,20 @@
+ID,Hex,Class Code,Class Name
+1,#006400,1,Dense Forest
+2,#32CD32,2,Dense Dry Forest
+3,#00FF00,3,Secondary Forest
+4,#2E8B57,4,Dry Open Forest
+5,#5F9EA0,5,Sub-Montane Forest
+6,#30D5C8,6,Montane Forest
+7,#8B008B,7,Mangrove
+8,#008081,8,Swamp Forest
+9,#0C343D,9,Gallery Forest
+10,#CFE2F3,10,Mature Forest Plantation
+11,#6B8E23,11,Woodland Savanna
+12,#9966FF,12,Mature Shrubland Savanna
+13,#EEE8AA,13,Shrubland Savanna
+14,#C3B091,14,Grassland Savanna
+15,#4682B4,15,Aquatic Grassland
+16,#808080,16,Bare Land and Sparse Vegetation
+17,#D2B48C,17,Cultivated Areas
+18,#800000,18,Built-up Areas
+19,#0000FF,19,Water

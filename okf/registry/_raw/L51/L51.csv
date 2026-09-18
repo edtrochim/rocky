@@ -1,0 +1,11 @@
+ID,Hex,Class Code,Class Name
+1,214C15,Cf,Closed forest
+2,4D8B2A,Of,Open forest
+3,FF9F40,Sh,Shrublands
+4,8F332F,Gl,Grasslands
+5,CE3AD6,Or,Orchards
+6,F0F051,Rc,Rainfed croplands
+7,70EE49,Ic,Irrigated croplands
+8,F0F0F0,Ba,Barren
+9,D51A1C,Bu,Built-up
+10,3.03E+02,Wa,Water

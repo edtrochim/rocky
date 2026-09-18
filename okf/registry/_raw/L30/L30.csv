@@ -1,0 +1,55 @@
+﻿Id,Hex,Class Code,Class Name
+897,,Aaa,Plantations d'alignement
+898,,Aab,Brise-vents
+899,,Aac,Clairiere forestiere
+900,,Aap,Pépinière agricole
+901,,Abg,Garrigue non-arborée
+902,,Abm,Maquis non-arboré
+903,,Af,Forêt de feuillus
+904,,Afe,Plantations de feuillus
+905,,Aha,Prairies améliorées
+906,,Ahn,Prairies naturelles
+907,,Ahp,Parcours steppiques
+908,,Am,Forêt mixte
+909,,Ami,Plantations mixtes
+910,,Ar,Forêt de résineux
+911,,Arb,Boqueteau
+912,,Are,Plantations de résineux
+913,,Arg,Garrigue arborée
+914,,Arm,Maquis arboré
+915,,Bla,Zone bâtie linéaire et autres
+916,,Cc,Céréaliculture
+917,,Ch,Chott
+918,,Dse,Décharge et site d'extraction
+919,,E,Erg
+920,,Fi,Arbres fruitiers en irrigué
+921,,Fp,Arbres fruitiers en pluvial
+922,,Ga,Garaa
+923,,Hm,Hammada
+924,,Is,Infrastructure
+925,,J,Jachère
+926,,Lc,Lac
+927,,Lg,Lagune
+928,,Mi,Cultures maraîchères
+929,,Oam,Oasis moderne
+930,,Oat,Oasis traditionnelle
+931,,Oih,Oliviers a huile en irrigue
+932,,Oii,Oliviers en irrigué et intercalaire
+933,,Oit,Oliviers a table en irrigue
+934,,Oph,Oliviers a huile en pluvial
+935,,Opi,Oliviers en pluvial et intercalaire
+936,,Opt,Oliviers a table en pluvial
+937,,Oup,Oued permanent
+938,,Out,Oued temporaire
+939,,Peb,Barrage
+940,,Pel,Lac collinaire
+941,,Pp,Plage
+942,,Ppf,Piste forestière
+943,,R,Reg
+944,,Rn,Roche nue
+945,,Sbc,Sebkha continental
+946,,Sbl,Sebkha littoral
+947,,Sn,Sol nu
+948,,Zi,Zone industrielle
+949,,Zr,Zone rurale
+950,,Zu,Zone urbaine

@@ -1,0 +1,12 @@
+ID,Hex,Class Code,Class Name
+1,#C00000,1,Artificial Surfaces
+2,#FFFF00,2,Cropland
+3,#FF9900,3,Grassland
+4,#548235,4,Tree Covered Area
+5,#806000,5,Shrubs Covered Area
+6,#00CC66,6,"Herbaceous vegetation, aquatic or regularly flooded"
+7,#660066,7,Mangroves
+8,#FFFF9F,8,Sparse vegetation
+9,#FFFFCC,9,BareSoil
+10,#FFFFFF,10,Snow and glaciers
+11,#CCECFF,11,Waterbodies
